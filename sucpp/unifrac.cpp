@@ -194,12 +194,18 @@ void progressbar(float progress) {
 
 void initialize_embedded(double*& prop, const su::task_parameters* task_p) {
     int err = 0;
-    err = posix_memalign((void **)&prop, 32, sizeof(double) * task_p->n_samples * 2);
-    if(prop == NULL || err != 0) {
+    const unsigned int size = task_p->n_samples * 2;
+
+
+    double* out = NULL; 
+    err = posix_memalign((void **)&out, 32, sizeof(double) * size);
+    if(out == NULL || err != 0) {
         fprintf(stderr, "Failed to allocate %zd bytes, err %d; [%s]:%d\n",
-                sizeof(double) * task_p->n_samples * 2, err, __FILE__, __LINE__);
+                sizeof(double) * size, err, __FILE__, __LINE__);
         exit(EXIT_FAILURE);
     }
+#pragma acc enter data create(out[0:size])
+   prop = out;
 }
 
 void initialize_sample_counts(double*& counts, const su::task_parameters* task_p, biom &table) {
@@ -222,24 +228,32 @@ void initialize_stripes(std::vector<double*> &dm_stripes,
                         const su::task_parameters* task_p) {
     int err = 0;
     for(unsigned int i = task_p->start; i < task_p->stop; i++){
-        err = posix_memalign((void **)&dm_stripes[i], 32, sizeof(double) * task_p->n_samples);
+        const unsigned int n_samples = task_p->n_samples;
+        double* out= NULL;
+        err = posix_memalign((void **)dm_stripes[i], 32, sizeof(double) * n_samples);
         if(dm_stripes[i] == NULL || err != 0) {
             fprintf(stderr, "Failed to allocate %zd bytes, err %d; [%s]:%d\n",
                     sizeof(double) * task_p->n_samples, err, __FILE__, __LINE__);
             exit(EXIT_FAILURE);
         }
-        for(unsigned int j = 0; j < task_p->n_samples; j++)
-            dm_stripes[i][j] = 0.;
+        out = dm_stripes[i];
+        for(unsigned int j = 0; j < n_samples; j++)
+            out[j] = 0.;
+#pragma acc enter data copyin(out[:n_samples])
+
 
         if(unifrac_method == unweighted || unifrac_method == weighted_normalized || unifrac_method == generalized) {
+            double * out_total = NULL;
             err = posix_memalign((void **)&dm_stripes_total[i], 32, sizeof(double) * task_p->n_samples);
             if(dm_stripes_total[i] == NULL || err != 0) {
                 fprintf(stderr, "Failed to allocate %zd bytes err %d; [%s]:%d\n",
                         sizeof(double) * task_p->n_samples, err, __FILE__, __LINE__);
                 exit(EXIT_FAILURE);
             }
+            out_total=dm_stripes_total[i];
             for(unsigned int j = 0; j < task_p->n_samples; j++)
-                dm_stripes_total[i][j] = 0.;
+                out_total[j] = 0.;
+#pragma acc enter data copyin(out_total[:n_samples])
         }
     }
 }
@@ -396,13 +410,28 @@ void su::unifrac(biom &table,
 
     if(unifrac_method == weighted_normalized || unifrac_method == unweighted || unifrac_method == generalized) {
         for(unsigned int i = task_p->start; i < task_p->stop; i++) {
-            for(unsigned int j = 0; j < task_p->n_samples; j++) {
-                dm_stripes[i][j] = dm_stripes[i][j] / dm_stripes_total[i][j];
+            const unsigned int n_samples = task_p->n_samples;
+            double*dm_stripe=dm_stripes[i];
+            double*dm_stripe_total=dm_stripes_total[i];
+
+#pragma acc parallel loop present(dm_stripe,dm_stripe_total)
+            for(unsigned int j = 0; j < n_samples; j++) {
+                dm_stripe[j] = dm_stripe[j] / dm_stripe_total[j];
             }
+        }
+    }
+    for(unsigned int i = task_p->start; i < task_p->stop; i++){
+        const unsigned int n_samples = task_p->n_samples;
+        double* out= dm_stripes[i];
+#pragma acc exit data copyout(out[:n_samples])
+        double* out_total= dm_stripes_total[i];
+        if(unifrac_method == unweighted || unifrac_method == weighted_normalized || unifrac_method == generalized) {
+#pragma acc exit data copyout(out_total[:n_samples])
         }
     }
 
     free(embedded_proportions);
+#pragma acc exit data delete(embedded_proportions)
 }
 
 void su::unifrac_vaw(biom &table,
@@ -502,6 +531,7 @@ void su::unifrac_vaw(biom &table,
         }
     }
 
+#pragma acc exit data delete(embedded_proportions,embedded_counts)
     free(embedded_proportions);
     free(embedded_counts);
     free(sample_total_counts);

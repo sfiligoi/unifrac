@@ -1,6 +1,7 @@
 #include "unifrac_task.hpp"
 #include <cstdlib>
 
+#include <stdio.h>
 
 void su::_unnormalized_weighted_unifrac_task(std::vector<double*> &__restrict__ dm_stripes, 
                                              std::vector<double*> &__restrict__ dm_stripes_total,
@@ -8,6 +9,7 @@ void su::_unnormalized_weighted_unifrac_task(std::vector<double*> &__restrict__ 
                                              double length,
                                              const su::task_parameters* task_p) {
     double *dm_stripe;
+   printf("_unnormalized_weighted_unifrac_task(%i,%i,%i)\n",task_p->start,task_p->stop,task_p->n_samples);
     for(unsigned int stripe=task_p->start; stripe < task_p->stop; stripe++) {
         dm_stripe = dm_stripes[stripe];
 
@@ -85,12 +87,23 @@ void su::_normalized_weighted_unifrac_task(std::vector<double*> &__restrict__ dm
     double *dm_stripe_total;
     unsigned int trailing = task_p->n_samples - (task_p->n_samples % 4);
 
+    const unsigned int start = task_p->start;
+    const unsigned int stop = task_p->stop;
+    const unsigned int n_samples =task_p->n_samples;
+
     // point of thread
-    for(unsigned int stripe = task_p->start; stripe < task_p->stop; stripe++) {
+   printf("_normalized_weighted_unifrac_task(%i,%i,%i)\n",start,stop,n_samples); 
+
+#pragma acc data present(embedded_proportions)
+   {
+   for(unsigned int stripe = start; stripe < stop; stripe++) {
         dm_stripe = dm_stripes[stripe];
         dm_stripe_total = dm_stripes_total[stripe];
 
-        for(unsigned int j = 0; j < task_p->n_samples / 4; j++) {
+#pragma data present(dm_stripe,dm_stripe_total)
+        {
+#pragma acc parallel loop  present(embedded_proportions,dm_stripe,dm_stripe_total)
+        for(unsigned int j = 0; j < n_samples / 4; j++) {
             int k = j * 4;
             int l = k + stripe;
 
@@ -125,7 +138,8 @@ void su::_normalized_weighted_unifrac_task(std::vector<double*> &__restrict__ dm
             dm_stripe_total[k + 3] += sum4 * length;
         }
 
-        for(unsigned int k = trailing; k < task_p->n_samples; k++) {
+#pragma acc parallel loop present(embedded_proportions,dm_stripe,dm_stripe_total)
+        for(unsigned int k = trailing; k < n_samples; k++) {
             double u = embedded_proportions[k];
             double v = embedded_proportions[k + stripe + 1];
             double diff = u - v;   
@@ -134,7 +148,9 @@ void su::_normalized_weighted_unifrac_task(std::vector<double*> &__restrict__ dm
             dm_stripe[k] += fabs(diff) * length;
             dm_stripe_total[k] += sum * length;
         }
+      }
     }
+}
 }
 
 void su::_vaw_normalized_weighted_unifrac_task(std::vector<double*> &__restrict__ dm_stripes, 
