@@ -2,14 +2,14 @@
 #include <cstdlib>
 
 
-void su::UnifracUnnormalizedWeightedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracUnnormalizedWeightedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
     const unsigned int trailing = n_samples - (n_samples % 4);
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_proportions = this->embedded_proportions;
     double * const dm_stripes_buf = this->dm_stripes.buf;
 
     // quick hack, to be finished
@@ -60,14 +60,14 @@ void su::UnifracUnnormalizedWeightedTask::_run(unsigned int filled_embs, const d
     }
 }
 
-void su::UnifracVawUnnormalizedWeightedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracVawUnnormalizedWeightedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
-    const double * const embedded_counts = this->embedded_counts;
+    const float * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_counts = this->embedded_counts;
     const double * const sample_total_counts = this->sample_total_counts;
     double * const dm_stripes_buf = this->dm_stripes.buf;
 
@@ -95,13 +95,13 @@ void su::UnifracVawUnnormalizedWeightedTask::_run(unsigned int filled_embs, cons
     }
 }
 
-void su::UnifracNormalizedWeightedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracNormalizedWeightedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
 
     // openacc only works well with local variables
-    const double * const restrict embedded_proportions = this->embedded_proportions;
+    const float * const restrict embedded_proportions = this->embedded_proportions;
     double * const restrict dm_stripes_buf = this->dm_stripes.buf;
     double * const restrict dm_stripes_total_buf = this->dm_stripes_total.buf;
 
@@ -126,26 +126,26 @@ void su::UnifracNormalizedWeightedTask::_run(unsigned int filled_embs, const dou
 
             unsigned int l1 = (k + stripe + 1)%n_samples; // wraparound
 
-            double my_stripe = dm_stripe[k];
-            double my_stripe_total = dm_stripe_total[k];
+            float my_stripe = 0.0;
+            float my_stripe_total = 0.0;
 
 #pragma acc loop seq
             for (unsigned int emb=0; emb<filled_embs; emb++) {
                 uint64_t offset = n_samples;
                 offset *= emb; // force 64-bit multiply
 
-                double u1 = embedded_proportions[offset + k];
-                double v1 = embedded_proportions[offset + l1];
-                double diff1 = u1 - v1;
-                double sum1 = u1 + v1;
-                double length = lengths[emb];
+                float u1 = embedded_proportions[offset + k];
+                float v1 = embedded_proportions[offset + l1];
+                float diff1 = u1 - v1;
+                float sum1 = u1 + v1;
+                float length = lengths[emb];
 
                 my_stripe     += fabs(diff1) * length;
                 my_stripe_total     += sum1 * length;
             }
 
-            dm_stripe[k]     = my_stripe;
-            dm_stripe_total[k]     = my_stripe_total;
+            dm_stripe[k]     += my_stripe;
+            dm_stripe_total[k]     += my_stripe_total;
 
         }
 
@@ -154,14 +154,14 @@ void su::UnifracNormalizedWeightedTask::_run(unsigned int filled_embs, const dou
 
 }
 
-void su::UnifracVawNormalizedWeightedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracVawNormalizedWeightedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
-    const double * const embedded_counts = this->embedded_counts;
+    const float * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_counts = this->embedded_counts;
     const double * const sample_total_counts = this->sample_total_counts;
     double * const dm_stripes_buf = this->dm_stripes.buf;
     double * const dm_stripes_total_buf = this->dm_stripes_total.buf;
@@ -200,7 +200,7 @@ void su::UnifracVawNormalizedWeightedTask::_run(unsigned int filled_embs, const 
                                    dm_stripe[j] += sum_pow1 * (sub1 / s); \
                                    dm_stripe_total[j] += sum_pow1; \
                                }
-void su::UnifracGeneralizedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracGeneralizedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
@@ -209,7 +209,7 @@ void su::UnifracGeneralizedTask::_run(unsigned int filled_embs, const double * r
     const double g_unifrac_alpha = task_p->g_unifrac_alpha;
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_proportions = this->embedded_proportions;
     double * const dm_stripes_buf = this->dm_stripes.buf;
     double * const dm_stripes_total_buf = this->dm_stripes_total.buf;
 
@@ -273,7 +273,7 @@ void su::UnifracGeneralizedTask::_run(unsigned int filled_embs, const double * r
     }
 }
 
-void su::UnifracVawGeneralizedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracVawGeneralizedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
@@ -281,8 +281,8 @@ void su::UnifracVawGeneralizedTask::_run(unsigned int filled_embs, const double 
     const double g_unifrac_alpha = task_p->g_unifrac_alpha;
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
-    const double * const embedded_counts = this->embedded_counts;
+    const float * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_counts = this->embedded_counts;
     const double * const sample_total_counts = this->sample_total_counts;
     double * const dm_stripes_buf = this->dm_stripes.buf;
     double * const dm_stripes_total_buf = this->dm_stripes_total.buf;
@@ -317,14 +317,14 @@ void su::UnifracVawGeneralizedTask::_run(unsigned int filled_embs, const double 
         }
     }
 }
-void su::UnifracUnweightedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracUnweightedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
     const unsigned int trailing = n_samples - (n_samples % 4);
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_proportions = this->embedded_proportions;
     double * const dm_stripes_buf = this->dm_stripes.buf;
     double * const dm_stripes_total_buf = this->dm_stripes_total.buf;
 
@@ -386,14 +386,14 @@ void su::UnifracUnweightedTask::_run(unsigned int filled_embs, const double * re
     }
 }
 
-void su::UnifracVawUnweightedTask::_run(unsigned int filled_embs, const double * restrict lengths) {
+void su::UnifracVawUnweightedTask::_run(unsigned int filled_embs, const float * restrict lengths) {
     const unsigned int start_idx = task_p->start;
     const unsigned int stop_idx = task_p->stop;
     const unsigned int n_samples = task_p->n_samples;
 
     // openacc only works well with local variables
-    const double * const embedded_proportions = this->embedded_proportions;
-    const double * const embedded_counts = this->embedded_counts;
+    const float * const embedded_proportions = this->embedded_proportions;
+    const float * const embedded_counts = this->embedded_counts;
     const double * const sample_total_counts = this->sample_total_counts;
     double * const dm_stripes_buf = this->dm_stripes.buf;
     double * const dm_stripes_total_buf = this->dm_stripes_total.buf;

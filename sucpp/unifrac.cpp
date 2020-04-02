@@ -192,7 +192,7 @@ void progressbar(float progress) {
     std::cout.flush();
 }
 
-void embed_proportions(double* restrict out, const double* restrict in, unsigned int emb, uint32_t n_samples) {
+void embed_proportions(float* restrict out, const double* restrict in, unsigned int emb, uint32_t n_samples) {
    uint64_t offset = emb;
    offset *= n_samples;  // force 64-bit multiply
 
@@ -201,12 +201,12 @@ void embed_proportions(double* restrict out, const double* restrict in, unsigned
    }
 }
 
-void initialize_embedded(double*& prop, unsigned int num, const su::task_parameters* task_p) {
+void initialize_embedded(float*& prop, unsigned int num, const su::task_parameters* task_p) {
     const unsigned int n_samples = task_p->n_samples;
     uint64_t bsize = n_samples;
     bsize *= num; // force 64 bit multiplication
-    double* buf = NULL;
-    int err = posix_memalign((void **)&buf, 4096, sizeof(double) * bsize);
+    float* buf = NULL;
+    int err = posix_memalign((void **)&buf, 4096, sizeof(float) * bsize);
     if(buf == NULL || err != 0) {
         fprintf(stderr, "Failed to allocate %zd bytes, err %d; [%s]:%d\n",
                 sizeof(double) * bsize, err, __FILE__, __LINE__);
@@ -322,15 +322,15 @@ inline void unifracTT(biom &table,
 
     uint32_t node;
     double *node_proportions;
-    double *embedded_proportions;
+    float *embedded_proportions;
 
     initialize_embedded(embedded_proportions, max_emb, task_p);
     initialize_stripes(std::ref(dm_stripes), std::ref(dm_stripes_total), unifrac_method, task_p);
 
     TaskT taskObj(std::ref(dm_stripes), std::ref(dm_stripes_total),embedded_proportions,max_emb,task_p);
 
-    double *lengths = NULL;
-    posix_memalign((void **)&lengths, 4096, sizeof(double) * max_emb); // small enough, no eror checking
+    float *lengths = NULL;
+    posix_memalign((void **)&lengths, 4096, sizeof(float) * max_emb); // small enough, no eror checking
 #pragma acc enter data create(lengths[:max_emb])
 
     unsigned int filled_emb = 0;
@@ -494,8 +494,8 @@ inline void unifrac_vawTT(biom &table,
     uint32_t node;
     double *node_proportions;
     double *node_counts;
-    double *embedded_proportions;
-    double *embedded_counts;
+    float *embedded_proportions;
+    float *embedded_counts;
     double *sample_total_counts;
 
     initialize_embedded(embedded_proportions, max_emb, task_p);
@@ -505,8 +505,8 @@ inline void unifrac_vawTT(biom &table,
 
     TaskT taskObj(std::ref(dm_stripes), std::ref(dm_stripes_total), embedded_proportions, embedded_counts, sample_total_counts, max_emb, task_p);
 
-    double *lengths = NULL;
-    posix_memalign((void **)&lengths, 4096, sizeof(double) * max_emb); // small enough, no eror checking
+    float *lengths = NULL;
+    posix_memalign((void **)&lengths, 4096, sizeof(float) * max_emb); // small enough, no eror checking
 #pragma acc enter data create(lengths[:max_emb])
 
     unsigned int filled_emb = 0;

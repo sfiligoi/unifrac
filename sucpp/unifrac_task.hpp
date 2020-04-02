@@ -110,14 +110,14 @@ namespace su {
 
     class UnifracTask : public UnifracTaskBase {
       public:
-        const double * const embedded_proportions;
+        const float * const embedded_proportions;
         const unsigned int max_embs;
 
-        UnifracTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const double * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
+        UnifracTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const float * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTaskBase(_dm_stripes, _dm_stripes_total, _task_p)
         , embedded_proportions(_embedded_proportions), max_embs(_max_embs) {}
 
-        UnifracTask(UnifracTaskBase &baseObj, const double * _embedded_proportions, unsigned int _max_embs)
+        UnifracTask(UnifracTaskBase &baseObj, const float * _embedded_proportions, unsigned int _max_embs)
         : UnifracTaskBase(baseObj)
         , embedded_proportions(_embedded_proportions), max_embs(_max_embs) {}
 
@@ -125,45 +125,45 @@ namespace su {
 
        virtual ~UnifracTask() {}
 
-       virtual void run(unsigned int filled_embs, const double * restrict length) = 0;
+       virtual void run(unsigned int filled_embs, const float * restrict length) = 0;
     };
 
 
     class UnifracUnnormalizedWeightedTask : public UnifracTask {
       public:
-        UnifracUnnormalizedWeightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const double * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
+        UnifracUnnormalizedWeightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const float * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
     class UnifracNormalizedWeightedTask : public UnifracTask {
       public:
-        UnifracNormalizedWeightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const double * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
+        UnifracNormalizedWeightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const float * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
     class UnifracUnweightedTask : public UnifracTask {
       public:
-        UnifracUnweightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const double * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
+        UnifracUnweightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const float * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
     class UnifracGeneralizedTask : public UnifracTask {
       public:
-        UnifracGeneralizedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const double * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
+        UnifracGeneralizedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, const float * _embedded_proportions, unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
 
     /* void su::unifrac_vaw tasks
@@ -188,19 +188,19 @@ namespace su {
      */
     class UnifracVawTask : public UnifracTaskBase {
       public:
-        const double * const embedded_proportions;
-        const double * const embedded_counts;
+        const float * const embedded_proportions;
+        const float * const embedded_counts;
         const double * const sample_total_counts;
         const unsigned int max_embs;
 
         UnifracVawTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, 
-                    const double * _embedded_proportions, const double * _embedded_counts, const double * _sample_total_counts,
+                    const float * _embedded_proportions, const float * _embedded_counts, const double * _sample_total_counts,
                     unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTaskBase(_dm_stripes, _dm_stripes_total, _task_p)
         , embedded_proportions(_embedded_proportions), embedded_counts(_embedded_counts), sample_total_counts(_sample_total_counts), max_embs(_max_embs) {}
 
         UnifracVawTask(UnifracTaskBase &baseObj, 
-                    const double * _embedded_proportions, const double * _embedded_counts, const double * _sample_total_counts, unsigned int _max_embs)
+                    const float * _embedded_proportions, const float * _embedded_counts, const double * _sample_total_counts, unsigned int _max_embs)
         : UnifracTaskBase(baseObj)
         , embedded_proportions(_embedded_proportions), embedded_counts(_embedded_counts), sample_total_counts(_sample_total_counts), max_embs(_max_embs) {}
 
@@ -208,52 +208,52 @@ namespace su {
 
        virtual ~UnifracVawTask() {}
 
-       virtual void run(unsigned int filled_embs, const double * restrict length) = 0;
+       virtual void run(unsigned int filled_embs, const float * restrict length) = 0;
     };
 
     class UnifracVawUnnormalizedWeightedTask : public UnifracVawTask {
       public:
         UnifracVawUnnormalizedWeightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, 
-                    const double * _embedded_proportions, const double * _embedded_counts, const double * _sample_total_counts, 
+                    const float * _embedded_proportions, const float * _embedded_counts, const double * _sample_total_counts, 
                     unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracVawTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_embedded_counts,_sample_total_counts,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
     class UnifracVawNormalizedWeightedTask : public UnifracVawTask {
       public:
         UnifracVawNormalizedWeightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, 
-                    const double * _embedded_proportions, const double * _embedded_counts, const double * _sample_total_counts, 
+                    const float * _embedded_proportions, const float * _embedded_counts, const double * _sample_total_counts, 
                     unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracVawTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_embedded_counts,_sample_total_counts,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
     class UnifracVawUnweightedTask : public UnifracVawTask {
       public:
         UnifracVawUnweightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, 
-                    const double * _embedded_proportions, const double * _embedded_counts, const double * _sample_total_counts, 
+                    const float * _embedded_proportions, const float * _embedded_counts, const double * _sample_total_counts, 
                     unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracVawTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_embedded_counts,_sample_total_counts,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
     class UnifracVawGeneralizedTask : public UnifracVawTask {
       public:
         UnifracVawGeneralizedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total,
-                    const double * _embedded_proportions, const double * _embedded_counts, const double * _sample_total_counts, 
+                    const float * _embedded_proportions, const float * _embedded_counts, const double * _sample_total_counts, 
                     unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracVawTask(_dm_stripes,_dm_stripes_total,_embedded_proportions,_embedded_counts,_sample_total_counts,_max_embs,_task_p) {}
 
-        virtual void run(unsigned int filled_embs, const double * restrict length) {_run(filled_embs, length);}
+        virtual void run(unsigned int filled_embs, const float * restrict length) {_run(filled_embs, length);}
 
-        void _run(unsigned int filled_embs, const double * restrict length);
+        void _run(unsigned int filled_embs, const float * restrict length);
     };
 
 }
