@@ -444,7 +444,7 @@ void unifracTT(biom &table,
         TFloat * const dm_stripes_buf = taskObj.dm_stripes.buf;
         const TFloat * const dm_stripes_total_buf = taskObj.dm_stripes_total.buf;
 
-#pragma acc parallel loop collapse(2) present(dm_stripes_buf,dm_stripes_total_buf)
+#pragma acc parallel loop collapse(2) present(dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r])
         for(unsigned int i = start_idx; i < stop_idx; i++)
             for(unsigned int j = 0; j < n_samples; j++) {
                 unsigned int idx = (i-start_idx)*n_samples_r+j;
@@ -597,7 +597,7 @@ void unifrac_vawTT(biom &table,
         TFloat * const dm_stripes_buf = taskObj.dm_stripes.buf;
         const TFloat * const dm_stripes_total_buf = taskObj.dm_stripes_total.buf;
 
-#pragma acc parallel loop collapse(2) present(dm_stripes_buf,dm_stripes_total_buf)
+#pragma acc parallel loop collapse(2) present(dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r])
         for(unsigned int i = start_idx; i < stop_idx; i++)
             for(unsigned int j = 0; j < n_samples; j++) {
                 unsigned int idx = (i-start_idx)*n_samples_r+j;

@@ -17,7 +17,7 @@ void su::UnifracUnnormalizedWeightedTask<TFloat>::_run(unsigned int filled_embs,
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,dm_stripes_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -69,7 +69,7 @@ void su::UnifracVawUnnormalizedWeightedTask<TFloat>::_run(unsigned int filled_em
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,embedded_counts,sample_total_counts,dm_stripes_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],embedded_counts[:n_samples_r*filled_embs],sample_total_counts[:n_samples_r],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -126,7 +126,7 @@ void su::UnifracNormalizedWeightedTask<TFloat>::_run(unsigned int filled_embs, c
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,dm_stripes_buf,dm_stripes_total_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
  	for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -187,7 +187,7 @@ void su::UnifracVawNormalizedWeightedTask<TFloat>::_run(unsigned int filled_embs
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,embedded_counts,sample_total_counts,dm_stripes_buf,dm_stripes_total_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],embedded_counts[:n_samples_r*filled_embs],sample_total_counts[:n_samples_r],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -252,7 +252,7 @@ void su::UnifracGeneralizedTask<TFloat>::_run(unsigned int filled_embs, const TF
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,dm_stripes_buf,dm_stripes_total_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -318,7 +318,7 @@ void su::UnifracVawGeneralizedTask<TFloat>::_run(unsigned int filled_embs, const
     // quick hack, to be finished
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,embedded_counts,sample_total_counts,dm_stripes_buf,dm_stripes_total_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],embedded_counts[:n_samples_r*filled_embs],sample_total_counts[:n_samples_r],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -383,7 +383,7 @@ void su::UnifracUnweightedTask<TFloat>::_run(unsigned int filled_embs, const TFl
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,dm_stripes_buf,dm_stripes_total_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
@@ -442,7 +442,7 @@ void su::UnifracVawUnweightedTask<TFloat>::_run(unsigned int filled_embs, const 
     const unsigned int sample_steps = n_samples+(step_size-1)/step_size; // round up
 
     // point of thread
-#pragma acc parallel loop collapse(3) present(embedded_proportions,embedded_counts,sample_total_counts,dm_stripes_buf,dm_stripes_total_buf,lengths) async
+#pragma acc parallel loop collapse(3) independent present(embedded_proportions[:n_samples_r*filled_embs],embedded_counts[:n_samples_r*filled_embs],sample_total_counts[:n_samples_r],dm_stripes_buf[:(stop_idx-start_idx)*n_samples_r],dm_stripes_total_buf[:(stop_idx-start_idx)*n_samples_r],lengths[:filled_embs]) async
     for(unsigned int sk = 0; sk < sample_steps ; sk++) {
       for(unsigned int stripe = start_idx; stripe < stop_idx; stripe++) {
         for(unsigned int ik = 0; ik < step_size ; ik++) {
