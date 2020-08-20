@@ -268,13 +268,13 @@ namespace su {
       public:
         UnifracUnweightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, unsigned int _max_embs, const su::task_parameters* _task_p)
         : UnifracTask<TFloat, uint8_t>(_dm_stripes,_dm_stripes_total,_max_embs,_task_p)
-        , embedded_packed(UnifracTaskBase<TFloat,uint32_t>::initialize_embedded(this->dm_stripes.n_samples_r,_max_embs))  {}
+        , embedded_packed(UnifracTaskBase<TFloat,uint32_t>::initialize_embedded(this->dm_stripes.n_samples_r,(_max_embs+31)/32))  {}
 
         virtual ~UnifracUnweightedTask()
         {
 #ifdef _OPENACC
           const uint64_t  n_samples_r = this->dm_stripes.n_samples_r;
-          uint64_t bsize = n_samples_r * this->max_embs;
+          uint64_t bsize = n_samples_r * ((this->max_embs+31)/32); // always rounded up
 #pragma acc exit data delete(embedded_packed[:bsize])
 #endif
           free(embedded_packed);
