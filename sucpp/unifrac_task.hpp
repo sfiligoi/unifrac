@@ -267,13 +267,28 @@ namespace su {
     class UnifracUnweightedTask : public UnifracTask<TFloat,uint8_t> {
       public:
         UnifracUnweightedTask(std::vector<double*> &_dm_stripes, std::vector<double*> &_dm_stripes_total, unsigned int _max_embs, const su::task_parameters* _task_p)
-        : UnifracTask<TFloat, uint8_t>(_dm_stripes,_dm_stripes_total,_max_embs,_task_p) {}
+        : UnifracTask<TFloat, uint8_t>(_dm_stripes,_dm_stripes_total,_max_embs,_task_p)
+        , embedded_packed(UnifracTaskBase<TFloat,uint32_t>::initialize_embedded(this->dm_stripes.n_samples_r,_max_embs))  {}
+
+        virtual ~UnifracUnweightedTask()
+        {
+#ifdef _OPENACC
+          const uint64_t  n_samples_r = this->dm_stripes.n_samples_r;
+          uint64_t bsize = n_samples_r * this->max_embs;
+#pragma acc exit data delete(embedded_packed[:bsize])
+#endif
+          free(embedded_packed);
+        }
 
         virtual void embed_proportions(const double* __restrict__ in, unsigned int emb) { _embed_proportions(in,emb);}
         virtual void run(unsigned int filled_embs, const TFloat * __restrict__ length) {_run(filled_embs, length);}
 
         void _embed_proportions(const double* __restrict__ in, unsigned int emb) { this->embed_proportions_bool(this->embedded_proportions,in,emb);}
         void _run(unsigned int filled_embs, const TFloat * __restrict__ length);
+      private:
+        // temp work buffer
+        uint32_t * const embedded_packed;
+
     };
     template<class TFloat>
     class UnifracGeneralizedTask : public UnifracTask<TFloat,TFloat> {
