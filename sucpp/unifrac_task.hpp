@@ -159,6 +159,7 @@ namespace su {
           const uint64_t n_samples_r  = dm_stripes.n_samples_r;
           const uint64_t offset = emb * n_samples_r;
 
+#pragma omp parallel for schedule(static)
           for(unsigned int i = 0; i < n_samples; i++) {
             out[offset + i] = in[i];
           }
@@ -174,6 +175,7 @@ namespace su {
           const uint64_t n_samples_r  = dm_stripes.n_samples_r;
           const uint64_t offset = emb * n_samples_r;
 
+#pragma omp parallel for schedule(static)
           for(unsigned int i = 0; i < n_samples; i++) {
             out[offset + i] = (in[i] > 0);
           }
