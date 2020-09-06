@@ -896,7 +896,7 @@ void su::unifrac_vaw(biom &table,
     }
 }
 
-void su::set_proportions(double* props,
+void su::set_proportions(double* __restrict__ props,
                          const BPTree &tree,
                          uint32_t node,
                          const biom &table,
@@ -933,7 +933,7 @@ void su::set_proportions(double* props,
     }
 }
 
-void su::set_proportions_range(double* props,
+void su::set_proportions_range(double* __restrict__ props,
                                const BPTree &tree,
                                uint32_t node,
                                const biom &table, 
@@ -957,7 +957,7 @@ void su::set_proportions_range(double* props,
             props[i] = 0;
 
         while(current <= right && current != 0) {
-            const double * vec = ps.get(current);  // pull from prop map
+            const double * __restrict__ vec = ps.get(current);  // pull from prop map
             ps.push(current);  // remove from prop map, place back on stack
 
             for(unsigned int i = 0; i < els; i++)

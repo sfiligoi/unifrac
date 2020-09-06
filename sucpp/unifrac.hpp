@@ -75,13 +75,13 @@
         void condensed_form_to_matrix(const double*  __restrict__ cf, const uint32_t n, double*  __restrict__ buf2d);
         void condensed_form_to_matrix_fp32(const double*  __restrict__ cf, const uint32_t n, float*  __restrict__ buf2d);
 
-        void set_proportions(double* props, 
+        void set_proportions(double* __restrict__ props, 
                              const BPTree &tree, uint32_t node, 
                              const biom &table, 
                              PropStack &ps,
                              bool normalize = true);
 
-        void set_proportions_range(double* props,
+        void set_proportions_range(double* __restrict__ props,
                                    const BPTree &tree, uint32_t node,
                                    const biom &table,unsigned int start, unsigned int end,
                                    PropStack &ps,
