@@ -1,0 +1,15 @@
+$ time ./ssu -n 6 --mode partial --start 0 --stop 4800  -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre  -m unweighted_fp32 -f -o o100.out.part
+
+real	50m56.006s
+user	295m5.720s
+sys	1m27.739s
+$ time ./ssu -n 6 --mode partial --start 4800 --stop 9600  -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre  -m unweighted_fp32 -f -o o100.out.part.2
+
+real	49m43.482s
+user	290m42.824s
+sys	1m13.308s
+$ time ./ssu -n 6 --mode partial --start 9600 --stop 14400  -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre  -m unweighted_fp32 -f -o o100.out.part.3
+
+real	49m41.065s
+user	291m2.063s
+sys	1m7.218s
