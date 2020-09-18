@@ -1,0 +1,5 @@
+#test,runtime_mins,speedup
+Original_Xeon,504,1x
+PR115_MacI7,18.7,27x
+PR115_Xeon,4.8,105x
+PR115_V100,0.75,671x
