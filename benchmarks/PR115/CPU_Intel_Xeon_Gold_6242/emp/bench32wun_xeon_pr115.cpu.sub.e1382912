@@ -1,0 +1,7 @@
+
+real	0m5.059s
+user	0m4.098s
+sys	0m0.178s
+10267.86user 7.04system 11:11.79elapsed 1529%CPU (0avgtext+0avgdata 4767292maxresident)k
+90288inputs+3514928outputs (0major+2389950minor)pagefaults 0swaps
+# bool check + sums

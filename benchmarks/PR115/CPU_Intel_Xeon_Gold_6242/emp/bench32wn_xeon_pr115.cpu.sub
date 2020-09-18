@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+BIOM=/home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom
+TREE=/projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+
+md5sum $BIOM
+md5sum $TREE
+
+time /home/isfiligoi/github/unifrac/sucpp/ssu --mode partial-report  -i $BIOM -t $TREE -m weighted_normalized_fp32 -f
+
+t1=`date +%s`
+echo "=== Starting `date` ($t1)"
+#taskset -c 16-31 
+taskset -c 16-31 time /home/isfiligoi/github/unifrac/sucpp/ssu -n 16 --mode partial --start 0 --stop 12573  -i $BIOM -t $TREE -m weighted_normalized_fp32 -f -o emp_weighted_normalized_fp32.dev.part
+
+t2=`date +%s`
+echo "=== End `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime: $dt"
+
+

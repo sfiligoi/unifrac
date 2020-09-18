@@ -1,0 +1,2 @@
+Total samples: 307237
+Total stripes: 153619
