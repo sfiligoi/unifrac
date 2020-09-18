@@ -1,0 +1,37 @@
+# part of barnacle cluster, eitehr brncl-33  or brncl-34
+# Only one GPU used (3 on node)
+bash-4.2$ nvidia-smi 
+Fri Sep 18 12:01:25 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 410.48                 Driver Version: 410.48                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   48C    P0    38W / 250W |      0MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   58C    P0    40W / 250W |      0MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   53C    P0    38W / 250W |      0MiB / 32480MiB |      4%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+bash-4.2$ cat /proc/driver/nvidia/gpus/0000\:5e\:00.0/information 
+Model: 		 Unknown
+IRQ:   		 76
+GPU UUID: 	 GPU-224fa909-3d48-4421-3452-77e17b90e243
+Video BIOS: 	 ??.??.??.??.??
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:5e:00.0
+Device Minor: 	 0
+Blacklisted:	 No

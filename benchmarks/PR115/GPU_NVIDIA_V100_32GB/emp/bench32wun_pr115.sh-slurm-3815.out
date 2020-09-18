@@ -1,0 +1,24 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ md5sum /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom
+66f0c6957be53b0c19e733bcd6396d65  /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+44422c5483ee188ee6da60dc0c77a8f2  /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+++ date +%s
++ t1=1600369973
+++ date
++ echo '=== Starting Thu Sep 17 12:12:53 PDT 2020 (1600369973)'
+=== Starting Thu Sep 17 12:12:53 PDT 2020 (1600369973)
++ taskset -c 0-7 time /home/isfiligoi/github/unifrac/sucpp/ssu --mode partial --start 0 --stop 12573 -i /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m weighted_unnormalized_fp32 -n 1 -f -o emp.weighted_unnormalized_fp32.dev.gpu.part
+842.63user 31.38system 2:14.47elapsed 649%CPU (0avgtext+0avgdata 4866844maxresident)k
+107856inputs+3515080outputs (20major+2133318minor)pagefaults 0swaps
+++ date +%s
++ t2=1600370107
+++ date
++ echo '=== End Thu Sep 17 12:15:07 PDT 2020 (1600370107)'
+=== End Thu Sep 17 12:15:07 PDT 2020 (1600370107)
++ let dt=1600370107-1600369973
++ echo 'Waltime: 134'
+Waltime: 134

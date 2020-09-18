@@ -1,0 +1,40 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ BIOM=/home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ TREE=/projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
++ md5sum /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom
+66f0c6957be53b0c19e733bcd6396d65  /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+44422c5483ee188ee6da60dc0c77a8f2  /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
++ /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200914/xeon/ssu --mode partial-report -i /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m unweighted_fp32 -f
+Total samples: 25145
+Total stripes: 12573
+Partition 0, suggested start and stop: 0, 12573
+++ date +%s
++ t1=1600124253
++ t0=1600124253
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting Mon Sep 14 15:57:33 PDT 2020 (1600124253)'
+=== Starting Mon Sep 14 15:57:33 PDT 2020 (1600124253)
++ taskset -c 0-7 time ../bins.master.20200914/gpu/ssu --mode partial --start 0 --stop 12573 -i /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+201.68user 12.43system 0:43.93elapsed 487%CPU (0avgtext+0avgdata 8607000maxresident)k
+103384inputs+0outputs (9major+3136902minor)pagefaults 0swaps
+++ date +%s
++ t2=1600124297
+++ date
++ echo '=== End Mon Sep 14 15:58:17 PDT 2020 (1600124297)'
+=== End Mon Sep 14 15:58:17 PDT 2020 (1600124297)
++ let dt=1600124297-1600124253
++ echo 'Waltime : 44'
+Waltime : 44
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 1741202055 Sep 14 15:58 /dev/shm/emp2_8f.out.0
++ echo '====== All done ======'
+====== All done ======
++ let dt=1600124297-1600124253
++ echo 'Waltime total: 44'
+Waltime total: 44
++ rm -f /dev/shm/emp2_8f.out.0
