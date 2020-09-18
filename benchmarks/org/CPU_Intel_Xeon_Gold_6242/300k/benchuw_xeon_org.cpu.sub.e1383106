@@ -1,0 +1,23 @@
++ hostname
++ lscpu
++ date
++ BIOM=/home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
++ TREE=/home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
++ md5sum /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
++ md5sum /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
++ rm -f /dev/shm/emp2_8f.out.0
++ echo 'Computing 320/154k'
+++ date +%s
++ t1=1600383433
+++ date
++ echo '=== Starting Thu Sep 17 15:57:13 PDT 2020 (1600383433)'
++ taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/envs/unifrac/bin/ssu -n 16 --mode partial --start 0 --stop 320 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted -f -o /dev/shm/emp2_8f.out.0
+987773.51user 511.93system 17:16:21elapsed 1589%CPU (0avgtext+0avgdata 7364900maxresident)k
+461664inputs+0outputs (9major+556418371minor)pagefaults 0swaps
+++ date +%s
++ t2=1600445615
+++ date
++ echo '=== End Fri Sep 18 09:13:35 PDT 2020 (1600445615)'
++ let dt=1600445615-1600383433
++ echo 'Waltime: 62182'
++ rm -f /dev/shm/emp2_8f.out.0
