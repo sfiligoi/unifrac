@@ -1,0 +1,26 @@
+#!/bin/bash -x
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+md5sum /home/mcdonadt/redbiom-070920/ag_emp_even500.biom
+md5sum /home/mcdonadt/redbiom-070920/ag_emp.tre
+
+rm -f /dev/shm/emp2_8f.out.0
+
+echo "Computing 6400/25k"
+t1=`date +%s`
+echo "=== Starting `date` ($t1)"
+#taskset -c 16-31 
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/envs/unifrac/bin/ssu -n 16 --mode partial --start 0 --stop 6400 -i /home/mcdonadt/redbiom-070920/ag_emp_even500.biom -t /home/mcdonadt/redbiom-070920/ag_emp.tre -m unweighted -f -o /dev/shm/emp2_8f.out.0
+
+t2=`date +%s`
+echo "=== End `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime: $dt"
+
+md5sum /dev/shm/emp2_8f.out.0
+rm -f /dev/shm/emp2_8f.out.0
+

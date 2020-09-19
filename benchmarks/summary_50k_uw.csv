@@ -1,5 +1,5 @@
 #test,runtime_minutes,speedup,chunks
-Original_Xeon,?,?,?
-PR115_MacI7,64,?x,2
-PR115_Xeon,16.5,?x,1
-PR115_V100,2.2,?x,1
+Original_Xeon,2450,1x,4
+PR115_MacI7,64,38x,2
+PR115_Xeon,16.5,150x,1
+PR115_V100,2.2,1110x,1
