@@ -1,0 +1,30 @@
+#!/bin/bash -x
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+BIOM=/home/mcdonadt/redbiom-070920/ag_emp_even500.biom
+TREE=/home/mcdonadt/redbiom-070920/ag_emp.tre
+
+md5sum $BIOM
+md5sum $TREE
+
+time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu --mode partial-report  -i $BIOM -t $TREE -m unweighted_fp32 -f
+
+rm -f /dev/shm/emp2_8f.out.0
+
+t1=`date +%s`
+echo "=== Starting `date` ($t1)"
+#taskset -c 16-31 
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 0 --stop 25043  -i $BIOM -t $TREE -m unweighted_fp32 -f -o /dev/shm/emp2_8f.out.0
+
+t2=`date +%s`
+echo "=== End `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime: $dt"
+
+ls -l /dev/shm/emp2_8f.out.0
+rm -f /dev/shm/emp2_8f.out.0
+

@@ -1,0 +1,40 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ BIOM=/home/mcdonadt/redbiom-070920/ag_emp_even500.biom
++ TREE=/home/mcdonadt/redbiom-070920/ag_emp.tre
++ md5sum /home/mcdonadt/redbiom-070920/ag_emp_even500.biom
+dc78aaebd639400a79763582eaacc9ed  /home/mcdonadt/redbiom-070920/ag_emp_even500.biom
++ md5sum /home/mcdonadt/redbiom-070920/ag_emp.tre
+11728e901be79ffc1e79f59adc0279a9  /home/mcdonadt/redbiom-070920/ag_emp.tre
++ /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu --mode partial-report -i /home/mcdonadt/redbiom-070920/ag_emp_even500.biom -t /home/mcdonadt/redbiom-070920/ag_emp.tre -m unweighted_fp32 -f
+Total samples: 50085
+Total stripes: 25043
+Partition 0, suggested start and stop: 0, 25043
+++ date +%s
++ t1=1600468166
++ t0=1600468166
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting Fri Sep 18 15:29:26 PDT 2020 (1600468166)'
+=== Starting Fri Sep 18 15:29:26 PDT 2020 (1600468166)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 0 --stop 25043 -i /home/mcdonadt/redbiom-070920/ag_emp_even500.biom -t /home/mcdonadt/redbiom-070920/ag_emp.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+806.23user 34.74system 2:13.79elapsed 628%CPU (0avgtext+0avgdata 30744036maxresident)k
+102056inputs+0outputs (0major+12054740minor)pagefaults 0swaps
+++ date +%s
++ t2=1600468300
+++ date
++ echo '=== End Fri Sep 18 15:31:40 PDT 2020 (1600468300)'
+=== End Fri Sep 18 15:31:40 PDT 2020 (1600468300)
++ let dt=1600468300-1600468166
++ echo 'Waltime : 134'
+Waltime : 134
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 6991936038 Sep 18 15:31 /dev/shm/emp2_8f.out.0
++ echo '====== All done ======'
+====== All done ======
++ let dt=1600468300-1600468166
++ echo 'Waltime total: 134'
+Waltime total: 134
++ rm -f /dev/shm/emp2_8f.out.0

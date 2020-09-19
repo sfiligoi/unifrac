@@ -1,0 +1,10 @@
+$ time ./ssu -n 6 --mode partial --start 0 --stop 12600  -i ag_emp_even500.biom -t ag_emp.tre  -m unweighted_fp32 -f -o o50.part.1
+
+real	32m33.650s
+user	189m7.624s
+sys	0m44.043s
+$ time ./ssu -n 6 --mode partial --start 12600 --stop 25043  -i ag_emp_even500.biom -t ag_emp.tre  -m unweighted_fp32 -f -o o60.part.2
+
+real	31m3.603s
+user	181m6.463s
+sys	0m37.510s
