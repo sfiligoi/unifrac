@@ -1,0 +1,107 @@
++ export ACC_DEVICE_NUM=4
++ ACC_DEVICE_NUM=4
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ md5sum /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom
++ md5sum /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
++ /root/unifrac/sucpp/ssu --mode partial-report -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -f
+++ date +%s
++ t1=1601327947
++ t0=1601327947
++ rm -f /oot/emp115_8f.out.0
+++ date
++ echo '=== Starting 1/6 Mon Sep 28 21:19:07 UTC 2020 (1601327947)'
++ taskset -c 20-27 time /root/unifrac/sucpp/ssu --mode partial --start 0 --stop 9600 -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.0
+1165.29user 20.87system 3:10.69elapsed 622%CPU (0avgtext+0avgdata 27862600maxresident)k
+0inputs+11802480outputs (0major+4632393minor)pagefaults 0swaps
+++ date +%s
++ t2=1601328138
+++ date
++ echo '=== End 1/6 Mon Sep 28 21:22:18 UTC 2020 (1601328138)'
++ let dt=1601328138-1601327947
++ echo 'Waltime 1: 191'
++ ls -l /root/emp115_8f.out.0
+ls: cannot access /root/emp115_8f.out.0: No such file or directory
+++ date +%s
++ t1=1601328138
++ rm -f /root/emp115_8f.out.0
+++ date
++ echo '=== Starting 2/6 Mon Sep 28 21:22:18 UTC 2020 (1601328138)'
++ taskset -c 20-27 time /root/unifrac/sucpp/ssu --mode partial --start 9600 --stop 19200 -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.0
+1174.72user 20.76system 3:11.62elapsed 623%CPU (0avgtext+0avgdata 27862800maxresident)k
+0inputs+11802496outputs (0major+4636527minor)pagefaults 0swaps
+++ date +%s
++ t2=1601328330
+++ date
++ echo '=== End 2/6 Mon Sep 28 21:25:30 UTC 2020 (1601328330)'
++ let dt=1601328330-1601328138
++ echo 'Waltime 1: 192'
++ ls -l /root/emp115_8f.out.0
+ls: cannot access /root/emp115_8f.out.0: No such file or directory
+++ date +%s
++ t1=1601328330
++ rm -f /root/emp115_8f.out.0
+++ date
++ echo '=== Starting 3/6 Mon Sep 28 21:25:30 UTC 2020 (1601328330)'
++ taskset -c 20-27 time /root/unifrac/sucpp/ssu --mode partial --start 19200 --stop 28800 -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.0
+1176.01user 20.76system 3:11.89elapsed 623%CPU (0avgtext+0avgdata 27866856maxresident)k
+0inputs+11802544outputs (0major+4643655minor)pagefaults 0swaps
+++ date +%s
++ t2=1601328522
+++ date
++ echo '=== End 3/6 Mon Sep 28 21:28:42 UTC 2020 (1601328522)'
++ let dt=1601328522-1601328330
++ echo 'Waltime 1: 192'
++ ls -l /root/emp115_8f.out.0
+ls: cannot access /root/emp115_8f.out.0: No such file or directory
+++ date +%s
++ t1=1601328522
++ rm -f /root/emp115_8f.out.0
+++ date
++ echo '=== Starting 4/6 Mon Sep 28 21:28:42 UTC 2020 (1601328522)'
++ taskset -c 20-27 time /root/unifrac/sucpp/ssu --mode partial --start 28800 --stop 38400 -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.0
+1177.33user 21.06system 3:12.26elapsed 623%CPU (0avgtext+0avgdata 27866540maxresident)k
+0inputs+11802512outputs (0major+4638529minor)pagefaults 0swaps
+++ date +%s
++ t2=1601328714
+++ date
++ echo '=== End 4/6 Mon Sep 28 21:31:54 UTC 2020 (1601328714)'
++ let dt=1601328714-1601328522
++ echo 'Waltime 1: 192'
++ ls -l /root/emp115_8f.out.0
+ls: cannot access /root/emp115_8f.out.0: No such file or directory
+++ date +%s
++ t1=1601328714
++ rm -f /root/emp115_8f.out.0
+++ date
++ echo '=== Starting 5/6 Mon Sep 28 21:31:54 UTC 2020 (1601328714)'
++ taskset -c 20-27 time /root/unifrac/sucpp/ssu --mode partial --start 38400 --stop 48000 -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.0
+1174.86user 20.56system 3:11.87elapsed 623%CPU (0avgtext+0avgdata 27862648maxresident)k
+0inputs+11802576outputs (0major+4643165minor)pagefaults 0swaps
+++ date +%s
++ t2=1601328906
+++ date
++ echo '=== End 5/6 Mon Sep 28 21:35:06 UTC 2020 (1601328906)'
++ let dt=1601328906-1601328714
++ echo 'Waltime 1: 192'
++ ls -l /root/emp115_8f.out.0
+ls: cannot access /root/emp115_8f.out.0: No such file or directory
+++ date +%s
++ t1=1601328906
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 6/6 Mon Sep 28 21:35:06 UTC 2020 (1601328906)'
++ taskset -c 20-27 time /root/unifrac/sucpp/ssu --mode partial --start 48000 --stop 56861 -i /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom -t /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp115_8f.out.0
+1079.89user 18.71system 2:58.69elapsed 614%CPU (0avgtext+0avgdata 25880580maxresident)k
+0inputs+10894240outputs (0major+4218090minor)pagefaults 0swaps
+++ date +%s
++ t2=1601329084
+++ date
++ echo '=== End 6/6 Mon Sep 28 21:38:04 UTC 2020 (1601329084)'
++ let dt=1601329084-1601328906
++ echo 'Waltime 2: 178'
++ echo '====== All done ======'
++ let dt=1601329084-1601327947
++ echo 'Waltime total: 1137'
++ ls -l /root/emp115_8f.out.0
++ rm -f /root/emp115_8f.out.0
