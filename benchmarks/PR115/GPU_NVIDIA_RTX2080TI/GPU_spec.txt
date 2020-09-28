@@ -1,0 +1,54 @@
+# part of PRP
+# At most two GPUs are used at any time (out of 8 total)
+(base) [root@test8-5455b8bf9-rkvsc GPU_NVIDIA_RTX2080TI]# nvidia-smi 
+Mon Sep 28 21:20:45 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.66       Driver Version: 450.66       CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:3D:00.0 Off |                  N/A |
+|  0%   35C    P8     1W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  GeForce RTX 208...  Off  | 00000000:3E:00.0 Off |                  N/A |
+|  0%   34C    P8    18W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  GeForce RTX 208...  Off  | 00000000:60:00.0 Off |                  N/A |
+|  0%   35C    P8     1W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  GeForce RTX 208...  Off  | 00000000:61:00.0 Off |                  N/A |
+|  0%   36C    P8     2W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  GeForce RTX 208...  Off  | 00000000:B1:00.0 Off |                  N/A |
+|  0%   56C    P2   252W / 250W |   8563MiB / 11019MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  GeForce RTX 208...  Off  | 00000000:B2:00.0 Off |                  N/A |
+|  0%   29C    P8     2W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   6  GeForce RTX 208...  Off  | 00000000:DA:00.0 Off |                  N/A |
+|  0%   30C    P8     2W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   7  GeForce RTX 208...  Off  | 00000000:DB:00.0 Off |                  N/A |
+|  0%   30C    P8    12W / 250W |    173MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+(base) [root@test8-5455b8bf9-rkvsc GPU_NVIDIA_RTX2080TI]# cat /proc/driver/nvidia/gpus/0000\:3d\:00.0/information 
+Model: 		 GeForce RTX 2080 Ti
+IRQ:   		 386
+GPU UUID: 	 GPU-84a4a059-fa98-9ae9-eafe-ec3cd8e51c8d
+Video BIOS: 	 90.02.30.00.81
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:3d:00.0
+Device Minor: 	 0
+Blacklisted:	 No
