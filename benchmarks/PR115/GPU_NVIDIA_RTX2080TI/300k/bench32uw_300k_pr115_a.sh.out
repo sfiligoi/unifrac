@@ -1,0 +1,79 @@
+0eec147b47649afb7376e86cf2b931b1  /data/unifrac/x_merged.withplacement_even500.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+=== Starting 1/36 Mon Sep 28 22:35:38 UTC 2020 (1601332538)
+=== End 1/36 Mon Sep 28 22:40:54 UTC 2020 (1601332854)
+Waltime 1: 316
+-rw------- 1 root root 7404021452 Sep 28 22:40 /root/emp3_8f.out.0
+=== Starting 2/36 Mon Sep 28 22:41:34 UTC 2020 (1601332854)
+=== End 2/36 Mon Sep 28 22:46:49 UTC 2020 (1601333209)
+Waltime 2: 355
+-rw------- 1 root root 7404087623 Sep 28 22:46 /root/emp3_8f.out.0
+=== Starting 3/36 Mon Sep 28 22:46:50 UTC 2020 (1601333209)
+=== End 3/36 Mon Sep 28 22:52:05 UTC 2020 (1601333525)
+Waltime 3: 316
+-rw------- 1 root root 7404068399 Sep 28 22:52 /root/emp3_8f.out.0
+=== Starting 4/36 Mon Sep 28 22:52:09 UTC 2020 (1601333525)
+=== End 4/36 Mon Sep 28 22:57:25 UTC 2020 (1601333845)
+Waltime 4: 320
+-rw------- 1 root root 7404068842 Sep 28 22:57 /root/emp3_8f.out.0
+=== Starting 5/36 Mon Sep 28 22:58:08 UTC 2020 (1601333845)
+=== End 5/36 Mon Sep 28 23:03:24 UTC 2020 (1601334204)
+Waltime 5: 359
+-rw------- 1 root root 7404065210 Sep 28 23:03 /root/emp3_8f.out.0
+=== Starting 6/36 Mon Sep 28 23:03:24 UTC 2020 (1601334204)
+=== End 6/36 Mon Sep 28 23:08:40 UTC 2020 (1601334520)
+Waltime 6: 316
+-rw------- 1 root root 7404041853 Sep 28 23:08 /root/emp3_8f.out.0
+=== Starting 7/36 Mon Sep 28 23:09:43 UTC 2020 (1601334520)
+=== End 7/36 Mon Sep 28 23:14:59 UTC 2020 (1601334899)
+Waltime 7: 379
+-rw------- 1 root root 7404021065 Sep 28 23:14 /root/emp3_8f.out.0
+=== Starting 8/36 Mon Sep 28 23:15:56 UTC 2020 (1601334899)
+=== End 8/36 Mon Sep 28 23:21:11 UTC 2020 (1601335271)
+Waltime 8: 372
+-rw------- 1 root root 7404082903 Sep 28 23:21 /root/emp3_8f.out.0
+=== Starting 9/36 Mon Sep 28 23:21:12 UTC 2020 (1601335271)
+=== End 9/36 Mon Sep 28 23:26:27 UTC 2020 (1601335587)
+Waltime 9: 316
+-rw------- 1 root root 7404061683 Sep 28 23:26 /root/emp3_8f.out.0
+=== Starting 10/36 Mon Sep 28 23:27:21 UTC 2020 (1601335587)
+=== End 10/36 Mon Sep 28 23:32:36 UTC 2020 (1601335956)
+Waltime 10: 369
+-rw------- 1 root root 7404075023 Sep 28 23:32 /root/emp3_8f.out.0
+=== Starting 11/36 Mon Sep 28 23:32:37 UTC 2020 (1601335956)
+=== End 11/36 Mon Sep 28 23:37:52 UTC 2020 (1601336272)
+Waltime 11: 316
+-rw------- 1 root root 7404000838 Sep 28 23:37 /root/emp3_8f.out.0
+=== Starting 12/36 Mon Sep 28 23:38:33 UTC 2020 (1601336272)
+=== End 12/36 Mon Sep 28 23:43:49 UTC 2020 (1601336629)
+Waltime 12: 357
+-rw------- 1 root root 7404099678 Sep 28 23:43 /root/emp3_8f.out.0
+=== Starting 13/36 Mon Sep 28 23:43:50 UTC 2020 (1601336629)
+=== End 13/36 Mon Sep 28 23:49:06 UTC 2020 (1601336946)
+Waltime 13: 317
+-rw------- 1 root root 7404009845 Sep 28 23:49 /root/emp3_8f.out.0
+=== Starting 14/36 Mon Sep 28 23:49:08 UTC 2020 (1601336946)
+=== End 14/36 Mon Sep 28 23:54:23 UTC 2020 (1601337263)
+Waltime 14: 317
+-rw------- 1 root root 7403987524 Sep 28 23:54 /root/emp3_8f.out.0
+=== Starting 15/36 Mon Sep 28 23:54:24 UTC 2020 (1601337263)
+=== End 15/36 Mon Sep 28 23:59:41 UTC 2020 (1601337581)
+Waltime 15: 318
+-rw------- 1 root root 7404054322 Sep 28 23:59 /root/emp3_8f.out.0
+=== Starting 16/36 Mon Sep 28 23:59:42 UTC 2020 (1601337581)
+=== End 16/36 Tue Sep 29 00:04:58 UTC 2020 (1601337898)
+Waltime 16: 317
+-rw------- 1 root root 7404034548 Sep 29 00:04 /root/emp3_8f.out.0
+=== Starting 17/36 Tue Sep 29 00:05:42 UTC 2020 (1601337898)
+=== End 17/36 Tue Sep 29 00:10:57 UTC 2020 (1601338257)
+Waltime 17: 359
+-rw------- 1 root root 7404073209 Sep 29 00:10 /root/emp3_8f.out.0
+=== Starting 18/36 Tue Sep 29 00:10:58 UTC 2020 (1601338257)
+=== End 18/36 Tue Sep 29 00:16:13 UTC 2020 (1601338573)
+Waltime 18: 316
+-rw------- 1 root root 7404051054 Sep 29 00:16 /root/emp3_8f.out.0
+====== Batch done ======
+Waltime total: 6035

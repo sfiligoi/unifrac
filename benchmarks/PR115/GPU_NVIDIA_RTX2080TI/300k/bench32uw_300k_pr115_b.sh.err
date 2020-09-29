@@ -1,0 +1,356 @@
++ export ACC_DEVICE_NUM=4
++ ACC_DEVICE_NUM=4
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ BIOM=/data/unifrac/x_merged.withplacement_even500.biom
++ TREE=/data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre
++ md5sum /data/unifrac/x_merged.withplacement_even500.biom
++ md5sum /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre
++ /root/unifrac/sucpp/ssu --mode partial-report -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f
+++ date +%s
++ t0=1601332600
++ (( i=19 ))
++ (( 19<36 ))
++ let 's2=4320*19'
++ let s1=82080-4320
+++ date +%s
++ t1=1601332600
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 19/36 Mon Sep 28 22:36:40 UTC 2020 (1601332600)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 77760 --stop 82080 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3876.24user 32.50system 5:11.93elapsed 1253%CPU (0avgtext+0avgdata 34318872maxresident)k
+0inputs+14461088outputs (0major+6394590minor)pagefaults 0swaps
+++ date +%s
++ t2=1601332912
+++ date
++ echo '=== End 19/36 Mon Sep 28 22:41:52 UTC 2020 (1601332912)'
++ let dt=1601332912-1601332600
++ echo 'Waltime 19: 312'
++ ls -l /root/emp3_8f.out.1
++ (( i=19+1 ))
++ (( 20<36 ))
++ let 's2=4320*20'
++ let s1=86400-4320
+++ date +%s
++ t1=1601332912
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 20/36 Mon Sep 28 22:42:28 UTC 2020 (1601332912)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 82080 --stop 86400 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3891.22user 34.26system 5:13.22elapsed 1253%CPU (0avgtext+0avgdata 34320716maxresident)k
+0inputs+14461072outputs (0major+6397115minor)pagefaults 0swaps
+++ date +%s
++ t2=1601333261
+++ date
++ echo '=== End 20/36 Mon Sep 28 22:47:41 UTC 2020 (1601333261)'
++ let dt=1601333261-1601332912
++ echo 'Waltime 20: 349'
++ ls -l /root/emp3_8f.out.1
++ (( i=20+1 ))
++ (( 21<36 ))
++ let 's2=4320*21'
++ let s1=90720-4320
+++ date +%s
++ t1=1601333261
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 21/36 Mon Sep 28 22:47:56 UTC 2020 (1601333261)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 86400 --stop 90720 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3880.11user 34.73system 5:13.11elapsed 1250%CPU (0avgtext+0avgdata 34324808maxresident)k
+0inputs+14461024outputs (0major+6389972minor)pagefaults 0swaps
+++ date +%s
++ t2=1601333590
+++ date
++ echo '=== End 21/36 Mon Sep 28 22:53:10 UTC 2020 (1601333590)'
++ let dt=1601333590-1601333261
++ echo 'Waltime 21: 329'
++ ls -l /root/emp3_8f.out.1
++ (( i=21+1 ))
++ (( 22<36 ))
++ let 's2=4320*22'
++ let s1=95040-4320
+++ date +%s
++ t1=1601333590
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 22/36 Mon Sep 28 22:53:25 UTC 2020 (1601333590)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 90720 --stop 95040 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3894.36user 33.42system 5:13.93elapsed 1251%CPU (0avgtext+0avgdata 34318464maxresident)k
+0inputs+14461056outputs (0major+6387964minor)pagefaults 0swaps
+++ date +%s
++ t2=1601333919
+++ date
++ echo '=== End 22/36 Mon Sep 28 22:58:39 UTC 2020 (1601333919)'
++ let dt=1601333919-1601333590
++ echo 'Waltime 22: 329'
++ ls -l /root/emp3_8f.out.1
++ (( i=22+1 ))
++ (( 23<36 ))
++ let 's2=4320*23'
++ let s1=99360-4320
+++ date +%s
++ t1=1601333919
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 23/36 Mon Sep 28 22:59:35 UTC 2020 (1601333919)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 95040 --stop 99360 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3878.20user 33.31system 5:12.34elapsed 1252%CPU (0avgtext+0avgdata 34318900maxresident)k
+0inputs+14461008outputs (0major+6384885minor)pagefaults 0swaps
+++ date +%s
++ t2=1601334288
+++ date
++ echo '=== End 23/36 Mon Sep 28 23:04:48 UTC 2020 (1601334288)'
++ let dt=1601334288-1601333919
++ echo 'Waltime 23: 369'
++ ls -l /root/emp3_8f.out.1
++ (( i=23+1 ))
++ (( 24<36 ))
++ let 's2=4320*24'
++ let s1=103680-4320
+++ date +%s
++ t1=1601334288
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 24/36 Mon Sep 28 23:04:50 UTC 2020 (1601334288)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 99360 --stop 103680 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3891.16user 32.99system 5:13.21elapsed 1252%CPU (0avgtext+0avgdata 34316672maxresident)k
+0inputs+14461040outputs (0major+6370045minor)pagefaults 0swaps
+++ date +%s
++ t2=1601334604
+++ date
++ echo '=== End 24/36 Mon Sep 28 23:10:04 UTC 2020 (1601334604)'
++ let dt=1601334604-1601334288
++ echo 'Waltime 24: 316'
++ ls -l /root/emp3_8f.out.1
++ (( i=24+1 ))
++ (( 25<36 ))
++ let 's2=4320*25'
++ let s1=108000-4320
+++ date +%s
++ t1=1601334604
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 25/36 Mon Sep 28 23:10:33 UTC 2020 (1601334604)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 103680 --stop 108000 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3884.89user 34.65system 5:12.95elapsed 1252%CPU (0avgtext+0avgdata 34320528maxresident)k
+0inputs+14461024outputs (0major+6340361minor)pagefaults 0swaps
+++ date +%s
++ t2=1601334946
+++ date
++ echo '=== End 25/36 Mon Sep 28 23:15:46 UTC 2020 (1601334946)'
++ let dt=1601334946-1601334604
++ echo 'Waltime 25: 342'
++ ls -l /root/emp3_8f.out.1
++ (( i=25+1 ))
++ (( 26<36 ))
++ let 's2=4320*26'
++ let s1=112320-4320
+++ date +%s
++ t1=1601334946
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 26/36 Mon Sep 28 23:15:47 UTC 2020 (1601334946)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 108000 --stop 112320 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3897.05user 34.16system 5:13.68elapsed 1253%CPU (0avgtext+0avgdata 34322060maxresident)k
+0inputs+14461112outputs (0major+6342083minor)pagefaults 0swaps
+++ date +%s
++ t2=1601335261
+++ date
++ echo '=== End 26/36 Mon Sep 28 23:21:01 UTC 2020 (1601335261)'
++ let dt=1601335261-1601334946
++ echo 'Waltime 26: 315'
++ ls -l /root/emp3_8f.out.1
++ (( i=26+1 ))
++ (( 27<36 ))
++ let 's2=4320*27'
++ let s1=116640-4320
+++ date +%s
++ t1=1601335261
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 27/36 Mon Sep 28 23:21:07 UTC 2020 (1601335261)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 112320 --stop 116640 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3883.77user 33.62system 5:12.43elapsed 1253%CPU (0avgtext+0avgdata 34323024maxresident)k
+0inputs+14461096outputs (0major+6240042minor)pagefaults 0swaps
+++ date +%s
++ t2=1601335580
+++ date
++ echo '=== End 27/36 Mon Sep 28 23:26:20 UTC 2020 (1601335580)'
++ let dt=1601335580-1601335261
++ echo 'Waltime 27: 319'
++ ls -l /root/emp3_8f.out.1
++ (( i=27+1 ))
++ (( 28<36 ))
++ let 's2=4320*28'
++ let s1=120960-4320
+++ date +%s
++ t1=1601335580
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 28/36 Mon Sep 28 23:26:20 UTC 2020 (1601335580)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 116640 --stop 120960 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3885.42user 32.53system 5:11.68elapsed 1257%CPU (0avgtext+0avgdata 34321636maxresident)k
+0inputs+14461088outputs (0major+6078771minor)pagefaults 0swaps
+++ date +%s
++ t2=1601335892
+++ date
++ echo '=== End 28/36 Mon Sep 28 23:31:32 UTC 2020 (1601335892)'
++ let dt=1601335892-1601335580
++ echo 'Waltime 28: 312'
++ ls -l /root/emp3_8f.out.1
++ (( i=28+1 ))
++ (( 29<36 ))
++ let 's2=4320*29'
++ let s1=125280-4320
+++ date +%s
++ t1=1601335892
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 29/36 Mon Sep 28 23:31:33 UTC 2020 (1601335892)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 120960 --stop 125280 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3884.74user 32.05system 5:11.80elapsed 1256%CPU (0avgtext+0avgdata 34320740maxresident)k
+0inputs+14461040outputs (0major+5915023minor)pagefaults 0swaps
+++ date +%s
++ t2=1601336205
+++ date
++ echo '=== End 29/36 Mon Sep 28 23:36:45 UTC 2020 (1601336205)'
++ let dt=1601336205-1601335892
++ echo 'Waltime 29: 313'
++ ls -l /root/emp3_8f.out.1
++ (( i=29+1 ))
++ (( 30<36 ))
++ let 's2=4320*30'
++ let s1=129600-4320
+++ date +%s
++ t1=1601336205
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 30/36 Mon Sep 28 23:36:58 UTC 2020 (1601336205)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 125280 --stop 129600 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3876.79user 31.63system 5:11.26elapsed 1255%CPU (0avgtext+0avgdata 34320020maxresident)k
+0inputs+14460992outputs (0major+5813451minor)pagefaults 0swaps
+++ date +%s
++ t2=1601336529
+++ date
++ echo '=== End 30/36 Mon Sep 28 23:42:09 UTC 2020 (1601336529)'
++ let dt=1601336529-1601336205
++ echo 'Waltime 30: 324'
++ ls -l /root/emp3_8f.out.1
++ (( i=30+1 ))
++ (( 31<36 ))
++ let 's2=4320*31'
++ let s1=133920-4320
+++ date +%s
++ t1=1601336529
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 31/36 Mon Sep 28 23:42:10 UTC 2020 (1601336529)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 129600 --stop 133920 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3873.78user 31.37system 5:10.82elapsed 1256%CPU (0avgtext+0avgdata 34318540maxresident)k
+0inputs+14461064outputs (0major+5711871minor)pagefaults 0swaps
+++ date +%s
++ t2=1601336841
+++ date
++ echo '=== End 31/36 Mon Sep 28 23:47:21 UTC 2020 (1601336841)'
++ let dt=1601336841-1601336529
++ echo 'Waltime 31: 312'
++ ls -l /root/emp3_8f.out.1
++ (( i=31+1 ))
++ (( 32<36 ))
++ let 's2=4320*32'
++ let s1=138240-4320
+++ date +%s
++ t1=1601336841
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 32/36 Mon Sep 28 23:47:32 UTC 2020 (1601336841)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 133920 --stop 138240 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3888.17user 31.89system 5:12.17elapsed 1255%CPU (0avgtext+0avgdata 34316644maxresident)k
+0inputs+14461088outputs (0major+5652592minor)pagefaults 0swaps
+++ date +%s
++ t2=1601337164
+++ date
++ echo '=== End 32/36 Mon Sep 28 23:52:44 UTC 2020 (1601337164)'
++ let dt=1601337164-1601336841
++ echo 'Waltime 32: 323'
++ ls -l /root/emp3_8f.out.1
++ (( i=32+1 ))
++ (( 33<36 ))
++ let 's2=4320*33'
++ let s1=142560-4320
+++ date +%s
++ t1=1601337164
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 33/36 Mon Sep 28 23:52:45 UTC 2020 (1601337164)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 138240 --stop 142560 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3881.37user 30.93system 5:11.25elapsed 1256%CPU (0avgtext+0avgdata 34316604maxresident)k
+0inputs+14461000outputs (0major+5590789minor)pagefaults 0swaps
+++ date +%s
++ t2=1601337476
+++ date
++ echo '=== End 33/36 Mon Sep 28 23:57:56 UTC 2020 (1601337476)'
++ let dt=1601337476-1601337164
++ echo 'Waltime 33: 312'
++ ls -l /root/emp3_8f.out.1
++ (( i=33+1 ))
++ (( 34<36 ))
++ let 's2=4320*34'
++ let s1=146880-4320
+++ date +%s
++ t1=1601337476
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 34/36 Mon Sep 28 23:57:57 UTC 2020 (1601337476)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 142560 --stop 146880 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3875.32user 31.03system 5:10.89elapsed 1256%CPU (0avgtext+0avgdata 34320700maxresident)k
+0inputs+14461056outputs (0major+5538136minor)pagefaults 0swaps
+++ date +%s
++ t2=1601337788
+++ date
++ echo '=== End 34/36 Tue Sep 29 00:03:08 UTC 2020 (1601337788)'
++ let dt=1601337788-1601337476
++ echo 'Waltime 34: 312'
++ ls -l /root/emp3_8f.out.1
++ (( i=34+1 ))
++ (( 35<36 ))
++ let 's2=4320*35'
++ let s1=151200-4320
+++ date +%s
++ t1=1601337788
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 35/36 Tue Sep 29 00:03:10 UTC 2020 (1601337788)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 146880 --stop 151200 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+3882.51user 31.72system 5:11.30elapsed 1257%CPU (0avgtext+0avgdata 34318604maxresident)k
+0inputs+14461104outputs (0major+5486525minor)pagefaults 0swaps
+++ date +%s
++ t2=1601338101
+++ date
++ echo '=== End 35/36 Tue Sep 29 00:08:21 UTC 2020 (1601338101)'
++ let dt=1601338101-1601337788
++ echo 'Waltime 35: 313'
++ ls -l /root/emp3_8f.out.1
++ (( i=35+1 ))
++ (( 36<36 ))
+++ date +%s
++ t1=1601338101
++ rm -f /root/emp3_8f.out.1
+++ date
++ echo '=== Starting 36/36 Tue Sep 29 00:09:14 UTC 2020 (1601338101)'
++ taskset -c 20-35 time /root/unifrac/sucpp/ssu --mode partial --start 151200 --stop 153619 -i /data/unifrac/x_merged.withplacement_even500.biom -t /data/unifrac/archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /root/emp3_8f.out.1
+2565.01user 21.38system 3:40.68elapsed 1171%CPU (0avgtext+0avgdata 20572052maxresident)k
+0inputs+8100848outputs (0major+2808056minor)pagefaults 0swaps
+++ date +%s
++ t2=1601338375
+++ date
++ echo '=== End 36/36 Tue Sep 29 00:12:55 UTC 2020 (1601338375)'
++ let dt=1601338375-1601338101
++ echo 'Waltime 36: 274'
++ ls -l /root/emp2_8f.out.1
+ls: cannot access /root/emp2_8f.out.1: No such file or directory
++ echo '====== Batch done ======'
++ let dt=1601338375-1601332600
++ echo 'Waltime total: 5775'
++ rm -f /root/emp2_8f.out.1
