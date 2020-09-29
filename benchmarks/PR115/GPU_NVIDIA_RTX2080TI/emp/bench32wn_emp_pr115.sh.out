@@ -1,0 +1,6 @@
+66f0c6957be53b0c19e733bcd6396d65  /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom
+44422c5483ee188ee6da60dc0c77a8f2  /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+=== Starting Tue Sep 29 00:40:48 UTC 2020 (1601340048)
+=== End Tue Sep 29 00:43:16 UTC 2020 (1601340196)
+Waltime: 148
+-rw------- 1 root root 1803084102 Sep 29 00:43 /root/emp.weighted_normalized_fp32.dev.gpu.part

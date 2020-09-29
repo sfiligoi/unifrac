@@ -1,0 +1,21 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ md5sum /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+++ date +%s
++ t1=1601340048
+++ date
++ echo '=== Starting Tue Sep 29 00:40:48 UTC 2020 (1601340048)'
++ taskset -c 0-7 time /root/unifrac/sucpp/ssu --mode partial --start 0 --stop 12573 -i /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m weighted_normalized_fp32 -n 1 -f -o /root/emp.weighted_normalized_fp32.dev.gpu.part
+1052.93user 6.97system 2:28.19elapsed 715%CPU (0avgtext+0avgdata 8836064maxresident)k
+0inputs+3521656outputs (0major+1389152minor)pagefaults 0swaps
+++ date +%s
++ t2=1601340196
+++ date
++ echo '=== End Tue Sep 29 00:43:16 UTC 2020 (1601340196)'
++ let dt=1601340196-1601340048
++ echo 'Waltime: 148'
++ ls -l /root/emp.weighted_normalized_fp32.dev.gpu.part
++ rm -f /root/emp.weighted_normalized_fp32.dev.gpu.part
