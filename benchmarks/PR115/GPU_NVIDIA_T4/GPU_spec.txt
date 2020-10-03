@@ -1,0 +1,32 @@
+# Part of PRP
+(base) [root@test1-6d95b8d789-6phf6 c5.t4]# cat /proc/driver/nvidia/gpus/0000\:d8\:00.0/information 
+Model: 		 Tesla T4
+IRQ:   		 631
+GPU UUID: 	 GPU-570e0fe6-fff5-b784-625c-bfd4ea091c85
+Video BIOS: 	 90.04.38.00.03
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:d8:00.0
+Device Minor: 	 0
+Blacklisted:	 No
+(base) [root@test1-6d95b8d789-6phf6 c5.t4]# nvidia-smi 
+Sat Oct  3 14:40:57 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   82C    P0    69W /  70W |  12658MiB / 15109MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
