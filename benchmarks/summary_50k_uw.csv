@@ -1,7 +1,7 @@
-#test,runtime_minutes,speedup,chunks
-Original_Xeon,2450,1x,4
-PR115_MacI7,64,38x,2
-PR115_Xeon,16.5,150x,1
-PR115_T4,4.8,510x,1
-PR115_RTX2080TI,2.2,1110x,1
-PR115_V100,2.2,1110x,1
+#test,runtime_minutes,org_speedup,gpu_speedup,chunks
+Original_Xeon,2450,1x,,4
+PR115_MacI7,64,38x,,2
+PR115_Xeon,16.5,150x,1x,1
+PR115_T4,4.8,510x,3.4x,1
+PR115_RTX2080TI,2.2,1110x,7.5x,1
+PR115_V100,2.2,1110x,7.5x,1

@@ -1,7 +1,7 @@
-#test,runtime_mins,speedup
-Original_Xeon,504,1x
-PR115_MacI7,18.7,27x
-PR115_Xeon,4.8,105x
-PR115_T4,1.5,340x
-PR115_RTX2080TI,0.73,690x
-PR115_V100,0.75,671x
+#test,runtime_mins,org_speedup,gpu_speedup
+Original_Xeon,504,1x,
+PR115_MacI7,18.7,27x,
+PR115_Xeon,4.8,105x,1x
+PR115_T4,1.5,340x,3.2x
+PR115_RTX2080TI,0.73,690x,6.6x
+PR115_V100,0.75,671x,6.4x

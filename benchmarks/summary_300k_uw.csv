@@ -1,5 +1,5 @@
-#test,runtime_hours,speedup,chunks
-Original_Xeon,8326,1x,482
-PR115_Xeon,33.1,252x,6
-PR115_RTX2080TI,3.3,2530x,36
-PR115_V100,1.9,4380x,13
+#test,runtime_hours,org_speedup,gpu_speedup,chunks
+Original_Xeon,8326,1x,,482
+PR115_Xeon,33.1,252x,1x,6
+PR115_RTX2080TI,3.3,2530x,10x,36
+PR115_V100,1.9,4380x,17.4x,13
