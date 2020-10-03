@@ -1,0 +1,20 @@
+3c73c4d4289ce580ec3e3294c2e7fb7a  /data/unifrac/merged_nosingletonsdoubletons_even500_nobloom.biom
+1c286665d500455531bf8c3d13f4806c  /data/unifrac/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
+Total samples: 113721
+Total stripes: 56861
+Partition 0, suggested start and stop: 0, 56861
+=== Starting 1/4 Sat Oct  3 14:35:08 UTC 2020 (1601735708)
+=== End 1/4 Sat Oct  3 14:45:28 UTC 2020 (1601736328)
+Waltime 1: 620
+=== Starting 2/4 Sat Oct  3 14:45:28 UTC 2020 (1601736328)
+=== End 2/4 Sat Oct  3 14:55:47 UTC 2020 (1601736947)
+Waltime 1: 619
+=== Starting 3/4 Sat Oct  3 14:55:47 UTC 2020 (1601736947)
+=== End 3/4 Sat Oct  3 15:06:08 UTC 2020 (1601737568)
+Waltime 1: 621
+=== Starting 4/4 Sat Oct  3 15:06:08 UTC 2020 (1601737568)
+=== End 4/4 Sat Oct  3 15:16:00 UTC 2020 (1601738160)
+Waltime 2: 592
+====== All done ======
+Waltime total: 2452
+-rw-------. 1 root root 8598501953 Oct  3 15:15 /root/emp115_8f.out.0

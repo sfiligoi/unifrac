@@ -1,0 +1,29 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ BIOM=/data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ TREE=/data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
++ md5sum /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
++ /root/unifrac/sucpp/ssu --mode partial-report -i /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m unweighted_fp32 -f
+++ date +%s
++ t1=1601734392
++ t0=1601734392
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting Sat Oct  3 14:13:12 UTC 2020 (1601734392)'
++ taskset -c 0-7 time /root/unifrac/sucpp/ssu --mode partial --start 0 --stop 12573 -i /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.0
+463.51user 7.43system 1:26.73elapsed 542%CPU (0avgtext+0avgdata 8173280maxresident)k
+0inputs+3400800outputs (0major+1370654minor)pagefaults 0swaps
+++ date +%s
++ t2=1601734479
+++ date
++ echo '=== End Sat Oct  3 14:14:39 UTC 2020 (1601734479)'
++ let dt=1601734479-1601734392
++ echo 'Waltime : 87'
++ ls -l /root/emp2_8f.out.0
++ echo '====== All done ======'
++ let dt=1601734479-1601734392
++ echo 'Waltime total: 87'
++ rm -f /root/emp2_8f.out.0
