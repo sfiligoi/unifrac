@@ -1,0 +1,38 @@
+dc78aaebd639400a79763582eaacc9ed  ag_emp_even500.biom
+11728e901be79ffc1e79f59adc0279a9  ag_emp.tre
+Total samples: 50085
+Total stripes: 25043
+Partition 0, suggested start and stop: 0, 25043
+=== Starting 1/8 Sun 04 Oct 2020 12:31:51 PM PDT (1601839911)
+=== End 1/8 Sun 04 Oct 2020 12:33:50 PM PDT (1601840030)
+Waltime 1: 119
+-rw------- 1 sfiligoi sfiligoi 893847860 Oct  4 12:33 /tmp/emp3_8f.out.1
+=== Starting 2/8 Sun 04 Oct 2020 12:33:50 PM PDT (1601840030)
+=== End 2/8 Sun 04 Oct 2020 12:35:58 PM PDT (1601840158)
+Waltime 2: 128
+-rw------- 1 sfiligoi sfiligoi 893835513 Oct  4 12:35 /tmp/emp3_8f.out.1
+=== Starting 3/8 Sun 04 Oct 2020 12:35:58 PM PDT (1601840158)
+=== End 3/8 Sun 04 Oct 2020 12:38:05 PM PDT (1601840285)
+Waltime 3: 127
+-rw------- 1 sfiligoi sfiligoi 893841676 Oct  4 12:38 /tmp/emp3_8f.out.1
+=== Starting 4/8 Sun 04 Oct 2020 12:38:05 PM PDT (1601840285)
+=== End 4/8 Sun 04 Oct 2020 12:40:17 PM PDT (1601840417)
+Waltime 4: 132
+-rw------- 1 sfiligoi sfiligoi 893854551 Oct  4 12:40 /tmp/emp3_8f.out.1
+=== Starting 5/8 Sun 04 Oct 2020 12:40:17 PM PDT (1601840417)
+=== End 5/8 Sun 04 Oct 2020 12:42:29 PM PDT (1601840549)
+Waltime 5: 132
+-rw------- 1 sfiligoi sfiligoi 893837795 Oct  4 12:42 /tmp/emp3_8f.out.1
+=== Starting 6/8 Sun 04 Oct 2020 12:42:29 PM PDT (1601840549)
+=== End 6/8 Sun 04 Oct 2020 12:44:39 PM PDT (1601840679)
+Waltime 6: 130
+-rw------- 1 sfiligoi sfiligoi 893840861 Oct  4 12:44 /tmp/emp3_8f.out.1
+=== Starting 7/8 Sun 04 Oct 2020 12:44:39 PM PDT (1601840679)
+=== End 7/8 Sun 04 Oct 2020 12:46:56 PM PDT (1601840816)
+Waltime 7: 137
+-rw------- 1 sfiligoi sfiligoi 893850975 Oct  4 12:46 /tmp/emp3_8f.out.1
+=== Starting 8/8 Sun 04 Oct 2020 12:46:56 PM PDT (1601840816)
+=== End 8/8 Sun 04 Oct 2020 12:48:47 PM PDT (1601840927)
+Waltime 8: 111
+====== Batch done ======
+Waltime total: 1016

@@ -1,0 +1,166 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ BIOM=ag_emp_even500.biom
++ TREE=ag_emp.tre
++ md5sum ag_emp_even500.biom
++ md5sum ag_emp.tre
++ ./ssu --mode partial-report -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f
+++ date +%s
++ t0=1601839911
++ (( i=1 ))
++ (( 1<8 ))
++ let 's2=3200*1'
++ let s1=3200-3200
+++ date +%s
++ t1=1601839911
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 1/8 Sun 04 Oct 2020 12:31:51 PM PDT (1601839911)'
++ taskset -c 0-3 time ./ssu --mode partial --start 0 --stop 3200 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+450.49user 1.75system 1:58.73elapsed 380%CPU (0avgtext+0avgdata 4474972maxresident)k
+0inputs+1745800outputs (0major+1180424minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840030
+++ date
++ echo '=== End 1/8 Sun 04 Oct 2020 12:33:50 PM PDT (1601840030)'
++ let dt=1601840030-1601839911
++ echo 'Waltime 1: 119'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=1+1 ))
++ (( 2<8 ))
++ let 's2=3200*2'
++ let s1=6400-3200
+++ date +%s
++ t1=1601840030
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 2/8 Sun 04 Oct 2020 12:33:50 PM PDT (1601840030)'
++ taskset -c 0-3 time ./ssu --mode partial --start 3200 --stop 6400 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+480.91user 1.81system 2:07.70elapsed 378%CPU (0avgtext+0avgdata 4474904maxresident)k
+0inputs+1745776outputs (0major+1180429minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840158
+++ date
++ echo '=== End 2/8 Sun 04 Oct 2020 12:35:58 PM PDT (1601840158)'
++ let dt=1601840158-1601840030
++ echo 'Waltime 2: 128'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=2+1 ))
++ (( 3<8 ))
++ let 's2=3200*3'
++ let s1=9600-3200
+++ date +%s
++ t1=1601840158
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 3/8 Sun 04 Oct 2020 12:35:58 PM PDT (1601840158)'
++ taskset -c 0-3 time ./ssu --mode partial --start 6400 --stop 9600 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+477.22user 2.22system 2:07.52elapsed 375%CPU (0avgtext+0avgdata 4475152maxresident)k
+0inputs+1745792outputs (0major+1180427minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840285
+++ date
++ echo '=== End 3/8 Sun 04 Oct 2020 12:38:05 PM PDT (1601840285)'
++ let dt=1601840285-1601840158
++ echo 'Waltime 3: 127'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=3+1 ))
++ (( 4<8 ))
++ let 's2=3200*4'
++ let s1=12800-3200
+++ date +%s
++ t1=1601840285
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 4/8 Sun 04 Oct 2020 12:38:05 PM PDT (1601840285)'
++ taskset -c 0-3 time ./ssu --mode partial --start 9600 --stop 12800 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+496.28user 1.78system 2:12.00elapsed 377%CPU (0avgtext+0avgdata 4474968maxresident)k
+0inputs+1745816outputs (0major+1180424minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840417
+++ date
++ echo '=== End 4/8 Sun 04 Oct 2020 12:40:17 PM PDT (1601840417)'
++ let dt=1601840417-1601840285
++ echo 'Waltime 4: 132'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=4+1 ))
++ (( 5<8 ))
++ let 's2=3200*5'
++ let s1=16000-3200
+++ date +%s
++ t1=1601840417
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 5/8 Sun 04 Oct 2020 12:40:17 PM PDT (1601840417)'
++ taskset -c 0-3 time ./ssu --mode partial --start 12800 --stop 16000 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+493.97user 1.92system 2:11.23elapsed 377%CPU (0avgtext+0avgdata 4475248maxresident)k
+0inputs+1745784outputs (0major+1180431minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840549
+++ date
++ echo '=== End 5/8 Sun 04 Oct 2020 12:42:29 PM PDT (1601840549)'
++ let dt=1601840549-1601840417
++ echo 'Waltime 5: 132'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=5+1 ))
++ (( 6<8 ))
++ let 's2=3200*6'
++ let s1=19200-3200
+++ date +%s
++ t1=1601840549
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 6/8 Sun 04 Oct 2020 12:42:29 PM PDT (1601840549)'
++ taskset -c 0-3 time ./ssu --mode partial --start 16000 --stop 19200 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+488.60user 2.16system 2:10.31elapsed 376%CPU (0avgtext+0avgdata 4475196maxresident)k
+0inputs+1745784outputs (0major+1180432minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840679
+++ date
++ echo '=== End 6/8 Sun 04 Oct 2020 12:44:39 PM PDT (1601840679)'
++ let dt=1601840679-1601840549
++ echo 'Waltime 6: 130'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=6+1 ))
++ (( 7<8 ))
++ let 's2=3200*7'
++ let s1=22400-3200
+++ date +%s
++ t1=1601840679
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 7/8 Sun 04 Oct 2020 12:44:39 PM PDT (1601840679)'
++ taskset -c 0-3 time ./ssu --mode partial --start 19200 --stop 22400 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+512.48user 2.08system 2:16.83elapsed 376%CPU (0avgtext+0avgdata 4475136maxresident)k
+0inputs+1745808outputs (0major+1180430minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840816
+++ date
++ echo '=== End 7/8 Sun 04 Oct 2020 12:46:56 PM PDT (1601840816)'
++ let dt=1601840816-1601840679
++ echo 'Waltime 7: 137'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=7+1 ))
++ (( 8<8 ))
+++ date +%s
++ t1=1601840816
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 8/8 Sun 04 Oct 2020 12:46:56 PM PDT (1601840816)'
++ taskset -c 0-3 time ./ssu --mode partial --start 22400 --stop 25043 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+410.21user 2.19system 1:50.74elapsed 372%CPU (0avgtext+0avgdata 3820300maxresident)k
+0inputs+1442080outputs (0major+1016738minor)pagefaults 0swaps
+++ date +%s
++ t2=1601840927
+++ date
++ echo '=== End 8/8 Sun 04 Oct 2020 12:48:47 PM PDT (1601840927)'
++ let dt=1601840927-1601840816
++ echo 'Waltime 8: 111'
++ ls -l /tmp/emp2_8f.out.1
+ls: cannot access '/tmp/emp2_8f.out.1': No such file or directory
++ echo '====== Batch done ======'
++ let dt=1601840927-1601839911
++ echo 'Waltime total: 1016'
++ rm -f /tmp/emp2_8f.out.1
