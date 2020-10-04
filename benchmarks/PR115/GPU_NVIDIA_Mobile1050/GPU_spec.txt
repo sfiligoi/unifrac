@@ -1,0 +1,32 @@
+# As part of a laptop, Model ASUS Q536F
+$ cat /proc/driver/nvidia/gpus/0000\:02\:00.0/information 
+Model: 		 GeForce GTX 1050 with Max-Q Design
+IRQ:   		 141
+GPU UUID: 	 GPU-fc76ea3e-7036-f637-3654-c938d8b0839e
+Video BIOS: 	 86.07.62.00.16
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:02:00.0
+Device Minor: 	 0
+Blacklisted:	 No
+$ nvidia-smi 
+Sun Oct  4 11:56:52 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 435.21       Driver Version: 435.21       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 105...  Off  | 00000000:02:00.0 Off |                  N/A |
+| N/A   93C    P0    N/A /  N/A |   1677MiB /  2002MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1177      G   /usr/lib/xorg/Xorg                            40MiB |
+|    0      1663      G   /usr/lib/xorg/Xorg                           126MiB |
+|    0      1914      G   /usr/bin/gnome-shell                         183MiB |
+|    0     19486      C   ./ssu                                       1275MiB |
