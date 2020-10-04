@@ -1,0 +1,21 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ md5sum emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+++ date +%s
++ t1=1601838230
+++ date
++ echo '=== Starting Sun 04 Oct 2020 12:03:50 PM PDT (1601838230)'
++ taskset -c 0-3 time ./ssu --mode partial --start 0 --stop 12573 -i emp.90.min25.deblur.withtax.withtree.even1k.biom -t emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m weighted_unnormalized_fp32 -n 2 -f -o /tmp/emp.weighted_unnormalized_fp32.dev.gpu.part
+5595.54user 3.82system 23:25.02elapsed 398%CPU (0avgtext+0avgdata 3839808maxresident)k
+0inputs+3514872outputs (0major+1171871minor)pagefaults 0swaps
+++ date +%s
++ t2=1601839636
+++ date
++ echo '=== End Sun 04 Oct 2020 12:27:16 PM PDT (1601839636)'
++ let dt=1601839636-1601838230
++ echo 'Waltime: 1406'
++ ls -l /tmp/emp.weighted_unnormalized_fp32.dev.gpu.part
++ rm -f /tmp/emp.weighted_unnormalized_fp32.dev.gpu.part
