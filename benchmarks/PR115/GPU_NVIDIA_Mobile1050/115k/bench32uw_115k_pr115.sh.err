@@ -1,0 +1,697 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ BIOM=merged_nosingletonsdoubletons_even500_nobloom.biom
++ TREE=merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
++ md5sum merged_nosingletonsdoubletons_even500_nobloom.biom
++ md5sum merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
++ ./ssu --mode partial-report -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f
+++ date +%s
++ t0=1601841331
++ (( i=1 ))
++ (( 1<36 ))
++ let 's2=1600*1'
++ let s1=1600-1600
+++ date +%s
++ t1=1601841331
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 1/36 Sun 04 Oct 2020 12:55:31 PM PDT (1601841331)'
++ taskset -c 0-3 time ./ssu --mode partial --start 0 --stop 1600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1139.13user 2.27system 4:59.15elapsed 381%CPU (0avgtext+0avgdata 5766076maxresident)k
+0inputs+1969664outputs (0major+1617204minor)pagefaults 0swaps
+++ date +%s
++ t2=1601841630
+++ date
++ echo '=== End 1/36 Sun 04 Oct 2020 01:00:30 PM PDT (1601841630)'
++ let dt=1601841630-1601841331
++ echo 'Waltime 1: 299'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=1+1 ))
++ (( 2<36 ))
++ let 's2=1600*2'
++ let s1=3200-1600
+++ date +%s
++ t1=1601841630
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 2/36 Sun 04 Oct 2020 01:00:30 PM PDT (1601841630)'
++ taskset -c 0-3 time ./ssu --mode partial --start 1600 --stop 3200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1219.84user 2.61system 5:23.21elapsed 378%CPU (0avgtext+0avgdata 5766172maxresident)k
+0inputs+1969688outputs (0major+1617335minor)pagefaults 0swaps
+++ date +%s
++ t2=1601841953
+++ date
++ echo '=== End 2/36 Sun 04 Oct 2020 01:05:53 PM PDT (1601841953)'
++ let dt=1601841953-1601841630
++ echo 'Waltime 2: 323'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=2+1 ))
++ (( 3<36 ))
++ let 's2=1600*3'
++ let s1=4800-1600
+++ date +%s
++ t1=1601841953
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 3/36 Sun 04 Oct 2020 01:05:54 PM PDT (1601841953)'
++ taskset -c 0-3 time ./ssu --mode partial --start 3200 --stop 4800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1175.54user 2.90system 5:12.94elapsed 376%CPU (0avgtext+0avgdata 5766224maxresident)k
+0inputs+1969680outputs (0major+1617340minor)pagefaults 0swaps
+++ date +%s
++ t2=1601842267
+++ date
++ echo '=== End 3/36 Sun 04 Oct 2020 01:11:07 PM PDT (1601842267)'
++ let dt=1601842267-1601841953
++ echo 'Waltime 3: 314'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=3+1 ))
++ (( 4<36 ))
++ let 's2=1600*4'
++ let s1=6400-1600
+++ date +%s
++ t1=1601842267
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 4/36 Sun 04 Oct 2020 01:11:07 PM PDT (1601842267)'
++ taskset -c 0-3 time ./ssu --mode partial --start 4800 --stop 6400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1124.71user 2.47system 4:58.87elapsed 377%CPU (0avgtext+0avgdata 5766100maxresident)k
+0inputs+1969656outputs (0major+1617334minor)pagefaults 0swaps
+++ date +%s
++ t2=1601842566
+++ date
++ echo '=== End 4/36 Sun 04 Oct 2020 01:16:06 PM PDT (1601842566)'
++ let dt=1601842566-1601842267
++ echo 'Waltime 4: 299'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=4+1 ))
++ (( 5<36 ))
++ let 's2=1600*5'
++ let s1=8000-1600
+++ date +%s
++ t1=1601842566
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 5/36 Sun 04 Oct 2020 01:16:06 PM PDT (1601842566)'
++ taskset -c 0-3 time ./ssu --mode partial --start 6400 --stop 8000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1123.62user 2.31system 4:58.02elapsed 377%CPU (0avgtext+0avgdata 5766088maxresident)k
+0inputs+1969696outputs (0major+1617204minor)pagefaults 0swaps
+++ date +%s
++ t2=1601842864
+++ date
++ echo '=== End 5/36 Sun 04 Oct 2020 01:21:04 PM PDT (1601842864)'
++ let dt=1601842864-1601842566
++ echo 'Waltime 5: 298'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=5+1 ))
++ (( 6<36 ))
++ let 's2=1600*6'
++ let s1=9600-1600
+++ date +%s
++ t1=1601842864
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 6/36 Sun 04 Oct 2020 01:21:04 PM PDT (1601842864)'
++ taskset -c 0-3 time ./ssu --mode partial --start 8000 --stop 9600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1117.29user 2.35system 4:55.86elapsed 378%CPU (0avgtext+0avgdata 5766192maxresident)k
+0inputs+1969664outputs (0major+1617340minor)pagefaults 0swaps
+++ date +%s
++ t2=1601843160
+++ date
++ echo '=== End 6/36 Sun 04 Oct 2020 01:26:00 PM PDT (1601843160)'
++ let dt=1601843160-1601842864
++ echo 'Waltime 6: 296'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=6+1 ))
++ (( 7<36 ))
++ let 's2=1600*7'
++ let s1=11200-1600
+++ date +%s
++ t1=1601843160
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 7/36 Sun 04 Oct 2020 01:26:00 PM PDT (1601843160)'
++ taskset -c 0-3 time ./ssu --mode partial --start 9600 --stop 11200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1118.05user 2.51system 4:56.61elapsed 377%CPU (0avgtext+0avgdata 5766328maxresident)k
+0inputs+1969680outputs (0major+1617337minor)pagefaults 0swaps
+++ date +%s
++ t2=1601843456
+++ date
++ echo '=== End 7/36 Sun 04 Oct 2020 01:30:57 PM PDT (1601843456)'
++ let dt=1601843456-1601843160
++ echo 'Waltime 7: 296'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=7+1 ))
++ (( 8<36 ))
++ let 's2=1600*8'
++ let s1=12800-1600
+++ date +%s
++ t1=1601843457
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 8/36 Sun 04 Oct 2020 01:30:57 PM PDT (1601843457)'
++ taskset -c 0-3 time ./ssu --mode partial --start 11200 --stop 12800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1112.91user 2.37system 4:55.15elapsed 377%CPU (0avgtext+0avgdata 5766088maxresident)k
+0inputs+1969648outputs (0major+1617338minor)pagefaults 0swaps
+++ date +%s
++ t2=1601843752
+++ date
++ echo '=== End 8/36 Sun 04 Oct 2020 01:35:52 PM PDT (1601843752)'
++ let dt=1601843752-1601843457
++ echo 'Waltime 8: 295'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=8+1 ))
++ (( 9<36 ))
++ let 's2=1600*9'
++ let s1=14400-1600
+++ date +%s
++ t1=1601843752
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 9/36 Sun 04 Oct 2020 01:35:52 PM PDT (1601843752)'
++ taskset -c 0-3 time ./ssu --mode partial --start 12800 --stop 14400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1118.25user 2.37system 4:56.55elapsed 377%CPU (0avgtext+0avgdata 5766100maxresident)k
+0inputs+1969688outputs (0major+1617338minor)pagefaults 0swaps
+++ date +%s
++ t2=1601844049
+++ date
++ echo '=== End 9/36 Sun 04 Oct 2020 01:40:49 PM PDT (1601844049)'
++ let dt=1601844049-1601843752
++ echo 'Waltime 9: 297'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=9+1 ))
++ (( 10<36 ))
++ let 's2=1600*10'
++ let s1=16000-1600
+++ date +%s
++ t1=1601844049
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 10/36 Sun 04 Oct 2020 01:40:49 PM PDT (1601844049)'
++ taskset -c 0-3 time ./ssu --mode partial --start 14400 --stop 16000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1121.69user 2.37system 4:57.00elapsed 378%CPU (0avgtext+0avgdata 5766196maxresident)k
+0inputs+1969664outputs (0major+1617334minor)pagefaults 0swaps
+++ date +%s
++ t2=1601844346
+++ date
++ echo '=== End 10/36 Sun 04 Oct 2020 01:45:46 PM PDT (1601844346)'
++ let dt=1601844346-1601844049
++ echo 'Waltime 10: 297'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=10+1 ))
++ (( 11<36 ))
++ let 's2=1600*11'
++ let s1=17600-1600
+++ date +%s
++ t1=1601844346
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 11/36 Sun 04 Oct 2020 01:45:46 PM PDT (1601844346)'
++ taskset -c 0-3 time ./ssu --mode partial --start 16000 --stop 17600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1123.47user 2.43system 4:57.70elapsed 378%CPU (0avgtext+0avgdata 5766164maxresident)k
+0inputs+1969696outputs (0major+1617337minor)pagefaults 0swaps
+++ date +%s
++ t2=1601844643
+++ date
++ echo '=== End 11/36 Sun 04 Oct 2020 01:50:43 PM PDT (1601844643)'
++ let dt=1601844643-1601844346
++ echo 'Waltime 11: 297'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=11+1 ))
++ (( 12<36 ))
++ let 's2=1600*12'
++ let s1=19200-1600
+++ date +%s
++ t1=1601844643
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 12/36 Sun 04 Oct 2020 01:50:44 PM PDT (1601844643)'
++ taskset -c 0-3 time ./ssu --mode partial --start 17600 --stop 19200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1146.15user 2.42system 5:03.41elapsed 378%CPU (0avgtext+0avgdata 5766168maxresident)k
+0inputs+1969688outputs (0major+1617338minor)pagefaults 0swaps
+++ date +%s
++ t2=1601844947
+++ date
++ echo '=== End 12/36 Sun 04 Oct 2020 01:55:47 PM PDT (1601844947)'
++ let dt=1601844947-1601844643
++ echo 'Waltime 12: 304'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=12+1 ))
++ (( 13<36 ))
++ let 's2=1600*13'
++ let s1=20800-1600
+++ date +%s
++ t1=1601844947
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 13/36 Sun 04 Oct 2020 01:55:47 PM PDT (1601844947)'
++ taskset -c 0-3 time ./ssu --mode partial --start 19200 --stop 20800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1156.66user 2.45system 5:07.08elapsed 377%CPU (0avgtext+0avgdata 5766168maxresident)k
+0inputs+1969704outputs (0major+1617206minor)pagefaults 0swaps
+++ date +%s
++ t2=1601845254
+++ date
++ echo '=== End 13/36 Sun 04 Oct 2020 02:00:54 PM PDT (1601845254)'
++ let dt=1601845254-1601844947
++ echo 'Waltime 13: 307'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=13+1 ))
++ (( 14<36 ))
++ let 's2=1600*14'
++ let s1=22400-1600
+++ date +%s
++ t1=1601845254
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 14/36 Sun 04 Oct 2020 02:00:54 PM PDT (1601845254)'
++ taskset -c 0-3 time ./ssu --mode partial --start 20800 --stop 22400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1148.38user 2.49system 5:04.51elapsed 377%CPU (0avgtext+0avgdata 5766200maxresident)k
+0inputs+1969680outputs (0major+1617339minor)pagefaults 0swaps
+++ date +%s
++ t2=1601845559
+++ date
++ echo '=== End 14/36 Sun 04 Oct 2020 02:05:59 PM PDT (1601845559)'
++ let dt=1601845559-1601845254
++ echo 'Waltime 14: 305'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=14+1 ))
++ (( 15<36 ))
++ let 's2=1600*15'
++ let s1=24000-1600
+++ date +%s
++ t1=1601845559
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 15/36 Sun 04 Oct 2020 02:05:59 PM PDT (1601845559)'
++ taskset -c 0-3 time ./ssu --mode partial --start 22400 --stop 24000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1157.16user 2.46system 5:06.77elapsed 378%CPU (0avgtext+0avgdata 5766352maxresident)k
+0inputs+1969664outputs (0major+1617205minor)pagefaults 0swaps
+++ date +%s
++ t2=1601845866
+++ date
++ echo '=== End 15/36 Sun 04 Oct 2020 02:11:06 PM PDT (1601845866)'
++ let dt=1601845866-1601845559
++ echo 'Waltime 15: 307'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=15+1 ))
++ (( 16<36 ))
++ let 's2=1600*16'
++ let s1=25600-1600
+++ date +%s
++ t1=1601845866
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 16/36 Sun 04 Oct 2020 02:11:06 PM PDT (1601845866)'
++ taskset -c 0-3 time ./ssu --mode partial --start 24000 --stop 25600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1164.93user 2.40system 5:09.17elapsed 377%CPU (0avgtext+0avgdata 5765996maxresident)k
+0inputs+1969704outputs (0major+1617333minor)pagefaults 0swaps
+++ date +%s
++ t2=1601846175
+++ date
++ echo '=== End 16/36 Sun 04 Oct 2020 02:16:15 PM PDT (1601846175)'
++ let dt=1601846175-1601845866
++ echo 'Waltime 16: 309'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=16+1 ))
++ (( 17<36 ))
++ let 's2=1600*17'
++ let s1=27200-1600
+++ date +%s
++ t1=1601846175
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 17/36 Sun 04 Oct 2020 02:16:15 PM PDT (1601846175)'
++ taskset -c 0-3 time ./ssu --mode partial --start 25600 --stop 27200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1173.56user 2.51system 5:11.26elapsed 377%CPU (0avgtext+0avgdata 5765972maxresident)k
+0inputs+1969680outputs (0major+1617205minor)pagefaults 0swaps
+++ date +%s
++ t2=1601846487
+++ date
++ echo '=== End 17/36 Sun 04 Oct 2020 02:21:27 PM PDT (1601846487)'
++ let dt=1601846487-1601846175
++ echo 'Waltime 17: 312'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=17+1 ))
++ (( 18<36 ))
++ let 's2=1600*18'
++ let s1=28800-1600
+++ date +%s
++ t1=1601846487
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 18/36 Sun 04 Oct 2020 02:21:27 PM PDT (1601846487)'
++ taskset -c 0-3 time ./ssu --mode partial --start 27200 --stop 28800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1176.21user 2.55system 5:11.07elapsed 378%CPU (0avgtext+0avgdata 5766164maxresident)k
+0inputs+1969680outputs (0major+1617337minor)pagefaults 0swaps
+++ date +%s
++ t2=1601846798
+++ date
++ echo '=== End 18/36 Sun 04 Oct 2020 02:26:38 PM PDT (1601846798)'
++ let dt=1601846798-1601846487
++ echo 'Waltime 18: 311'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=18+1 ))
++ (( 19<36 ))
++ let 's2=1600*19'
++ let s1=30400-1600
+++ date +%s
++ t1=1601846798
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 19/36 Sun 04 Oct 2020 02:26:38 PM PDT (1601846798)'
++ taskset -c 0-3 time ./ssu --mode partial --start 28800 --stop 30400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1171.21user 2.30system 5:10.05elapsed 378%CPU (0avgtext+0avgdata 5766060maxresident)k
+0inputs+1969696outputs (0major+1617204minor)pagefaults 0swaps
+++ date +%s
++ t2=1601847108
+++ date
++ echo '=== End 19/36 Sun 04 Oct 2020 02:31:48 PM PDT (1601847108)'
++ let dt=1601847108-1601846798
++ echo 'Waltime 19: 310'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=19+1 ))
++ (( 20<36 ))
++ let 's2=1600*20'
++ let s1=32000-1600
+++ date +%s
++ t1=1601847108
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 20/36 Sun 04 Oct 2020 02:31:48 PM PDT (1601847108)'
++ taskset -c 0-3 time ./ssu --mode partial --start 30400 --stop 32000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1175.79user 2.31system 5:10.71elapsed 379%CPU (0avgtext+0avgdata 5766340maxresident)k
+0inputs+1969688outputs (0major+1617341minor)pagefaults 0swaps
+++ date +%s
++ t2=1601847419
+++ date
++ echo '=== End 20/36 Sun 04 Oct 2020 02:36:59 PM PDT (1601847419)'
++ let dt=1601847419-1601847108
++ echo 'Waltime 20: 311'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=20+1 ))
++ (( 21<36 ))
++ let 's2=1600*21'
++ let s1=33600-1600
+++ date +%s
++ t1=1601847419
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 21/36 Sun 04 Oct 2020 02:36:59 PM PDT (1601847419)'
++ taskset -c 0-3 time ./ssu --mode partial --start 32000 --stop 33600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1174.44user 2.39system 5:10.76elapsed 378%CPU (0avgtext+0avgdata 5766196maxresident)k
+0inputs+1969656outputs (0major+1617342minor)pagefaults 0swaps
+++ date +%s
++ t2=1601847730
+++ date
++ echo '=== End 21/36 Sun 04 Oct 2020 02:42:10 PM PDT (1601847730)'
++ let dt=1601847730-1601847419
++ echo 'Waltime 21: 311'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=21+1 ))
++ (( 22<36 ))
++ let 's2=1600*22'
++ let s1=35200-1600
+++ date +%s
++ t1=1601847730
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 22/36 Sun 04 Oct 2020 02:42:10 PM PDT (1601847730)'
++ taskset -c 0-3 time ./ssu --mode partial --start 33600 --stop 35200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1163.93user 2.40system 5:09.07elapsed 377%CPU (0avgtext+0avgdata 5766084maxresident)k
+0inputs+1969696outputs (0major+1617336minor)pagefaults 0swaps
+++ date +%s
++ t2=1601848039
+++ date
++ echo '=== End 22/36 Sun 04 Oct 2020 02:47:19 PM PDT (1601848039)'
++ let dt=1601848039-1601847730
++ echo 'Waltime 22: 309'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=22+1 ))
++ (( 23<36 ))
++ let 's2=1600*23'
++ let s1=36800-1600
+++ date +%s
++ t1=1601848039
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 23/36 Sun 04 Oct 2020 02:47:19 PM PDT (1601848039)'
++ taskset -c 0-3 time ./ssu --mode partial --start 35200 --stop 36800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1172.43user 2.51system 5:11.40elapsed 377%CPU (0avgtext+0avgdata 5766008maxresident)k
+0inputs+1969664outputs (0major+1617332minor)pagefaults 0swaps
+++ date +%s
++ t2=1601848351
+++ date
++ echo '=== End 23/36 Sun 04 Oct 2020 02:52:31 PM PDT (1601848351)'
++ let dt=1601848351-1601848039
++ echo 'Waltime 23: 312'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=23+1 ))
++ (( 24<36 ))
++ let 's2=1600*24'
++ let s1=38400-1600
+++ date +%s
++ t1=1601848351
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 24/36 Sun 04 Oct 2020 02:52:31 PM PDT (1601848351)'
++ taskset -c 0-3 time ./ssu --mode partial --start 36800 --stop 38400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1166.89user 2.46system 5:09.51elapsed 377%CPU (0avgtext+0avgdata 5765948maxresident)k
+0inputs+1969672outputs (0major+1617336minor)pagefaults 0swaps
+++ date +%s
++ t2=1601848660
+++ date
++ echo '=== End 24/36 Sun 04 Oct 2020 02:57:40 PM PDT (1601848660)'
++ let dt=1601848660-1601848351
++ echo 'Waltime 24: 309'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=24+1 ))
++ (( 25<36 ))
++ let 's2=1600*25'
++ let s1=40000-1600
+++ date +%s
++ t1=1601848660
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 25/36 Sun 04 Oct 2020 02:57:40 PM PDT (1601848660)'
++ taskset -c 0-3 time ./ssu --mode partial --start 38400 --stop 40000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1159.39user 2.45system 5:07.03elapsed 378%CPU (0avgtext+0avgdata 5766172maxresident)k
+0inputs+1969688outputs (0major+1617205minor)pagefaults 0swaps
+++ date +%s
++ t2=1601848967
+++ date
++ echo '=== End 25/36 Sun 04 Oct 2020 03:02:47 PM PDT (1601848967)'
++ let dt=1601848967-1601848660
++ echo 'Waltime 25: 307'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=25+1 ))
++ (( 26<36 ))
++ let 's2=1600*26'
++ let s1=41600-1600
+++ date +%s
++ t1=1601848967
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 26/36 Sun 04 Oct 2020 03:02:48 PM PDT (1601848967)'
++ taskset -c 0-3 time ./ssu --mode partial --start 40000 --stop 41600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1139.51user 2.38system 5:01.95elapsed 378%CPU (0avgtext+0avgdata 5766188maxresident)k
+0inputs+1969680outputs (0major+1617207minor)pagefaults 0swaps
+++ date +%s
++ t2=1601849270
+++ date
++ echo '=== End 26/36 Sun 04 Oct 2020 03:07:50 PM PDT (1601849270)'
++ let dt=1601849270-1601848967
++ echo 'Waltime 26: 303'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=26+1 ))
++ (( 27<36 ))
++ let 's2=1600*27'
++ let s1=43200-1600
+++ date +%s
++ t1=1601849270
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 27/36 Sun 04 Oct 2020 03:07:50 PM PDT (1601849270)'
++ taskset -c 0-3 time ./ssu --mode partial --start 41600 --stop 43200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1164.17user 2.56system 5:07.99elapsed 378%CPU (0avgtext+0avgdata 5766340maxresident)k
+0inputs+1969712outputs (0major+1617341minor)pagefaults 0swaps
+++ date +%s
++ t2=1601849578
+++ date
++ echo '=== End 27/36 Sun 04 Oct 2020 03:12:58 PM PDT (1601849578)'
++ let dt=1601849578-1601849270
++ echo 'Waltime 27: 308'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=27+1 ))
++ (( 28<36 ))
++ let 's2=1600*28'
++ let s1=44800-1600
+++ date +%s
++ t1=1601849578
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 28/36 Sun 04 Oct 2020 03:12:58 PM PDT (1601849578)'
++ taskset -c 0-3 time ./ssu --mode partial --start 43200 --stop 44800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1184.97user 2.44system 5:14.01elapsed 378%CPU (0avgtext+0avgdata 5766168maxresident)k
+0inputs+1969680outputs (0major+1617206minor)pagefaults 0swaps
+++ date +%s
++ t2=1601849892
+++ date
++ echo '=== End 28/36 Sun 04 Oct 2020 03:18:12 PM PDT (1601849892)'
++ let dt=1601849892-1601849578
++ echo 'Waltime 28: 314'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=28+1 ))
++ (( 29<36 ))
++ let 's2=1600*29'
++ let s1=46400-1600
+++ date +%s
++ t1=1601849892
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 29/36 Sun 04 Oct 2020 03:18:12 PM PDT (1601849892)'
++ taskset -c 0-3 time ./ssu --mode partial --start 44800 --stop 46400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1192.96user 2.61system 5:16.65elapsed 377%CPU (0avgtext+0avgdata 5765996maxresident)k
+0inputs+1969672outputs (0major+1617332minor)pagefaults 0swaps
+++ date +%s
++ t2=1601850209
+++ date
++ echo '=== End 29/36 Sun 04 Oct 2020 03:23:29 PM PDT (1601850209)'
++ let dt=1601850209-1601849892
++ echo 'Waltime 29: 317'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=29+1 ))
++ (( 30<36 ))
++ let 's2=1600*30'
++ let s1=48000-1600
+++ date +%s
++ t1=1601850209
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 30/36 Sun 04 Oct 2020 03:23:29 PM PDT (1601850209)'
++ taskset -c 0-3 time ./ssu --mode partial --start 46400 --stop 48000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1178.37user 2.45system 5:13.61elapsed 376%CPU (0avgtext+0avgdata 5766360maxresident)k
+0inputs+1969712outputs (0major+1617337minor)pagefaults 0swaps
+++ date +%s
++ t2=1601850522
+++ date
++ echo '=== End 30/36 Sun 04 Oct 2020 03:28:42 PM PDT (1601850522)'
++ let dt=1601850522-1601850209
++ echo 'Waltime 30: 313'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=30+1 ))
++ (( 31<36 ))
++ let 's2=1600*31'
++ let s1=49600-1600
+++ date +%s
++ t1=1601850522
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 31/36 Sun 04 Oct 2020 03:28:43 PM PDT (1601850522)'
++ taskset -c 0-3 time ./ssu --mode partial --start 48000 --stop 49600 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1183.83user 2.48system 5:13.62elapsed 378%CPU (0avgtext+0avgdata 5766068maxresident)k
+0inputs+1969704outputs (0major+1617336minor)pagefaults 0swaps
+++ date +%s
++ t2=1601850836
+++ date
++ echo '=== End 31/36 Sun 04 Oct 2020 03:33:56 PM PDT (1601850836)'
++ let dt=1601850836-1601850522
++ echo 'Waltime 31: 314'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=31+1 ))
++ (( 32<36 ))
++ let 's2=1600*32'
++ let s1=51200-1600
+++ date +%s
++ t1=1601850836
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 32/36 Sun 04 Oct 2020 03:33:56 PM PDT (1601850836)'
++ taskset -c 0-3 time ./ssu --mode partial --start 49600 --stop 51200 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1175.83user 2.51system 5:11.85elapsed 377%CPU (0avgtext+0avgdata 5766088maxresident)k
+0inputs+1969696outputs (0major+1617336minor)pagefaults 0swaps
+++ date +%s
++ t2=1601851148
+++ date
++ echo '=== End 32/36 Sun 04 Oct 2020 03:39:08 PM PDT (1601851148)'
++ let dt=1601851148-1601850836
++ echo 'Waltime 32: 312'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=32+1 ))
++ (( 33<36 ))
++ let 's2=1600*33'
++ let s1=52800-1600
+++ date +%s
++ t1=1601851148
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 33/36 Sun 04 Oct 2020 03:39:08 PM PDT (1601851148)'
++ taskset -c 0-3 time ./ssu --mode partial --start 51200 --stop 52800 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1196.36user 2.54system 5:17.03elapsed 378%CPU (0avgtext+0avgdata 5766076maxresident)k
+0inputs+1969672outputs (0major+1617204minor)pagefaults 0swaps
+++ date +%s
++ t2=1601851465
+++ date
++ echo '=== End 33/36 Sun 04 Oct 2020 03:44:25 PM PDT (1601851465)'
++ let dt=1601851465-1601851148
++ echo 'Waltime 33: 317'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=33+1 ))
++ (( 34<36 ))
++ let 's2=1600*34'
++ let s1=54400-1600
+++ date +%s
++ t1=1601851465
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 34/36 Sun 04 Oct 2020 03:44:26 PM PDT (1601851465)'
++ taskset -c 0-3 time ./ssu --mode partial --start 52800 --stop 54400 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1222.59user 2.56system 5:23.43elapsed 378%CPU (0avgtext+0avgdata 5766168maxresident)k
+0inputs+1969680outputs (0major+1617337minor)pagefaults 0swaps
+++ date +%s
++ t2=1601851789
+++ date
++ echo '=== End 34/36 Sun 04 Oct 2020 03:49:49 PM PDT (1601851789)'
++ let dt=1601851789-1601851465
++ echo 'Waltime 34: 324'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=34+1 ))
++ (( 35<36 ))
++ let 's2=1600*35'
++ let s1=56000-1600
+++ date +%s
++ t1=1601851789
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 35/36 Sun 04 Oct 2020 03:49:49 PM PDT (1601851789)'
++ taskset -c 0-3 time ./ssu --mode partial --start 54400 --stop 56000 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+1216.44user 2.44system 5:22.51elapsed 377%CPU (0avgtext+0avgdata 5766124maxresident)k
+0inputs+1969688outputs (0major+1617205minor)pagefaults 0swaps
+++ date +%s
++ t2=1601852112
+++ date
++ echo '=== End 35/36 Sun 04 Oct 2020 03:55:12 PM PDT (1601852112)'
++ let dt=1601852112-1601851789
++ echo 'Waltime 35: 323'
++ ls -l /tmp/emp3_8f.out.1
++ (( i=35+1 ))
++ (( 36<36 ))
+++ date +%s
++ t1=1601852112
++ rm -f /tmp/emp3_8f.out.1
+++ date
++ echo '=== Starting 36/36 Sun 04 Oct 2020 03:55:12 PM PDT (1601852112)'
++ taskset -c 0-3 time ./ssu --mode partial --start 56000 --stop 56861 -i merged_nosingletonsdoubletons_even500_nobloom.biom -t merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m unweighted_fp32 -n 1 -f -o /tmp/emp3_8f.out.1
+664.38user 1.62system 3:03.28elapsed 363%CPU (0avgtext+0avgdata 3791328maxresident)k
+0inputs+1061368outputs (0major+1123463minor)pagefaults 0swaps
+++ date +%s
++ t2=1601852295
+++ date
++ echo '=== End 36/36 Sun 04 Oct 2020 03:58:15 PM PDT (1601852295)'
++ let dt=1601852295-1601852112
++ echo 'Waltime 36: 183'
++ ls -l /tmp/emp3_8f.out.1
++ echo '====== Batch done ======'
++ let dt=1601852295-1601841331
++ echo 'Waltime total: 10964'
++ rm -f /tmp/emp3_8f.out.1
