@@ -1,8 +1,9 @@
-#test,runtime_mins,org_speedup,gpu_speedup
-Original_Xeon,504,1x,
-PR115_MacI7,18.7,27x,
-PR115_Xeon,4.8,105x,1x
-PR115_Mobile1050,3.8,170x,1.3x
-PR115_T4,1.5,340x,3.2x
-PR115_RTX2080TI,0.73,690x,6.6x
-PR115_V100,0.75,671x,6.4x
+#test,runtime_mins,org_speedup,gpu_speedup,mobile_speedup
+Original_Xeon,504,1x,,
+PR115_MobileI7,28.2,18x,,1x
+PR115_MacI7,18.7,27x,,1.5x
+PR115_Xeon,4.8,105x,1x,
+PR115_Mobile1050,3.8,170x,1.3x,7.4x
+PR115_T4,1.5,340x,3.2x,
+PR115_RTX2080TI,0.73,690x,6.6x,
+PR115_V100,0.75,671x,6.4x,
