@@ -1,0 +1,5 @@
+$ time ./ssu -n 4 --mode partial --start 0 --stop 12573  -i emp.90.min25.deblur.withtax.withtree.even1k.biom -t emp90.5000_1000_rxbl_placement_pruned75.tog.tre  -m unweighted_fp32 -f -o emp.out.par
+
+real	28m13.308s
+user	111m38.249s
+sys	0m2.876s
