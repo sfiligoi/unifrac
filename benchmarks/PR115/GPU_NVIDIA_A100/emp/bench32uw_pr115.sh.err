@@ -1,0 +1,29 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ BIOM=emp.90.min25.deblur.withtax.withtree.even1k.biom
++ TREE=emp90.5000_1000_rxbl_placement_pruned75.tog.tre
++ md5sum emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum emp90.5000_1000_rxbl_placement_pruned75.tog.tre
++ ./ssu --mode partial-report -i emp.90.min25.deblur.withtax.withtree.even1k.biom -t emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m unweighted_fp32 -f
+++ date +%s
++ t1=1602026431
++ t0=1602026431
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting Tue Oct  6 23:20:31 UTC 2020 (1602026431)'
++ taskset -c 0-5 time ./ssu --mode partial --start 0 --stop 12573 -i emp.90.min25.deblur.withtax.withtree.even1k.biom -t emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+36.74user 7.15system 0:32.77elapsed 133%CPU (0avgtext+0avgdata 8216016maxresident)k
+0inputs+0outputs (0major+1373014minor)pagefaults 0swaps
+++ date +%s
++ t2=1602026464
+++ date
++ echo '=== End Tue Oct  6 23:21:04 UTC 2020 (1602026464)'
++ let dt=1602026464-1602026431
++ echo 'Waltime : 33'
++ ls -l /dev/shm/emp2_8f.out.0
++ echo '====== All done ======'
++ let dt=1602026464-1602026431
++ echo 'Waltime total: 33'
++ rm -f /dev/shm/emp2_8f.out.0

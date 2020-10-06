@@ -1,0 +1,6 @@
+66f0c6957be53b0c19e733bcd6396d65  emp.90.min25.deblur.withtax.withtree.even1k.biom
+44422c5483ee188ee6da60dc0c77a8f2  emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+=== Starting Tue Oct  6 23:27:53 UTC 2020 (1602026873)
+=== End Tue Oct  6 23:29:18 UTC 2020 (1602026958)
+Waltime: 85
+-rw------- 1 centos centos 1799612804 Oct  6 23:29 /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part

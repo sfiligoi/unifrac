@@ -1,0 +1,11 @@
+66f0c6957be53b0c19e733bcd6396d65  emp.90.min25.deblur.withtax.withtree.even1k.biom
+44422c5483ee188ee6da60dc0c77a8f2  emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+Total samples: 25145
+Total stripes: 12573
+Partition 0, suggested start and stop: 0, 12573
+=== Starting Tue Oct  6 23:20:31 UTC 2020 (1602026431)
+=== End Tue Oct  6 23:21:04 UTC 2020 (1602026464)
+Waltime : 33
+-rw------- 1 centos centos 1741202055 Oct  6 23:21 /dev/shm/emp2_8f.out.0
+====== All done ======
+Waltime total: 33
