@@ -1,0 +1,55 @@
+0eec147b47649afb7376e86cf2b931b1  x_merged.withplacement_even500.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  archive-redbiom-070920-insertion_tree.relabelled.tre
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+=== Starting 1/12 Wed Oct  7 03:52:34 UTC 2020 (1602042754)
+=== End 1/12 Wed Oct  7 03:59:22 UTC 2020 (1602043162)
+Waltime 1: 408
+-rw------- 1 centos centos 12034259528 Oct  7 03:59 /dev/shm/emp2_8f.out.0
+=== Starting 2/12 Wed Oct  7 03:59:23 UTC 2020 (1602043162)
+=== End 2/12 Wed Oct  7 04:06:11 UTC 2020 (1602043571)
+Waltime 2: 409
+-rw------- 1 centos centos 12034135190 Oct  7 04:06 /dev/shm/emp2_8f.out.0
+=== Starting 3/12 Wed Oct  7 04:06:12 UTC 2020 (1602043571)
+=== End 3/12 Wed Oct  7 04:12:58 UTC 2020 (1602043978)
+Waltime 3: 407
+-rw------- 1 centos centos 12034199887 Oct  7 04:12 /dev/shm/emp2_8f.out.0
+=== Starting 4/12 Wed Oct  7 04:12:59 UTC 2020 (1602043978)
+=== End 4/12 Wed Oct  7 04:19:46 UTC 2020 (1602044386)
+Waltime 4: 408
+-rw------- 1 centos centos 12034484336 Oct  7 04:19 /dev/shm/emp2_8f.out.0
+=== Starting 5/12 Wed Oct  7 04:19:47 UTC 2020 (1602044386)
+=== End 5/12 Wed Oct  7 04:26:34 UTC 2020 (1602044794)
+Waltime 5: 408
+-rw------- 1 centos centos 12034475237 Oct  7 04:26 /dev/shm/emp2_8f.out.0
+=== Starting 6/12 Wed Oct  7 04:26:35 UTC 2020 (1602044794)
+=== End 6/12 Wed Oct  7 04:33:21 UTC 2020 (1602045201)
+Waltime 6: 407
+-rw------- 1 centos centos 12034553596 Oct  7 04:33 /dev/shm/emp2_8f.out.0
+=== Starting 7/12 Wed Oct  7 04:33:22 UTC 2020 (1602045201)
+=== End 7/12 Wed Oct  7 04:40:10 UTC 2020 (1602045610)
+Waltime 7: 409
+-rw------- 1 centos centos 12034549856 Oct  7 04:40 /dev/shm/emp2_8f.out.0
+=== Starting 8/12 Wed Oct  7 04:40:11 UTC 2020 (1602045610)
+=== End 8/12 Wed Oct  7 04:46:59 UTC 2020 (1602046019)
+Waltime 8: 409
+-rw------- 1 centos centos 12034492878 Oct  7 04:46 /dev/shm/emp2_8f.out.0
+=== Starting 9/12 Wed Oct  7 04:47:00 UTC 2020 (1602046019)
+=== End 9/12 Wed Oct  7 04:53:48 UTC 2020 (1602046428)
+Waltime 9: 409
+-rw------- 1 centos centos 12034647344 Oct  7 04:53 /dev/shm/emp2_8f.out.0
+=== Starting 10/12 Wed Oct  7 04:53:49 UTC 2020 (1602046428)
+=== End 10/12 Wed Oct  7 05:00:35 UTC 2020 (1602046835)
+Waltime 10: 407
+-rw------- 1 centos centos 12034652607 Oct  7 05:00 /dev/shm/emp2_8f.out.0
+=== Starting 11/12 Wed Oct  7 05:00:36 UTC 2020 (1602046835)
+=== End 11/12 Wed Oct  7 05:07:23 UTC 2020 (1602047243)
+Waltime 11: 408
+-rw------- 1 centos centos 12034909067 Oct  7 05:07 /dev/shm/emp2_8f.out.0
+=== Starting 12/12 Wed Oct  7 05:07:24 UTC 2020 (1602047243)
+=== End 12/12 Wed Oct  7 05:14:16 UTC 2020 (1602047656)
+Waltime 12: 413
+-rw------- 1 centos centos 12035221139 Oct  7 05:14 /dev/shm/emp2_8f.out.0
+====== All done ======
+Waltime total: 4902
