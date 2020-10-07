@@ -1,0 +1,32 @@
+# as part of PRP
+(base) [root@test1-7644cfcd5c-ms5xp GPU_NVIDIA_RTX8000]# cat /proc/driver/nvidia/gpus/0000\:01\:00.0/information 
+Model: 		 Quadro RTX 8000
+IRQ:   		 206
+GPU UUID: 	 GPU-45bb9c59-adcc-4238-353f-b1146dd5f2f7
+Video BIOS: 	 90.02.4a.00.01
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:01:00.0
+Device Minor: 	 0
+Blacklisted:	 No
+(base) [root@test1-7644cfcd5c-ms5xp c5.RTX8000]# nvidia-smi 
+Wed Oct  7 21:33:10 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.66       Driver Version: 450.66       CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Quadro RTX 8000     Off  | 00000000:01:00.0 Off |                  Off |
+| 33%   59C    P2   259W / 260W |  24936MiB / 48601MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
