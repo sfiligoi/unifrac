@@ -1,0 +1,11 @@
+66f0c6957be53b0c19e733bcd6396d65  /data/unifrac/emp.90.min25.deblur.withtax.withtree.even1k.biom
+44422c5483ee188ee6da60dc0c77a8f2  /data/unifrac/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+Total samples: 25145
+Total stripes: 12573
+Partition 0, suggested start and stop: 0, 12573
+=== Starting Wed Oct  7 22:04:30 UTC 2020 (1602108270)
+=== End Wed Oct  7 22:04:59 UTC 2020 (1602108299)
+Waltime : 29
+-rw------- 1 root root 1741202055 Oct  7 22:04 /root/emp2_8f.out.0
+====== All done ======
+Waltime total: 29

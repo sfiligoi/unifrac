@@ -1,0 +1,29 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ BIOM=/data/unifrac/ag_emp_even500.biom
++ TREE=/data/unifrac/ag_emp.tre
++ md5sum /data/unifrac/ag_emp_even500.biom
++ md5sum /data/unifrac/ag_emp.tre
++ /root/unifrac/sucpp/ssu --mode partial-report -i /data/unifrac/ag_emp_even500.biom -t /data/unifrac/ag_emp.tre -m unweighted_fp32 -f
+++ date +%s
++ t1=1602108406
++ t0=1602108406
++ rm -f /root/emp2_8f.out.1
+++ date
++ echo '=== Starting Wed Oct  7 22:06:46 UTC 2020 (1602108406)'
++ taskset -c 0-7 time /root/unifrac/sucpp/ssu --mode partial --start 0 --stop 25043 -i /data/unifrac/ag_emp_even500.biom -t /data/unifrac/ag_emp.tre -m unweighted_fp32 -n 1 -f -o /root/emp2_8f.out.1
+645.29user 6.98system 1:35.51elapsed 682%CPU (0avgtext+0avgdata 30307192maxresident)k
+0inputs+13656136outputs (0major+5057999minor)pagefaults 0swaps
+++ date +%s
++ t2=1602108501
+++ date
++ echo '=== End Wed Oct  7 22:08:21 UTC 2020 (1602108501)'
++ let dt=1602108501-1602108406
++ echo 'Waltime : 95'
++ ls -l /root/emp2_8f.out.1
++ echo '====== All done ======'
++ let dt=1602108501-1602108406
++ echo 'Waltime total: 95'
++ rm -f /root/emp2_8f.out.1

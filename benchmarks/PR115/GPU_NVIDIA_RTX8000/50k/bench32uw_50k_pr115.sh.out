@@ -1,0 +1,11 @@
+dc78aaebd639400a79763582eaacc9ed  /data/unifrac/ag_emp_even500.biom
+11728e901be79ffc1e79f59adc0279a9  /data/unifrac/ag_emp.tre
+Total samples: 50085
+Total stripes: 25043
+Partition 0, suggested start and stop: 0, 25043
+=== Starting Wed Oct  7 22:06:46 UTC 2020 (1602108406)
+=== End Wed Oct  7 22:08:21 UTC 2020 (1602108501)
+Waltime : 95
+-rw------- 1 root root 6991936038 Oct  7 22:08 /root/emp2_8f.out.1
+====== All done ======
+Waltime total: 95
