@@ -1,0 +1,22 @@
+0eec147b47649afb7376e86cf2b931b1  x_merged.withplacement_even500.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  archive-redbiom-070920-insertion_tree.relabelled.tre
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+=== Starting 1/12 Thu Oct 22 08:28:28 PDT 2020 (1603380508)
+=== End 1/24 Thu Oct 22 08:33:25 PDT 2020 (1603380805)
+Waltime 1: 297
+-rw------- 1 root root 10967072270 Oct 22 08:33 /dev/shm/emp2_8f.out.0
+=== Starting 2/12 Thu Oct 22 08:33:26 PDT 2020 (1603380805)
+=== End 2/24 Thu Oct 22 08:38:18 PDT 2020 (1603381098)
+Waltime 2: 293
+-rw------- 1 root root 10967133522 Oct 22 08:38 /dev/shm/emp2_8f.out.0
+=== Starting 3/12 Thu Oct 22 08:38:18 PDT 2020 (1603381098)
+=== End 3/24 Thu Oct 22 08:43:10 PDT 2020 (1603381390)
+Waltime 3: 292
+-rw------- 1 root root 10967099851 Oct 22 08:43 /dev/shm/emp2_8f.out.0
+=== Starting 4/12 Thu Oct 22 08:43:11 PDT 2020 (1603381390)
+=== End 4/24 Thu Oct 22 08:48:03 PDT 2020 (1603381683)
+Waltime 4: 293
+-rw------- 1 root root 10967102624 Oct 22 08:48 /dev/shm/emp2_8f.out.0
+=== Starting 5/12 Thu Oct 22 08:48:03 PDT 2020 (1603381683)

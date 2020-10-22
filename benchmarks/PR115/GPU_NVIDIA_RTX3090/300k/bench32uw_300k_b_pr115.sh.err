@@ -1,0 +1,187 @@
++ unset _mlre _mlIFS _mlshdbg
++ '[' 0 = 1 ']'
++ export MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH
++ MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ for _mlv in ${MODULES_RUN_QUARANTINE:-}
++ '[' LD_LIBRARY_PATH = LD_LIBRARY_PATH -a LD_LIBRARY_PATH = LD_LIBRARY_PATH ']'
+++ eval 'echo ${LD_LIBRARY_PATH+x}'
++++ echo
++ '[' -n '' ']'
++ _mlrv=MODULES_RUNENV_LD_LIBRARY_PATH
+++ eval 'echo ${MODULES_RUNENV_LD_LIBRARY_PATH:-}'
++++ echo
++ _mlre='LD_LIBRARY_PATH='\'''\'' '
++ '[' -n 'LD_LIBRARY_PATH='\'''\'' ' ']'
++ _mlre='eval LD_LIBRARY_PATH='\'''\'' '
+++ eval 'LD_LIBRARY_PATH='\'''\''' /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash autoinit
++++ LD_LIBRARY_PATH=
++++ /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash autoinit
++ eval 'module() {
+   unset _mlre _mlIFS _mlshdbg;
+   if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then
+      case "$-" in
+         *v*x*) set +vx; _mlshdbg='\''vx'\'' ;;
+         *v*) set +v; _mlshdbg='\''v'\'' ;;
+         *x*) set +x; _mlshdbg='\''x'\'' ;;
+         *) _mlshdbg='\'''\'' ;;
+      esac;
+   fi;
+   if [ -n "${IFS+x}" ]; then
+      _mlIFS=$IFS;
+   fi;
+   IFS='\'' '\'';
+   for _mlv in ${MODULES_RUN_QUARANTINE:-}; do
+      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+         if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then
+            _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";
+         fi;
+         _mlrv="MODULES_RUNENV_${_mlv}";
+         _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";
+      fi;
+   done;
+   if [ -n "${_mlre:-}" ]; then
+      eval `eval ${_mlre}/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '\''"$@"'\''`;
+   else
+      eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+   fi;
+   _mlstatus=$?;
+   if [ -n "${_mlIFS+x}" ]; then
+      IFS=$_mlIFS;
+   else
+      unset IFS;
+   fi;
+   if [ -n "${_mlshdbg:-}" ]; then
+      set -$_mlshdbg;
+   fi;
+   unset _mlre _mlv _mlrv _mlIFS _mlshdbg;
+   return $_mlstatus;
+};
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl; export MODULES_CMD;
+MODULESHOME=/usr/share/Modules; export MODULESHOME;
+test 0;'
+++ MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+++ export MODULES_CMD
+++ MODULESHOME=/usr/share/Modules
+++ export MODULESHOME
+++ test 0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlIFS
++ unset _mlre _mlv _mlrv
++ '[' 0 = 1 ']'
++ '[' -t 2 ']'
++ export -f module
++ export -f switchml
++ ENV=/usr/share/Modules/init/profile.sh
++ export ENV
++ BASH_ENV=/usr/share/Modules/init/bash
++ export BASH_ENV
++ '[' 4 -ge 3 ']'
++ [[ hxB =~ i ]]
++ [[ ! :/root/conda_h5:/root/conda_nv_bins:/root/anaconda3/bin:/root/anaconda3/condabin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/hpc_sdk/Linux_x86_64/2020/compilers/bin: =~ :/usr/share/Modules/bin: ]]
+++ manpath
++ manpath=/root/anaconda3/man:/usr/local/share/man:/usr/share/man:/root/hpc_sdk/Linux_x86_64/2020/compilers/man
++ [[ ! :/root/anaconda3/man:/usr/local/share/man:/usr/share/man:/root/hpc_sdk/Linux_x86_64/2020/compilers/man: =~ :/usr/share/man: ]]
++ '[' -n '' ']'
++ export ACC_DEVICE_NUM=6
++ ACC_DEVICE_NUM=6
++ export OMP_NUM_THREADS=24
++ OMP_NUM_THREADS=24
++ BIOM=x_merged.withplacement_even500.biom
++ TREE=archive-redbiom-070920-insertion_tree.relabelled.tre
++ md5sum x_merged.withplacement_even500.biom
++ md5sum archive-redbiom-070920-insertion_tree.relabelled.tre
++ ./ssu --mode partial-report -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f
+++ date +%s
++ t0=1603380602
++ (( i=13 ))
++ (( 13<24 ))
++ let 's2=6400*13'
++ let s1=83200-6400
+++ date +%s
++ t1=1603380602
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 13/12 Thu Oct 22 08:30:02 PDT 2020 (1603380602)'
++ taskset -c 24-47 time ./ssu --mode partial --start 76800 --stop 83200 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+459.04user 102.61system 4:51.29elapsed 192%CPU (0avgtext+0avgdata 49344896maxresident)k
+0inputs+0outputs (0major+11683125minor)pagefaults 0swaps
+++ date +%s
++ t2=1603380893
+++ date
++ echo '=== End 13/24 Thu Oct 22 08:34:53 PDT 2020 (1603380893)'
++ let dt=1603380893-1603380602
++ echo 'Waltime 13: 291'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=13+1 ))
++ (( 14<24 ))
++ let 's2=6400*14'
++ let s1=89600-6400
+++ date +%s
++ t1=1603380893
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 14/12 Thu Oct 22 08:34:53 PDT 2020 (1603380893)'
++ taskset -c 24-47 time ./ssu --mode partial --start 83200 --stop 89600 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+458.00user 102.26system 4:51.24elapsed 192%CPU (0avgtext+0avgdata 49340456maxresident)k
+0inputs+0outputs (0major+11691874minor)pagefaults 0swaps
+++ date +%s
++ t2=1603381185
+++ date
++ echo '=== End 14/24 Thu Oct 22 08:39:45 PDT 2020 (1603381185)'
++ let dt=1603381185-1603380893
++ echo 'Waltime 14: 292'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=14+1 ))
++ (( 15<24 ))
++ let 's2=6400*15'
++ let s1=96000-6400
+++ date +%s
++ t1=1603381185
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 15/12 Thu Oct 22 08:39:45 PDT 2020 (1603381185)'
++ taskset -c 24-47 time ./ssu --mode partial --start 89600 --stop 96000 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+462.22user 102.09system 4:51.84elapsed 193%CPU (0avgtext+0avgdata 49345736maxresident)k
+0inputs+0outputs (0major+11663821minor)pagefaults 0swaps
+++ date +%s
++ t2=1603381477
+++ date
++ echo '=== End 15/24 Thu Oct 22 08:44:37 PDT 2020 (1603381477)'
++ let dt=1603381477-1603381185
++ echo 'Waltime 15: 292'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=15+1 ))
++ (( 16<24 ))
++ let 's2=6400*16'
++ let s1=102400-6400
+++ date +%s
++ t1=1603381477
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 16/12 Thu Oct 22 08:44:37 PDT 2020 (1603381477)'
++ taskset -c 24-47 time ./ssu --mode partial --start 96000 --stop 102400 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+458.41user 102.62system 4:51.45elapsed 192%CPU (0avgtext+0avgdata 49346000maxresident)k
+0inputs+0outputs (0major+11610771minor)pagefaults 0swaps
+++ date +%s
++ t2=1603381769
+++ date
++ echo '=== End 16/24 Thu Oct 22 08:49:29 PDT 2020 (1603381769)'
++ let dt=1603381769-1603381477
++ echo 'Waltime 16: 292'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=16+1 ))
++ (( 17<24 ))
++ let 's2=6400*17'
++ let s1=108800-6400
+++ date +%s
++ t1=1603381769
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 17/12 Thu Oct 22 08:49:29 PDT 2020 (1603381769)'
++ taskset -c 24-47 time ./ssu --mode partial --start 102400 --stop 108800 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
