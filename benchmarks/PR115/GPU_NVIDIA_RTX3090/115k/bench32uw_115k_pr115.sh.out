@@ -1,0 +1,16 @@
+3c73c4d4289ce580ec3e3294c2e7fb7a  merged_nosingletonsdoubletons_even500_nobloom.biom
+1c286665d500455531bf8c3d13f4806c  merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
+=== Starting 1/3 Thu Oct 22 08:03:26 PDT 2020 (1603379006)
+=== End 1/3 Thu Oct 22 08:07:20 PDT 2020 (1603379240)
+Waltime 1: 234
+-rw------- 1 root root 11886631224 Oct 22 08:07 /dev/shm/emp2_8f.out.0
+=== Starting 2/3 Thu Oct 22 08:07:20 PDT 2020 (1603379240)
+=== End 2/3 Thu Oct 22 08:11:14 PDT 2020 (1603379474)
+Waltime 1: 234
+-rw------- 1 root root 11886613633 Oct 22 08:11 /dev/shm/emp2_8f.out.0
+=== Starting 3/3 Thu Oct 22 08:11:14 PDT 2020 (1603379474)
+=== End 3/3 Thu Oct 22 08:14:59 PDT 2020 (1603379699)
+Waltime 2: 225
+====== All done ======
+Waltime total: 693
+-rw------- 1 root root 11619167535 Oct 22 08:14 /dev/shm/emp2_8f.out.0

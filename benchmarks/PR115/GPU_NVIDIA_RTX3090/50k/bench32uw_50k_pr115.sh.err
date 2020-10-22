@@ -1,0 +1,119 @@
++ unset _mlre _mlIFS _mlshdbg
++ '[' 0 = 1 ']'
++ export MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH
++ MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ for _mlv in ${MODULES_RUN_QUARANTINE:-}
++ '[' LD_LIBRARY_PATH = LD_LIBRARY_PATH -a LD_LIBRARY_PATH = LD_LIBRARY_PATH ']'
+++ eval 'echo ${LD_LIBRARY_PATH+x}'
++++ echo
++ '[' -n '' ']'
++ _mlrv=MODULES_RUNENV_LD_LIBRARY_PATH
+++ eval 'echo ${MODULES_RUNENV_LD_LIBRARY_PATH:-}'
++++ echo
++ _mlre='LD_LIBRARY_PATH='\'''\'' '
++ '[' -n 'LD_LIBRARY_PATH='\'''\'' ' ']'
++ _mlre='eval LD_LIBRARY_PATH='\'''\'' '
+++ eval 'LD_LIBRARY_PATH='\'''\''' /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash autoinit
++++ LD_LIBRARY_PATH=
++++ /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash autoinit
++ eval 'module() {
+   unset _mlre _mlIFS _mlshdbg;
+   if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then
+      case "$-" in
+         *v*x*) set +vx; _mlshdbg='\''vx'\'' ;;
+         *v*) set +v; _mlshdbg='\''v'\'' ;;
+         *x*) set +x; _mlshdbg='\''x'\'' ;;
+         *) _mlshdbg='\'''\'' ;;
+      esac;
+   fi;
+   if [ -n "${IFS+x}" ]; then
+      _mlIFS=$IFS;
+   fi;
+   IFS='\'' '\'';
+   for _mlv in ${MODULES_RUN_QUARANTINE:-}; do
+      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+         if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then
+            _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";
+         fi;
+         _mlrv="MODULES_RUNENV_${_mlv}";
+         _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";
+      fi;
+   done;
+   if [ -n "${_mlre:-}" ]; then
+      eval `eval ${_mlre}/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '\''"$@"'\''`;
+   else
+      eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+   fi;
+   _mlstatus=$?;
+   if [ -n "${_mlIFS+x}" ]; then
+      IFS=$_mlIFS;
+   else
+      unset IFS;
+   fi;
+   if [ -n "${_mlshdbg:-}" ]; then
+      set -$_mlshdbg;
+   fi;
+   unset _mlre _mlv _mlrv _mlIFS _mlshdbg;
+   return $_mlstatus;
+};
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl; export MODULES_CMD;
+MODULESHOME=/usr/share/Modules; export MODULESHOME;
+test 0;'
+++ MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+++ export MODULES_CMD
+++ MODULESHOME=/usr/share/Modules
+++ export MODULESHOME
+++ test 0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlIFS
++ unset _mlre _mlv _mlrv
++ '[' 0 = 1 ']'
++ '[' -t 2 ']'
++ export -f module
++ export -f switchml
++ ENV=/usr/share/Modules/init/profile.sh
++ export ENV
++ BASH_ENV=/usr/share/Modules/init/bash
++ export BASH_ENV
++ '[' 4 -ge 3 ']'
++ [[ hxB =~ i ]]
++ [[ ! :/root/conda_h5:/root/conda_nv_bins:/root/anaconda3/bin:/root/anaconda3/condabin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/hpc_sdk/Linux_x86_64/2020/compilers/bin: =~ :/usr/share/Modules/bin: ]]
+++ manpath
++ manpath=/root/anaconda3/man:/usr/local/share/man:/usr/share/man:/root/hpc_sdk/Linux_x86_64/2020/compilers/man
++ [[ ! :/root/anaconda3/man:/usr/local/share/man:/usr/share/man:/root/hpc_sdk/Linux_x86_64/2020/compilers/man: =~ :/usr/share/man: ]]
++ '[' -n '' ']'
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ BIOM=ag_emp_even500.biom
++ TREE=ag_emp.tre
++ md5sum ag_emp_even500.biom
++ md5sum ag_emp.tre
++ ./ssu --mode partial-report -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -f
+++ date +%s
++ t1=1603377691
++ t0=1603377691
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting Thu Oct 22 07:41:31 PDT 2020 (1603377691)'
++ taskset -c 0-5 time ./ssu --mode partial --start 0 --stop 25043 -i ag_emp_even500.biom -t ag_emp.tre -m unweighted_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+66.30user 31.86system 1:28.91elapsed 110%CPU (0avgtext+0avgdata 30919388maxresident)k
+0inputs+0outputs (0major+7545093minor)pagefaults 0swaps
+++ date +%s
++ t2=1603377780
+++ date
++ echo '=== End Thu Oct 22 07:43:00 PDT 2020 (1603377780)'
++ let dt=1603377780-1603377691
++ echo 'Waltime : 89'
++ ls -l /dev/shm/emp2_8f.out.0
++ echo '====== All done ======'
++ let dt=1603377780-1603377691
++ echo 'Waltime total: 89'
++ rm -f /dev/shm/emp2_8f.out.0
