@@ -1,0 +1,12 @@
+3c73c4d4289ce580ec3e3294c2e7fb7a  merged_nosingletonsdoubletons_even500_nobloom.biom
+1c286665d500455531bf8c3d13f4806c  merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
+=== Starting 1/2 Sat Nov  7 16:55:13 UTC 2020 (1604768113)
+=== End 1/2 Sat Nov  7 17:07:44 UTC 2020 (1604768864)
+Waltime 1: 751
+-rw------- 1 centos centos 12175509740 Nov  7 17:07 /dev/shm/emp2_8f.out.0
+=== Starting 2/2 Sat Nov  7 17:07:45 UTC 2020 (1604768864)
+=== End 2/2 Sat Nov  7 17:20:25 UTC 2020 (1604769625)
+Waltime 2: 761
+====== All done ======
+Waltime total: 1512
+-rw------- 1 centos centos 12175060016 Nov  7 17:20 /dev/shm/emp2_8f.out.0

@@ -1,0 +1,11 @@
+dc78aaebd639400a79763582eaacc9ed  ag_emp_even500.biom
+11728e901be79ffc1e79f59adc0279a9  ag_emp.tre
+Total samples: 50085
+Total stripes: 25043
+Partition 0, suggested start and stop: 0, 25043
+=== Starting Sat Nov  7 16:46:53 UTC 2020 (1604767613)
+=== End Sat Nov  7 16:51:06 UTC 2020 (1604767866)
+Waltime : 253
+-rw------- 1 centos centos 7168275849 Nov  7 16:51 /dev/shm/emp2_8f.out.0
+====== All done ======
+Waltime total: 253

@@ -1,0 +1,29 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ BIOM=ag_emp_even500.biom
++ TREE=ag_emp.tre
++ md5sum ag_emp_even500.biom
++ md5sum ag_emp.tre
++ ./ssu --mode partial-report -i ag_emp_even500.biom -t ag_emp.tre -m weighted_normalized_fp32 -f
+++ date +%s
++ t1=1604767155
++ t0=1604767155
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting Sat Nov  7 16:39:15 UTC 2020 (1604767155)'
++ taskset -c 0-5 time ./ssu --mode partial --start 0 --stop 25043 -i ag_emp_even500.biom -t ag_emp.tre -m weighted_normalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+253.60user 78.91system 4:43.49elapsed 117%CPU (0avgtext+0avgdata 30425308maxresident)k
+0inputs+0outputs (0major+5070079minor)pagefaults 0swaps
+++ date +%s
++ t2=1604767438
+++ date
++ echo '=== End Sat Nov  7 16:43:58 UTC 2020 (1604767438)'
++ let dt=1604767438-1604767155
++ echo 'Waltime : 283'
++ ls -l /dev/shm/emp2_8f.out.0
++ echo '====== All done ======'
++ let dt=1604767438-1604767155
++ echo 'Waltime total: 283'
++ rm -f /dev/shm/emp2_8f.out.0
