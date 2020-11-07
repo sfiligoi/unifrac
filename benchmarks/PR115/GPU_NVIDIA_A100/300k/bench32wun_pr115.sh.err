@@ -1,0 +1,154 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ BIOM=x_merged.withplacement_even500.biom
++ TREE=archive-redbiom-070920-insertion_tree.relabelled.tre
++ md5sum x_merged.withplacement_even500.biom
++ md5sum archive-redbiom-070920-insertion_tree.relabelled.tre
++ ./ssu --mode partial-report -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f
+++ date +%s
++ t0=1604778875
++ (( i=1 ))
++ (( 1<12 ))
++ let 's2=12800*1'
++ let s1=12800-12800
+++ date +%s
++ t1=1604778875
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 1/12 Sat Nov  7 19:54:35 UTC 2020 (1604778875)'
++ taskset -c 0-11 time ./ssu --mode partial --start 0 --stop 12800 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1559.54user 163.46system 14:50.41elapsed 193%CPU (0avgtext+0avgdata 48927324maxresident)k
+0inputs+0outputs (0major+6642559minor)pagefaults 0swaps
+++ date +%s
++ t2=1604779765
+++ date
++ echo '=== End 1/12 Sat Nov  7 20:09:25 UTC 2020 (1604779765)'
++ let dt=1604779765-1604778875
++ echo 'Waltime 1: 890'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=1+1 ))
++ (( 2<12 ))
++ let 's2=12800*2'
++ let s1=25600-12800
+++ date +%s
++ t1=1604779765
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 2/12 Sat Nov  7 20:09:26 UTC 2020 (1604779765)'
++ taskset -c 0-11 time ./ssu --mode partial --start 12800 --stop 25600 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1561.44user 163.82system 14:52.18elapsed 193%CPU (0avgtext+0avgdata 48926472maxresident)k
+0inputs+0outputs (0major+6638230minor)pagefaults 0swaps
+++ date +%s
++ t2=1604780659
+++ date
++ echo '=== End 2/12 Sat Nov  7 20:24:19 UTC 2020 (1604780659)'
++ let dt=1604780659-1604779765
++ echo 'Waltime 2: 894'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=2+1 ))
++ (( 3<12 ))
++ let 's2=12800*3'
++ let s1=38400-12800
+++ date +%s
++ t1=1604780659
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 3/12 Sat Nov  7 20:24:20 UTC 2020 (1604780659)'
++ taskset -c 0-11 time ./ssu --mode partial --start 25600 --stop 38400 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1555.67user 168.33system 14:50.23elapsed 193%CPU (0avgtext+0avgdata 48928872maxresident)k
+0inputs+0outputs (0major+6623483minor)pagefaults 0swaps
+++ date +%s
++ t2=1604781550
+++ date
++ echo '=== End 3/12 Sat Nov  7 20:39:10 UTC 2020 (1604781550)'
++ let dt=1604781550-1604780659
++ echo 'Waltime 3: 891'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=3+1 ))
++ (( 4<12 ))
++ let 's2=12800*4'
++ let s1=51200-12800
+++ date +%s
++ t1=1604781550
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 4/12 Sat Nov  7 20:39:11 UTC 2020 (1604781550)'
++ taskset -c 0-11 time ./ssu --mode partial --start 38400 --stop 51200 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1560.31user 163.97system 14:50.66elapsed 193%CPU (0avgtext+0avgdata 48930752maxresident)k
+0inputs+0outputs (0major+6624072minor)pagefaults 0swaps
+++ date +%s
++ t2=1604782441
+++ date
++ echo '=== End 4/12 Sat Nov  7 20:54:01 UTC 2020 (1604782441)'
++ let dt=1604782441-1604781550
++ echo 'Waltime 4: 891'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=4+1 ))
++ (( 5<12 ))
++ let 's2=12800*5'
++ let s1=64000-12800
+++ date +%s
++ t1=1604782441
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 5/12 Sat Nov  7 20:54:02 UTC 2020 (1604782441)'
++ taskset -c 0-11 time ./ssu --mode partial --start 51200 --stop 64000 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1558.57user 162.32system 14:48.67elapsed 193%CPU (0avgtext+0avgdata 48930616maxresident)k
+0inputs+0outputs (0major+6622890minor)pagefaults 0swaps
+++ date +%s
++ t2=1604783331
+++ date
++ echo '=== End 5/12 Sat Nov  7 21:08:51 UTC 2020 (1604783331)'
++ let dt=1604783331-1604782441
++ echo 'Waltime 5: 890'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=5+1 ))
++ (( 6<12 ))
++ let 's2=12800*6'
++ let s1=76800-12800
+++ date +%s
++ t1=1604783331
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 6/12 Sat Nov  7 21:08:52 UTC 2020 (1604783331)'
++ taskset -c 0-11 time ./ssu --mode partial --start 64000 --stop 76800 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1559.37user 166.50system 14:51.04elapsed 193%CPU (0avgtext+0avgdata 48926168maxresident)k
+0inputs+0outputs (0major+6641329minor)pagefaults 0swaps
+++ date +%s
++ t2=1604784223
+++ date
++ echo '=== End 6/12 Sat Nov  7 21:23:43 UTC 2020 (1604784223)'
++ let dt=1604784223-1604783331
++ echo 'Waltime 6: 892'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=6+1 ))
++ (( 7<12 ))
++ let 's2=12800*7'
++ let s1=89600-12800
+++ date +%s
++ t1=1604784223
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 7/12 Sat Nov  7 21:23:44 UTC 2020 (1604784223)'
++ taskset -c 0-11 time ./ssu --mode partial --start 76800 --stop 89600 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+1561.34user 163.18system 14:51.62elapsed 193%CPU (0avgtext+0avgdata 48930616maxresident)k
+0inputs+0outputs (0major+6623555minor)pagefaults 0swaps
+++ date +%s
++ t2=1604785116
+++ date
++ echo '=== End 7/12 Sat Nov  7 21:38:36 UTC 2020 (1604785116)'
++ let dt=1604785116-1604784223
++ echo 'Waltime 7: 893'
++ ls -l /dev/shm/emp2_8f.out.0
++ (( i=7+1 ))
++ (( 8<12 ))
++ let 's2=12800*8'
++ let s1=102400-12800
+++ date +%s
++ t1=1604785116
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 8/12 Sat Nov  7 21:38:37 UTC 2020 (1604785116)'
++ taskset -c 0-11 time ./ssu --mode partial --start 89600 --stop 102400 -i x_merged.withplacement_even500.biom -t archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0

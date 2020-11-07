@@ -1,0 +1,26 @@
+0eec147b47649afb7376e86cf2b931b1  x_merged.withplacement_even500.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  archive-redbiom-070920-insertion_tree.relabelled.tre
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+=== Starting 1/12 Sat Nov  7 18:31:20 UTC 2020 (1604773880)
+=== End 1/12 Sat Nov  7 18:47:24 UTC 2020 (1604774844)
+Waltime 1: 964
+-rw------- 1 centos centos 12221930137 Nov  7 18:47 /dev/shm/emp2_8f.out.0
+=== Starting 2/12 Sat Nov  7 18:47:25 UTC 2020 (1604774844)
+=== End 2/12 Sat Nov  7 19:03:29 UTC 2020 (1604775809)
+Waltime 2: 965
+-rw------- 1 centos centos 12222146228 Nov  7 19:03 /dev/shm/emp2_8f.out.0
+=== Starting 3/12 Sat Nov  7 19:03:30 UTC 2020 (1604775809)
+=== End 3/12 Sat Nov  7 19:19:35 UTC 2020 (1604776775)
+Waltime 3: 966
+-rw------- 1 centos centos 12222124835 Nov  7 19:19 /dev/shm/emp2_8f.out.0
+=== Starting 4/12 Sat Nov  7 19:19:36 UTC 2020 (1604776775)
+=== End 4/12 Sat Nov  7 19:35:42 UTC 2020 (1604777742)
+Waltime 4: 967
+-rw------- 1 centos centos 12222269613 Nov  7 19:35 /dev/shm/emp2_8f.out.0
+=== Starting 5/12 Sat Nov  7 19:35:43 UTC 2020 (1604777742)
+=== End 5/12 Sat Nov  7 19:51:46 UTC 2020 (1604778706)
+Waltime 5: 964
+-rw------- 1 centos centos 12222266953 Nov  7 19:51 /dev/shm/emp2_8f.out.0
+=== Starting 6/12 Sat Nov  7 19:51:47 UTC 2020 (1604778706)
