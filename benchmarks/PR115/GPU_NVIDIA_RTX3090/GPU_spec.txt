@@ -1,3 +1,5 @@
+# As part of a test system, using at most 2 GPUs at any time
+(base) [root@localhost GPU_NVIDIA_RTX3090]# nvidia-smi
 Thu Oct 22 08:16:25 2020       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 455.23.04    Driver Version: 455.23.04    CUDA Version: 11.1     |
