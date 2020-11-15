@@ -1,0 +1,28 @@
++ hostname
++ lscpu
++ date
++ BIOM=/home/mcdonadt/redbiom-070920/ag_emp_even500.biom
++ TREE=/home/mcdonadt/redbiom-070920/ag_emp.tre
++ md5sum /home/mcdonadt/redbiom-070920/ag_emp_even500.biom
++ md5sum /home/mcdonadt/redbiom-070920/ag_emp.tre
++ /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu --mode partial-report -i /home/mcdonadt/redbiom-070920/ag_emp_even500.biom -t /home/mcdonadt/redbiom-070920/ag_emp.tre -m weighted_normalized_fp32 -f
+
+real	0m5.643s
+user	0m4.846s
+sys	0m0.170s
++ rm -f /dev/shm/emp2_8f.out.5
+++ date +%s
++ t1=1605405649
+++ date
++ echo '=== Starting Sat Nov 14 18:00:49 PST 2020 (1605405649)'
++ taskset -c 0-15 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 0 --stop 25043 -i /home/mcdonadt/redbiom-070920/ag_emp_even500.biom -t /home/mcdonadt/redbiom-070920/ag_emp.tre -m weighted_normalized_fp32 -f -o /dev/shm/emp2_8f.out.5
+39954.01user 40.64system 43:09.91elapsed 1544%CPU (0avgtext+0avgdata 30770016maxresident)k
+102056inputs+0outputs (0major+17974650minor)pagefaults 0swaps
+++ date +%s
++ t2=1605408239
+++ date
++ echo '=== End Sat Nov 14 18:43:59 PST 2020 (1605408239)'
++ let dt=1605408239-1605405649
++ echo 'Waltime: 2590'
++ ls -l /dev/shm/emp2_8f.out.5
++ rm -f /dev/shm/emp2_8f.out.5
