@@ -1,0 +1,53 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ md5sum /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_nobloom.biom
+3c73c4d4289ce580ec3e3294c2e7fb7a  /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_nobloom.biom
++ md5sum /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
+1c286665d500455531bf8c3d13f4806c  /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
+++ date +%s
++ t1=1605323810
++ t0=1605323810
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 1/2 Fri Nov 13 19:16:50 PST 2020 (1605323810)'
+=== Starting 1/2 Fri Nov 13 19:16:50 PST 2020 (1605323810)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 0 --stop 28480 -i /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_nobloom.biom -t /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m weighted_normalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+10058.01user 502.22system 23:18.25elapsed 755%CPU (0avgtext+0avgdata 78297992maxresident)k
+272456inputs+0outputs (9major+56623712minor)pagefaults 0swaps
+++ date +%s
++ t2=1605325208
+++ date
++ echo '=== End 1/2 Fri Nov 13 19:40:08 PST 2020 (1605325208)'
+=== End 1/2 Fri Nov 13 19:40:08 PST 2020 (1605325208)
++ let dt=1605325208-1605323810
++ echo 'Waltime 1: 1398'
+Waltime 1: 1398
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12175509740 Nov 13 19:40 /dev/shm/emp2_8f.out.0
+++ date +%s
++ t1=1605325208
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 2/2 Fri Nov 13 19:40:10 PST 2020 (1605325208)'
+=== Starting 2/2 Fri Nov 13 19:40:10 PST 2020 (1605325208)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 28480 --stop 56861 -i /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_nobloom.biom -t /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m weighted_normalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+10086.04user 501.35system 23:19.43elapsed 756%CPU (0avgtext+0avgdata 78031196maxresident)k
+259288inputs+0outputs (0major+55589369minor)pagefaults 0swaps
+++ date +%s
++ t2=1605326609
+++ date
++ echo '=== End 2/2 Fri Nov 13 20:03:29 PST 2020 (1605326609)'
+=== End 2/2 Fri Nov 13 20:03:29 PST 2020 (1605326609)
++ let dt=1605326609-1605325208
++ echo 'Waltime 2: 1401'
+Waltime 2: 1401
++ echo '====== All done ======'
+====== All done ======
++ let dt=1605326609-1605323810
++ echo 'Waltime total: 2799'
+Waltime total: 2799
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12175060016 Nov 13 20:03 /dev/shm/emp2_8f.out.0
++ rm -f /dev/shm/emp2_8f.out.0

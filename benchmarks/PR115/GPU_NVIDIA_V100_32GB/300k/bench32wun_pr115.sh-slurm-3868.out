@@ -1,0 +1,319 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ BIOM=/home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
++ TREE=/home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
++ md5sum /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
+0eec147b47649afb7376e86cf2b931b1  /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
++ md5sum /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
++ ../bins.master.20200918/gpu/ssu --mode partial-report -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+++ date +%s
++ t0=1605311344
++ (( i=1 ))
++ (( 1<13 ))
++ let 's2=12000*1'
++ let s1=12000-12000
+++ date +%s
++ t1=1605311344
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 1/13 Fri Nov 13 15:49:04 PST 2020 (1605311344)'
+=== Starting 1/13 Fri Nov 13 15:49:04 PST 2020 (1605311344)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 0 --stop 12000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9728.04user 329.44system 21:56.97elapsed 763%CPU (0avgtext+0avgdata 46220640maxresident)k
+447976inputs+0outputs (0major+29487338minor)pagefaults 0swaps
+++ date +%s
++ t2=1605312661
+++ date
++ echo '=== End 1/13 Fri Nov 13 16:11:01 PST 2020 (1605312661)'
+=== End 1/13 Fri Nov 13 16:11:01 PST 2020 (1605312661)
++ let dt=1605312661-1605311344
++ echo 'Waltime 1: 1317'
+Waltime 1: 1317
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302045992 Nov 13 16:10 /dev/shm/emp2_8f.out.0
++ (( i=1+1 ))
++ (( 2<13 ))
++ let 's2=12000*2'
++ let s1=24000-12000
+++ date +%s
++ t1=1605312661
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 2/13 Fri Nov 13 16:11:02 PST 2020 (1605312661)'
+=== Starting 2/13 Fri Nov 13 16:11:02 PST 2020 (1605312661)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 12000 --stop 24000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9755.43user 328.51system 22:00.16elapsed 763%CPU (0avgtext+0avgdata 46219840maxresident)k
+447976inputs+0outputs (0major+29560599minor)pagefaults 0swaps
+++ date +%s
++ t2=1605313983
+++ date
++ echo '=== End 2/13 Fri Nov 13 16:33:03 PST 2020 (1605313983)'
+=== End 2/13 Fri Nov 13 16:33:03 PST 2020 (1605313983)
++ let dt=1605313983-1605312661
++ echo 'Waltime 2: 1322'
+Waltime 2: 1322
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302139994 Nov 13 16:33 /dev/shm/emp2_8f.out.0
++ (( i=2+1 ))
++ (( 3<13 ))
++ let 's2=12000*3'
++ let s1=36000-12000
+++ date +%s
++ t1=1605313983
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 3/13 Fri Nov 13 16:33:04 PST 2020 (1605313983)'
+=== Starting 3/13 Fri Nov 13 16:33:04 PST 2020 (1605313983)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 24000 --stop 36000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9750.36user 332.24system 22:01.43elapsed 763%CPU (0avgtext+0avgdata 46220852maxresident)k
+461144inputs+0outputs (9major+29963073minor)pagefaults 0swaps
+++ date +%s
++ t2=1605315305
+++ date
++ echo '=== End 3/13 Fri Nov 13 16:55:05 PST 2020 (1605315305)'
+=== End 3/13 Fri Nov 13 16:55:05 PST 2020 (1605315305)
++ let dt=1605315305-1605313983
++ echo 'Waltime 3: 1322'
+Waltime 3: 1322
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302116272 Nov 13 16:55 /dev/shm/emp2_8f.out.0
++ (( i=3+1 ))
++ (( 4<13 ))
++ let 's2=12000*4'
++ let s1=48000-12000
+++ date +%s
++ t1=1605315305
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 4/13 Fri Nov 13 16:55:06 PST 2020 (1605315305)'
+=== Starting 4/13 Fri Nov 13 16:55:06 PST 2020 (1605315305)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 36000 --stop 48000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9737.70user 331.61system 21:58.43elapsed 763%CPU (0avgtext+0avgdata 46220572maxresident)k
+447976inputs+0outputs (0major+29444691minor)pagefaults 0swaps
+++ date +%s
++ t2=1605316625
+++ date
++ echo '=== End 4/13 Fri Nov 13 17:17:05 PST 2020 (1605316625)'
+=== End 4/13 Fri Nov 13 17:17:05 PST 2020 (1605316625)
++ let dt=1605316625-1605315305
++ echo 'Waltime 4: 1320'
+Waltime 4: 1320
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302300838 Nov 13 17:17 /dev/shm/emp2_8f.out.0
++ (( i=4+1 ))
++ (( 5<13 ))
++ let 's2=12000*5'
++ let s1=60000-12000
+++ date +%s
++ t1=1605316625
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 5/13 Fri Nov 13 17:17:06 PST 2020 (1605316625)'
+=== Starting 5/13 Fri Nov 13 17:17:06 PST 2020 (1605316625)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 48000 --stop 60000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9744.17user 329.73system 22:07.02elapsed 759%CPU (0avgtext+0avgdata 46220376maxresident)k
+447976inputs+0outputs (0major+29318527minor)pagefaults 0swaps
+++ date +%s
++ t2=1605317953
+++ date
++ echo '=== End 5/13 Fri Nov 13 17:39:13 PST 2020 (1605317953)'
+=== End 5/13 Fri Nov 13 17:39:13 PST 2020 (1605317953)
++ let dt=1605317953-1605316625
++ echo 'Waltime 5: 1328'
+Waltime 5: 1328
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302284383 Nov 13 17:39 /dev/shm/emp2_8f.out.0
++ (( i=5+1 ))
++ (( 6<13 ))
++ let 's2=12000*6'
++ let s1=72000-12000
+++ date +%s
++ t1=1605317953
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 6/13 Fri Nov 13 17:39:14 PST 2020 (1605317953)'
+=== Starting 6/13 Fri Nov 13 17:39:14 PST 2020 (1605317953)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 60000 --stop 72000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9774.60user 320.65system 22:01.81elapsed 763%CPU (0avgtext+0avgdata 46220260maxresident)k
+447976inputs+0outputs (0major+28669872minor)pagefaults 0swaps
+++ date +%s
++ t2=1605319276
+++ date
++ echo '=== End 6/13 Fri Nov 13 18:01:16 PST 2020 (1605319276)'
+=== End 6/13 Fri Nov 13 18:01:16 PST 2020 (1605319276)
++ let dt=1605319276-1605317953
++ echo 'Waltime 6: 1323'
+Waltime 6: 1323
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302258508 Nov 13 18:01 /dev/shm/emp2_8f.out.0
++ (( i=6+1 ))
++ (( 7<13 ))
++ let 's2=12000*7'
++ let s1=84000-12000
+++ date +%s
++ t1=1605319276
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 7/13 Fri Nov 13 18:01:17 PST 2020 (1605319276)'
+=== Starting 7/13 Fri Nov 13 18:01:17 PST 2020 (1605319276)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 72000 --stop 84000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9780.18user 319.99system 22:10.29elapsed 759%CPU (0avgtext+0avgdata 46216416maxresident)k
+447976inputs+0outputs (0major+28184861minor)pagefaults 0swaps
+++ date +%s
++ t2=1605320608
+++ date
++ echo '=== End 7/13 Fri Nov 13 18:23:28 PST 2020 (1605320608)'
+=== End 7/13 Fri Nov 13 18:23:28 PST 2020 (1605320608)
++ let dt=1605320608-1605319276
++ echo 'Waltime 7: 1332'
+Waltime 7: 1332
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302193539 Nov 13 18:23 /dev/shm/emp2_8f.out.0
++ (( i=7+1 ))
++ (( 8<13 ))
++ let 's2=12000*8'
++ let s1=96000-12000
+++ date +%s
++ t1=1605320608
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 8/13 Fri Nov 13 18:23:29 PST 2020 (1605320608)'
+=== Starting 8/13 Fri Nov 13 18:23:29 PST 2020 (1605320608)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 84000 --stop 96000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9761.27user 325.39system 22:00.90elapsed 763%CPU (0avgtext+0avgdata 46220772maxresident)k
+447976inputs+0outputs (0major+28176936minor)pagefaults 0swaps
+++ date +%s
++ t2=1605321930
+++ date
++ echo '=== End 8/13 Fri Nov 13 18:45:30 PST 2020 (1605321930)'
+=== End 8/13 Fri Nov 13 18:45:30 PST 2020 (1605321930)
++ let dt=1605321930-1605320608
++ echo 'Waltime 8: 1322'
+Waltime 8: 1322
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302164480 Nov 13 18:45 /dev/shm/emp2_8f.out.0
++ (( i=8+1 ))
++ (( 9<13 ))
++ let 's2=12000*9'
++ let s1=108000-12000
+++ date +%s
++ t1=1605321930
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 9/13 Fri Nov 13 18:45:31 PST 2020 (1605321930)'
+=== Starting 9/13 Fri Nov 13 18:45:31 PST 2020 (1605321930)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 96000 --stop 108000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9763.04user 327.44system 22:01.41elapsed 763%CPU (0avgtext+0avgdata 46217884maxresident)k
+447976inputs+0outputs (0major+29556291minor)pagefaults 0swaps
+++ date +%s
++ t2=1605323252
+++ date
++ echo '=== End 9/13 Fri Nov 13 19:07:32 PST 2020 (1605323252)'
+=== End 9/13 Fri Nov 13 19:07:32 PST 2020 (1605323252)
++ let dt=1605323252-1605321930
++ echo 'Waltime 9: 1322'
+Waltime 9: 1322
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302195398 Nov 13 19:07 /dev/shm/emp2_8f.out.0
++ (( i=9+1 ))
++ (( 10<13 ))
++ let 's2=12000*10'
++ let s1=120000-12000
+++ date +%s
++ t1=1605323252
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 10/13 Fri Nov 13 19:07:34 PST 2020 (1605323252)'
+=== Starting 10/13 Fri Nov 13 19:07:34 PST 2020 (1605323252)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 108000 --stop 120000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9755.38user 331.45system 22:00.90elapsed 763%CPU (0avgtext+0avgdata 46220452maxresident)k
+447976inputs+0outputs (0major+28871041minor)pagefaults 0swaps
+++ date +%s
++ t2=1605324575
+++ date
++ echo '=== End 10/13 Fri Nov 13 19:29:35 PST 2020 (1605324575)'
+=== End 10/13 Fri Nov 13 19:29:35 PST 2020 (1605324575)
++ let dt=1605324575-1605323252
++ echo 'Waltime 10: 1323'
+Waltime 10: 1323
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302199058 Nov 13 19:29 /dev/shm/emp2_8f.out.0
++ (( i=10+1 ))
++ (( 11<13 ))
++ let 's2=12000*11'
++ let s1=132000-12000
+++ date +%s
++ t1=1605324575
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 11/13 Fri Nov 13 19:29:36 PST 2020 (1605324575)'
+=== Starting 11/13 Fri Nov 13 19:29:36 PST 2020 (1605324575)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 120000 --stop 132000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9775.65user 330.37system 22:03.78elapsed 763%CPU (0avgtext+0avgdata 46218672maxresident)k
+461144inputs+0outputs (9major+29172189minor)pagefaults 0swaps
+++ date +%s
++ t2=1605325900
+++ date
++ echo '=== End 11/13 Fri Nov 13 19:51:40 PST 2020 (1605325900)'
+=== End 11/13 Fri Nov 13 19:51:40 PST 2020 (1605325900)
++ let dt=1605325900-1605324575
++ echo 'Waltime 11: 1325'
+Waltime 11: 1325
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302179981 Nov 13 19:51 /dev/shm/emp2_8f.out.0
++ (( i=11+1 ))
++ (( 12<13 ))
++ let 's2=12000*12'
++ let s1=144000-12000
+++ date +%s
++ t1=1605325900
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 12/13 Fri Nov 13 19:51:41 PST 2020 (1605325900)'
+=== Starting 12/13 Fri Nov 13 19:51:41 PST 2020 (1605325900)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 132000 --stop 144000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+9762.16user 331.52system 22:04.82elapsed 761%CPU (0avgtext+0avgdata 46218332maxresident)k
+447976inputs+0outputs (0major+28656213minor)pagefaults 0swaps
+++ date +%s
++ t2=1605327226
+++ date
++ echo '=== End 12/13 Fri Nov 13 20:13:46 PST 2020 (1605327226)'
+=== End 12/13 Fri Nov 13 20:13:46 PST 2020 (1605327226)
++ let dt=1605327226-1605325900
++ echo 'Waltime 12: 1326'
+Waltime 12: 1326
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12302146573 Nov 13 20:13 /dev/shm/emp2_8f.out.0
++ (( i=12+1 ))
++ (( 13<13 ))
+++ date +%s
++ t1=1605327226
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 13/13 Fri Nov 13 20:13:47 PST 2020 (1605327226)'
+=== Starting 13/13 Fri Nov 13 20:13:47 PST 2020 (1605327226)
++ taskset -c 0-7 time ../bins.master.20200918/gpu/ssu --mode partial --start 144000 --stop 153619 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+10395.90user 335.28system 23:19.25elapsed 766%CPU (0avgtext+0avgdata 37610892maxresident)k
+447976inputs+0outputs (0major+17509552minor)pagefaults 0swaps
+++ date +%s
++ t2=1605328627
+++ date
++ echo '=== End 13/13 Fri Nov 13 20:37:07 PST 2020 (1605328627)'
+=== End 13/13 Fri Nov 13 20:37:07 PST 2020 (1605328627)
++ let dt=1605328627-1605327226
++ echo 'Waltime 13: 1401'
+Waltime 13: 1401
++ ls -l /dev/shm/emp2_8f.out.0
+-rw------- 1 isfiligoi games 12278426308 Nov 13 20:37 /dev/shm/emp2_8f.out.0
++ echo '====== All done ======'
+====== All done ======
++ let dt=1605328627-1605311344
++ echo 'Waltime total: 17283'
+Waltime total: 17283
++ rm -f /dev/shm/emp2_8f.out.0
