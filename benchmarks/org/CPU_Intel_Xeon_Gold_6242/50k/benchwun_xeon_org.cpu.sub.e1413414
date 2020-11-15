@@ -1,0 +1,22 @@
++ hostname
++ lscpu
++ date
++ md5sum /home/mcdonadt/redbiom-070920/ag_emp_even500.biom
++ md5sum /home/mcdonadt/redbiom-070920/ag_emp.tre
++ rm -f /dev/shm/emp2_8f.out.1
++ echo 'Computing 6400/25k'
+++ date +%s
++ t1=1605365809
+++ date
++ echo '=== Starting Sat Nov 14 06:56:49 PST 2020 (1605365809)'
++ taskset -c 0-15 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/envs/unifrac/bin/ssu -n 16 --mode partial --start 0 --stop 6400 -i /home/mcdonadt/redbiom-070920/ag_emp_even500.biom -t /home/mcdonadt/redbiom-070920/ag_emp.tre -m weighted_unnormalized -f -o /dev/shm/emp2_8f.out.1
+291459.93user 41.56system 5:07:18elapsed 1580%CPU (0avgtext+0avgdata 3711036maxresident)k
+102056inputs+0outputs (0major+59320205minor)pagefaults 0swaps
+++ date +%s
++ t2=1605384248
+++ date
++ echo '=== End Sat Nov 14 12:04:08 PST 2020 (1605384248)'
++ let dt=1605384248-1605365809
++ echo 'Waltime: 18439'
++ md5sum /dev/shm/emp2_8f.out.1
++ rm -f /dev/shm/emp2_8f.out.1
