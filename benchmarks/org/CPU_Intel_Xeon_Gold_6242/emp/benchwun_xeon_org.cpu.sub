@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-72,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+rm -f /dev/shm/emp2_8f.out.1
+
+t1=`date +%s`
+echo "=== Starting `date` ($t1)"
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/envs/unifrac/bin/ssu -n 16 --mode partial --start 0 --stop 12573 -i /home/mcdonadt/emp.90.min25.deblur.withtax.withtree.even1k.biom  -t /projects/emp/03-otus/04-deblur/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m weighted_unnormalized -f -o /dev/shm/emp2_8f.out.1
+
+t2=`date +%s`
+echo "=== End `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime: $dt"
+
+ls -l /dev/shm/emp2_8f.out.1
+md5sum /dev/shm/emp2_8f.out.1
+rm -f /dev/shm/emp2_8f.out.1
+
