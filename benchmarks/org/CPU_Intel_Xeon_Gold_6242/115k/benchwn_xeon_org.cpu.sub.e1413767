@@ -1,0 +1,19 @@
++ hostname
++ lscpu
++ date
++ rm -f /dev/shm/emp2_8f.out.0
++ echo 'Computing 1600/56k'
+++ date +%s
++ t1=1605486373
+++ date
++ echo '=== Starting Sun Nov 15 16:26:13 PST 2020 (1605486373)'
++ taskset -c 0-15 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/envs/unifrac/bin/ssu -n 16 --mode partial --start 0 --stop 1600 -i /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_nobloom.biom -t /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m weighted_normalized -f -o /dev/shm/emp2_8f.out.0
+835433.30user 482.41system 14:39:09elapsed 1584%CPU (0avgtext+0avgdata 5796604maxresident)k
+468544inputs+0outputs (20major+538684691minor)pagefaults 0swaps
+++ date +%s
++ t2=1605539122
+++ date
++ echo '=== End Mon Nov 16 07:05:22 PST 2020 (1605539122)'
++ let dt=1605539122-1605486373
++ echo 'Waltime: 52749'
++ rm -f /dev/shm/emp2_8f.out.0

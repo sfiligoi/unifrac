@@ -1,0 +1,21 @@
+#!/bin/bash -x
+#PBS -q highmem
+#PBS -l nodes=brncl-72,procs_bitmap=1111111111111111000000000000000000000000000000000000000000000000
+hostname
+lscpu
+date
+
+rm -f /dev/shm/emp2_8f.out.1
+
+echo "Computing 1600/56k"
+t1=`date +%s`
+echo "=== Starting `date` ($t1)"
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/envs/unifrac/bin/ssu -n 16 --mode partial --start 0 --stop 1600 -i /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_nobloom.biom -t /home/mcdonadt/unifrac-qiita-large/redbiom-fetch-2.14.17/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m weighted_unnormalized -f -o /dev/shm/emp2_8f.out.1
+
+t2=`date +%s`
+echo "=== End `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime: $dt"
+
+rm -f /dev/shm/emp2_8f.out.1
+
