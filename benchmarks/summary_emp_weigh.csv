@@ -1,8 +1,8 @@
 #test,runtime_mins,org_speedup,gpu_speedup
-Original_Xeon,504,1x,
-PR115_Mobile1050,24.3,20.7x,0.55x
-PR115_Xeon,13.4,38x,1x
-PR115_T4,5.5,92x,2.4x
+Original_Xeon,496,1x,
+PR115_Mobile1050,24.3,20.4x,0.55x
+PR115_Xeon,13.4,37x,1x
+PR115_T4,5.5,90x,2.4x
 PR115_RTX2080TI,2.47,200x,5.4x
 PR115_V100,2.40,210x,5.6x
 PR115_RTX8000,2.08,240x,6.4x

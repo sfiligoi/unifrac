@@ -1,0 +1,5 @@
+#test,runtime_hours,org_speedup,gpu_speedup,chunks
+Original_Xeon,525,1x,,36
+PR115_Xeon,6.8,77x,1x,1
+PR115_V100,0.78,770x,8.7x,2
+PR115_A100,0.42,1250x,16x,2
