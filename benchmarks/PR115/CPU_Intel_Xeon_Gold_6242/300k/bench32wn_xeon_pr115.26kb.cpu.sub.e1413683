@@ -1,0 +1,63 @@
++ hostname
++ lscpu
++ date
++ BIOM=/home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
++ TREE=/home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
++ md5sum /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
++ md5sum /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
++ /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu --mode partial-report -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_normalized_fp32 -f
+
+real	0m21.143s
+user	0m19.696s
+sys	0m0.677s
++ rm -f /dev/shm/emp2_8f.out.2
++ echo 'WARNING: Only processing a few slices'
+++ date +%s
++ t0=1605402200
+++ date +%s
++ t1=1605402200
+++ date
++ echo '=== Starting 2 Sat Nov 14 17:03:20 PST 2020 (1605402200)'
++ taskset -c 0-15 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 26000 --stop 52000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_normalized_fp32 -f -o /dev/shm/emp2_8f.out.2
+603316.33user 340.10system 10:40:55elapsed 1569%CPU (0avgtext+0avgdata 193958224maxresident)k
+456520inputs+0outputs (53major+158666932minor)pagefaults 0swaps
+++ date +%s
++ t2=1605440655
+++ date
++ echo '=== End 2 Sun Nov 15 03:44:15 PST 2020 (1605440655)'
++ let dt=1605440655-1605402200
++ echo 'Waltime 2: 38455'
++ ls -l /dev/shm/emp2_8f.out.2
++ rm -f /dev/shm/emp2_8f.out.2
+++ date +%s
++ t1=1605440658
+++ date
++ echo '=== Starting 3 Sun Nov 15 03:44:18 PST 2020 (1605440658)'
++ taskset -c 0-15 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 52000 --stop 78000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_normalized_fp32 -f -o /dev/shm/emp2_8f.out.2
+603412.40user 364.45system 10:50:48elapsed 1546%CPU (0avgtext+0avgdata 193955972maxresident)k
+456520inputs+0outputs (55major+189679403minor)pagefaults 0swaps
+++ date +%s
++ t2=1605479707
+++ date
++ echo '=== End 3 Sun Nov 15 14:35:07 PST 2020 (1605479707)'
++ let dt=1605479707-1605440658
++ echo 'Waltime 3: 39049'
++ ls -l /dev/shm/emp2_8f.out.2
++ rm -f /dev/shm/emp2_8f.out.2
+++ date +%s
++ t1=1605479709
+++ date
++ echo '=== Starting 4 Sun Nov 15 14:35:09 PST 2020 (1605479709)'
++ taskset -c 0-15 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 78000 --stop 104000 -i /home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom -t /home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre -m weighted_normalized_fp32 -f -o /dev/shm/emp2_8f.out.2
+602918.11user 360.64system 10:37:32elapsed 1577%CPU (0avgtext+0avgdata 193956732maxresident)k
+460984inputs+0outputs (45major+186776474minor)pagefaults 0swaps
+++ date +%s
++ t2=1605517962
+++ date
++ echo '=== End 4 Mon Nov 16 01:12:42 PST 2020 (1605517962)'
++ let dt=1605517962-1605479709
++ echo 'Waltime 4: 38253'
++ let dt=1605517962-1605402200
++ echo 'Total Waltime 2-4: 115762'
++ ls -l /dev/shm/emp2_8f.out.2
++ rm -f /dev/shm/emp2_8f.out.2

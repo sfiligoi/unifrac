@@ -1,0 +1,68 @@
+#!/bin/bash -x
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+BIOM=/home/mcdonadt/redbiom-070920/x_merged.withplacement_even500.biom
+TREE=/home/mcdonadt/redbiom-070920/archive-redbiom-070920-insertion_tree.relabelled.tre
+
+md5sum $BIOM
+md5sum $TREE
+
+time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu --mode partial-report  -i $BIOM -t $TREE -m weighted_unnormalized_fp32 -f
+
+rm -f /dev/shm/emp2_8f.out.3
+
+echo "WARNING: Only processing a few slices"
+
+t0=`date +%s`
+
+
+t1=`date +%s`
+echo "=== Starting 2 `date` ($t1)"
+#taskset -c 16-31 
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 26000 --stop 52000  -i $BIOM -t $TREE -m weighted_unnormalized_fp32 -f -o /dev/shm/emp2_8f.out.3
+
+t2=`date +%s`
+echo "=== End 2 `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime 2: $dt"
+
+ls -l /dev/shm/emp2_8f.out.3
+rm -f /dev/shm/emp2_8f.out.3
+
+
+t1=`date +%s`
+echo "=== Starting 3 `date` ($t1)"
+#taskset -c 16-31 
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 52000 --stop 78000  -i $BIOM -t $TREE -m weighted_unnormalized_fp32 -f -o /dev/shm/emp2_8f.out.3
+
+t2=`date +%s`
+echo "=== End 3 `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime 3: $dt"
+
+ls -l /dev/shm/emp2_8f.out.3
+rm -f /dev/shm/emp2_8f.out.3
+
+t1=`date +%s`
+echo "=== Starting 4 `date` ($t1)"
+#taskset -c 16-31 
+taskset -c 16-31 time /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/bins.master.20200918/xeon/ssu -n 16 --mode partial --start 78000 --stop 104000  -i $BIOM -t $TREE -m weighted_unnormalized_fp32 -f -o /dev/shm/emp2_8f.out.3
+
+t2=`date +%s`
+echo "=== End 4 `date` ($t2)"
+let dt=$t2-$t1
+echo "Waltime 4: $dt"
+
+let dt=$t2-$t0
+echo "Total Waltime 2-4: $dt"
+
+
+ls -l /dev/shm/emp2_8f.out.3
+rm -f /dev/shm/emp2_8f.out.3
+
+
+
