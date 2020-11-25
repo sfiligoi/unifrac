@@ -1,0 +1,33 @@
+# How to install a CPU-enabled version of unifrac
+
+# On Linux:
+#
+# Install https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+# And make surre it is in the path
+
+#
+# wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+# chmod a+x Anaconda3-2020.07-Linux-x86_64.sh
+# ./Anaconda3-2020.07-Linux-x86_64.sh
+# (log out and backin)
+
+
+# On MacOS:
+#
+# Install https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh
+# And make surre it is in the path
+
+#
+# curl -o Anaconda3-2020.07-MacOSX-x86_64.sh https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh
+# chmod a+x Anaconda3-2020.07-MacOSX-x86_64.sh
+# ./Anaconda3-2020.07-MacOSX-x86_64.sh
+# (close terminal and open a new one)
+
+
+#
+# We will use the unifrac environment
+#
+
+conda create --name unifrac -c conda-forge -c bioconda unifrac=0.20.1
+conda activate unifrac
+
