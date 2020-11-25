@@ -1,0 +1,36 @@
+# How to install a GPU-enabled version of unifrac
+
+# On Linux:
+#
+# Install https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+# And make surre it is in the path
+
+#
+# wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+# chmod a+x Anaconda3-2020.07-Linux-x86_64.sh
+# ./Anaconda3-2020.07-Linux-x86_64.sh
+# (log out and backin)
+
+# Note: Requires an NVIDIA GPU and recent CUDA drivers installed
+
+#
+# We will use the unifrac-nv environment
+#
+
+conda create --name unifrac-nv -c conda-forge -c bioconda unifrac=0.20.1
+conda activate unifrac-nv
+
+# save CPU version of binaries
+mv $CONDA_PREFIX/bin/ssu $CONDA_PREFIX/bin/ssu.cpu
+mv $CONDA_PREFIX/bin/faithpd $CONDA_PREFIX/bin/faithpd.cpu
+mv $CONDA_PREFIX/lib/libssu.so $CONDA_PREFIX/bin/libssu.so.cpu
+
+curl -o $CONDA_PREFIX/bin/ssu https://raw.githubusercontent.com/sfiligoi/unifrac/v0.20.1-docs/bins/linux-x86_64-cuda11.1/bin/ssu
+curl -o $CONDA_PREFIX/bin/faithpd https://raw.githubusercontent.com/sfiligoi/unifrac/v0.20.1-docs/bins/linux-x86_64-cuda11.1/bin/faithpd
+curl -o $CONDA_PREFIX/lib/libssu.so https://raw.githubusercontent.com/sfiligoi/unifrac/v0.20.1-docs/bins/linux-x86_64-cuda11.1/lib/libssu.so
+
+chmod a+x $CONDA_PREFIX/bin/ssu
+chmod a+x $CONDA_PREFIX/bin/faithpd
+chmod a+x $CONDA_PREFIX/lib/libssu.so
+
+
