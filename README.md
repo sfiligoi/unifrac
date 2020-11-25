@@ -31,9 +31,9 @@ A detailed description of the Strided State UniFrac algorithm can be found in [M
 # Install - v0.20.1
 
 To install the v0.20.1 of UniFrac, follow one of the following three paths:
-* [[CPU version, on either Linux or MacOS][docs/install_cpu.README.txt]]
-* [[GPU version for Linux, using binaries from this repo][docs/install_gpu.README.txt]]
-* [[GPU version for Linux, compiled from source][docs/compile_gpu.README.txt]]
+* [CPU version, on either Linux or MacOS](docs/install_cpu.README.txt)
+* [GPU version for Linux, using binaries from this repo](docs/install_gpu.README.txt)
+* [GPU version for Linux, compiled from source](docs/compile_gpu.README.txt)
 
 
 # Install - Generic
