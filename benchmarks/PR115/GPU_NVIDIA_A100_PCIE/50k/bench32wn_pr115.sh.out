@@ -1,0 +1,12 @@
+dc78aaebd639400a79763582eaacc9ed  /root/ag_emp_even500.biom
+11728e901be79ffc1e79f59adc0279a9  /root/ag_emp.tre
+Total samples: 50085
+Total stripes: 25043
+Partition 0, suggested start and stop: 0, 25043
+=== Starting Tue Jan  5 19:14:32 UTC 2021 (1609874072)
+=== End Tue Jan  5 19:19:26 UTC 2021 (1609874366)
+Waltime : 294
+-rw------- 1 root root 7111960550 Jan  5 19:19 /dev/shm/emp2_8f.out.0
+====== All done ======
+Waltime total: 294
+8e65bbb50318fa7c87bd4304c6bd7ef3  /dev/shm/emp2_8f.out.0
