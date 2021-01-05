@@ -1,0 +1,7 @@
+66f0c6957be53b0c19e733bcd6396d65  /root/emp.90.min25.deblur.withtax.withtree.even1k.biom
+44422c5483ee188ee6da60dc0c77a8f2  /root/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+=== Starting Tue Jan  5 18:20:55 UTC 2021 (1609870855)
+=== End Tue Jan  5 18:22:25 UTC 2021 (1609870945)
+Waltime: 90
+-rw------- 1 root root 1799612766 Jan  5 18:22 /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part
+59659b25c6fe3ea7922b26096c915dc2  /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part

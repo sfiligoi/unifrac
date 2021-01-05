@@ -1,0 +1,26 @@
+# part of PRP
+(unifrac-gpu) [root@gpu-a100-5fb6548cd8-7d964 GPU_NVIDIA_A100_PCIE]# nvidia-smi 
+Tue Jan  5 18:34:38 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A100-PCIE-40GB      Off  | 00000000:01:00.0 Off |                    0 |
+| N/A   49C    P0   176W / 250W |  25103MiB / 40537MiB |    100%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
+(unifrac-gpu) [root@gpu-a100-5fb6548cd8-7d964 GPU_NVIDIA_A100_PCIE]# cat /proc/driver/nvidia/gpus/0000\:01\:00.0/information 
+Model: 		 A100-PCIE-40GB
+IRQ:   		 203
+GPU UUID: 	 GPU-1bb4c942-08bf-da22-ce68-36513c639bef
+Video BIOS: 	 92.00.25.00.08
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:01:00.0
+Device Minor: 	 0
+Blacklisted:	 No

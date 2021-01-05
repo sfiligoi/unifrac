@@ -1,0 +1,22 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ md5sum /root/emp.90.min25.deblur.withtax.withtree.even1k.biom
++ md5sum /root/emp90.5000_1000_rxbl_placement_pruned75.tog.tre
+++ date +%s
++ t1=1609870855
+++ date
++ echo '=== Starting Tue Jan  5 18:20:55 UTC 2021 (1609870855)'
++ taskset -c 0-5 time ssu --mode partial --start 0 --stop 12573 -i /root/emp.90.min25.deblur.withtax.withtree.even1k.biom -t /root/emp90.5000_1000_rxbl_placement_pruned75.tog.tre -m weighted_unnormalized_fp32 -n 1 -f -o /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part
+87.41user 29.38system 1:29.36elapsed 130%CPU (0avgtext+0avgdata 4423672maxresident)k
+0inputs+0outputs (0major+2688600minor)pagefaults 0swaps
+++ date +%s
++ t2=1609870945
+++ date
++ echo '=== End Tue Jan  5 18:22:25 UTC 2021 (1609870945)'
++ let dt=1609870945-1609870855
++ echo 'Waltime: 90'
++ ls -l /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part
++ md5sum /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part
++ rm -f /dev/shm/emp.weighted_unnormalized_fp32.dev.gpu.part
