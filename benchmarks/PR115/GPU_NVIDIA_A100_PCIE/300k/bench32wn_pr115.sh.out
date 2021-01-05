@@ -1,0 +1,30 @@
+0eec147b47649afb7376e86cf2b931b1  /root/x_merged.withplacement_even500.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  /root/archive-redbiom-070920-insertion_tree.relabelled.tre
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+=== Starting 1/12 Tue Jan  5 21:57:59 UTC 2021 (1609883879)
+=== End 1/12 Tue Jan  5 22:15:22 UTC 2021 (1609884922)
+Waltime 1: 1043
+-rw------- 1 root root 12221930137 Jan  5 22:15 /dev/shm/emp2_8f.out.0
+=== Starting 2/12 Tue Jan  5 22:15:23 UTC 2021 (1609884922)
+=== End 2/12 Tue Jan  5 22:32:48 UTC 2021 (1609885968)
+Waltime 2: 1046
+-rw------- 1 root root 12222146228 Jan  5 22:32 /dev/shm/emp2_8f.out.0
+=== Starting 3/12 Tue Jan  5 22:32:49 UTC 2021 (1609885968)
+=== End 3/12 Tue Jan  5 22:50:33 UTC 2021 (1609887033)
+Waltime 3: 1065
+-rw------- 1 root root 12222124835 Jan  5 22:50 /dev/shm/emp2_8f.out.0
+=== Starting 4/12 Tue Jan  5 22:50:34 UTC 2021 (1609887033)
+=== End 4/12 Tue Jan  5 23:08:07 UTC 2021 (1609888087)
+Waltime 4: 1054
+-rw------- 1 root root 12222269613 Jan  5 23:08 /dev/shm/emp2_8f.out.0
+=== Starting 5/12 Tue Jan  5 23:08:08 UTC 2021 (1609888087)
+=== End 5/12 Tue Jan  5 23:25:59 UTC 2021 (1609889159)
+Waltime 5: 1072
+-rw------- 1 root root 12222266953 Jan  5 23:25 /dev/shm/emp2_8f.out.0
+=== Starting 6/12 Tue Jan  5 23:26:00 UTC 2021 (1609889159)
+=== End 6/12 Tue Jan  5 23:43:36 UTC 2021 (1609890216)
+Waltime 6: 1057
+-rw------- 1 root root 12222233793 Jan  5 23:43 /dev/shm/emp2_8f.out.0
+=== Starting 7/12 Tue Jan  5 23:43:37 UTC 2021 (1609890216)
