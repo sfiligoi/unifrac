@@ -1,0 +1,41 @@
++ export ACC_DEVICE_NUM=0
++ ACC_DEVICE_NUM=0
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ md5sum /root/merged_nosingletonsdoubletons_even500_nobloom.biom
++ md5sum /root/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre
+++ date +%s
++ t1=1609872010
++ t0=1609872010
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 1/2 Tue Jan  5 18:40:10 UTC 2021 (1609872010)'
++ taskset -c 0-7 time ssu --mode partial --start 0 --stop 28480 -i /root/merged_nosingletonsdoubletons_even500_nobloom.biom -t /root/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m weighted_normalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+752.26user 271.68system 13:04.06elapsed 130%CPU (0avgtext+0avgdata 78006784maxresident)k
+0inputs+0outputs (0major+43171986minor)pagefaults 0swaps
+++ date +%s
++ t2=1609872794
+++ date
++ echo '=== End 1/2 Tue Jan  5 18:53:14 UTC 2021 (1609872794)'
++ let dt=1609872794-1609872010
++ echo 'Waltime 1: 784'
++ ls -l /dev/shm/emp2_8f.out.0
+++ date +%s
++ t1=1609872794
++ rm -f /dev/shm/emp2_8f.out.0
+++ date
++ echo '=== Starting 2/2 Tue Jan  5 18:53:15 UTC 2021 (1609872794)'
++ taskset -c 0-7 time ssu --mode partial --start 28480 --stop 56861 -i /root/merged_nosingletonsdoubletons_even500_nobloom.biom -t /root/merged_nosingletonsdoubletons_even500_sepp_nobloom_placement.tog.tre -m weighted_normalized_fp32 -n 1 -f -o /dev/shm/emp2_8f.out.0
+761.66user 274.17system 13:11.71elapsed 130%CPU (0avgtext+0avgdata 77740852maxresident)k
+0inputs+0outputs (0major+43987336minor)pagefaults 0swaps
+++ date +%s
++ t2=1609873587
+++ date
++ echo '=== End 2/2 Tue Jan  5 19:06:27 UTC 2021 (1609873587)'
++ let dt=1609873587-1609872794
++ echo 'Waltime 2: 793'
++ echo '====== All done ======'
++ let dt=1609873587-1609872010
++ echo 'Waltime total: 1577'
++ ls -l /dev/shm/emp2_8f.out.0
++ rm -f /dev/shm/emp2_8f.out.0
