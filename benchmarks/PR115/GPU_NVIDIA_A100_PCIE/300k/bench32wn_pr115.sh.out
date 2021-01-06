@@ -28,3 +28,28 @@ Waltime 5: 1072
 Waltime 6: 1057
 -rw------- 1 root root 12222233793 Jan  5 23:43 /dev/shm/emp2_8f.out.0
 === Starting 7/12 Tue Jan  5 23:43:37 UTC 2021 (1609890216)
+=== End 7/12 Wed Jan  6 00:01:03 UTC 2021 (1609891263)
+Waltime 7: 1047
+-rw------- 1 root root 12222134164 Jan  6 00:01 /dev/shm/emp2_8f.out.0
+=== Starting 8/12 Wed Jan  6 00:01:04 UTC 2021 (1609891263)
+=== End 8/12 Wed Jan  6 00:18:46 UTC 2021 (1609892326)
+Waltime 8: 1063
+-rw------- 1 root root 12222098993 Jan  6 00:18 /dev/shm/emp2_8f.out.0
+=== Starting 9/12 Wed Jan  6 00:18:47 UTC 2021 (1609892326)
+=== End 9/12 Wed Jan  6 00:36:30 UTC 2021 (1609893390)
+Waltime 9: 1064
+-rw------- 1 root root 12222197809 Jan  6 00:36 /dev/shm/emp2_8f.out.0
+=== Starting 10/12 Wed Jan  6 00:36:31 UTC 2021 (1609893390)
+=== End 10/12 Wed Jan  6 00:53:59 UTC 2021 (1609894439)
+Waltime 10: 1049
+-rw------- 1 root root 12222175604 Jan  6 00:53 /dev/shm/emp2_8f.out.0
+=== Starting 11/12 Wed Jan  6 00:53:59 UTC 2021 (1609894439)
+=== End 11/12 Wed Jan  6 01:11:47 UTC 2021 (1609895507)
+Waltime 11: 1068
+-rw------- 1 root root 12222209385 Jan  6 01:11 /dev/shm/emp2_8f.out.0
+=== Starting 12/12 Wed Jan  6 01:11:48 UTC 2021 (1609895507)
+=== End 12/12 Wed Jan  6 01:29:45 UTC 2021 (1609896585)
+Waltime 12: 1078
+-rw------- 1 root root 12222293881 Jan  6 01:29 /dev/shm/emp2_8f.out.0
+====== All done ======
+Waltime total: 12706
