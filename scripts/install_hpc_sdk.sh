@@ -4,6 +4,8 @@
 # This is a helper script for installing the NVIDIA HPC SDK 
 # needed to compile a GPU-enabled version of unifrac.
 #
+# Note: The script currently assumes Linux_x86_64 platform.
+#
 
 # Create GCC symbolic links
 # since NVIDIA HPC SDK does not use the env variables
