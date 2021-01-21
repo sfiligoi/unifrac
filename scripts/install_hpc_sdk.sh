@@ -85,3 +85,4 @@ source $PWD/setup_scripts/setup_nv_hpc_bins.sh
 PATH=${PWD}/conda_h5:\$PATH
 EOF
 
+echo "Setup script avaiabile in $PWD/setup_nv_h5.sh"
