@@ -27,9 +27,16 @@ mkdir conda_nv_bins
 
 export PATH=$PWD/conda_nv_bins:$PATH
 
+# Install the NVIDIA HPC SDK
+
+# This link may need to be updated, as new compiler versions are released
+wget https://developer.download.nvidia.com/hpc-sdk/20.11/nvhpc_2020_2011_Linux_x86_64_cuda_11.1.tar.gz
+tar xpzf nvhpc_*.tar.gz
+rm -f nvhpc_*.tar.gz
+
 # must patch the  install scripts to find the right gcc
 sed -i -e "s#PATH=/#PATH=$PWD/conda_nv_bins:/#g" \
-  nvhpc_*/install_components/install 
+  nvhpc_*/install_components/install
 sed -i -e "s#PATH=/#PATH=$PWD/conda_nv_bins:/#g" \
   nvhpc_*/install_components/*/*/compilers/bin/makelocalrc
 sed -i -e "s#PATH=/#PATH=$PWD/conda_nv_bins:/#g" \
@@ -37,12 +44,6 @@ sed -i -e "s#PATH=/#PATH=$PWD/conda_nv_bins:/#g" \
 sed -i -e "s#PATH=/#PATH=$PWD/conda_nv_bins:/#g" \
   nvhpc_*/install_components/install_cuda
 
-# Install the NVIDIA HPC SDK
-
-# This link may need to be updated, as new compiler versions are released
-wget https://developer.download.nvidia.com/hpc-sdk/20.11/nvhpc_2020_2011_Linux_x86_64_cuda_11.1.tar.gz
-tar xpzf nvhpc_*.tar.gz
-rm -f nvhpc_*.tar.gz
 
 export NVHPC_INSTALL_DIR=$PWD/hpc_sdk
 export NVHPC_SILENT=true
