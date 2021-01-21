@@ -25,14 +25,7 @@ mkdir conda_nv_bins
     ln -s ${EXE_PREFIX}${f} ${f}; \
   done )
 
-# create helper scripts
-mkdir setup_scripts
-echo "conda activate unifrac-gpu " \
-  > setup_scripts/setup_conda_nv_bins.sh
-echo "PATH=${PWD}/conda_nv_bins:\$PATH" \
-  >> setup_scripts/setup_conda_nv_bins.sh
-
-source setup_scripts/setup_conda_nv_bins.sh
+export PATH=$PWD/conda_nv_bins:$PATH
 
 # must patch the  install scripts to find the right gcc
 sed -i -e "s#PATH=/#PATH=$PWD/conda_nv_bins:/#g" \
@@ -56,8 +49,14 @@ export NVHPC_SILENT=true
 
 (cd nvhpc_*; ./install)
 
-echo "PATH=\$PATH:`ls -d $PWD/hpc_sdk/*/202*/compilers/bin`" \
-  > setup_scripts/setup_nv_hpc_bins.sh
+# create helper scripts
+mkdir setup_scripts
+cat > setup_scripts/setup_nv_hpc_bins.sh << EOF
+PATH=\$PATH:$PWD/conda_nv_bins:`ls -d $PWD/hpc_sdk/*/202*/compilers/bin`
+
+# pgc++ does not define it, but gcc libraries expect it
+export CPPFLAGS=-D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=0
+EOF
 
 # h5c++ patch
 mkdir conda_h5
@@ -78,13 +77,8 @@ sed -i \
  conda_h5/h5c++
 
 cat > setup_nv_h5.sh  << EOF
-source $PWD/setup_scripts/setup_conda_nv_bins.sh
 source $PWD/setup_scripts/setup_nv_hpc_bins.sh
 
 PATH=${PWD}/conda_h5:\$PATH
-
-# pgc++ does not define it, but gcc libraries expect it
-export CPPFLAGS=-D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=0
-
 EOF
 
