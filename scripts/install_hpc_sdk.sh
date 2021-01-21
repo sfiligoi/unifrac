@@ -13,7 +13,7 @@ if [ "x${GCC}" == "x" ]; then
 fi
 
 # usually $CONDA_PREFIX/bin/x86_64-conda_cos6-linux-gnu-
-EXE_PREFIX=${GCC%%*(gcc)}
+EXE_PREFIX=`echo "$GCC" |sed 's/gcc$//g'`
 
 echo "GCC pointing to ${EXE_PREFIX}gcc"
 ls -l ${EXE_PREFIX}gcc
