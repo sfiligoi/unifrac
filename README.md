@@ -28,7 +28,16 @@ A detailed description of the Strided State UniFrac algorithm can be found in [M
     For Faith's PD, please see:
         Faith Biological Conservation 1992; DOI: 10.1016/0006-3207(92)91201-3
 
-# Install
+# Install - v0.20.2
+
+To install the v0.20.2 of UniFrac, follow one of the following four paths:
+* Generic CPU version, follow the instructions in the next section
+* [Optimized CPU version, compiled from source on either Linux or MacOS](docs/compile_cpu.README.md)
+* [GPU version for Linux, using binaries from this repo](docs/install_gpu.README.md)
+* [Optimized GPU version for Linux, compiled from source](docs/compile_gpu.README.md)
+
+
+# Install - Generic
 
 At this time, there are three primary ways to install the library. The first is through QIIME2, the second is through `bioconda`, and the third is via `pip`. It is also possible to clone the repository and install the C++ API with `sucpp/Makefile` or python bindings with `setup.py`. 
 
