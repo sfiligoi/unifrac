@@ -41,7 +41,7 @@ Let's first save the original binaries:
 # save CPU version of binaries
 mv $CONDA_PREFIX/bin/ssu $CONDA_PREFIX/bin/ssu.cpu
 mv $CONDA_PREFIX/bin/faithpd $CONDA_PREFIX/bin/faithpd.cpu
-mv $CONDA_PREFIX/lib/libssu.so $CONDA_PREFIX/bin/libssu.so.cpu
+mv $CONDA_PREFIX/lib/libssu.so $CONDA_PREFIX/lib/libssu.so.cpu
 ```
 
 Now put the GPU-enabled ones in place, and make sure they are executable:
