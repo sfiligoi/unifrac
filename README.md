@@ -45,7 +45,7 @@ The easiest way to use this library is through [QIIME2](https://docs.qiime2.org/
 This library can also be installed via a combination of `conda-forge` and `bioconda`:
 
 ```
-conda install -c conda-forge -c bioconda unifrac
+conda create --name unifrac -c conda-forge -c bioconda unifrac
 ```
 
 Note: Only the CPU version of the binaries is currently available in conda. 
