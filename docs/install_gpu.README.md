@@ -1,6 +1,7 @@
 # How to install a GPU-enabled version of unifrac
 
 Note: The GPU-enabled version is currenlty only supported on Linux systems.
+
 One can however run on Windows systems, too, using [CUDA-enabled WSL2](https://docs.nvidia.com/cuda/wsl-user-guide/index.html).
 
 
@@ -8,7 +9,7 @@ One can however run on Windows systems, too, using [CUDA-enabled WSL2](https://d
 
 Install the production unifrac using [Anaconda](https://www.anaconda.com/products/individual).
 
-The instructions below has been tested with version [2020.11](https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh).
+The instructions below have been tested with version [2020.11](https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh).
 
 In case you have never used Anaconda below, here are the installation instruction:
 
