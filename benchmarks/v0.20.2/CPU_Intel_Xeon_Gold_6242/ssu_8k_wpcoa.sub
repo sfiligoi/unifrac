@@ -1,0 +1,83 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+export OMP_NUM_THREADS=16
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/benchmarks/ssu
+source ../../setup_conda.source
+conda activate unifrac
+
+md5sum unifrac_8192.biom
+md5sum unifrac_8192.tre
+
+echo "===="
+ssu -i unifrac_8192.biom -t unifrac_8192.tre -m unweighted -o /dev/shm/unifrac.h2.tmp --mode partial-report
+echo "=== unweighted 4k/8k ==="
+rm -fr /dev/shm/unifrac.h2.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_uw.hd5
+echo "=== unweighted time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted -f -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_uw_f.hd5
+echo "=== unweighted -f time: $dt ==="
+
+echo "=== unweighted fp32 4k/8k ==="
+rm -fr /dev/shm/unifrac.h2.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted_fp32 -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_uw32.hd5
+echo "=== unweighted fp32 time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted_fp32 -f -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_uw32_f.hd5
+echo "=== unweighted fp32 -f time: $dt ==="
+
+echo "=== weighted_normalized 4k/8k ==="
+rm -fr /dev/shm/unifrac.h2.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_wn.hd5
+echo "=== weighted_normalized time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized -f -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_wn_f.hd5
+echo "=== weighted_normalized -f time: $dt ==="
+
+
+echo "=== weighted_normalized fp32 4k/8k ==="
+rm -fr /dev/shm/unifrac.h2.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized_fp32 -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_wn32.hd5
+echo "=== weighted_normalized fp32 time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized_fp32 -f -i unifrac_8192.biom -t unifrac_8192.tre -o /dev/shm/unifrac.h2.tmp --format hdf5 --pcoa 10
+t2=`date +%s`
+let dt=t2-t1
+mv /dev/shm/unifrac.h2.tmp unifrac_8192_wn32_f.hd5
+echo "=== weighted_normalized fp32 -f time: $dt ==="
+

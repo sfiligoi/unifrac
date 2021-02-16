@@ -1,0 +1,90 @@
+brncl-34.ucsd.edu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               800.000
+CPU max MHz:           2101.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Mon Feb 15 14:38:10 PST 2021
+Mon Feb 15 14:38:13 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   54C    P0    39W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   56C    P0    39W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   51C    P0    37W / 250W |      0MiB / 32510MiB |      4%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+8e95890585f3a9e0ce096368d9b87cc0  unifrac_65536.biom
+d06a2861024a811db82ea6055daf757d  unifrac_65536.tre
+====
+Total samples: 65536
+Total stripes: 32768
+Partition 0, suggested start and stop: 0, 32768
+=== unweighted 32k/64k ===
+547.03user 113.04system 5:49.78elapsed 188%CPU (0avgtext+0avgdata 52222640maxresident)k
+138072inputs+0outputs (0major+18772609minor)pagefaults 0swaps
+=== unweighted time: 350 ===
+388.72user 79.76system 4:00.67elapsed 194%CPU (0avgtext+0avgdata 52222184maxresident)k
+138072inputs+0outputs (0major+17212668minor)pagefaults 0swaps
+=== unweighted -f time: 240 ===
+=== unweighted fp32 32k/64k ===
+385.32user 106.38system 6:03.87elapsed 135%CPU (0avgtext+0avgdata 52190808maxresident)k
+138072inputs+0outputs (0major+17697353minor)pagefaults 0swaps
+=== unweighted fp32 time: 364 ===
+272.52user 73.22system 4:23.94elapsed 130%CPU (0avgtext+0avgdata 52188644maxresident)k
+138072inputs+0outputs (0major+15558410minor)pagefaults 0swaps
+=== unweighted fp32 -f time: 264 ===
+=== weighted_normalized 32k/64k ===
+1933.90user 469.52system 25:29.14elapsed 157%CPU (0avgtext+0avgdata 52308796maxresident)k
+138072inputs+0outputs (0major+33942572minor)pagefaults 0swaps
+=== weighted_normalized time: 1529 ===
+1301.83user 352.92system 18:40.64elapsed 147%CPU (0avgtext+0avgdata 52305320maxresident)k
+138072inputs+0outputs (0major+33632747minor)pagefaults 0swaps
+=== weighted_normalized -f time: 1120 ===
+=== weighted_normalized fp32 32k/64k ===
+1199.94user 386.44system 21:02.09elapsed 125%CPU (0avgtext+0avgdata 52211332maxresident)k
+138072inputs+0outputs (0major+29273380minor)pagefaults 0swaps
+=== weighted_normalized fp32 time: 1262 ===
+850.62user 280.84system 15:33.59elapsed 121%CPU (0avgtext+0avgdata 52213688maxresident)k
+162056inputs+0outputs (14major+20783382minor)pagefaults 0swaps
+=== weighted_normalized fp32 -f time: 934 ===
