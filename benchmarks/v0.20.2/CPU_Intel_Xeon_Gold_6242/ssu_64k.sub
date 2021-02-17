@@ -1,0 +1,83 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+export OMP_NUM_THREADS=16
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/benchmarks/ssu
+source ../../setup_conda.source
+conda activate unifrac
+
+md5sum unifrac_65536.biom
+md5sum unifrac_65536.tre
+
+echo "===="
+ssu -i unifrac_65536.biom -t unifrac_65536.tre -m unweighted -o /dev/shm/unifrac.tmp --mode partial-report
+echo "=== unweighted 32k/64k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted -f -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted -f time: $dt ==="
+
+echo "=== unweighted fp32 32k/64k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted_fp32 -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted fp32 time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m unweighted_fp32 -f -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted fp32 -f time: $dt ==="
+
+echo "=== weighted_normalized 32k/64k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized -f -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized -f time: $dt ==="
+
+
+echo "=== weighted_normalized fp32 32k/64k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized_fp32 -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized fp32 time: $dt ==="
+
+t1=`date +%s`
+taskset -c 16-31 time ssu -m weighted_normalized_fp32 -f -i unifrac_65536.biom -t unifrac_65536.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 32768
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized fp32 -f time: $dt ==="
+
