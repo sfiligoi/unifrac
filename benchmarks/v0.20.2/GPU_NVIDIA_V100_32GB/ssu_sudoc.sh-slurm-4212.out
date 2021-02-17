@@ -1,0 +1,138 @@
+brncl-34.ucsd.edu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               800.000
+CPU max MHz:           2101.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Tue Feb 16 21:04:55 PST 2021
+Tue Feb 16 21:04:58 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   47C    P0    37W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   57C    P0    40W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   53C    P0    38W / 250W |      0MiB / 32510MiB |      4%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+3c73c4d4289ce580ec3e3294c2e7fb7a  sudoc_113k.biom
+1c286665d500455531bf8c3d13f4806c  sudoc_113k.tre
+====
+Total samples: 113721
+Total stripes: 56861
+Partition 0, suggested start and stop: 0, 56861
+=== unweighted SUDoc 56k/113k ===
+675.86user 87.62system 5:20.90elapsed 237%CPU (0avgtext+0avgdata 40768828maxresident)k
+259288inputs+0outputs (0major+11164648minor)pagefaults 0swaps
+677.42user 90.72system 5:27.41elapsed 234%CPU (0avgtext+0avgdata 40768924maxresident)k
+259288inputs+0outputs (0major+9788459minor)pagefaults 0swaps
+670.18user 89.73system 5:27.29elapsed 232%CPU (0avgtext+0avgdata 40768872maxresident)k
+259288inputs+0outputs (0major+9961967minor)pagefaults 0swaps
+668.33user 89.45system 5:26.86elapsed 231%CPU (0avgtext+0avgdata 40922312maxresident)k
+259288inputs+0outputs (0major+8806443minor)pagefaults 0swaps
+736.25user 113.26system 6:33.40elapsed 215%CPU (0avgtext+0avgdata 48837264maxresident)k
+259288inputs+0outputs (0major+12700607minor)pagefaults 0swaps
+=== unweighted time: 1700 ===
+476.86user 53.60system 3:27.45elapsed 255%CPU (0avgtext+0avgdata 40769092maxresident)k
+259288inputs+0outputs (0major+7401705minor)pagefaults 0swaps
+484.71user 56.28system 3:29.71elapsed 257%CPU (0avgtext+0avgdata 40767072maxresident)k
+259288inputs+0outputs (0major+12032739minor)pagefaults 0swaps
+477.32user 53.59system 3:29.48elapsed 253%CPU (0avgtext+0avgdata 40770808maxresident)k
+259288inputs+0outputs (0major+9656019minor)pagefaults 0swaps
+475.79user 54.31system 3:28.52elapsed 254%CPU (0avgtext+0avgdata 40924436maxresident)k
+259288inputs+0outputs (0major+8443128minor)pagefaults 0swaps
+512.03user 68.78system 4:10.30elapsed 232%CPU (0avgtext+0avgdata 48835424maxresident)k
+299000inputs+0outputs (25major+10071022minor)pagefaults 0swaps
+=== unweighted -f time: 1090 ===
+=== unweighted fp32 SUDoc 56k/113k ===
+762.94user 151.41system 9:04.13elapsed 168%CPU (0avgtext+0avgdata 60425756maxresident)k
+259288inputs+0outputs (0major+24623698minor)pagefaults 0swaps
+762.87user 149.93system 9:03.64elapsed 167%CPU (0avgtext+0avgdata 60425340maxresident)k
+259288inputs+0outputs (0major+22579196minor)pagefaults 0swaps
+630.66user 98.57system 6:15.96elapsed 193%CPU (0avgtext+0avgdata 37106048maxresident)k
+259288inputs+0outputs (0major+10731196minor)pagefaults 0swaps
+=== unweighted fp32 time: 1466 ===
+517.87user 95.69system 6:05.09elapsed 168%CPU (0avgtext+0avgdata 60425204maxresident)k
+259288inputs+0outputs (0major+20778799minor)pagefaults 0swaps
+513.64user 100.15system 6:05.52elapsed 167%CPU (0avgtext+0avgdata 60425332maxresident)k
+259288inputs+0outputs (0major+20918053minor)pagefaults 0swaps
+422.91user 60.08system 4:11.52elapsed 192%CPU (0avgtext+0avgdata 37107728maxresident)k
+259288inputs+0outputs (0major+8600548minor)pagefaults 0swaps
+=== unweighted fp32 -f time: 985 ===
+=== weighted_normalized SUDoc 56k/113k ===
+1836.92user 367.97system 22:49.04elapsed 161%CPU (0avgtext+0avgdata 40911452maxresident)k
+259288inputs+0outputs (0major+11594200minor)pagefaults 0swaps
+1844.55user 358.93system 22:48.43elapsed 161%CPU (0avgtext+0avgdata 40913452maxresident)k
+259288inputs+0outputs (0major+11108196minor)pagefaults 0swaps
+1849.20user 358.98system 22:47.11elapsed 161%CPU (0avgtext+0avgdata 40903480maxresident)k
+259288inputs+0outputs (0major+11597087minor)pagefaults 0swaps
+1840.38user 359.99system 22:50.74elapsed 160%CPU (0avgtext+0avgdata 41078672maxresident)k
+259288inputs+0outputs (0major+11539789minor)pagefaults 0swaps
+2095.30user 454.77system 27:40.29elapsed 153%CPU (0avgtext+0avgdata 48975704maxresident)k
+259288inputs+0outputs (0major+22664180minor)pagefaults 0swaps
+=== weighted_normalized time: 7140 ===
+1217.61user 285.00system 16:30.01elapsed 151%CPU (0avgtext+0avgdata 40907604maxresident)k
+299000inputs+0outputs (25major+11489580minor)pagefaults 0swaps
+1216.16user 282.27system 16:28.64elapsed 151%CPU (0avgtext+0avgdata 40907456maxresident)k
+259288inputs+0outputs (0major+11248785minor)pagefaults 0swaps
+1213.37user 284.54system 16:28.07elapsed 151%CPU (0avgtext+0avgdata 40909720maxresident)k
+259288inputs+0outputs (0major+11215230minor)pagefaults 0swaps
+1223.66user 281.32system 16:30.87elapsed 151%CPU (0avgtext+0avgdata 41062872maxresident)k
+259288inputs+0outputs (0major+11074743minor)pagefaults 0swaps
+1444.04user 351.52system 20:10.24elapsed 148%CPU (0avgtext+0avgdata 48977340maxresident)k
+259288inputs+0outputs (0major+19637953minor)pagefaults 0swaps
+=== weighted_normalized -f time: 5172 ===
+=== weighted_normalized fp32 SUDoc 56k/113k ===
+2035.67user 607.81system 31:50.59elapsed 138%CPU (0avgtext+0avgdata 60466592maxresident)k
+259288inputs+0outputs (0major+36166252minor)pagefaults 0swaps
+2056.18user 591.39system 31:51.32elapsed 138%CPU (0avgtext+0avgdata 60466552maxresident)k
+259288inputs+0outputs (0major+35956120minor)pagefaults 0swaps
+1564.69user 376.48system 21:26.63elapsed 150%CPU (0avgtext+0avgdata 37148760maxresident)k
+259288inputs+0outputs (0major+13522414minor)pagefaults 0swaps
+=== weighted_normalized fp32 time: 5111 ===
+1442.03user 425.01system 23:37.83elapsed 131%CPU (0avgtext+0avgdata 60469908maxresident)k
+299000inputs+0outputs (25major+34610125minor)pagefaults 0swaps
+1430.57user 437.40system 23:35.59elapsed 131%CPU (0avgtext+0avgdata 60468304maxresident)k
+259288inputs+0outputs (0major+33347323minor)pagefaults 0swaps
+1079.93user 281.92system 15:47.83elapsed 143%CPU (0avgtext+0avgdata 37146928maxresident)k
+259288inputs+0outputs (0major+14273864minor)pagefaults 0swaps
+=== weighted_normalized fp32 -f time: 3889 ===
