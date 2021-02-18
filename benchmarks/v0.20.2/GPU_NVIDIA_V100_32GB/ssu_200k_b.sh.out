@@ -81,3 +81,40 @@ Wed Feb 17 15:19:58 PST 2021 ssu --start 93750 --stop 100000
 Wed Feb 17 15:47:14 PST 2021 ssu --start 0 --stop 6250
 Wed Feb 17 16:05:47 PST 2021 ssu --start 6250 --stop 12500
 Wed Feb 17 16:24:35 PST 2021 ssu --start 12500 --stop 18750
+Wed Feb 17 16:43:22 PST 2021 ssu --start 18750 --stop 25000
+Wed Feb 17 17:01:56 PST 2021 ssu --start 25000 --stop 31250
+Wed Feb 17 17:20:38 PST 2021 ssu --start 31250 --stop 37500
+Wed Feb 17 17:39:17 PST 2021 ssu --start 37500 --stop 43750
+Wed Feb 17 17:57:48 PST 2021 ssu --start 43750 --stop 50000
+Wed Feb 17 18:16:31 PST 2021 ssu --start 50000 --stop 56250
+Wed Feb 17 18:35:16 PST 2021 ssu --start 56250 --stop 62500
+Wed Feb 17 18:53:58 PST 2021 ssu --start 62500 --stop 68750
+Wed Feb 17 19:12:37 PST 2021 ssu --start 68750 --stop 75000
+Wed Feb 17 19:31:13 PST 2021 ssu --start 75000 --stop 81250
+Wed Feb 17 19:49:51 PST 2021 ssu --start 81250 --stop 87500
+Wed Feb 17 20:08:28 PST 2021 ssu --start 87500 --stop 93750
+Wed Feb 17 20:27:06 PST 2021 ssu --start 93750 --stop 100000
+=== weighted_normalized -f time: 17910 ===
+=== unweighted fp32 100k/200k ===
+Wed Feb 17 20:45:44 PST 2021 ssu --start 0 --stop 10000
+Wed Feb 17 20:55:21 PST 2021 ssu --start 10000 --stop 20000
+Wed Feb 17 21:04:56 PST 2021 ssu --start 20000 --stop 30000
+Wed Feb 17 21:14:32 PST 2021 ssu --start 30000 --stop 40000
+Wed Feb 17 21:24:05 PST 2021 ssu --start 40000 --stop 50000
+Wed Feb 17 21:33:42 PST 2021 ssu --start 50000 --stop 60000
+Wed Feb 17 21:43:19 PST 2021 ssu --start 60000 --stop 70000
+Wed Feb 17 21:52:55 PST 2021 ssu --start 70000 --stop 80000
+Wed Feb 17 22:02:29 PST 2021 ssu --start 80000 --stop 90000
+Wed Feb 17 22:12:06 PST 2021 ssu --start 90000 --stop 100000
+=== unweighted fp32 time: 5759 ===
+Wed Feb 17 22:21:43 PST 2021 ssu --start 0 --stop 10000
+Wed Feb 17 22:27:57 PST 2021 ssu --start 10000 --stop 20000
+Wed Feb 17 22:34:17 PST 2021 ssu --start 20000 --stop 30000
+Wed Feb 17 22:40:34 PST 2021 ssu --start 30000 --stop 40000
+Wed Feb 17 22:46:47 PST 2021 ssu --start 40000 --stop 50000
+Wed Feb 17 22:53:05 PST 2021 ssu --start 50000 --stop 60000
+Wed Feb 17 22:59:22 PST 2021 ssu --start 60000 --stop 70000
+Wed Feb 17 23:05:36 PST 2021 ssu --start 70000 --stop 80000
+Wed Feb 17 23:11:54 PST 2021 ssu --start 80000 --stop 90000
+Wed Feb 17 23:18:09 PST 2021 ssu --start 90000 --stop 100000
+=== unweighted fp32 -f time: 3763 ===
