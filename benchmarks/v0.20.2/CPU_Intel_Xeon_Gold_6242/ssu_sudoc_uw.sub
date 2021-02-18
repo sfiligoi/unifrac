@@ -16,7 +16,7 @@ md5sum sudoc_113k.tre
 
 echo "===="
 ssu -i sudoc_113k.biom -t sudoc_113k.tre -m unweighted -o /dev/shm/unifrac.tmp --mode partial-report
-echo "=== unweighted 2.5k/5k ==="
+echo "=== unweighted SUDoc 56k/113k ==="
 rm -fr /dev/shm/unifrac.tmp
 t1=`date +%s`
 taskset -c 16-31 time ssu -m unweighted -i sudoc_113k.biom -t sudoc_113k.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 10912
@@ -48,7 +48,7 @@ let dt=t2-t1
 rm -fr /dev/shm/unifrac.tmp
 echo "=== unweighted -f time: $dt ==="
 
-echo "=== unweighted fp32 2.5k/5k ==="
+echo "=== unweighted fp32 SUDoc 56k/113k ==="
 rm -fr /dev/shm/unifrac.tmp
 t1=`date +%s`
 taskset -c 16-31 time ssu -m unweighted_fp32 -i sudoc_113k.biom -t sudoc_113k.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 21846
