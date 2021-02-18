@@ -65,3 +65,10 @@ Wed Feb 17 23:54:52 UTC 2021 ssu --start 87500 --stop 100000
 === weighted_normalized fp32 time: 9595 ===
 Thu Feb 18 00:14:49 UTC 2021 ssu --start 0 --stop 12500
 Thu Feb 18 00:29:23 UTC 2021 ssu --start 12500 --stop 25000
+Thu Feb 18 00:44:01 UTC 2021 ssu --start 25000 --stop 37500
+Thu Feb 18 00:58:45 UTC 2021 ssu --start 37500 --stop 50000
+Thu Feb 18 01:13:30 UTC 2021 ssu --start 50000 --stop 62500
+Thu Feb 18 01:28:26 UTC 2021 ssu --start 62500 --stop 75000
+Thu Feb 18 01:43:19 UTC 2021 ssu --start 75000 --stop 87500
+Thu Feb 18 01:58:05 UTC 2021 ssu --start 87500 --stop 100000
+=== weighted_normalized fp32 -f time: 7087 ===
