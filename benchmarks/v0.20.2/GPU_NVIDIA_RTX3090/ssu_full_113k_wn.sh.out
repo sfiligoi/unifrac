@@ -80,3 +80,29 @@ Thu Feb 18 21:09:00 UTC 2021 ssu --start 140800 --stop 147200
 Thu Feb 18 21:25:48 UTC 2021 ssu --start 147200 --stop 153600
 Thu Feb 18 21:42:39 UTC 2021 ssu --start 153600 --stop 153619
 === weighted_normalized fp32 -f time: 24489 ===
+Thu Feb 18 21:48:13 UTC 2021 ssu --start 0 --stop 6400
+Thu Feb 18 22:11:44 UTC 2021 ssu --start 6400 --stop 12800
+Thu Feb 18 22:35:16 UTC 2021 ssu --start 12800 --stop 19200
+Thu Feb 18 22:58:51 UTC 2021 ssu --start 19200 --stop 25600
+Thu Feb 18 23:22:32 UTC 2021 ssu --start 25600 --stop 32000
+Thu Feb 18 23:46:13 UTC 2021 ssu --start 32000 --stop 38400
+Fri Feb 19 00:09:58 UTC 2021 ssu --start 38400 --stop 44800
+Fri Feb 19 00:33:35 UTC 2021 ssu --start 44800 --stop 51200
+Fri Feb 19 00:57:20 UTC 2021 ssu --start 51200 --stop 57600
+Fri Feb 19 01:21:03 UTC 2021 ssu --start 57600 --stop 64000
+Fri Feb 19 01:44:50 UTC 2021 ssu --start 64000 --stop 70400
+Fri Feb 19 02:08:28 UTC 2021 ssu --start 70400 --stop 76800
+Fri Feb 19 02:32:10 UTC 2021 ssu --start 76800 --stop 83200
+Fri Feb 19 02:55:52 UTC 2021 ssu --start 83200 --stop 89600
+Fri Feb 19 03:19:27 UTC 2021 ssu --start 89600 --stop 96000
+Fri Feb 19 03:42:59 UTC 2021 ssu --start 96000 --stop 102400
+Fri Feb 19 04:06:27 UTC 2021 ssu --start 102400 --stop 108800
+Fri Feb 19 04:30:03 UTC 2021 ssu --start 108800 --stop 115200
+Fri Feb 19 04:53:30 UTC 2021 ssu --start 115200 --stop 121600
+Fri Feb 19 05:16:47 UTC 2021 ssu --start 121600 --stop 128000
+Fri Feb 19 05:40:03 UTC 2021 ssu --start 128000 --stop 134400
+Fri Feb 19 06:03:23 UTC 2021 ssu --start 134400 --stop 140800
+Fri Feb 19 06:26:53 UTC 2021 ssu --start 140800 --stop 147200
+Fri Feb 19 06:50:25 UTC 2021 ssu --start 147200 --stop 153600
+Fri Feb 19 07:13:45 UTC 2021 ssu --start 153600 --stop 153619
+=== weighted_normalized fp32 time: 34529 ===
