@@ -83,3 +83,15 @@ Thu Feb 18 23:35:54 PST 2021 ssu --start 90000 --stop 95000
 Fri Feb 19 00:26:59 PST 2021 ssu --start 95000 --stop 100000
 Fri Feb 19 01:17:35 PST 2021 ssu --start 100000 --stop 105000
 Fri Feb 19 02:09:04 PST 2021 ssu --start 105000 --stop 110000
+Fri Feb 19 03:01:31 PST 2021 ssu --start 110000 --stop 115000
+Fri Feb 19 03:54:38 PST 2021 ssu --start 115000 --stop 120000
+Fri Feb 19 04:45:45 PST 2021 ssu --start 120000 --stop 125000
+Fri Feb 19 05:37:30 PST 2021 ssu --start 125000 --stop 130000
+Fri Feb 19 06:29:45 PST 2021 ssu --start 130000 --stop 135000
+Fri Feb 19 07:18:36 PST 2021 ssu --start 135000 --stop 140000
+Fri Feb 19 08:09:07 PST 2021 ssu --start 140000 --stop 145000
+Fri Feb 19 09:01:08 PST 2021 ssu --start 145000 --stop 150000
+Fri Feb 19 09:52:37 PST 2021 ssu --start 150000 --stop 153619
+=== weighted_normalized time: 92373 ===
+Fri Feb 19 10:32:56 PST 2021 ssu --start 0 --stop 5000
+Fri Feb 19 11:07:54 PST 2021 ssu --start 5000 --stop 10000

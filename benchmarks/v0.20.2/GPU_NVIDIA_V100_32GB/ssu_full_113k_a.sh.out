@@ -140,3 +140,18 @@ Fri Feb 19 00:27:46 PST 2021 ssu --start 80000 --stop 88000
 Fri Feb 19 01:09:19 PST 2021 ssu --start 88000 --stop 96000
 Fri Feb 19 01:54:42 PST 2021 ssu --start 96000 --stop 104000
 Fri Feb 19 02:39:43 PST 2021 ssu --start 104000 --stop 112000
+Fri Feb 19 03:24:17 PST 2021 ssu --start 112000 --stop 120000
+Fri Feb 19 04:08:52 PST 2021 ssu --start 120000 --stop 128000
+Fri Feb 19 04:53:32 PST 2021 ssu --start 128000 --stop 136000
+Fri Feb 19 05:34:04 PST 2021 ssu --start 136000 --stop 144000
+Fri Feb 19 06:19:35 PST 2021 ssu --start 144000 --stop 152000
+Fri Feb 19 07:03:57 PST 2021 ssu --start 152000 --stop 153619
+=== weighted_normalized fp32 time: 51035 ===
+Fri Feb 19 07:20:35 PST 2021 ssu --start 0 --stop 8000
+Fri Feb 19 07:50:24 PST 2021 ssu --start 8000 --stop 16000
+Fri Feb 19 08:23:35 PST 2021 ssu --start 16000 --stop 24000
+Fri Feb 19 08:52:57 PST 2021 ssu --start 24000 --stop 32000
+Fri Feb 19 09:26:16 PST 2021 ssu --start 32000 --stop 40000
+Fri Feb 19 09:55:39 PST 2021 ssu --start 40000 --stop 48000
+Fri Feb 19 10:24:46 PST 2021 ssu --start 48000 --stop 56000
+Fri Feb 19 10:58:23 PST 2021 ssu --start 56000 --stop 64000
