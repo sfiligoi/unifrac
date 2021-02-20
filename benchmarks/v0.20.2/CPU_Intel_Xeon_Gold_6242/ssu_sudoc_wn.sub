@@ -16,7 +16,7 @@ md5sum sudoc_113k.tre
 
 echo "===="
 ssu -i sudoc_113k.biom -t sudoc_113k.tre -m weighted_normalized -o /dev/shm/unifrac.tmp --mode partial-report
-echo "=== weighted_normalized 2.5k/5k ==="
+echo "=== weighted_normalized SUDoc 56k/113k ==="
 rm -fr /dev/shm/unifrac.tmp
 t1=`date +%s`
 taskset -c 16-31 time ssu -m weighted_normalized -i sudoc_113k.biom -t sudoc_113k.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 10912
@@ -48,7 +48,7 @@ let dt=t2-t1
 rm -fr /dev/shm/unifrac.tmp
 echo "=== weighted_normalized -f time: $dt ==="
 
-echo "=== weighted_normalized fp32 2.5k/5k ==="
+echo "=== weighted_normalized fp32 SUDoc 56k/113k ==="
 rm -fr /dev/shm/unifrac.tmp
 t1=`date +%s`
 taskset -c 16-31 time ssu -m weighted_normalized_fp32 -i sudoc_113k.biom -t sudoc_113k.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 21846

@@ -32,9 +32,9 @@ Thu Feb 18 07:12:23 PST 2021
 Total samples: 113721
 Total stripes: 56861
 Partition 0, suggested start and stop: 0, 56861
-=== weighted_normalized 2.5k/5k ===
+=== weighted_normalized SUDoc 56k/113k ===
 === weighted_normalized time: 39341 ===
 === weighted_normalized -f time: 25950 ===
-=== weighted_normalized fp32 2.5k/5k ===
+=== weighted_normalized fp32 SUDoc 56k/113k ===
 === weighted_normalized fp32 time: 36552 ===
 === weighted_normalized fp32 -f time: 23617 ===
