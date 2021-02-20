@@ -93,5 +93,3 @@ Fri Feb 19 08:09:07 PST 2021 ssu --start 140000 --stop 145000
 Fri Feb 19 09:01:08 PST 2021 ssu --start 145000 --stop 150000
 Fri Feb 19 09:52:37 PST 2021 ssu --start 150000 --stop 153619
 === weighted_normalized time: 92373 ===
-Fri Feb 19 10:32:56 PST 2021 ssu --start 0 --stop 5000
-Fri Feb 19 11:07:54 PST 2021 ssu --start 5000 --stop 10000
