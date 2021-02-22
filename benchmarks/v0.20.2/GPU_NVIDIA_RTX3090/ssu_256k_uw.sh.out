@@ -1,0 +1,140 @@
+gpu-3090-59897dcb6-fh6hj
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7282 16-Core Processor
+Stepping:              0
+CPU MHz:               2765.006
+CPU max MHz:           2800.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              5600.02
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-15,32-47
+NUMA node1 CPU(s):     16-31,48-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Sun Feb 21 05:09:33 UTC 2021
+Sun Feb 21 05:09:33 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 3090    Off  | 00000000:01:00.0 Off |                  N/A |
+| 33%   36C    P8    18W / 350W |      0MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+b6a6a8d7cbab310f963433fbea755f32  unifrac_262144.biom
+43d1f4ad2635e0dafc4ae39fe5b67187  unifrac_262144.tre
+====
+Total samples: 262144
+Total stripes: 131072
+Partition 0, suggested start and stop: 0, 131072
+=== unweighted 128k/256k ===
+Sun Feb 21 05:10:00 UTC 2021 ssu --start 0 --stop 5462
+Sun Feb 21 05:20:28 UTC 2021 ssu --start 5462 --stop 10924
+Sun Feb 21 05:30:51 UTC 2021 ssu --start 10924 --stop 16386
+Sun Feb 21 05:41:16 UTC 2021 ssu --start 16386 --stop 21848
+Sun Feb 21 05:51:43 UTC 2021 ssu --start 21848 --stop 27310
+Sun Feb 21 06:02:04 UTC 2021 ssu --start 27310 --stop 32772
+Sun Feb 21 06:12:29 UTC 2021 ssu --start 32772 --stop 38234
+Sun Feb 21 06:22:55 UTC 2021 ssu --start 38234 --stop 43696
+Sun Feb 21 06:33:18 UTC 2021 ssu --start 43696 --stop 49158
+Sun Feb 21 06:43:42 UTC 2021 ssu --start 49158 --stop 54620
+Sun Feb 21 06:54:15 UTC 2021 ssu --start 54620 --stop 60082
+Sun Feb 21 07:04:45 UTC 2021 ssu --start 60082 --stop 65544
+Sun Feb 21 07:15:12 UTC 2021 ssu --start 65544 --stop 71006
+Sun Feb 21 07:25:37 UTC 2021 ssu --start 71006 --stop 76468
+Sun Feb 21 07:35:57 UTC 2021 ssu --start 76468 --stop 81930
+Sun Feb 21 07:46:22 UTC 2021 ssu --start 81930 --stop 87392
+Sun Feb 21 07:56:47 UTC 2021 ssu --start 87392 --stop 92854
+Sun Feb 21 08:07:14 UTC 2021 ssu --start 92854 --stop 98316
+Sun Feb 21 08:17:37 UTC 2021 ssu --start 98316 --stop 103778
+Sun Feb 21 08:27:59 UTC 2021 ssu --start 103778 --stop 109240
+Sun Feb 21 08:38:21 UTC 2021 ssu --start 109240 --stop 114702
+Sun Feb 21 08:48:45 UTC 2021 ssu --start 114702 --stop 120164
+Sun Feb 21 08:59:09 UTC 2021 ssu --start 120164 --stop 125626
+Sun Feb 21 09:09:30 UTC 2021 ssu --start 125626 --stop 131072
+=== unweighted time: 14995 ===
+Sun Feb 21 09:19:55 UTC 2021 ssu --start 0 --stop 5462
+Sun Feb 21 09:27:19 UTC 2021 ssu --start 5462 --stop 10924
+Sun Feb 21 09:34:40 UTC 2021 ssu --start 10924 --stop 16386
+Sun Feb 21 09:42:04 UTC 2021 ssu --start 16386 --stop 21848
+Sun Feb 21 09:49:30 UTC 2021 ssu --start 21848 --stop 27310
+Sun Feb 21 09:56:53 UTC 2021 ssu --start 27310 --stop 32772
+Sun Feb 21 10:04:18 UTC 2021 ssu --start 32772 --stop 38234
+Sun Feb 21 10:11:42 UTC 2021 ssu --start 38234 --stop 43696
+Sun Feb 21 10:19:10 UTC 2021 ssu --start 43696 --stop 49158
+Sun Feb 21 10:26:36 UTC 2021 ssu --start 49158 --stop 54620
+Sun Feb 21 10:33:59 UTC 2021 ssu --start 54620 --stop 60082
+Sun Feb 21 10:41:22 UTC 2021 ssu --start 60082 --stop 65544
+Sun Feb 21 10:48:44 UTC 2021 ssu --start 65544 --stop 71006
+Sun Feb 21 10:56:06 UTC 2021 ssu --start 71006 --stop 76468
+Sun Feb 21 11:03:29 UTC 2021 ssu --start 76468 --stop 81930
+Sun Feb 21 11:10:53 UTC 2021 ssu --start 81930 --stop 87392
+Sun Feb 21 11:18:21 UTC 2021 ssu --start 87392 --stop 92854
+Sun Feb 21 11:25:45 UTC 2021 ssu --start 92854 --stop 98316
+Sun Feb 21 11:33:09 UTC 2021 ssu --start 98316 --stop 103778
+Sun Feb 21 11:40:35 UTC 2021 ssu --start 103778 --stop 109240
+Sun Feb 21 11:47:59 UTC 2021 ssu --start 109240 --stop 114702
+Sun Feb 21 11:55:21 UTC 2021 ssu --start 114702 --stop 120164
+Sun Feb 21 12:02:40 UTC 2021 ssu --start 120164 --stop 125626
+Sun Feb 21 12:10:02 UTC 2021 ssu --start 125626 --stop 131072
+=== unweighted -f time: 10648 ===
+=== unweighted fp32 128k/256k ===
+Sun Feb 21 12:17:23 UTC 2021 ssu --start 0 --stop 8192
+Sun Feb 21 12:25:56 UTC 2021 ssu --start 8192 --stop 16384
+Sun Feb 21 12:34:32 UTC 2021 ssu --start 16384 --stop 24576
+Sun Feb 21 12:43:09 UTC 2021 ssu --start 24576 --stop 32768
+Sun Feb 21 12:51:51 UTC 2021 ssu --start 32768 --stop 40960
+Sun Feb 21 13:00:36 UTC 2021 ssu --start 40960 --stop 49152
+Sun Feb 21 13:09:13 UTC 2021 ssu --start 49152 --stop 57344
+Sun Feb 21 13:17:54 UTC 2021 ssu --start 57344 --stop 65536
+Sun Feb 21 13:26:32 UTC 2021 ssu --start 65536 --stop 73728
+Sun Feb 21 13:35:07 UTC 2021 ssu --start 73728 --stop 81920
+Sun Feb 21 13:43:42 UTC 2021 ssu --start 81920 --stop 90112
+Sun Feb 21 13:52:17 UTC 2021 ssu --start 90112 --stop 98304
+Sun Feb 21 14:00:54 UTC 2021 ssu --start 98304 --stop 106496
+Sun Feb 21 14:09:29 UTC 2021 ssu --start 106496 --stop 114688
+Sun Feb 21 14:18:07 UTC 2021 ssu --start 114688 --stop 122880
+Sun Feb 21 14:26:42 UTC 2021 ssu --start 122880 --stop 131072
+=== unweighted fp32 time: 8270 ===
+Sun Feb 21 14:35:13 UTC 2021 ssu --start 0 --stop 8192
+Sun Feb 21 14:40:44 UTC 2021 ssu --start 8192 --stop 16384
+Sun Feb 21 14:46:12 UTC 2021 ssu --start 16384 --stop 24576
+Sun Feb 21 14:51:43 UTC 2021 ssu --start 24576 --stop 32768
+Sun Feb 21 14:57:21 UTC 2021 ssu --start 32768 --stop 40960
+Sun Feb 21 15:02:54 UTC 2021 ssu --start 40960 --stop 49152
+Sun Feb 21 15:08:22 UTC 2021 ssu --start 49152 --stop 57344
+Sun Feb 21 15:13:55 UTC 2021 ssu --start 57344 --stop 65536
+Sun Feb 21 15:19:24 UTC 2021 ssu --start 65536 --stop 73728
+Sun Feb 21 15:24:51 UTC 2021 ssu --start 73728 --stop 81920
+Sun Feb 21 15:30:22 UTC 2021 ssu --start 81920 --stop 90112
+Sun Feb 21 15:35:51 UTC 2021 ssu --start 90112 --stop 98304
+Sun Feb 21 15:41:18 UTC 2021 ssu --start 98304 --stop 106496
+Sun Feb 21 15:46:49 UTC 2021 ssu --start 106496 --stop 114688
+Sun Feb 21 15:52:25 UTC 2021 ssu --start 114688 --stop 122880
+Sun Feb 21 15:57:59 UTC 2021 ssu --start 122880 --stop 131072
+=== unweighted fp32 -f time: 5297 ===
