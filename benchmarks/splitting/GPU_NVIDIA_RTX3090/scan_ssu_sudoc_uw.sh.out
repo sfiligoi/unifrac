@@ -1,0 +1,92 @@
+gpu-3090-59897dcb6-fh6hj
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7282 16-Core Processor
+Stepping:              0
+CPU MHz:               3189.852
+CPU max MHz:           2800.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              5600.02
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-15,32-47
+NUMA node1 CPU(s):     16-31,48-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Sat Feb 20 13:48:20 UTC 2021
+Sat Feb 20 13:48:20 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 3090    Off  | 00000000:01:00.0 Off |                  N/A |
+| 30%   32C    P8    18W / 350W |      0MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+3c73c4d4289ce580ec3e3294c2e7fb7a  sudoc_113k.biom
+1c286665d500455531bf8c3d13f4806c  sudoc_113k.tre
+====
+Total samples: 113721
+Total stripes: 56861
+Partition 0, suggested start and stop: 0, 56861
+=== unweighted SUDoc 56k/113k ===
+=== unweighted fp32 SUDoc 56k/113k ===
+Sat Feb 20 13:48:39 UTC 2021 ssu --start 0 --stop 2032
+Sat Feb 20 13:49:43 UTC 2021 ssu --start 20320 --stop 22352
+Sat Feb 20 13:50:46 UTC 2021 ssu --start 37000 --stop 39032
+=== unweighted fp32 ds: 2032 time: 189 ===
+Sat Feb 20 13:51:48 UTC 2021 ssu --start 0 --stop 4064
+Sat Feb 20 13:53:31 UTC 2021 ssu --start 20320 --stop 24384
+Sat Feb 20 13:55:12 UTC 2021 ssu --start 37000 --stop 41064
+=== unweighted fp32 ds: 4064 time: 307 ===
+Sat Feb 20 13:56:55 UTC 2021 ssu --start 0 --stop 6096
+Sat Feb 20 13:59:16 UTC 2021 ssu --start 20320 --stop 26416
+Sat Feb 20 14:01:39 UTC 2021 ssu --start 37000 --stop 43096
+=== unweighted fp32 ds: 6096 time: 426 ===
+Sat Feb 20 14:04:01 UTC 2021 ssu --start 0 --stop 8128
+Sat Feb 20 14:07:03 UTC 2021 ssu --start 20320 --stop 28448
+Sat Feb 20 14:10:06 UTC 2021 ssu --start 37000 --stop 45128
+=== unweighted fp32 ds: 8128 time: 549 ===
+Sat Feb 20 14:13:10 UTC 2021 ssu --start 0 --stop 10160
+Sat Feb 20 14:16:52 UTC 2021 ssu --start 20320 --stop 30480
+Sat Feb 20 14:20:35 UTC 2021 ssu --start 37000 --stop 47160
+=== unweighted fp32 ds: 10160 time: 670 ===
+Sat Feb 20 14:24:20 UTC 2021 ssu --start 0 --stop 12192
+Sat Feb 20 14:28:43 UTC 2021 ssu --start 20320 --stop 32512
+Sat Feb 20 14:33:07 UTC 2021 ssu --start 37000 --stop 49192
+=== unweighted fp32 ds: 12192 time: 790 ===
+Sat Feb 20 14:37:30 UTC 2021 ssu --start 0 --stop 14224
+Sat Feb 20 14:42:22 UTC 2021 ssu --start 20320 --stop 34544
+Sat Feb 20 14:47:17 UTC 2021 ssu --start 37000 --stop 51224
+=== unweighted fp32 ds: 14224 time: 885 ===
+Sat Feb 20 14:52:15 UTC 2021 ssu --start 0 --stop 16256
+Sat Feb 20 14:58:02 UTC 2021 ssu --start 20320 --stop 36576
+Sat Feb 20 15:03:52 UTC 2021 ssu --start 37000 --stop 53256
+=== unweighted fp32 ds: 16256 time: 1040 ===
+Sat Feb 20 15:09:35 UTC 2021 ssu --start 0 --stop 18288
+Sat Feb 20 15:15:43 UTC 2021 ssu --start 20320 --stop 38608
+Sat Feb 20 15:21:56 UTC 2021 ssu --start 37000 --stop 55288
+=== unweighted fp32 ds: 18288 time: 1114 ===
