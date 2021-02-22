@@ -1,0 +1,103 @@
+brncl-34.ucsd.edu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               800.000
+CPU max MHz:           2101.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Mon Feb 22 07:04:49 PST 2021
+Mon Feb 22 07:04:52 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   46C    P0    37W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   53C    P0    38W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   49C    P0    37W / 250W |      0MiB / 32510MiB |      3%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+b6a6a8d7cbab310f963433fbea755f32  unifrac_262144.biom
+43d1f4ad2635e0dafc4ae39fe5b67187  unifrac_262144.tre
+====
+Total samples: 262144
+Total stripes: 131072
+Partition 0, suggested start and stop: 0, 131072
+=== unweighted 128k/256k ===
+=== unweighted fp32 128k/256k ===
+Mon Feb 22 07:05:43 PST 2021 ssu --start 0 --stop 8192
+Mon Feb 22 07:18:27 PST 2021 ssu --start 8192 --stop 16384
+Mon Feb 22 07:31:25 PST 2021 ssu --start 16384 --stop 24576
+Mon Feb 22 07:46:22 PST 2021 ssu --start 24576 --stop 32768
+Mon Feb 22 08:01:00 PST 2021 ssu --start 32768 --stop 40960
+Mon Feb 22 08:17:04 PST 2021 ssu --start 40960 --stop 49152
+Mon Feb 22 08:30:14 PST 2021 ssu --start 49152 --stop 57344
+Mon Feb 22 08:42:52 PST 2021 ssu --start 57344 --stop 65536
+Mon Feb 22 08:55:35 PST 2021 ssu --start 65536 --stop 73728
+Mon Feb 22 09:08:22 PST 2021 ssu --start 73728 --stop 81920
+Mon Feb 22 09:23:31 PST 2021 ssu --start 81920 --stop 90112
+Mon Feb 22 09:39:01 PST 2021 ssu --start 90112 --stop 98304
+Mon Feb 22 09:53:27 PST 2021 ssu --start 98304 --stop 106496
+Mon Feb 22 10:07:28 PST 2021 ssu --start 106496 --stop 114688
+Mon Feb 22 10:20:25 PST 2021 ssu --start 114688 --stop 122880
+Mon Feb 22 10:35:31 PST 2021 ssu --start 122880 --stop 131072
+=== unweighted fp32 time: 13459 ===
+Mon Feb 22 10:50:02 PST 2021 ssu --start 0 --stop 8192
+Mon Feb 22 11:00:17 PST 2021 ssu --start 8192 --stop 16384
+Mon Feb 22 11:08:40 PST 2021 ssu --start 16384 --stop 24576
+Mon Feb 22 11:17:50 PST 2021 ssu --start 24576 --stop 32768
+Mon Feb 22 11:25:56 PST 2021 ssu --start 32768 --stop 40960
+Mon Feb 22 11:34:55 PST 2021 ssu --start 40960 --stop 49152
+Mon Feb 22 11:43:14 PST 2021 ssu --start 49152 --stop 57344
+Mon Feb 22 11:52:27 PST 2021 ssu --start 57344 --stop 65536
+Mon Feb 22 12:02:10 PST 2021 ssu --start 65536 --stop 73728
+Mon Feb 22 12:11:47 PST 2021 ssu --start 73728 --stop 81920
+Mon Feb 22 12:20:12 PST 2021 ssu --start 81920 --stop 90112
+Mon Feb 22 12:28:30 PST 2021 ssu --start 90112 --stop 98304
+Mon Feb 22 12:39:21 PST 2021 ssu --start 98304 --stop 106496
+Mon Feb 22 12:47:45 PST 2021 ssu --start 106496 --stop 114688
+Mon Feb 22 12:56:07 PST 2021 ssu --start 114688 --stop 122880
+Mon Feb 22 13:04:29 PST 2021 ssu --start 122880 --stop 131072
+=== unweighted fp32 -f time: 8570 ===
+=== weighted_normalized 128k/256k ===
+Mon Feb 22 13:12:52 PST 2021 ssu --start 0 --stop 6000
+Mon Feb 22 13:56:41 PST 2021 ssu --start 6000 --stop 12000
+Mon Feb 22 14:41:22 PST 2021 ssu --start 12000 --stop 18000
+Mon Feb 22 15:26:15 PST 2021 ssu --start 18000 --stop 24000
