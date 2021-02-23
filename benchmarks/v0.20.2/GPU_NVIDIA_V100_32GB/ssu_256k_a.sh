@@ -21,8 +21,8 @@ echo "=== unweighted 128k/256k ==="
 rm -fr /dev/shm/unifrac.tmp
 t1=`date +%s`
 s1=0
-for ((i=0; $i<22; i+=1)); do
-  let s2=s1+6000
+for ((i=0; $i<26; i+=1)); do
+  let s2=s1+5056
   if [ $s2 -gt 131072 ]; then
     s2=131072
   fi
@@ -37,8 +37,8 @@ echo "=== unweighted time: $dt ==="
 
 t1=`date +%s`
 s1=0
-for ((i=0; $i<22; i+=1)); do
-  let s2=s1+6000
+for ((i=0; $i<26; i+=1)); do
+  let s2=s1+5056
   if [ $s2 -gt 131072 ]; then
     s2=131072
   fi
@@ -55,8 +55,11 @@ echo "=== weighted_normalized fp32 128k/256k ==="
 rm -fr /dev/shm/unifrac.tmp
 t1=`date +%s`
 s1=0
-for ((i=0; $i<16; i+=1)); do
-  let s2=s1+8192
+for ((i=0; $i<22; i+=1)); do
+  let s2=s1+5984
+  if [ $s2 -gt 131072 ]; then
+    s2=131072
+  fi
   echo "`date` ssu --start $s1 --stop $s2"
   taskset -c 0-7 time ssu -m weighted_normalized_fp32 -i unifrac_262144.biom -t unifrac_262144.tre -o /dev/shm/unifrac.tmp --mode partial --start $s1 --stop $s2
   rm -fr /dev/shm/unifrac.tmp
@@ -68,8 +71,11 @@ echo "=== weighted_normalized fp32 time: $dt ==="
 
 t1=`date +%s`
 s1=0
-for ((i=0; $i<16; i+=1)); do
-  let s2=s1+8192
+for ((i=0; $i<22; i+=1)); do
+  let s2=s1+5984
+  if [ $s2 -gt 131072 ]; then
+    s2=131072
+  fi
   echo "`date` ssu --start $s1 --stop $s2"
   taskset -c 0-7 time ssu -m weighted_normalized_fp32 -f -i unifrac_262144.biom -t unifrac_262144.tre -o /dev/shm/unifrac.tmp --mode partial --start $s1 --stop $s2
   rm -fr /dev/shm/unifrac.tmp

@@ -1,0 +1,18 @@
+10402.00user 11.21system 11:15.24elapsed 1542%CPU (0avgtext+0avgdata 8548712maxresident)k
+259288inputs+0outputs (0major+4545438minor)pagefaults 0swaps
+10406.15user 11.31system 11:21.30elapsed 1529%CPU (0avgtext+0avgdata 8547368maxresident)k
+259288inputs+0outputs (0major+4494978minor)pagefaults 0swaps
+10403.91user 11.36system 11:21.36elapsed 1528%CPU (0avgtext+0avgdata 8548988maxresident)k
+259288inputs+0outputs (0major+4521257minor)pagefaults 0swaps
+20590.88user 29.49system 22:06.06elapsed 1555%CPU (0avgtext+0avgdata 15782828maxresident)k
+259288inputs+0outputs (0major+12076142minor)pagefaults 0swaps
+20601.26user 15.09system 22:05.44elapsed 1555%CPU (0avgtext+0avgdata 15798260maxresident)k
+259288inputs+0outputs (0major+6192523minor)pagefaults 0swaps
+20634.81user 14.55system 22:07.01elapsed 1556%CPU (0avgtext+0avgdata 15786496maxresident)k
+259288inputs+0outputs (0major+5929629minor)pagefaults 0swaps
+31316.97user 19.62system 33:21.98elapsed 1565%CPU (0avgtext+0avgdata 23076848maxresident)k
+259288inputs+0outputs (0major+8128260minor)pagefaults 0swaps
+31337.51user 19.53system 33:23.00elapsed 1565%CPU (0avgtext+0avgdata 23050204maxresident)k
+305528inputs+0outputs (34major+8164370minor)pagefaults 0swaps
+31345.46user 19.34system 33:27.95elapsed 1562%CPU (0avgtext+0avgdata 23051088maxresident)k
+259288inputs+0outputs (0major+7934252minor)pagefaults 0swaps

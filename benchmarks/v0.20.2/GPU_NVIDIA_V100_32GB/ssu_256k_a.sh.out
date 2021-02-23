@@ -25,8 +25,8 @@ L3 cache:              11264K
 NUMA node0 CPU(s):     0-7,16-23
 NUMA node1 CPU(s):     8-15,24-31
 Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
-Mon Feb 22 07:04:49 PST 2021
-Mon Feb 22 07:04:52 2021       
+Mon Feb 22 18:01:32 PST 2021
+Mon Feb 22 18:01:36 2021       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
 |-------------------------------+----------------------+----------------------+
@@ -35,15 +35,15 @@ Mon Feb 22 07:04:52 2021
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
 |   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
-| N/A   46C    P0    37W / 250W |      0MiB / 32510MiB |      0%      Default |
+| N/A   54C    P0    39W / 250W |      0MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
 |   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
-| N/A   53C    P0    38W / 250W |      0MiB / 32510MiB |      0%      Default |
+| N/A   57C    P0    40W / 250W |      0MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
 |   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
-| N/A   49C    P0    37W / 250W |      0MiB / 32510MiB |      0%      Default |
+| N/A   49C    P0    36W / 250W |      0MiB / 32510MiB |      6%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -61,52 +61,71 @@ Total samples: 262144
 Total stripes: 131072
 Partition 0, suggested start and stop: 0, 131072
 === unweighted 128k/256k ===
-Mon Feb 22 07:05:44 PST 2021 ssu --start 0 --stop 6000
-Mon Feb 22 07:16:48 PST 2021 ssu --start 6000 --stop 12000
-Mon Feb 22 07:28:42 PST 2021 ssu --start 12000 --stop 18000
-Mon Feb 22 07:40:46 PST 2021 ssu --start 18000 --stop 24000
-Mon Feb 22 07:53:20 PST 2021 ssu --start 24000 --stop 30000
-Mon Feb 22 08:05:59 PST 2021 ssu --start 30000 --stop 36000
-Mon Feb 22 08:17:39 PST 2021 ssu --start 36000 --stop 42000
-Mon Feb 22 08:28:34 PST 2021 ssu --start 42000 --stop 48000
-Mon Feb 22 08:40:54 PST 2021 ssu --start 48000 --stop 54000
-Mon Feb 22 08:53:51 PST 2021 ssu --start 54000 --stop 60000
-Mon Feb 22 09:05:56 PST 2021 ssu --start 60000 --stop 66000
-Mon Feb 22 09:17:59 PST 2021 ssu --start 66000 --stop 72000
-Mon Feb 22 09:30:32 PST 2021 ssu --start 72000 --stop 78000
-Mon Feb 22 09:43:49 PST 2021 ssu --start 78000 --stop 84000
-Mon Feb 22 09:54:03 PST 2021 ssu --start 84000 --stop 90000
-Mon Feb 22 10:04:48 PST 2021 ssu --start 90000 --stop 96000
-Mon Feb 22 10:17:47 PST 2021 ssu --start 96000 --stop 102000
-Mon Feb 22 10:30:22 PST 2021 ssu --start 102000 --stop 108000
-Mon Feb 22 10:43:13 PST 2021 ssu --start 108000 --stop 114000
-Mon Feb 22 10:55:51 PST 2021 ssu --start 114000 --stop 120000
-Mon Feb 22 11:08:30 PST 2021 ssu --start 120000 --stop 126000
-Mon Feb 22 11:18:50 PST 2021 ssu --start 126000 --stop 131072
-=== unweighted time: 15654 ===
-Mon Feb 22 11:26:38 PST 2021 ssu --start 0 --stop 6000
-Mon Feb 22 11:33:08 PST 2021 ssu --start 6000 --stop 12000
-Mon Feb 22 11:41:50 PST 2021 ssu --start 12000 --stop 18000
-Mon Feb 22 11:49:59 PST 2021 ssu --start 18000 --stop 24000
-Mon Feb 22 11:59:15 PST 2021 ssu --start 24000 --stop 30000
-Mon Feb 22 12:10:09 PST 2021 ssu --start 30000 --stop 36000
-Mon Feb 22 12:18:36 PST 2021 ssu --start 36000 --stop 42000
-Mon Feb 22 12:26:51 PST 2021 ssu --start 42000 --stop 48000
-Mon Feb 22 12:35:19 PST 2021 ssu --start 48000 --stop 54000
-Mon Feb 22 12:46:16 PST 2021 ssu --start 54000 --stop 60000
-Mon Feb 22 12:54:38 PST 2021 ssu --start 60000 --stop 66000
-Mon Feb 22 13:03:10 PST 2021 ssu --start 66000 --stop 72000
-Mon Feb 22 13:11:18 PST 2021 ssu --start 72000 --stop 78000
-Mon Feb 22 13:19:47 PST 2021 ssu --start 78000 --stop 84000
-Mon Feb 22 13:26:05 PST 2021 ssu --start 84000 --stop 90000
-Mon Feb 22 13:31:57 PST 2021 ssu --start 90000 --stop 96000
-Mon Feb 22 13:37:55 PST 2021 ssu --start 96000 --stop 102000
-Mon Feb 22 13:43:55 PST 2021 ssu --start 102000 --stop 108000
-Mon Feb 22 13:49:49 PST 2021 ssu --start 108000 --stop 114000
-Mon Feb 22 13:55:58 PST 2021 ssu --start 114000 --stop 120000
-Mon Feb 22 14:04:07 PST 2021 ssu --start 120000 --stop 126000
-Mon Feb 22 14:10:20 PST 2021 ssu --start 126000 --stop 131072
-=== unweighted -f time: 10115 ===
+Mon Feb 22 18:02:25 PST 2021 ssu --start 0 --stop 5056
+Mon Feb 22 18:10:16 PST 2021 ssu --start 5056 --stop 10112
+Mon Feb 22 18:18:21 PST 2021 ssu --start 10112 --stop 15168
+Mon Feb 22 18:26:20 PST 2021 ssu --start 15168 --stop 20224
+Mon Feb 22 18:34:19 PST 2021 ssu --start 20224 --stop 25280
+Mon Feb 22 18:42:18 PST 2021 ssu --start 25280 --stop 30336
+Mon Feb 22 18:50:15 PST 2021 ssu --start 30336 --stop 35392
+Mon Feb 22 18:58:14 PST 2021 ssu --start 35392 --stop 40448
+Mon Feb 22 19:06:08 PST 2021 ssu --start 40448 --stop 45504
+Mon Feb 22 19:13:54 PST 2021 ssu --start 45504 --stop 50560
+Mon Feb 22 19:21:52 PST 2021 ssu --start 50560 --stop 55616
+Mon Feb 22 19:29:49 PST 2021 ssu --start 55616 --stop 60672
+Mon Feb 22 19:37:45 PST 2021 ssu --start 60672 --stop 65728
+Mon Feb 22 19:45:43 PST 2021 ssu --start 65728 --stop 70784
+Mon Feb 22 19:53:38 PST 2021 ssu --start 70784 --stop 75840
+Mon Feb 22 20:01:33 PST 2021 ssu --start 75840 --stop 80896
+Mon Feb 22 20:09:25 PST 2021 ssu --start 80896 --stop 85952
+Mon Feb 22 20:17:17 PST 2021 ssu --start 85952 --stop 91008
+Mon Feb 22 20:25:03 PST 2021 ssu --start 91008 --stop 96064
+Mon Feb 22 20:32:53 PST 2021 ssu --start 96064 --stop 101120
+Mon Feb 22 20:40:42 PST 2021 ssu --start 101120 --stop 106176
+Mon Feb 22 20:48:30 PST 2021 ssu --start 106176 --stop 111232
+Mon Feb 22 20:56:17 PST 2021 ssu --start 111232 --stop 116288
+Mon Feb 22 21:04:03 PST 2021 ssu --start 116288 --stop 121344
+Mon Feb 22 21:11:48 PST 2021 ssu --start 121344 --stop 126400
+Mon Feb 22 21:19:27 PST 2021 ssu --start 126400 --stop 131072
+=== unweighted time: 12245 ===
+Mon Feb 22 21:26:30 PST 2021 ssu --start 0 --stop 5056
+Mon Feb 22 21:31:28 PST 2021 ssu --start 5056 --stop 10112
+Mon Feb 22 21:36:22 PST 2021 ssu --start 10112 --stop 15168
+Mon Feb 22 21:41:17 PST 2021 ssu --start 15168 --stop 20224
+Mon Feb 22 21:46:17 PST 2021 ssu --start 20224 --stop 25280
+Mon Feb 22 21:51:13 PST 2021 ssu --start 25280 --stop 30336
+Mon Feb 22 21:56:09 PST 2021 ssu --start 30336 --stop 35392
+Mon Feb 22 22:01:05 PST 2021 ssu --start 35392 --stop 40448
+Mon Feb 22 22:06:05 PST 2021 ssu --start 40448 --stop 45504
+Mon Feb 22 22:10:55 PST 2021 ssu --start 45504 --stop 50560
+Mon Feb 22 22:15:53 PST 2021 ssu --start 50560 --stop 55616
+Mon Feb 22 22:20:49 PST 2021 ssu --start 55616 --stop 60672
+Mon Feb 22 22:25:44 PST 2021 ssu --start 60672 --stop 65728
+Mon Feb 22 22:30:39 PST 2021 ssu --start 65728 --stop 70784
+Mon Feb 22 22:35:37 PST 2021 ssu --start 70784 --stop 75840
+Mon Feb 22 22:40:31 PST 2021 ssu --start 75840 --stop 80896
+Mon Feb 22 22:45:18 PST 2021 ssu --start 80896 --stop 85952
+Mon Feb 22 22:50:15 PST 2021 ssu --start 85952 --stop 91008
+Mon Feb 22 22:55:07 PST 2021 ssu --start 91008 --stop 96064
+Mon Feb 22 23:00:02 PST 2021 ssu --start 96064 --stop 101120
+Mon Feb 22 23:04:53 PST 2021 ssu --start 101120 --stop 106176
+Mon Feb 22 23:09:44 PST 2021 ssu --start 106176 --stop 111232
+Mon Feb 22 23:14:38 PST 2021 ssu --start 111232 --stop 116288
+Mon Feb 22 23:19:21 PST 2021 ssu --start 116288 --stop 121344
+Mon Feb 22 23:24:14 PST 2021 ssu --start 121344 --stop 126400
+Mon Feb 22 23:29:05 PST 2021 ssu --start 126400 --stop 131072
+=== unweighted -f time: 7625 ===
 === weighted_normalized fp32 128k/256k ===
-Mon Feb 22 14:15:13 PST 2021 ssu --start 0 --stop 8192
-Mon Feb 22 14:53:23 PST 2021 ssu --start 8192 --stop 16384
+Mon Feb 22 23:33:35 PST 2021 ssu --start 0 --stop 5984
+Mon Feb 22 23:59:50 PST 2021 ssu --start 5984 --stop 11968
+Tue Feb 23 00:27:08 PST 2021 ssu --start 11968 --stop 17952
+Tue Feb 23 00:54:13 PST 2021 ssu --start 17952 --stop 23936
+Tue Feb 23 01:21:08 PST 2021 ssu --start 23936 --stop 29920
+Tue Feb 23 01:48:06 PST 2021 ssu --start 29920 --stop 35904
+Tue Feb 23 02:15:16 PST 2021 ssu --start 35904 --stop 41888
+Tue Feb 23 02:42:13 PST 2021 ssu --start 41888 --stop 47872
+Tue Feb 23 03:09:11 PST 2021 ssu --start 47872 --stop 53856
+Tue Feb 23 03:36:29 PST 2021 ssu --start 53856 --stop 59840
+Tue Feb 23 04:03:35 PST 2021 ssu --start 59840 --stop 65824
+Tue Feb 23 04:30:30 PST 2021 ssu --start 65824 --stop 71808
+Tue Feb 23 04:57:42 PST 2021 ssu --start 71808 --stop 77792
