@@ -129,3 +129,36 @@ Tue Feb 23 03:36:29 PST 2021 ssu --start 53856 --stop 59840
 Tue Feb 23 04:03:35 PST 2021 ssu --start 59840 --stop 65824
 Tue Feb 23 04:30:30 PST 2021 ssu --start 65824 --stop 71808
 Tue Feb 23 04:57:42 PST 2021 ssu --start 71808 --stop 77792
+Tue Feb 23 05:24:49 PST 2021 ssu --start 77792 --stop 83776
+Tue Feb 23 05:51:43 PST 2021 ssu --start 83776 --stop 89760
+Tue Feb 23 06:18:41 PST 2021 ssu --start 89760 --stop 95744
+Tue Feb 23 06:45:56 PST 2021 ssu --start 95744 --stop 101728
+Tue Feb 23 07:12:51 PST 2021 ssu --start 101728 --stop 107712
+Tue Feb 23 07:39:54 PST 2021 ssu --start 107712 --stop 113696
+Tue Feb 23 08:07:08 PST 2021 ssu --start 113696 --stop 119680
+Tue Feb 23 08:34:17 PST 2021 ssu --start 119680 --stop 125664
+Tue Feb 23 09:01:17 PST 2021 ssu --start 125664 --stop 131072
+=== weighted_normalized fp32 time: 35574 ===
+Tue Feb 23 09:26:29 PST 2021 ssu --start 0 --stop 5984
+Tue Feb 23 09:45:29 PST 2021 ssu --start 5984 --stop 11968
+Tue Feb 23 10:04:26 PST 2021 ssu --start 11968 --stop 17952
+Tue Feb 23 10:23:28 PST 2021 ssu --start 17952 --stop 23936
+Tue Feb 23 10:42:25 PST 2021 ssu --start 23936 --stop 29920
+Tue Feb 23 11:01:26 PST 2021 ssu --start 29920 --stop 35904
+Tue Feb 23 11:20:24 PST 2021 ssu --start 35904 --stop 41888
+Tue Feb 23 11:39:24 PST 2021 ssu --start 41888 --stop 47872
+Tue Feb 23 11:58:24 PST 2021 ssu --start 47872 --stop 53856
+Tue Feb 23 12:17:27 PST 2021 ssu --start 53856 --stop 59840
+Tue Feb 23 12:36:27 PST 2021 ssu --start 59840 --stop 65824
+Tue Feb 23 12:55:34 PST 2021 ssu --start 65824 --stop 71808
+Tue Feb 23 13:14:33 PST 2021 ssu --start 71808 --stop 77792
+Tue Feb 23 13:33:40 PST 2021 ssu --start 77792 --stop 83776
+Tue Feb 23 13:52:38 PST 2021 ssu --start 83776 --stop 89760
+Tue Feb 23 14:11:41 PST 2021 ssu --start 89760 --stop 95744
+Tue Feb 23 14:30:44 PST 2021 ssu --start 95744 --stop 101728
+Tue Feb 23 14:49:47 PST 2021 ssu --start 101728 --stop 107712
+Tue Feb 23 15:08:47 PST 2021 ssu --start 107712 --stop 113696
+Tue Feb 23 15:27:28 PST 2021 ssu --start 113696 --stop 119680
+Tue Feb 23 15:46:12 PST 2021 ssu --start 119680 --stop 125664
+Tue Feb 23 16:05:05 PST 2021 ssu --start 125664 --stop 131072
+=== weighted_normalized fp32 -f time: 24959 ===
