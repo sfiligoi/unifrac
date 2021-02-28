@@ -1,0 +1,149 @@
+gpu-3090-5c6984895b-7jcsm
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7282 16-Core Processor
+Stepping:              0
+CPU MHz:               2666.656
+CPU max MHz:           2800.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              5599.85
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-15,32-47
+NUMA node1 CPU(s):     16-31,48-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Sat Feb 27 00:31:27 UTC 2021
+Sat Feb 27 00:31:27 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 3090    Off  | 00000000:A1:00.0 Off |                  N/A |
+| 30%   25C    P8    20W / 350W |      0MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+==== Size 100k
+==== Processing samples-100000-iteration-0
+327d6379064636c7b22c884ba43f78bc  samples-100000-iteration-0.biom
+67c5ecbeb272db0b218c6a46a11e79e6  samples-100000-iteration-0.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 0 Type: unweighted fp32
+=== Size: 100000 Iteration: 0 Type: unweighted fp32 time: 753 ===
+==== Size: 100k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 0 Type: weighted_normalized fp32 time: 2082 ===
+==== Processing samples-100000-iteration-1
+a44af7fe29bc30ef05a6cfa80a89770f  samples-100000-iteration-1.biom
+2a2a36ecfe26e90343b437cc3f0868f2  samples-100000-iteration-1.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 1 Type: unweighted fp32
+=== Size: 100000 Iteration: 1 Type: unweighted fp32 time: 768 ===
+==== Size: 100k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 1 Type: weighted_normalized fp32 time: 2080 ===
+==== Processing samples-100000-iteration-2
+fbc0fc444652cef589d155d2f4a0d061  samples-100000-iteration-2.biom
+0486b46b3ad686c9a82528446e36a255  samples-100000-iteration-2.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 2 Type: unweighted fp32
+=== Size: 100000 Iteration: 2 Type: unweighted fp32 time: 754 ===
+==== Size: 100k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 2 Type: weighted_normalized fp32 time: 2077 ===
+==== Processing samples-100000-iteration-3
+28c0e3099736a5dfcd94ecf01ecf5883  samples-100000-iteration-3.biom
+58f40df47ee6f5d60b3dfc6a8646ba13  samples-100000-iteration-3.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 3 Type: unweighted fp32
+=== Size: 100000 Iteration: 3 Type: unweighted fp32 time: 770 ===
+==== Size: 100k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 3 Type: weighted_normalized fp32 time: 2067 ===
+==== Processing samples-100000-iteration-4
+c9aeaaedc95e6a7ba4e83bfad71102bd  samples-100000-iteration-4.biom
+2fb5e46a9a224987d267154812cc1d4c  samples-100000-iteration-4.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 4 Type: unweighted fp32
+=== Size: 100000 Iteration: 4 Type: unweighted fp32 time: 766 ===
+==== Size: 100k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 4 Type: weighted_normalized fp32 time: 2122 ===
+==== Processing samples-100000-iteration-5
+6ec9fb4fa66aae4d84d7e9e7885836eb  samples-100000-iteration-5.biom
+8c640cdcfbf9c482c550b6962d5665b5  samples-100000-iteration-5.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 5 Type: unweighted fp32
+=== Size: 100000 Iteration: 5 Type: unweighted fp32 time: 768 ===
+==== Size: 100k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 5 Type: weighted_normalized fp32 time: 2123 ===
+==== Processing samples-100000-iteration-6
+519cc71da434852f4f76df6c8d04a891  samples-100000-iteration-6.biom
+1a6874681c3e68044dca79a84d280217  samples-100000-iteration-6.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 6 Type: unweighted fp32
+=== Size: 100000 Iteration: 6 Type: unweighted fp32 time: 761 ===
+==== Size: 100k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 6 Type: weighted_normalized fp32 time: 2079 ===
+==== Processing samples-100000-iteration-7
+c407492ed6eb708300b4bfde8336d5f1  samples-100000-iteration-7.biom
+70b11a77809ebd4a3c041bf42a4c3769  samples-100000-iteration-7.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 7 Type: unweighted fp32
+=== Size: 100000 Iteration: 7 Type: unweighted fp32 time: 754 ===
+==== Size: 100k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 7 Type: weighted_normalized fp32 time: 2091 ===
+==== Processing samples-100000-iteration-8
+0f0302e428351a4037190dc0eccf2fe3  samples-100000-iteration-8.biom
+c80f10a068bf57f6d7831d49a814e304  samples-100000-iteration-8.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 8 Type: unweighted fp32
+=== Size: 100000 Iteration: 8 Type: unweighted fp32 time: 758 ===
+==== Size: 100k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 8 Type: weighted_normalized fp32 time: 2083 ===
+==== Processing samples-100000-iteration-9
+0326047c8466e3c4bc7c3dbb6448fe33  samples-100000-iteration-9.biom
+03b4f2f4668c22f4a1d0195487d937c6  samples-100000-iteration-9.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 9 Type: unweighted fp32
+=== Size: 100000 Iteration: 9 Type: unweighted fp32 time: 762 ===
+==== Size: 100k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 100000 Iteration: 9 Type: weighted_normalized fp32 time: 2087 ===
