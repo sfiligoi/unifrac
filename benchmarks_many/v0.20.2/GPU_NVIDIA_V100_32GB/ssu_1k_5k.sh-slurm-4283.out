@@ -1,0 +1,479 @@
+brncl-34.ucsd.edu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               800.000
+CPU max MHz:           2101.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Sat Feb 27 02:39:08 PST 2021
+Sat Feb 27 02:39:12 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   47C    P0    37W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   56C    P0    39W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   51C    P0    37W / 250W |      0MiB / 32510MiB |      4%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+==== Size 1k
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-0
+6284f4b7d747d6e4516f6882ebce9b0b  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-0.biom
+16c4262e3e03a65000c6fbfed62c2513  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-0.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 0 Type: unweighted
+1.41user 3.77system 0:05.84elapsed 88%CPU (0avgtext+0avgdata 541220maxresident)k
+0inputs+0outputs (0major+43212minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 0 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 0 Type: weighted_normalized
+1.70user 3.82system 0:05.88elapsed 93%CPU (0avgtext+0avgdata 545156maxresident)k
+0inputs+0outputs (0major+42623minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 0 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-1
+e9fb286de328bf040c33e01dd3486f0a  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-1.biom
+9c3af86d5a04ea83dc31a74c2a091600  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-1.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 1 Type: unweighted
+1.51user 3.66system 0:05.85elapsed 88%CPU (0avgtext+0avgdata 551832maxresident)k
+0inputs+0outputs (0major+44822minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 1 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 1 Type: weighted_normalized
+2.04user 3.78system 0:05.88elapsed 99%CPU (0avgtext+0avgdata 555840maxresident)k
+0inputs+0outputs (0major+44301minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 1 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-2
+75a3271b44d644fd4e62feb109647f59  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-2.biom
+e46efb8ec357773d34ab0c2382a4d18c  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-2.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 2 Type: unweighted
+1.24user 3.44system 0:05.41elapsed 86%CPU (0avgtext+0avgdata 540212maxresident)k
+0inputs+0outputs (0major+41385minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 2 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 2 Type: weighted_normalized
+1.68user 3.76system 0:05.74elapsed 94%CPU (0avgtext+0avgdata 538188maxresident)k
+0inputs+0outputs (0major+41921minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 2 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-3
+958421c0f845432a1afb9347f5c52048  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-3.biom
+6bf7d68e2508908c2b317ea7da8f345e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-3.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 3 Type: unweighted
+1.47user 3.55system 0:05.61elapsed 89%CPU (0avgtext+0avgdata 551508maxresident)k
+0inputs+0outputs (0major+44215minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 3 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 3 Type: weighted_normalized
+1.91user 3.81system 0:12.35elapsed 46%CPU (0avgtext+0avgdata 549560maxresident)k
+0inputs+0outputs (0major+44745minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 3 Type: weighted_normalized time: 12 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-4
+43a9833d9f0ed8b3abc829f88f130f48  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-4.biom
+039a3bd443fb22b619520f9f3e3328ac  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-4.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 4 Type: unweighted
+1.46user 3.63system 0:05.69elapsed 89%CPU (0avgtext+0avgdata 549928maxresident)k
+0inputs+0outputs (0major+44319minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 4 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 4 Type: weighted_normalized
+1.92user 3.82system 0:05.81elapsed 98%CPU (0avgtext+0avgdata 550000maxresident)k
+0inputs+0outputs (0major+43808minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 4 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-5
+528dd8a84ca4c9575a038595fb914eaf  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-5.biom
+9b1a4770c091ffc849409941fb3b770f  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-5.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 5 Type: unweighted
+1.30user 3.58system 0:05.68elapsed 85%CPU (0avgtext+0avgdata 541824maxresident)k
+0inputs+0outputs (0major+42832minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 5 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 5 Type: weighted_normalized
+1.69user 3.70system 0:05.73elapsed 94%CPU (0avgtext+0avgdata 539900maxresident)k
+0inputs+0outputs (0major+42942minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 5 Type: weighted_normalized time: 5 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-6
+22c8a1a9ee0e83042985216a5af57bee  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-6.biom
+f9d3548d2db7473fb485bbef77f0c2c9  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-6.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 6 Type: unweighted
+1.38user 3.67system 0:05.76elapsed 87%CPU (0avgtext+0avgdata 545628maxresident)k
+0inputs+0outputs (0major+43770minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 6 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 6 Type: weighted_normalized
+1.80user 3.80system 0:05.89elapsed 95%CPU (0avgtext+0avgdata 541816maxresident)k
+0inputs+0outputs (0major+43292minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 6 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-7
+d31e7ef4a1d7d2f8bd2a0ab5c1d6d179  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-7.biom
+ad979185555b0377f74f328cd779f6ce  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-7.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 7 Type: unweighted
+1.35user 3.58system 0:12.56elapsed 39%CPU (0avgtext+0avgdata 543516maxresident)k
+0inputs+0outputs (0major+43251minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 7 Type: unweighted time: 13 ===
+==== Size: 1k Iteration: 7 Type: weighted_normalized
+1.70user 3.69system 0:05.74elapsed 94%CPU (0avgtext+0avgdata 541680maxresident)k
+0inputs+0outputs (0major+43269minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 7 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-8
+f9c7337537750d8722ef9905aad21617  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-8.biom
+e092c1979703318bbb5a36560c333e34  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-8.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 8 Type: unweighted
+1.44user 3.71system 0:05.76elapsed 89%CPU (0avgtext+0avgdata 547152maxresident)k
+0inputs+0outputs (0major+44152minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 8 Type: unweighted time: 5 ===
+==== Size: 1k Iteration: 8 Type: weighted_normalized
+1.85user 3.81system 0:05.73elapsed 98%CPU (0avgtext+0avgdata 545248maxresident)k
+0inputs+0outputs (0major+44689minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 8 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-9
+d330daef49161979fcb5de4086b9bf30  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-9.biom
+f3cb7b5046a04886a3263704c9f26fdb  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-9.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 9 Type: unweighted
+1.42user 3.58system 0:05.67elapsed 88%CPU (0avgtext+0avgdata 545832maxresident)k
+0inputs+0outputs (0major+43279minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 9 Type: unweighted time: 6 ===
+==== Size: 1k Iteration: 9 Type: weighted_normalized
+1.82user 3.77system 0:05.78elapsed 96%CPU (0avgtext+0avgdata 545784maxresident)k
+0inputs+0outputs (0major+43344minor)pagefaults 0swaps
+=== Size: 1000 Iteration: 9 Type: weighted_normalized time: 5 ===
+==== Size 2k
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-0
+ec3641c8ba9b4a50b84c584cfcda45c1  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-0.biom
+dc90a0132080c789a59c8fe59b870d0c  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-0.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 0 Type: unweighted
+2.78user 3.88system 0:06.05elapsed 110%CPU (0avgtext+0avgdata 616624maxresident)k
+0inputs+0outputs (0major+52457minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 0 Type: unweighted time: 6 ===
+==== Size: 2k Iteration: 0 Type: weighted_normalized
+4.07user 4.43system 0:06.47elapsed 131%CPU (0avgtext+0avgdata 616744maxresident)k
+0inputs+0outputs (0major+52985minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 0 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-1
+41efccf8460f99cf4c81e4ac84c3f017  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-1.biom
+e7e82cb44145130a320b2ba845fed3b1  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-1.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 1 Type: unweighted
+2.91user 4.12system 0:06.37elapsed 110%CPU (0avgtext+0avgdata 620456maxresident)k
+0inputs+0outputs (0major+54473minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 1 Type: unweighted time: 7 ===
+==== Size: 2k Iteration: 1 Type: weighted_normalized
+4.34user 4.59system 0:06.74elapsed 132%CPU (0avgtext+0avgdata 620728maxresident)k
+0inputs+0outputs (0major+57621minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 1 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-2
+8a6947a8ac152b324d6a7494a175b6f6  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-2.biom
+cd320106ddc6f3081d1da6010afc8b88  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-2.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 2 Type: unweighted
+2.86user 4.01system 0:06.26elapsed 109%CPU (0avgtext+0avgdata 617864maxresident)k
+0inputs+0outputs (0major+53291minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 2 Type: unweighted time: 6 ===
+==== Size: 2k Iteration: 2 Type: weighted_normalized
+4.25user 4.49system 0:06.54elapsed 133%CPU (0avgtext+0avgdata 618120maxresident)k
+0inputs+0outputs (0major+53357minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 2 Type: weighted_normalized time: 7 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-3
+e2092591a97a001d44f0b27104d01cfb  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-3.biom
+664fdd11183d6cd72e6e1d4d124b4808  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-3.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 3 Type: unweighted
+3.00user 4.13system 0:06.43elapsed 111%CPU (0avgtext+0avgdata 609420maxresident)k
+0inputs+0outputs (0major+54740minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 3 Type: unweighted time: 7 ===
+==== Size: 2k Iteration: 3 Type: weighted_normalized
+4.70user 4.73system 0:06.84elapsed 137%CPU (0avgtext+0avgdata 612360maxresident)k
+0inputs+0outputs (0major+60102minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 3 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-4
+8f2b0b1914585eab254e06d20e62d3e4  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-4.biom
+41a46304bc8ec2a9b9ad8613466b3b1e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-4.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 4 Type: unweighted
+3.11user 4.10system 0:12.59elapsed 57%CPU (0avgtext+0avgdata 612744maxresident)k
+0inputs+0outputs (0major+59176minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 4 Type: unweighted time: 13 ===
+==== Size: 2k Iteration: 4 Type: weighted_normalized
+4.46user 4.57system 0:06.61elapsed 136%CPU (0avgtext+0avgdata 613116maxresident)k
+0inputs+0outputs (0major+54659minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 4 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-5
+2e9427f8c57d106ba2d2cad1bd9da573  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-5.biom
+2d0d1e508ccf29979555051c38320fed  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-5.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 5 Type: unweighted
+2.88user 3.98system 0:06.22elapsed 110%CPU (0avgtext+0avgdata 621916maxresident)k
+0inputs+0outputs (0major+53798minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 5 Type: unweighted time: 6 ===
+==== Size: 2k Iteration: 5 Type: weighted_normalized
+4.42user 4.61system 0:06.71elapsed 134%CPU (0avgtext+0avgdata 633872maxresident)k
+0inputs+0outputs (0major+53718minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 5 Type: weighted_normalized time: 7 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-6
+43225fe611f76b230c461925a1bd33a2  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-6.biom
+9c5c2fe39f8a41fb9990663cd161bb3e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-6.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 6 Type: unweighted
+3.10user 4.09system 0:09.47elapsed 75%CPU (0avgtext+0avgdata 610816maxresident)k
+0inputs+0outputs (0major+54565minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 6 Type: unweighted time: 10 ===
+==== Size: 2k Iteration: 6 Type: weighted_normalized
+4.63user 4.65system 0:06.73elapsed 137%CPU (0avgtext+0avgdata 611416maxresident)k
+0inputs+0outputs (0major+54717minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 6 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-7
+607df926a3229a6bf2f68ec47ec00767  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-7.biom
+999eec13809dda359ec4461ea210bf38  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-7.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 7 Type: unweighted
+2.97user 4.14system 0:12.66elapsed 56%CPU (0avgtext+0avgdata 622652maxresident)k
+0inputs+0outputs (0major+53478minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 7 Type: unweighted time: 12 ===
+==== Size: 2k Iteration: 7 Type: weighted_normalized
+4.41user 4.63system 0:06.70elapsed 134%CPU (0avgtext+0avgdata 624908maxresident)k
+0inputs+0outputs (0major+52771minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 7 Type: weighted_normalized time: 7 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-8
+a680ee0b396043cc76107d924ca749a8  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-8.biom
+802af3d64ec9658c1de5696ebe19882b  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-8.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 8 Type: unweighted
+2.98user 4.11system 0:06.47elapsed 109%CPU (0avgtext+0avgdata 622068maxresident)k
+0inputs+0outputs (0major+53340minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 8 Type: unweighted time: 7 ===
+==== Size: 2k Iteration: 8 Type: weighted_normalized
+4.47user 4.62system 0:06.70elapsed 135%CPU (0avgtext+0avgdata 622020maxresident)k
+0inputs+0outputs (0major+53339minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 8 Type: weighted_normalized time: 6 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-9
+b1fda44f810247b9a0871086a3d0d1bb  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-9.biom
+89b63cf6fc43d6cf46bd2066282053c7  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-9.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 9 Type: unweighted
+3.04user 4.10system 0:06.38elapsed 111%CPU (0avgtext+0avgdata 621220maxresident)k
+0inputs+0outputs (0major+54113minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 9 Type: unweighted time: 6 ===
+==== Size: 2k Iteration: 9 Type: weighted_normalized
+4.50user 4.64system 0:06.82elapsed 134%CPU (0avgtext+0avgdata 621288maxresident)k
+0inputs+0outputs (0major+54623minor)pagefaults 0swaps
+=== Size: 2000 Iteration: 9 Type: weighted_normalized time: 7 ===
+==== Size 5k
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-0
+b88cebeb98046694a4b99300d74bc338  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-0.biom
+5578a3a983dfb78783b142e171198861  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-0.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 0 Type: unweighted
+6.15user 4.53system 0:07.91elapsed 135%CPU (0avgtext+0avgdata 1003592maxresident)k
+0inputs+0outputs (0major+99102minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 0 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 0 Type: weighted_normalized
+15.38user 6.96system 0:16.71elapsed 133%CPU (0avgtext+0avgdata 1013084maxresident)k
+0inputs+0outputs (0major+165629minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 0 Type: weighted_normalized time: 17 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-1
+4184ee8beeef99112f744763c8d83325  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-1.biom
+bbce004a8bf50833810dbf3f149e6ccd  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-1.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 1 Type: unweighted
+6.05user 4.61system 0:08.01elapsed 133%CPU (0avgtext+0avgdata 1003340maxresident)k
+0inputs+0outputs (0major+113902minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 1 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 1 Type: weighted_normalized
+15.13user 6.86system 0:10.43elapsed 210%CPU (0avgtext+0avgdata 1008468maxresident)k
+0inputs+0outputs (0major+163091minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 1 Type: weighted_normalized time: 11 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-2
+a530e9b32c8654703669304d9404692f  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-2.biom
+e8e3387c8f725384a05d8a5dd7e7fe90  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-2.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 2 Type: unweighted
+5.92user 4.58system 0:07.97elapsed 131%CPU (0avgtext+0avgdata 999752maxresident)k
+0inputs+0outputs (0major+96776minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 2 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 2 Type: weighted_normalized
+14.85user 6.84system 0:10.37elapsed 209%CPU (0avgtext+0avgdata 1007040maxresident)k
+0inputs+0outputs (0major+163190minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 2 Type: weighted_normalized time: 11 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-3
+8fb7638e936bf5f3892a768fb5ddd38e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-3.biom
+9eb60fa713f7d2a9c6bb0f86b930e70f  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-3.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 3 Type: unweighted
+5.88user 4.57system 0:07.94elapsed 131%CPU (0avgtext+0avgdata 998336maxresident)k
+0inputs+0outputs (0major+96938minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 3 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 3 Type: weighted_normalized
+14.73user 6.87system 0:10.47elapsed 206%CPU (0avgtext+0avgdata 1003680maxresident)k
+0inputs+0outputs (0major+163043minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 3 Type: weighted_normalized time: 11 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-4
+375afb0ba943f82949252ca6e7d956bc  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-4.biom
+2819c85718646e1a6a38cd246f88fd3a  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-4.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 4 Type: unweighted
+5.90user 4.61system 0:08.01elapsed 131%CPU (0avgtext+0avgdata 996488maxresident)k
+0inputs+0outputs (0major+114522minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 4 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 4 Type: weighted_normalized
+14.75user 6.84system 0:10.40elapsed 207%CPU (0avgtext+0avgdata 1005716maxresident)k
+0inputs+0outputs (0major+162847minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 4 Type: weighted_normalized time: 10 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-5
+8bb8372c7ab856c922219109d6ffa499  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-5.biom
+9c70808a603d827d50068df602089fb9  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-5.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 5 Type: unweighted
+5.93user 4.52system 0:07.96elapsed 131%CPU (0avgtext+0avgdata 1000192maxresident)k
+0inputs+0outputs (0major+95776minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 5 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 5 Type: weighted_normalized
+14.76user 6.87system 0:16.75elapsed 129%CPU (0avgtext+0avgdata 1009192maxresident)k
+0inputs+0outputs (0major+163078minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 5 Type: weighted_normalized time: 16 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-6
+8c6fabfc3f4d52147fb4ca0b278748ad  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-6.biom
+aee534bef4b908eae0aa13ae43be72bd  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-6.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 6 Type: unweighted
+6.07user 4.72system 0:08.21elapsed 131%CPU (0avgtext+0avgdata 1001024maxresident)k
+0inputs+0outputs (0major+128432minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 6 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 6 Type: weighted_normalized
+14.99user 6.85system 0:10.46elapsed 208%CPU (0avgtext+0avgdata 1008516maxresident)k
+0inputs+0outputs (0major+160710minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 6 Type: weighted_normalized time: 10 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-7
+49b3dca5422835a97bf1358fa3d45de2  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-7.biom
+a9dbea1a642bf11342a791bc1333b725  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-7.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 7 Type: unweighted
+5.63user 4.49system 0:07.68elapsed 131%CPU (0avgtext+0avgdata 993184maxresident)k
+0inputs+0outputs (0major+96697minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 7 Type: unweighted time: 7 ===
+==== Size: 5k Iteration: 7 Type: weighted_normalized
+14.10user 6.63system 0:09.92elapsed 208%CPU (0avgtext+0avgdata 1004496maxresident)k
+0inputs+0outputs (0major+133874minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 7 Type: weighted_normalized time: 10 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-8
+ec548e4097748bf72943d4cac653cb70  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-8.biom
+e58285967bac198f94287530f840ed5c  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-8.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 8 Type: unweighted
+6.12user 4.63system 0:08.10elapsed 132%CPU (0avgtext+0avgdata 1004472maxresident)k
+0inputs+0outputs (0major+133697minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 8 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 8 Type: weighted_normalized
+15.24user 6.82system 0:10.58elapsed 208%CPU (0avgtext+0avgdata 1011628maxresident)k
+0inputs+0outputs (0major+180706minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 8 Type: weighted_normalized time: 11 ===
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-9
+a54b8c24e9d8f3f058639bd79ff266ab  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-9.biom
+fef566d41a518ee52b7c6429d275806e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-9.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 9 Type: unweighted
+5.80user 4.53system 0:07.84elapsed 131%CPU (0avgtext+0avgdata 998448maxresident)k
+0inputs+0outputs (0major+96943minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 9 Type: unweighted time: 8 ===
+==== Size: 5k Iteration: 9 Type: weighted_normalized
+14.67user 6.76system 0:10.30elapsed 207%CPU (0avgtext+0avgdata 1003564maxresident)k
+0inputs+0outputs (0major+162416minor)pagefaults 0swaps
+=== Size: 5000 Iteration: 9 Type: weighted_normalized time: 10 ===

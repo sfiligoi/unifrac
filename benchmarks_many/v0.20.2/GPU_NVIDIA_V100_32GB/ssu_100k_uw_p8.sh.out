@@ -1,0 +1,139 @@
+brncl-34.ucsd.edu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               2101.000
+CPU max MHz:           2101.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Sat Feb 27 09:24:13 PST 2021
+Sat Feb 27 09:24:13 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   64C    P0   180W / 250W |  19445MiB / 32510MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   55C    P0    39W / 250W |    311MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   51C    P0    37W / 250W |    311MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A    130440      C   ssu                             19441MiB |
+|    1   N/A  N/A    130440      C   ssu                               307MiB |
+|    2   N/A  N/A    130440      C   ssu                               307MiB |
++-----------------------------------------------------------------------------+
+==== Size 100k
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-0
+327d6379064636c7b22c884ba43f78bc  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-0.biom
+67c5ecbeb272db0b218c6a46a11e79e6  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-0.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 0 Type: unweighted
+=== Size: 100000 Iteration: 0 Type: unweighted time: 1143 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-1
+a44af7fe29bc30ef05a6cfa80a89770f  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-1.biom
+2a2a36ecfe26e90343b437cc3f0868f2  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-1.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 1 Type: unweighted
+=== Size: 100000 Iteration: 1 Type: unweighted time: 1151 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-2
+fbc0fc444652cef589d155d2f4a0d061  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-2.biom
+0486b46b3ad686c9a82528446e36a255  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-2.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 2 Type: unweighted
+=== Size: 100000 Iteration: 2 Type: unweighted time: 1154 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-3
+28c0e3099736a5dfcd94ecf01ecf5883  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-3.biom
+58f40df47ee6f5d60b3dfc6a8646ba13  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-3.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 3 Type: unweighted
+=== Size: 100000 Iteration: 3 Type: unweighted time: 1131 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-4
+c9aeaaedc95e6a7ba4e83bfad71102bd  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-4.biom
+2fb5e46a9a224987d267154812cc1d4c  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-4.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 4 Type: unweighted
+=== Size: 100000 Iteration: 4 Type: unweighted time: 1119 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-5
+6ec9fb4fa66aae4d84d7e9e7885836eb  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-5.biom
+8c640cdcfbf9c482c550b6962d5665b5  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-5.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 5 Type: unweighted
+=== Size: 100000 Iteration: 5 Type: unweighted time: 1129 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-6
+519cc71da434852f4f76df6c8d04a891  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-6.biom
+1a6874681c3e68044dca79a84d280217  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-6.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 6 Type: unweighted
+=== Size: 100000 Iteration: 6 Type: unweighted time: 1150 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-7
+c407492ed6eb708300b4bfde8336d5f1  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-7.biom
+70b11a77809ebd4a3c041bf42a4c3769  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-7.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 7 Type: unweighted
+=== Size: 100000 Iteration: 7 Type: unweighted time: 1145 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-8
+0f0302e428351a4037190dc0eccf2fe3  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-8.biom
+c80f10a068bf57f6d7831d49a814e304  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-8.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 8 Type: unweighted
+=== Size: 100000 Iteration: 8 Type: unweighted time: 1132 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-9
+0326047c8466e3c4bc7c3dbb6448fe33  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-9.biom
+03b4f2f4668c22f4a1d0195487d937c6  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-9.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 9 Type: unweighted
+=== Size: 100000 Iteration: 9 Type: unweighted time: 1128 ===
