@@ -1,0 +1,243 @@
+==== Size 1k
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-0
+=== Size: 1000 Iteration: 0 ===
+6284f4b7d747d6e4516f6882ebce9b0b  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-0.biom
+16c4262e3e03a65000c6fbfed62c2513  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-0.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 49744
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-1
+=== Size: 1000 Iteration: 1 ===
+e9fb286de328bf040c33e01dd3486f0a  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-1.biom
+9c3af86d5a04ea83dc31a74c2a091600  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-1.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 57316
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-2
+=== Size: 1000 Iteration: 2 ===
+75a3271b44d644fd4e62feb109647f59  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-2.biom
+e46efb8ec357773d34ab0c2382a4d18c  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-2.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 47038
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-3
+=== Size: 1000 Iteration: 3 ===
+958421c0f845432a1afb9347f5c52048  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-3.biom
+6bf7d68e2508908c2b317ea7da8f345e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-3.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 55224
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-4
+=== Size: 1000 Iteration: 4 ===
+43a9833d9f0ed8b3abc829f88f130f48  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-4.biom
+039a3bd443fb22b619520f9f3e3328ac  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-4.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 55522
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-5
+=== Size: 1000 Iteration: 5 ===
+528dd8a84ca4c9575a038595fb914eaf  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-5.biom
+9b1a4770c091ffc849409941fb3b770f  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-5.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 48600
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-6
+=== Size: 1000 Iteration: 6 ===
+22c8a1a9ee0e83042985216a5af57bee  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-6.biom
+f9d3548d2db7473fb485bbef77f0c2c9  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-6.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 51808
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-7
+=== Size: 1000 Iteration: 7 ===
+d31e7ef4a1d7d2f8bd2a0ab5c1d6d179  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-7.biom
+ad979185555b0377f74f328cd779f6ce  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-7.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 50046
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-8
+=== Size: 1000 Iteration: 8 ===
+f9c7337537750d8722ef9905aad21617  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-8.biom
+e092c1979703318bbb5a36560c333e34  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-8.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 53122
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-9
+=== Size: 1000 Iteration: 9 ===
+d330daef49161979fcb5de4086b9bf30  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-9.biom
+f3cb7b5046a04886a3263704c9f26fdb  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-1000-iteration-9.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+nr_els 51810
+==== Size 2k
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-0
+=== Size: 2000 Iteration: 0 ===
+ec3641c8ba9b4a50b84c584cfcda45c1  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-0.biom
+dc90a0132080c789a59c8fe59b870d0c  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-0.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 81072
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-1
+=== Size: 2000 Iteration: 1 ===
+41efccf8460f99cf4c81e4ac84c3f017  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-1.biom
+e7e82cb44145130a320b2ba845fed3b1  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-1.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 84522
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-2
+=== Size: 2000 Iteration: 2 ===
+8a6947a8ac152b324d6a7494a175b6f6  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-2.biom
+cd320106ddc6f3081d1da6010afc8b88  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-2.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 81810
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-3
+=== Size: 2000 Iteration: 3 ===
+e2092591a97a001d44f0b27104d01cfb  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-3.biom
+664fdd11183d6cd72e6e1d4d124b4808  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-3.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 89738
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-4
+=== Size: 2000 Iteration: 4 ===
+8f2b0b1914585eab254e06d20e62d3e4  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-4.biom
+41a46304bc8ec2a9b9ad8613466b3b1e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-4.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 88608
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-5
+=== Size: 2000 Iteration: 5 ===
+2e9427f8c57d106ba2d2cad1bd9da573  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-5.biom
+2d0d1e508ccf29979555051c38320fed  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-5.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 85682
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-6
+=== Size: 2000 Iteration: 6 ===
+43225fe611f76b230c461925a1bd33a2  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-6.biom
+9c5c2fe39f8a41fb9990663cd161bb3e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-6.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 89110
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-7
+=== Size: 2000 Iteration: 7 ===
+607df926a3229a6bf2f68ec47ec00767  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-7.biom
+999eec13809dda359ec4461ea210bf38  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-7.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 86276
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-8
+=== Size: 2000 Iteration: 8 ===
+a680ee0b396043cc76107d924ca749a8  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-8.biom
+802af3d64ec9658c1de5696ebe19882b  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-8.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 87502
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-9
+=== Size: 2000 Iteration: 9 ===
+b1fda44f810247b9a0871086a3d0d1bb  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-9.biom
+89b63cf6fc43d6cf46bd2066282053c7  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-2000-iteration-9.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+nr_els 86584
+==== Size 5k
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-0
+=== Size: 5000 Iteration: 0 ===
+b88cebeb98046694a4b99300d74bc338  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-0.biom
+5578a3a983dfb78783b142e171198861  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-0.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 169774
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-1
+=== Size: 5000 Iteration: 1 ===
+4184ee8beeef99112f744763c8d83325  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-1.biom
+bbce004a8bf50833810dbf3f149e6ccd  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-1.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 165496
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-2
+=== Size: 5000 Iteration: 2 ===
+a530e9b32c8654703669304d9404692f  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-2.biom
+e8e3387c8f725384a05d8a5dd7e7fe90  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-2.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 162798
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-3
+=== Size: 5000 Iteration: 3 ===
+8fb7638e936bf5f3892a768fb5ddd38e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-3.biom
+9eb60fa713f7d2a9c6bb0f86b930e70f  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-3.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 160528
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-4
+=== Size: 5000 Iteration: 4 ===
+375afb0ba943f82949252ca6e7d956bc  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-4.biom
+2819c85718646e1a6a38cd246f88fd3a  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-4.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 160766
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-5
+=== Size: 5000 Iteration: 5 ===
+8bb8372c7ab856c922219109d6ffa499  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-5.biom
+9c70808a603d827d50068df602089fb9  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-5.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 163296
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-6
+=== Size: 5000 Iteration: 6 ===
+8c6fabfc3f4d52147fb4ca0b278748ad  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-6.biom
+aee534bef4b908eae0aa13ae43be72bd  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-6.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 164672
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-7
+=== Size: 5000 Iteration: 7 ===
+49b3dca5422835a97bf1358fa3d45de2  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-7.biom
+a9dbea1a642bf11342a791bc1333b725  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-7.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 152698
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-8
+=== Size: 5000 Iteration: 8 ===
+ec548e4097748bf72943d4cac653cb70  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-8.biom
+e58285967bac198f94287530f840ed5c  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-8.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 167148
+==== Processing /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-9
+=== Size: 5000 Iteration: 9 ===
+a54b8c24e9d8f3f058639bd79ff266ab  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-9.biom
+fef566d41a518ee52b7c6429d275806e  /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/inputs/new/samples-5000-iteration-9.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+nr_els 161002
