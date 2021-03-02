@@ -1,0 +1,160 @@
+407.21user 37.21system 2:19.01elapsed 319%CPU (0avgtext+0avgdata 6045696maxresident)k
+38120inputs+0outputs (0major+1795999minor)pagefaults 0swaps
+394.21user 36.83system 2:25.51elapsed 296%CPU (0avgtext+0avgdata 6043996maxresident)k
+113032inputs+0outputs (0major+1809179minor)pagefaults 0swaps
+399.94user 36.98system 2:18.68elapsed 315%CPU (0avgtext+0avgdata 6043628maxresident)k
+113032inputs+0outputs (0major+1819308minor)pagefaults 0swaps
+404.33user 37.03system 2:28.45elapsed 297%CPU (0avgtext+0avgdata 6044328maxresident)k
+113032inputs+0outputs (0major+1774669minor)pagefaults 0swaps
+395.12user 36.17system 2:24.88elapsed 297%CPU (0avgtext+0avgdata 6044260maxresident)k
+113032inputs+0outputs (0major+1818195minor)pagefaults 0swaps
+396.80user 36.46system 2:18.94elapsed 311%CPU (0avgtext+0avgdata 6047632maxresident)k
+113032inputs+0outputs (0major+1826264minor)pagefaults 0swaps
+394.81user 35.74system 2:27.37elapsed 292%CPU (0avgtext+0avgdata 6046296maxresident)k
+113032inputs+0outputs (0major+1784456minor)pagefaults 0swaps
+400.65user 36.52system 2:36.93elapsed 278%CPU (0avgtext+0avgdata 6045600maxresident)k
+113032inputs+0outputs (0major+1835199minor)pagefaults 0swaps
+385.60user 35.27system 2:16.41elapsed 308%CPU (0avgtext+0avgdata 6037656maxresident)k
+100096inputs+0outputs (0major+1800626minor)pagefaults 0swaps
+399.56user 36.96system 2:27.16elapsed 296%CPU (0avgtext+0avgdata 6038316maxresident)k
+111584inputs+0outputs (0major+1808266minor)pagefaults 0swaps
+395.35user 36.47system 2:17.67elapsed 313%CPU (0avgtext+0avgdata 6035768maxresident)k
+111584inputs+0outputs (0major+1800319minor)pagefaults 0swaps
+389.94user 35.84system 2:23.34elapsed 297%CPU (0avgtext+0avgdata 6036324maxresident)k
+111584inputs+0outputs (0major+1757933minor)pagefaults 0swaps
+384.71user 35.73system 2:26.29elapsed 287%CPU (0avgtext+0avgdata 6036280maxresident)k
+111584inputs+0outputs (0major+1804291minor)pagefaults 0swaps
+383.84user 35.42system 2:17.45elapsed 305%CPU (0avgtext+0avgdata 6037724maxresident)k
+111584inputs+0outputs (0major+1798081minor)pagefaults 0swaps
+391.12user 36.44system 2:22.94elapsed 299%CPU (0avgtext+0avgdata 6036216maxresident)k
+111584inputs+0outputs (0major+1779947minor)pagefaults 0swaps
+390.15user 35.82system 2:20.55elapsed 303%CPU (0avgtext+0avgdata 6037764maxresident)k
+111584inputs+0outputs (0major+1817479minor)pagefaults 0swaps
+395.16user 36.69system 2:17.87elapsed 313%CPU (0avgtext+0avgdata 6040972maxresident)k
+112392inputs+0outputs (0major+1787506minor)pagefaults 0swaps
+384.91user 35.70system 2:23.41elapsed 293%CPU (0avgtext+0avgdata 6040844maxresident)k
+112392inputs+0outputs (0major+1790552minor)pagefaults 0swaps
+397.50user 36.22system 2:17.94elapsed 314%CPU (0avgtext+0avgdata 6040392maxresident)k
+112392inputs+0outputs (0major+1801558minor)pagefaults 0swaps
+395.04user 36.80system 2:23.95elapsed 299%CPU (0avgtext+0avgdata 6040960maxresident)k
+112392inputs+0outputs (0major+1771536minor)pagefaults 0swaps
+394.82user 36.29system 2:24.17elapsed 299%CPU (0avgtext+0avgdata 6040396maxresident)k
+112392inputs+0outputs (0major+1796861minor)pagefaults 0swaps
+398.67user 36.53system 2:27.50elapsed 295%CPU (0avgtext+0avgdata 6039004maxresident)k
+112392inputs+0outputs (0major+1739731minor)pagefaults 0swaps
+391.72user 36.29system 2:27.25elapsed 290%CPU (0avgtext+0avgdata 6041048maxresident)k
+112392inputs+0outputs (0major+1813872minor)pagefaults 0swaps
+389.54user 35.88system 2:17.25elapsed 309%CPU (0avgtext+0avgdata 6038384maxresident)k
+112392inputs+0outputs (0major+1795718minor)pagefaults 0swaps
+398.50user 36.67system 2:18.51elapsed 314%CPU (0avgtext+0avgdata 6044700maxresident)k
+113136inputs+0outputs (0major+1769076minor)pagefaults 0swaps
+398.36user 36.08system 2:25.35elapsed 298%CPU (0avgtext+0avgdata 6042588maxresident)k
+113136inputs+0outputs (0major+1817017minor)pagefaults 0swaps
+402.34user 36.63system 2:19.16elapsed 315%CPU (0avgtext+0avgdata 6044168maxresident)k
+113136inputs+0outputs (0major+1793807minor)pagefaults 0swaps
+390.59user 36.75system 2:28.00elapsed 288%CPU (0avgtext+0avgdata 6042740maxresident)k
+113136inputs+0outputs (0major+1792006minor)pagefaults 0swaps
+401.84user 36.33system 2:25.77elapsed 300%CPU (0avgtext+0avgdata 6046220maxresident)k
+113136inputs+0outputs (0major+1817698minor)pagefaults 0swaps
+393.33user 36.74system 2:24.43elapsed 297%CPU (0avgtext+0avgdata 6042712maxresident)k
+113136inputs+0outputs (0major+1763793minor)pagefaults 0swaps
+391.27user 35.48system 2:24.51elapsed 295%CPU (0avgtext+0avgdata 6042696maxresident)k
+113136inputs+0outputs (0major+1797454minor)pagefaults 0swaps
+394.03user 36.25system 2:18.49elapsed 310%CPU (0avgtext+0avgdata 6048184maxresident)k
+113136inputs+0outputs (0major+1799531minor)pagefaults 0swaps
+397.33user 36.69system 2:19.13elapsed 311%CPU (0avgtext+0avgdata 6042984maxresident)k
+112704inputs+0outputs (0major+1795118minor)pagefaults 0swaps
+397.55user 36.88system 2:25.45elapsed 298%CPU (0avgtext+0avgdata 6040556maxresident)k
+112704inputs+0outputs (0major+1825954minor)pagefaults 0swaps
+397.96user 37.26system 2:24.51elapsed 301%CPU (0avgtext+0avgdata 6043244maxresident)k
+112704inputs+0outputs (0major+1717086minor)pagefaults 0swaps
+394.03user 37.10system 2:28.33elapsed 290%CPU (0avgtext+0avgdata 6041084maxresident)k
+112704inputs+0outputs (0major+1823984minor)pagefaults 0swaps
+400.19user 36.93system 2:19.01elapsed 314%CPU (0avgtext+0avgdata 6042580maxresident)k
+112704inputs+0outputs (0major+1827868minor)pagefaults 0swaps
+393.67user 36.64system 2:25.64elapsed 295%CPU (0avgtext+0avgdata 6040992maxresident)k
+112704inputs+0outputs (0major+1766288minor)pagefaults 0swaps
+397.52user 36.52system 2:27.97elapsed 293%CPU (0avgtext+0avgdata 6042816maxresident)k
+112704inputs+0outputs (0major+1810157minor)pagefaults 0swaps
+390.08user 36.15system 2:18.13elapsed 308%CPU (0avgtext+0avgdata 6041292maxresident)k
+112704inputs+0outputs (0major+1770705minor)pagefaults 0swaps
+384.12user 35.48system 2:18.54elapsed 302%CPU (0avgtext+0avgdata 6048204maxresident)k
+113144inputs+0outputs (0major+1783671minor)pagefaults 0swaps
+391.48user 36.53system 2:19.36elapsed 307%CPU (0avgtext+0avgdata 6045636maxresident)k
+113144inputs+0outputs (0major+1795323minor)pagefaults 0swaps
+401.80user 36.45system 2:26.18elapsed 299%CPU (0avgtext+0avgdata 6045936maxresident)k
+113144inputs+0outputs (0major+1806191minor)pagefaults 0swaps
+394.06user 36.46system 2:25.76elapsed 295%CPU (0avgtext+0avgdata 6060368maxresident)k
+113144inputs+0outputs (0major+1786831minor)pagefaults 0swaps
+398.65user 36.61system 2:19.85elapsed 311%CPU (0avgtext+0avgdata 6047616maxresident)k
+113144inputs+0outputs (0major+1816204minor)pagefaults 0swaps
+391.33user 36.08system 2:25.80elapsed 293%CPU (0avgtext+0avgdata 6046044maxresident)k
+113144inputs+0outputs (0major+1799465minor)pagefaults 0swaps
+398.45user 36.92system 2:25.58elapsed 299%CPU (0avgtext+0avgdata 6047508maxresident)k
+113144inputs+0outputs (0major+1802075minor)pagefaults 0swaps
+396.60user 36.35system 2:29.41elapsed 289%CPU (0avgtext+0avgdata 6047976maxresident)k
+113144inputs+0outputs (0major+1754055minor)pagefaults 0swaps
+386.89user 35.63system 2:17.68elapsed 306%CPU (0avgtext+0avgdata 6047100maxresident)k
+112576inputs+0outputs (0major+1828588minor)pagefaults 0swaps
+385.31user 35.93system 2:17.60elapsed 306%CPU (0avgtext+0avgdata 6042508maxresident)k
+112576inputs+0outputs (0major+1812485minor)pagefaults 0swaps
+396.44user 36.70system 2:28.31elapsed 292%CPU (0avgtext+0avgdata 6045116maxresident)k
+112576inputs+0outputs (0major+1808148minor)pagefaults 0swaps
+389.81user 36.04system 2:24.32elapsed 295%CPU (0avgtext+0avgdata 6040548maxresident)k
+112576inputs+0outputs (0major+1805763minor)pagefaults 0swaps
+386.59user 37.24system 2:18.01elapsed 307%CPU (0avgtext+0avgdata 6043088maxresident)k
+112576inputs+0outputs (0major+1779883minor)pagefaults 0swaps
+390.70user 35.72system 2:27.19elapsed 289%CPU (0avgtext+0avgdata 6040960maxresident)k
+112576inputs+0outputs (0major+1783994minor)pagefaults 0swaps
+391.32user 36.41system 2:18.22elapsed 309%CPU (0avgtext+0avgdata 6040548maxresident)k
+112576inputs+0outputs (0major+1814191minor)pagefaults 0swaps
+393.81user 36.24system 2:24.42elapsed 297%CPU (0avgtext+0avgdata 6043128maxresident)k
+112576inputs+0outputs (0major+1759322minor)pagefaults 0swaps
+399.41user 36.64system 2:18.52elapsed 314%CPU (0avgtext+0avgdata 6050248maxresident)k
+112608inputs+0outputs (0major+1799126minor)pagefaults 0swaps
+392.95user 35.41system 2:18.50elapsed 309%CPU (0avgtext+0avgdata 6045676maxresident)k
+112608inputs+0outputs (0major+1803154minor)pagefaults 0swaps
+393.50user 36.40system 2:25.07elapsed 296%CPU (0avgtext+0avgdata 6048216maxresident)k
+112608inputs+0outputs (0major+1783692minor)pagefaults 0swaps
+386.05user 35.91system 2:28.86elapsed 283%CPU (0avgtext+0avgdata 6045700maxresident)k
+112608inputs+0outputs (0major+1823529minor)pagefaults 0swaps
+399.19user 40.01system 2:29.80elapsed 293%CPU (0avgtext+0avgdata 6043724maxresident)k
+112608inputs+0outputs (0major+1763211minor)pagefaults 0swaps
+408.08user 37.94system 2:25.81elapsed 305%CPU (0avgtext+0avgdata 6044244maxresident)k
+112608inputs+0outputs (0major+1795914minor)pagefaults 0swaps
+400.11user 37.10system 2:20.43elapsed 311%CPU (0avgtext+0avgdata 6043744maxresident)k
+112608inputs+0outputs (0major+1824791minor)pagefaults 0swaps
+402.50user 36.62system 2:25.52elapsed 301%CPU (0avgtext+0avgdata 6048096maxresident)k
+112608inputs+0outputs (0major+1780479minor)pagefaults 0swaps
+388.59user 36.70system 2:16.91elapsed 310%CPU (0avgtext+0avgdata 6033592maxresident)k
+111680inputs+0outputs (0major+1773843minor)pagefaults 0swaps
+394.51user 39.85system 2:31.12elapsed 287%CPU (0avgtext+0avgdata 6035416maxresident)k
+111680inputs+0outputs (0major+1738404minor)pagefaults 0swaps
+381.28user 38.72system 2:26.36elapsed 286%CPU (0avgtext+0avgdata 6035344maxresident)k
+111680inputs+0outputs (0major+1706563minor)pagefaults 0swaps
+383.53user 39.25system 2:26.55elapsed 288%CPU (0avgtext+0avgdata 6034964maxresident)k
+111680inputs+0outputs (0major+1724228minor)pagefaults 0swaps
+378.39user 39.71system 2:29.46elapsed 279%CPU (0avgtext+0avgdata 6049516maxresident)k
+111680inputs+0outputs (0major+1697426minor)pagefaults 0swaps
+386.80user 39.52system 2:26.80elapsed 290%CPU (0avgtext+0avgdata 6033360maxresident)k
+111680inputs+0outputs (0major+1719739minor)pagefaults 0swaps
+388.12user 39.28system 2:26.51elapsed 291%CPU (0avgtext+0avgdata 6035468maxresident)k
+111680inputs+0outputs (0major+1702117minor)pagefaults 0swaps
+390.90user 39.99system 2:30.83elapsed 285%CPU (0avgtext+0avgdata 6036948maxresident)k
+111680inputs+0outputs (0major+1767332minor)pagefaults 0swaps
+394.24user 40.30system 2:22.82elapsed 304%CPU (0avgtext+0avgdata 6049924maxresident)k
+113592inputs+0outputs (0major+1739751minor)pagefaults 0swaps
+405.58user 40.64system 2:31.24elapsed 295%CPU (0avgtext+0avgdata 6049792maxresident)k
+113592inputs+0outputs (0major+1751513minor)pagefaults 0swaps
+395.60user 40.92system 2:33.46elapsed 284%CPU (0avgtext+0avgdata 6047700maxresident)k
+113592inputs+0outputs (0major+1743441minor)pagefaults 0swaps
+397.16user 40.57system 2:33.03elapsed 286%CPU (0avgtext+0avgdata 6045340maxresident)k
+113592inputs+0outputs (0major+1795416minor)pagefaults 0swaps
+389.64user 39.66system 2:30.01elapsed 286%CPU (0avgtext+0avgdata 6047680maxresident)k
+113592inputs+0outputs (0major+1751661minor)pagefaults 0swaps
+394.16user 40.02system 2:34.34elapsed 281%CPU (0avgtext+0avgdata 6045796maxresident)k
+113592inputs+0outputs (0major+1773385minor)pagefaults 0swaps
+402.54user 40.87system 2:30.51elapsed 294%CPU (0avgtext+0avgdata 6049832maxresident)k
+113592inputs+0outputs (0major+1790157minor)pagefaults 0swaps
+392.15user 40.39system 2:30.24elapsed 287%CPU (0avgtext+0avgdata 6061620maxresident)k
+113592inputs+0outputs (0major+1743377minor)pagefaults 0swaps
