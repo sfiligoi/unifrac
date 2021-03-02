@@ -1,0 +1,81 @@
+==== Size 200k
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-0
+=== Size: 200000 Iteration: 0 ===
+0f34f4de4ad9fba8a28cce7c70218aa8  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-0.biom
+1e726d6bcc9b53659754cc113adfc078  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-0.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1903948
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-1
+=== Size: 200000 Iteration: 1 ===
+8ea63bccbc4fac981d29e9ae3da6d595  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-1.biom
+5b696cdd6d0e6c2355542c8ef4065376  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-1.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1905426
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-2
+=== Size: 200000 Iteration: 2 ===
+8cf93b8d1c0a3fff8b1e05fc9c68d025  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-2.biom
+42a6309ceeb13959b728179184916657  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-2.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1908300
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-3
+=== Size: 200000 Iteration: 3 ===
+1d1212aa71e5445decc9f4bffe7430b9  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-3.biom
+f74bd90ca1782b7b47537a1246c884de  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-3.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1889568
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-4
+=== Size: 200000 Iteration: 4 ===
+ec08f0fada25da3877b5c397ab82ed09  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-4.biom
+b8d94d7cec70d25675c5285905ac8521  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-4.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1918124
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-5
+=== Size: 200000 Iteration: 5 ===
+f3c5ba8e911f919ef73a43e5a207a4d2  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-5.biom
+f2672936a8bb9899f87274f3951c1779  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-5.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1906436
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-6
+=== Size: 200000 Iteration: 6 ===
+d19a522a8a71939f93732f83cce70d92  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-6.biom
+97ccd8d19b3a380651029249a556e4ee  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-6.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1905226
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-7
+=== Size: 200000 Iteration: 7 ===
+907912288bc99239d45fe5c1d00c3ced  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-7.biom
+a5609a87a270bd3a9c19825e74c4ec2c  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-7.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1907920
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-8
+=== Size: 200000 Iteration: 8 ===
+9e137848aa0c5d302eaacf2b046cbf29  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-8.biom
+b1f328af83bd5b9d9a6afbcef4371c2b  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-8.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1915080
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-9
+=== Size: 200000 Iteration: 9 ===
+515f353b87b744d3c42e9d35c6b241f2  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-9.biom
+40214f476bff9d3c1749f4d6deab1f13  /home/mcdonadt/redbiom-070920/subsets/samples-200000-iteration-9.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+nr_els 1905856
