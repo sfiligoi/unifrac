@@ -1,0 +1,297 @@
+brncl-34.ucsd.edu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               800.000
+CPU max MHz:           2101.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Mon Mar  1 19:45:42 PST 2021
+Mon Mar  1 19:45:45 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.23.05    Driver Version: 455.23.05    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   45C    P0    37W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   54C    P0    38W / 250W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-PCIE...  Off  | 00000000:D8:00.0 Off |                    0 |
+| N/A   50C    P0    37W / 250W |      0MiB / 32510MiB |      5%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+==== Size 100k
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-0
+327d6379064636c7b22c884ba43f78bc  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-0.biom
+67c5ecbeb272db0b218c6a46a11e79e6  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-0.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 0 Type: weighted_normalized
+1027.38user 143.27system 10:03.85elapsed 193%CPU (0avgtext+0avgdata 21183936maxresident)k
+187760inputs+0outputs (0major+8721909minor)pagefaults 0swaps
+1031.31user 142.82system 10:13.81elapsed 191%CPU (0avgtext+0avgdata 21180848maxresident)k
+187760inputs+0outputs (0major+8380277minor)pagefaults 0swaps
+1031.83user 142.96system 10:16.36elapsed 190%CPU (0avgtext+0avgdata 21183080maxresident)k
+187760inputs+0outputs (0major+8794796minor)pagefaults 0swaps
+1028.04user 146.24system 10:14.46elapsed 191%CPU (0avgtext+0avgdata 21182988maxresident)k
+187760inputs+0outputs (0major+8989769minor)pagefaults 0swaps
+1046.63user 145.34system 10:17.95elapsed 192%CPU (0avgtext+0avgdata 21181096maxresident)k
+187760inputs+0outputs (0major+8705516minor)pagefaults 0swaps
+1042.09user 140.94system 10:15.51elapsed 192%CPU (0avgtext+0avgdata 21180952maxresident)k
+187760inputs+0outputs (0major+9173419minor)pagefaults 0swaps
+1026.76user 144.62system 10:14.03elapsed 190%CPU (0avgtext+0avgdata 21183876maxresident)k
+187760inputs+0outputs (0major+8747841minor)pagefaults 0swaps
+1038.51user 140.36system 10:15.57elapsed 191%CPU (0avgtext+0avgdata 21182972maxresident)k
+187760inputs+0outputs (0major+8672591minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 0 Type: weighted_normalized time: 4916 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-1
+a44af7fe29bc30ef05a6cfa80a89770f  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-1.biom
+2a2a36ecfe26e90343b437cc3f0868f2  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-1.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 1 Type: weighted_normalized
+1045.60user 143.02system 10:04.84elapsed 196%CPU (0avgtext+0avgdata 21191932maxresident)k
+188872inputs+0outputs (0major+8703676minor)pagefaults 0swaps
+1038.23user 143.63system 10:14.32elapsed 192%CPU (0avgtext+0avgdata 21194572maxresident)k
+188872inputs+0outputs (0major+8755327minor)pagefaults 0swaps
+1034.23user 144.56system 10:13.17elapsed 192%CPU (0avgtext+0avgdata 21193848maxresident)k
+188872inputs+0outputs (0major+8893495minor)pagefaults 0swaps
+1028.63user 143.37system 10:12.22elapsed 191%CPU (0avgtext+0avgdata 21194844maxresident)k
+188872inputs+0outputs (0major+8798421minor)pagefaults 0swaps
+1041.34user 141.78system 10:19.40elapsed 191%CPU (0avgtext+0avgdata 21194040maxresident)k
+188872inputs+0outputs (0major+8860318minor)pagefaults 0swaps
+1040.04user 142.55system 10:13.95elapsed 192%CPU (0avgtext+0avgdata 21207828maxresident)k
+188872inputs+0outputs (0major+8831542minor)pagefaults 0swaps
+1034.63user 142.21system 10:12.56elapsed 192%CPU (0avgtext+0avgdata 21193932maxresident)k
+188872inputs+0outputs (0major+8588172minor)pagefaults 0swaps
+1037.71user 142.44system 10:13.77elapsed 192%CPU (0avgtext+0avgdata 21193764maxresident)k
+188872inputs+0outputs (0major+9127766minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 1 Type: weighted_normalized time: 4909 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-2
+fbc0fc444652cef589d155d2f4a0d061  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-2.biom
+0486b46b3ad686c9a82528446e36a255  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-2.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 2 Type: weighted_normalized
+1047.11user 143.85system 10:09.31elapsed 195%CPU (0avgtext+0avgdata 21191252maxresident)k
+189008inputs+0outputs (0major+9142108minor)pagefaults 0swaps
+1038.77user 149.01system 10:15.61elapsed 192%CPU (0avgtext+0avgdata 21192240maxresident)k
+189008inputs+0outputs (0major+9037634minor)pagefaults 0swaps
+1028.42user 145.53system 10:14.89elapsed 190%CPU (0avgtext+0avgdata 21191224maxresident)k
+189008inputs+0outputs (0major+8882325minor)pagefaults 0swaps
+1040.65user 148.60system 10:17.27elapsed 192%CPU (0avgtext+0avgdata 21193944maxresident)k
+189008inputs+0outputs (0major+8740461minor)pagefaults 0swaps
+1043.21user 142.12system 10:16.41elapsed 192%CPU (0avgtext+0avgdata 21195396maxresident)k
+189008inputs+0outputs (0major+9072396minor)pagefaults 0swaps
+1046.56user 145.04system 10:17.62elapsed 192%CPU (0avgtext+0avgdata 21191468maxresident)k
+189008inputs+0outputs (0major+8781877minor)pagefaults 0swaps
+1042.19user 148.71system 10:18.11elapsed 192%CPU (0avgtext+0avgdata 21196152maxresident)k
+189008inputs+0outputs (0major+8915641minor)pagefaults 0swaps
+1041.97user 144.43system 10:19.51elapsed 191%CPU (0avgtext+0avgdata 21193184maxresident)k
+189008inputs+0outputs (0major+8862844minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 2 Type: weighted_normalized time: 4933 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-3
+28c0e3099736a5dfcd94ecf01ecf5883  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-3.biom
+58f40df47ee6f5d60b3dfc6a8646ba13  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-3.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 3 Type: weighted_normalized
+1034.52user 141.44system 10:02.00elapsed 195%CPU (0avgtext+0avgdata 21183016maxresident)k
+186816inputs+0outputs (0major+8741768minor)pagefaults 0swaps
+1032.97user 143.74system 10:11.43elapsed 192%CPU (0avgtext+0avgdata 21178960maxresident)k
+186816inputs+0outputs (0major+8903904minor)pagefaults 0swaps
+1028.79user 143.90system 10:10.29elapsed 192%CPU (0avgtext+0avgdata 21181680maxresident)k
+186816inputs+0outputs (0major+8917943minor)pagefaults 0swaps
+1034.62user 139.12system 10:09.41elapsed 192%CPU (0avgtext+0avgdata 21181144maxresident)k
+186816inputs+0outputs (0major+7910828minor)pagefaults 0swaps
+1030.97user 139.08system 10:11.47elapsed 191%CPU (0avgtext+0avgdata 21178980maxresident)k
+186816inputs+0outputs (0major+8729343minor)pagefaults 0swaps
+1024.86user 144.29system 10:09.29elapsed 191%CPU (0avgtext+0avgdata 21181088maxresident)k
+186816inputs+0outputs (0major+9046551minor)pagefaults 0swaps
+1022.16user 136.55system 10:07.84elapsed 190%CPU (0avgtext+0avgdata 21182984maxresident)k
+186816inputs+0outputs (0major+8885605minor)pagefaults 0swaps
+1033.74user 143.05system 10:12.23elapsed 192%CPU (0avgtext+0avgdata 21181080maxresident)k
+186816inputs+0outputs (0major+8798494minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 3 Type: weighted_normalized time: 4878 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-4
+c9aeaaedc95e6a7ba4e83bfad71102bd  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-4.biom
+2fb5e46a9a224987d267154812cc1d4c  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-4.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 4 Type: weighted_normalized
+1029.10user 144.48system 10:04.10elapsed 194%CPU (0avgtext+0avgdata 21182868maxresident)k
+187688inputs+0outputs (0major+9045634minor)pagefaults 0swaps
+1032.49user 140.95system 10:12.76elapsed 191%CPU (0avgtext+0avgdata 21179992maxresident)k
+187688inputs+0outputs (0major+8915568minor)pagefaults 0swaps
+1030.44user 145.01system 10:14.31elapsed 191%CPU (0avgtext+0avgdata 21182848maxresident)k
+187688inputs+0outputs (0major+8575568minor)pagefaults 0swaps
+1025.90user 142.68system 10:12.78elapsed 190%CPU (0avgtext+0avgdata 21179896maxresident)k
+187688inputs+0outputs (0major+8657350minor)pagefaults 0swaps
+1026.30user 145.41system 10:13.32elapsed 191%CPU (0avgtext+0avgdata 21196792maxresident)k
+187688inputs+0outputs (0major+8971342minor)pagefaults 0swaps
+1035.10user 139.51system 10:14.62elapsed 191%CPU (0avgtext+0avgdata 21180044maxresident)k
+187688inputs+0outputs (0major+8706428minor)pagefaults 0swaps
+1031.49user 144.96system 10:15.05elapsed 191%CPU (0avgtext+0avgdata 21180844maxresident)k
+187688inputs+0outputs (0major+8880701minor)pagefaults 0swaps
+1030.05user 138.54system 10:12.41elapsed 190%CPU (0avgtext+0avgdata 21180000maxresident)k
+187688inputs+0outputs (0major+8756496minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 4 Type: weighted_normalized time: 4904 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-5
+6ec9fb4fa66aae4d84d7e9e7885836eb  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-5.biom
+8c640cdcfbf9c482c550b6962d5665b5  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-5.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 5 Type: weighted_normalized
+1031.84user 145.30system 10:07.19elapsed 193%CPU (0avgtext+0avgdata 21179836maxresident)k
+187888inputs+0outputs (0major+9111248minor)pagefaults 0swaps
+1034.79user 142.00system 10:21.55elapsed 189%CPU (0avgtext+0avgdata 21181816maxresident)k
+187888inputs+0outputs (0major+8927430minor)pagefaults 0swaps
+1029.95user 141.28system 10:16.60elapsed 189%CPU (0avgtext+0avgdata 21181676maxresident)k
+187888inputs+0outputs (0major+8755514minor)pagefaults 0swaps
+1031.86user 142.00system 10:16.19elapsed 190%CPU (0avgtext+0avgdata 21179888maxresident)k
+187888inputs+0outputs (0major+8886133minor)pagefaults 0swaps
+1036.37user 144.95system 10:16.50elapsed 191%CPU (0avgtext+0avgdata 21181640maxresident)k
+187888inputs+0outputs (0major+9235811minor)pagefaults 0swaps
+1040.23user 148.31system 10:18.58elapsed 192%CPU (0avgtext+0avgdata 21181760maxresident)k
+187888inputs+0outputs (0major+8964025minor)pagefaults 0swaps
+1031.87user 146.70system 10:16.52elapsed 191%CPU (0avgtext+0avgdata 21182568maxresident)k
+187888inputs+0outputs (0major+8888653minor)pagefaults 0swaps
+1034.22user 143.43system 10:16.84elapsed 190%CPU (0avgtext+0avgdata 21181660maxresident)k
+187888inputs+0outputs (0major+8345052minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 5 Type: weighted_normalized time: 4934 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-6
+519cc71da434852f4f76df6c8d04a891  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-6.biom
+1a6874681c3e68044dca79a84d280217  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-6.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 6 Type: weighted_normalized
+1028.64user 146.20system 10:05.17elapsed 194%CPU (0avgtext+0avgdata 21191816maxresident)k
+188888inputs+0outputs (0major+8793490minor)pagefaults 0swaps
+1035.70user 145.00system 10:16.39elapsed 191%CPU (0avgtext+0avgdata 21193816maxresident)k
+188888inputs+0outputs (0major+9096767minor)pagefaults 0swaps
+1034.35user 139.32system 10:16.39elapsed 190%CPU (0avgtext+0avgdata 21191832maxresident)k
+188888inputs+0outputs (0major+8856036minor)pagefaults 0swaps
+1038.95user 141.77system 10:15.72elapsed 191%CPU (0avgtext+0avgdata 21189824maxresident)k
+188888inputs+0outputs (0major+8764142minor)pagefaults 0swaps
+1036.85user 143.08system 10:16.08elapsed 191%CPU (0avgtext+0avgdata 21192024maxresident)k
+188888inputs+0outputs (0major+8669856minor)pagefaults 0swaps
+1032.20user 138.69system 10:16.76elapsed 189%CPU (0avgtext+0avgdata 21192044maxresident)k
+188888inputs+0outputs (0major+8625983minor)pagefaults 0swaps
+1037.86user 141.22system 10:16.69elapsed 191%CPU (0avgtext+0avgdata 21191828maxresident)k
+188888inputs+0outputs (0major+8986444minor)pagefaults 0swaps
+1036.36user 146.36system 10:18.12elapsed 191%CPU (0avgtext+0avgdata 21194648maxresident)k
+188888inputs+0outputs (0major+9142475minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 6 Type: weighted_normalized time: 4926 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-7
+c407492ed6eb708300b4bfde8336d5f1  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-7.biom
+70b11a77809ebd4a3c041bf42a4c3769  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-7.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 7 Type: weighted_normalized
+1046.60user 141.15system 10:09.77elapsed 194%CPU (0avgtext+0avgdata 21195808maxresident)k
+189760inputs+0outputs (0major+8867984minor)pagefaults 0swaps
+1044.47user 142.20system 10:17.40elapsed 192%CPU (0avgtext+0avgdata 21197796maxresident)k
+189760inputs+0outputs (0major+8813023minor)pagefaults 0swaps
+1037.14user 144.17system 10:17.87elapsed 191%CPU (0avgtext+0avgdata 21195740maxresident)k
+189760inputs+0outputs (0major+8908829minor)pagefaults 0swaps
+1040.31user 145.59system 10:18.57elapsed 191%CPU (0avgtext+0avgdata 21198228maxresident)k
+189760inputs+0outputs (0major+8995271minor)pagefaults 0swaps
+1051.90user 141.10system 10:19.65elapsed 192%CPU (0avgtext+0avgdata 21197740maxresident)k
+189760inputs+0outputs (0major+8731327minor)pagefaults 0swaps
+1038.33user 142.96system 10:18.46elapsed 191%CPU (0avgtext+0avgdata 21197744maxresident)k
+189760inputs+0outputs (0major+8462917minor)pagefaults 0swaps
+1045.15user 146.79system 10:19.84elapsed 192%CPU (0avgtext+0avgdata 21195760maxresident)k
+189760inputs+0outputs (0major+8826747minor)pagefaults 0swaps
+1049.32user 143.25system 10:19.95elapsed 192%CPU (0avgtext+0avgdata 21197736maxresident)k
+189760inputs+0outputs (0major+8892931minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 7 Type: weighted_normalized time: 5027 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-8
+0f0302e428351a4037190dc0eccf2fe3  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-8.biom
+c80f10a068bf57f6d7831d49a814e304  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-8.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 8 Type: weighted_normalized
+1033.26user 142.91system 10:03.73elapsed 194%CPU (0avgtext+0avgdata 21174160maxresident)k
+186752inputs+0outputs (0major+8865277minor)pagefaults 0swaps
+1021.79user 142.13system 10:10.69elapsed 190%CPU (0avgtext+0avgdata 21176348maxresident)k
+186752inputs+0outputs (0major+8116275minor)pagefaults 0swaps
+1013.11user 147.93system 10:11.00elapsed 190%CPU (0avgtext+0avgdata 21177064maxresident)k
+186752inputs+0outputs (0major+8777366minor)pagefaults 0swaps
+1023.77user 142.80system 10:11.54elapsed 190%CPU (0avgtext+0avgdata 21174220maxresident)k
+186752inputs+0outputs (0major+9097282minor)pagefaults 0swaps
+1020.68user 144.31system 10:15.28elapsed 189%CPU (0avgtext+0avgdata 21178896maxresident)k
+186752inputs+0outputs (0major+8934328minor)pagefaults 0swaps
+1015.95user 141.35system 10:09.25elapsed 189%CPU (0avgtext+0avgdata 21176040maxresident)k
+186752inputs+0outputs (0major+9085239minor)pagefaults 0swaps
+1024.52user 146.12system 10:10.94elapsed 191%CPU (0avgtext+0avgdata 21181168maxresident)k
+186752inputs+0outputs (0major+8384204minor)pagefaults 0swaps
+1022.56user 141.74system 10:10.28elapsed 190%CPU (0avgtext+0avgdata 21174324maxresident)k
+186752inputs+0outputs (0major+8263152minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 8 Type: weighted_normalized time: 4887 ===
+==== Processing /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-9
+0326047c8466e3c4bc7c3dbb6448fe33  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-9.biom
+03b4f2f4668c22f4a1d0195487d937c6  /home/mcdonadt/redbiom-070920/subsets/samples-100000-iteration-9.tre
+Total samples: 100000
+Total stripes: 50000
+Partition 0, suggested start and stop: 0, 50000
+==== Size: 100k Iteration: 9 Type: weighted_normalized
+1031.76user 145.66system 10:07.84elapsed 193%CPU (0avgtext+0avgdata 21184632maxresident)k
+187744inputs+0outputs (0major+9181363minor)pagefaults 0swaps
+1038.60user 144.01system 10:18.63elapsed 191%CPU (0avgtext+0avgdata 21181860maxresident)k
+187744inputs+0outputs (0major+9144822minor)pagefaults 0swaps
+1037.04user 143.80system 10:17.53elapsed 191%CPU (0avgtext+0avgdata 21183884maxresident)k
+187744inputs+0outputs (0major+8861109minor)pagefaults 0swaps
+1027.66user 148.50system 10:16.65elapsed 190%CPU (0avgtext+0avgdata 21184516maxresident)k
+187744inputs+0outputs (0major+9164701minor)pagefaults 0swaps
+1033.21user 143.76system 10:17.89elapsed 190%CPU (0avgtext+0avgdata 21185676maxresident)k
+187744inputs+0outputs (0major+8828787minor)pagefaults 0swaps
+1023.81user 144.29system 10:17.84elapsed 189%CPU (0avgtext+0avgdata 21186440maxresident)k
+187744inputs+0outputs (0major+8980321minor)pagefaults 0swaps
+1044.59user 142.63system 10:20.34elapsed 191%CPU (0avgtext+0avgdata 21181812maxresident)k
+187744inputs+0outputs (0major+8881464minor)pagefaults 0swaps
+1039.69user 144.63system 10:19.00elapsed 191%CPU (0avgtext+0avgdata 21185760maxresident)k
+187744inputs+0outputs (0major+8882498minor)pagefaults 0swaps
+=== Size: 100000 Iteration: 9 Type: weighted_normalized time: 4941 ===
