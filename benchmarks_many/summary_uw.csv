@@ -1,4 +1,4 @@
-#samples, median org_cpu, min org_cpu, max org_cpu, median cpu, min cpu, max cpu, median gpu_v100, min gpu_v100, max gpu_v100, median gpu_3090 fp32, min gpu_3090 fp32, max gpu_3090 fp32#, stripes, median n_embs, min n_emb, max n_emb
+#samples, median org_cpu, min org_cpu, max org_cpu, median cpu, min cpu, max cpu, median gpu_v100, min gpu_v100, max gpu_v100, median gpu_3090 fp32, min gpu_3090 fp32, max gpu_3090 fp32, stripes, median n_embs, min n_emb, max n_emb
 1000, 5, 5, 6, 1, 0, 1, 6, 5, 13, 1, 1, 2, 500, 51809, 47038, 57316
 2000, 34, 32, 36, 2, 1, 2, 7, 6, 13, 2, 1, 2, 1000, 86430, 81072, 89738
 5000, 715, 669, 744, 9, 9, 10, 8, 7, 8, 3, 3, 4, 2500, 163047, 152698, 169774
