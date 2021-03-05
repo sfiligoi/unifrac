@@ -4,3 +4,5 @@
 45736inputs+0outputs (33major+139182137minor)pagefaults 0swaps
 1139254.46user 769.74system 19:55:24elapsed 1589%CPU (0avgtext+0avgdata 354169376maxresident)k
 45736inputs+0outputs (33major+221488418minor)pagefaults 0swaps
+773353.25user 555.47system 13:32:59elapsed 1586%CPU (0avgtext+0avgdata 354155372maxresident)k
+45736inputs+0outputs (33major+194802528minor)pagefaults 0swaps
