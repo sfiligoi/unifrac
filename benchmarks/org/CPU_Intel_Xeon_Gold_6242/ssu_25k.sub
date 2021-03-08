@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-72,procs_bitmap=0000000000000000111111111111111200000000000000000000000000000000
+hostname
+lscpu
+date
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2019.10/benchmarks/ssu
+source ../../source_condor.sh
+conda activate unifrac
+
+md5sum unifrac_25000.biom
+md5sum unifrac_25000.tre
+
+echo "===="
+ssu -i unifrac_25000.biom -t unifrac_25000.tre -m unweighted -o /dev/shm/unifrac.tmp --mode partial-report -n 16
+echo "=== unweighted 12k/25k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -n 16 -m unweighted -i unifrac_25000.biom -t unifrac_25000.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 12500
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted time: $dt ==="
+
+echo "=== weighted_normalized 12k/25k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 16-31 time ssu -n 16 -m weighted_normalized -i unifrac_25000.biom -t unifrac_25000.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 12500
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized time: $dt ==="
+
