@@ -1,0 +1,564 @@
+sfiligoi-ZenBook-Q536FD-Q536FD
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          8
+On-line CPU(s) list:             0-7
+Thread(s) per core:              2
+Core(s) per socket:              4
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           142
+Model name:                      Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+Stepping:                        11
+CPU MHz:                         1388.856
+CPU max MHz:                     4600.0000
+CPU min MHz:                     400.0000
+BogoMIPS:                        3999.93
+Virtualization:                  VT-x
+L1d cache:                       128 KiB
+L1i cache:                       128 KiB
+L2 cache:                        1 MiB
+L3 cache:                        8 MiB
+NUMA node0 CPU(s):               0-7
+Vulnerability Itlb multihit:     KVM: Mitigation: VMX disabled
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Srbds:             Mitigation; Microcode
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+Sat 13 Mar 2021 08:38:24 AM PST
+Sat Mar 13 08:38:24 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 105...  Off  | 00000000:02:00.0 Off |                  N/A |
+| N/A   45C    P0    N/A /  N/A |    262MiB /  2002MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      1098      G   /usr/lib/xorg/Xorg                101MiB |
+|    0   N/A  N/A      2339      G   /usr/lib/xorg/Xorg                 64MiB |
+|    0   N/A  N/A      2496      G   /usr/bin/gnome-shell               80MiB |
++-----------------------------------------------------------------------------+
+==== Size 1k
+==== Processing samples-1000-iteration-0
+6284f4b7d747d6e4516f6882ebce9b0b  samples-1000-iteration-0.biom
+16c4262e3e03a65000c6fbfed62c2513  samples-1000-iteration-0.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 0 Type: unweighted fp32
+=== Size: 1000 Iteration: 0 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 0 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-1
+e9fb286de328bf040c33e01dd3486f0a  samples-1000-iteration-1.biom
+9c3af86d5a04ea83dc31a74c2a091600  samples-1000-iteration-1.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 1 Type: unweighted fp32
+=== Size: 1000 Iteration: 1 Type: unweighted fp32 -f time: 0 ===
+==== Size: 1k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 1 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-2
+75a3271b44d644fd4e62feb109647f59  samples-1000-iteration-2.biom
+e46efb8ec357773d34ab0c2382a4d18c  samples-1000-iteration-2.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 2 Type: unweighted fp32
+=== Size: 1000 Iteration: 2 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 2 Type: weighted_normalized fp32 -f time: 0 ===
+==== Processing samples-1000-iteration-3
+958421c0f845432a1afb9347f5c52048  samples-1000-iteration-3.biom
+6bf7d68e2508908c2b317ea7da8f345e  samples-1000-iteration-3.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 3 Type: unweighted fp32
+=== Size: 1000 Iteration: 3 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 3 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-4
+43a9833d9f0ed8b3abc829f88f130f48  samples-1000-iteration-4.biom
+039a3bd443fb22b619520f9f3e3328ac  samples-1000-iteration-4.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 4 Type: unweighted fp32
+=== Size: 1000 Iteration: 4 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 4 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-5
+528dd8a84ca4c9575a038595fb914eaf  samples-1000-iteration-5.biom
+9b1a4770c091ffc849409941fb3b770f  samples-1000-iteration-5.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 5 Type: unweighted fp32
+=== Size: 1000 Iteration: 5 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 5 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-6
+22c8a1a9ee0e83042985216a5af57bee  samples-1000-iteration-6.biom
+f9d3548d2db7473fb485bbef77f0c2c9  samples-1000-iteration-6.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 6 Type: unweighted fp32
+=== Size: 1000 Iteration: 6 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 6 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-7
+d31e7ef4a1d7d2f8bd2a0ab5c1d6d179  samples-1000-iteration-7.biom
+ad979185555b0377f74f328cd779f6ce  samples-1000-iteration-7.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 7 Type: unweighted fp32
+=== Size: 1000 Iteration: 7 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 7 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-8
+f9c7337537750d8722ef9905aad21617  samples-1000-iteration-8.biom
+e092c1979703318bbb5a36560c333e34  samples-1000-iteration-8.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 8 Type: unweighted fp32
+=== Size: 1000 Iteration: 8 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 8 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-9
+d330daef49161979fcb5de4086b9bf30  samples-1000-iteration-9.biom
+f3cb7b5046a04886a3263704c9f26fdb  samples-1000-iteration-9.tre
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 9 Type: unweighted fp32
+=== Size: 1000 Iteration: 9 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 9 Type: weighted_normalized fp32 -f time: 1 ===
+==== Size 2k
+==== Processing samples-2000-iteration-0
+ec3641c8ba9b4a50b84c584cfcda45c1  samples-2000-iteration-0.biom
+dc90a0132080c789a59c8fe59b870d0c  samples-2000-iteration-0.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 0 Type: unweighted fp32
+=== Size: 2000 Iteration: 0 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 0 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-2000-iteration-1
+41efccf8460f99cf4c81e4ac84c3f017  samples-2000-iteration-1.biom
+e7e82cb44145130a320b2ba845fed3b1  samples-2000-iteration-1.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 1 Type: unweighted fp32
+=== Size: 2000 Iteration: 1 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 1 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-2
+8a6947a8ac152b324d6a7494a175b6f6  samples-2000-iteration-2.biom
+cd320106ddc6f3081d1da6010afc8b88  samples-2000-iteration-2.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 2 Type: unweighted fp32
+=== Size: 2000 Iteration: 2 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 2 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-3
+e2092591a97a001d44f0b27104d01cfb  samples-2000-iteration-3.biom
+664fdd11183d6cd72e6e1d4d124b4808  samples-2000-iteration-3.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 3 Type: unweighted fp32
+=== Size: 2000 Iteration: 3 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 3 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-4
+8f2b0b1914585eab254e06d20e62d3e4  samples-2000-iteration-4.biom
+41a46304bc8ec2a9b9ad8613466b3b1e  samples-2000-iteration-4.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 4 Type: unweighted fp32
+=== Size: 2000 Iteration: 4 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 4 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-5
+2e9427f8c57d106ba2d2cad1bd9da573  samples-2000-iteration-5.biom
+2d0d1e508ccf29979555051c38320fed  samples-2000-iteration-5.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 5 Type: unweighted fp32
+=== Size: 2000 Iteration: 5 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 5 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-6
+43225fe611f76b230c461925a1bd33a2  samples-2000-iteration-6.biom
+9c5c2fe39f8a41fb9990663cd161bb3e  samples-2000-iteration-6.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 6 Type: unweighted fp32
+=== Size: 2000 Iteration: 6 Type: unweighted fp32 -f time: 1 ===
+==== Size: 2k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 6 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-7
+607df926a3229a6bf2f68ec47ec00767  samples-2000-iteration-7.biom
+999eec13809dda359ec4461ea210bf38  samples-2000-iteration-7.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 7 Type: unweighted fp32
+=== Size: 2000 Iteration: 7 Type: unweighted fp32 -f time: 2 ===
+==== Size: 2k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 7 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-2000-iteration-8
+a680ee0b396043cc76107d924ca749a8  samples-2000-iteration-8.biom
+802af3d64ec9658c1de5696ebe19882b  samples-2000-iteration-8.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 8 Type: unweighted fp32
+=== Size: 2000 Iteration: 8 Type: unweighted fp32 -f time: 2 ===
+==== Size: 2k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 8 Type: weighted_normalized fp32 -f time: 3 ===
+==== Processing samples-2000-iteration-9
+b1fda44f810247b9a0871086a3d0d1bb  samples-2000-iteration-9.biom
+89b63cf6fc43d6cf46bd2066282053c7  samples-2000-iteration-9.tre
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 9 Type: unweighted fp32
+=== Size: 2000 Iteration: 9 Type: unweighted fp32 -f time: 2 ===
+==== Size: 2k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 9 Type: weighted_normalized fp32 -f time: 3 ===
+==== Size 5k
+==== Processing samples-5000-iteration-0
+b88cebeb98046694a4b99300d74bc338  samples-5000-iteration-0.biom
+5578a3a983dfb78783b142e171198861  samples-5000-iteration-0.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 0 Type: unweighted fp32
+=== Size: 5000 Iteration: 0 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 0 Type: weighted_normalized fp32 -f time: 20 ===
+==== Processing samples-5000-iteration-1
+4184ee8beeef99112f744763c8d83325  samples-5000-iteration-1.biom
+bbce004a8bf50833810dbf3f149e6ccd  samples-5000-iteration-1.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 1 Type: unweighted fp32
+=== Size: 5000 Iteration: 1 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 1 Type: weighted_normalized fp32 -f time: 20 ===
+==== Processing samples-5000-iteration-2
+a530e9b32c8654703669304d9404692f  samples-5000-iteration-2.biom
+e8e3387c8f725384a05d8a5dd7e7fe90  samples-5000-iteration-2.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 2 Type: unweighted fp32
+=== Size: 5000 Iteration: 2 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 2 Type: weighted_normalized fp32 -f time: 20 ===
+==== Processing samples-5000-iteration-3
+8fb7638e936bf5f3892a768fb5ddd38e  samples-5000-iteration-3.biom
+9eb60fa713f7d2a9c6bb0f86b930e70f  samples-5000-iteration-3.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 3 Type: unweighted fp32
+=== Size: 5000 Iteration: 3 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 3 Type: weighted_normalized fp32 -f time: 19 ===
+==== Processing samples-5000-iteration-4
+375afb0ba943f82949252ca6e7d956bc  samples-5000-iteration-4.biom
+2819c85718646e1a6a38cd246f88fd3a  samples-5000-iteration-4.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 4 Type: unweighted fp32
+=== Size: 5000 Iteration: 4 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 4 Type: weighted_normalized fp32 -f time: 19 ===
+==== Processing samples-5000-iteration-5
+8bb8372c7ab856c922219109d6ffa499  samples-5000-iteration-5.biom
+9c70808a603d827d50068df602089fb9  samples-5000-iteration-5.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 5 Type: unweighted fp32
+=== Size: 5000 Iteration: 5 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 5 Type: weighted_normalized fp32 -f time: 20 ===
+==== Processing samples-5000-iteration-6
+8c6fabfc3f4d52147fb4ca0b278748ad  samples-5000-iteration-6.biom
+aee534bef4b908eae0aa13ae43be72bd  samples-5000-iteration-6.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 6 Type: unweighted fp32
+=== Size: 5000 Iteration: 6 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 6 Type: weighted_normalized fp32 -f time: 20 ===
+==== Processing samples-5000-iteration-7
+49b3dca5422835a97bf1358fa3d45de2  samples-5000-iteration-7.biom
+a9dbea1a642bf11342a791bc1333b725  samples-5000-iteration-7.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 7 Type: unweighted fp32
+=== Size: 5000 Iteration: 7 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 7 Type: weighted_normalized fp32 -f time: 19 ===
+==== Processing samples-5000-iteration-8
+ec548e4097748bf72943d4cac653cb70  samples-5000-iteration-8.biom
+e58285967bac198f94287530f840ed5c  samples-5000-iteration-8.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 8 Type: unweighted fp32
+=== Size: 5000 Iteration: 8 Type: unweighted fp32 -f time: 5 ===
+==== Size: 5k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 8 Type: weighted_normalized fp32 -f time: 20 ===
+==== Processing samples-5000-iteration-9
+a54b8c24e9d8f3f058639bd79ff266ab  samples-5000-iteration-9.biom
+fef566d41a518ee52b7c6429d275806e  samples-5000-iteration-9.tre
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 9 Type: unweighted fp32
+=== Size: 5000 Iteration: 9 Type: unweighted fp32 -f time: 4 ===
+==== Size: 5k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 9 Type: weighted_normalized fp32 -f time: 20 ===
+==== Size 10k
+==== Processing samples-10000-iteration-0
+42f95375f03daf93d5f272dc8b9e3ea0  samples-10000-iteration-0.biom
+81c82b302f19a38f98ba06f233427c7a  samples-10000-iteration-0.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 0 Type: unweighted fp32
+=== Size: 10000 Iteration: 0 Type: unweighted fp32 -f time: 19 ===
+==== Size: 10k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 0 Type: weighted_normalized fp32 -f time: 92 ===
+==== Processing samples-10000-iteration-1
+c628980b6a2b28a00a10c12906dd07d2  samples-10000-iteration-1.biom
+3c4b4e4fbb5b9d7494e28d925386857e  samples-10000-iteration-1.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 1 Type: unweighted fp32
+=== Size: 10000 Iteration: 1 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 1 Type: weighted_normalized fp32 -f time: 92 ===
+==== Processing samples-10000-iteration-2
+235688c474416f8795284b75a46a3d1a  samples-10000-iteration-2.biom
+383ae731f1a55dc926269fb22af0cb96  samples-10000-iteration-2.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 2 Type: unweighted fp32
+=== Size: 10000 Iteration: 2 Type: unweighted fp32 -f time: 19 ===
+==== Size: 10k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 2 Type: weighted_normalized fp32 -f time: 94 ===
+==== Processing samples-10000-iteration-3
+8cdda7cc6eed17f425db40aa4474d687  samples-10000-iteration-3.biom
+abd082a351879594e568db1fd8c76fdb  samples-10000-iteration-3.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 3 Type: unweighted fp32
+=== Size: 10000 Iteration: 3 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 3 Type: weighted_normalized fp32 -f time: 94 ===
+==== Processing samples-10000-iteration-4
+fb19bc3e4f9cab2ca1f0f762a83ff130  samples-10000-iteration-4.biom
+bd6a6a2cd5194a48f36209af73fc33f4  samples-10000-iteration-4.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 4 Type: unweighted fp32
+=== Size: 10000 Iteration: 4 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 4 Type: weighted_normalized fp32 -f time: 95 ===
+==== Processing samples-10000-iteration-5
+db3fc6251f646518bad9b68dbdaff139  samples-10000-iteration-5.biom
+ad37b435f88e4afa186ce026f6b27faf  samples-10000-iteration-5.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 5 Type: unweighted fp32
+=== Size: 10000 Iteration: 5 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 5 Type: weighted_normalized fp32 -f time: 97 ===
+==== Processing samples-10000-iteration-6
+700fae52177fc3b7723b830a8a5f8c3b  samples-10000-iteration-6.biom
+42f82255f403954be5e5aacd47d75721  samples-10000-iteration-6.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 6 Type: unweighted fp32
+=== Size: 10000 Iteration: 6 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 6 Type: weighted_normalized fp32 -f time: 94 ===
+==== Processing samples-10000-iteration-7
+130a75abf1f188636a08386b2c0e6db5  samples-10000-iteration-7.biom
+9f2dac895ec32aa5af29d8acd98b09ad  samples-10000-iteration-7.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 7 Type: unweighted fp32
+=== Size: 10000 Iteration: 7 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 7 Type: weighted_normalized fp32 -f time: 96 ===
+==== Processing samples-10000-iteration-8
+d67ab93df2d9997e4310b3d28a28dbdf  samples-10000-iteration-8.biom
+6ff39baee06cf87314a5467dee4c593f  samples-10000-iteration-8.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 8 Type: unweighted fp32
+=== Size: 10000 Iteration: 8 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 8 Type: weighted_normalized fp32 -f time: 96 ===
+==== Processing samples-10000-iteration-9
+bb7dd2f73412b8eb86d6599f9d749cf3  samples-10000-iteration-9.biom
+fd4edbea36ce9c1f4c6303cb0a59a418  samples-10000-iteration-9.tre
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 9 Type: unweighted fp32
+=== Size: 10000 Iteration: 9 Type: unweighted fp32 -f time: 20 ===
+==== Size: 10k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 9 Type: weighted_normalized fp32 -f time: 95 ===
+==== Size 20k
+==== Processing samples-20000-iteration-0
+70155182dc9b0d341829e434054266cd  samples-20000-iteration-0.biom
+f2de4a32015f5fa6fd91a9ed523f5917  samples-20000-iteration-0.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 0 Type: unweighted fp32
+=== Size: 20000 Iteration: 0 Type: unweighted fp32 -f time: 97 ===
+==== Size: 20k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 0 Type: weighted_normalized fp32 -f time: 453 ===
+==== Processing samples-20000-iteration-1
+622ca0210ce38aef6d25dabecd6e73f3  samples-20000-iteration-1.biom
+5e16f44188c600ab47126189543d10cb  samples-20000-iteration-1.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 1 Type: unweighted fp32
+=== Size: 20000 Iteration: 1 Type: unweighted fp32 -f time: 97 ===
+==== Size: 20k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 1 Type: weighted_normalized fp32 -f time: 457 ===
+==== Processing samples-20000-iteration-2
+be5bcbf917c4400dc9de9a17f310005c  samples-20000-iteration-2.biom
+6bccbcd50978ddad0364c5c7c5f897fa  samples-20000-iteration-2.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 2 Type: unweighted fp32
+=== Size: 20000 Iteration: 2 Type: unweighted fp32 -f time: 97 ===
+==== Size: 20k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 2 Type: weighted_normalized fp32 -f time: 449 ===
+==== Processing samples-20000-iteration-3
+cbac8e57f97d853967c01bc896e07f8f  samples-20000-iteration-3.biom
+0559ea720081d7d88c5480e856607fad  samples-20000-iteration-3.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 3 Type: unweighted fp32
+=== Size: 20000 Iteration: 3 Type: unweighted fp32 -f time: 96 ===
+==== Size: 20k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 3 Type: weighted_normalized fp32 -f time: 454 ===
+==== Processing samples-20000-iteration-4
+5c5670cbe21b72dfa8464b3ea38003e2  samples-20000-iteration-4.biom
+003e733b829d0c339de453a7356c90c7  samples-20000-iteration-4.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 4 Type: unweighted fp32
+=== Size: 20000 Iteration: 4 Type: unweighted fp32 -f time: 97 ===
+==== Size: 20k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 4 Type: weighted_normalized fp32 -f time: 453 ===
+==== Processing samples-20000-iteration-5
+7e999140c9aeb88a986d9b903f65d439  samples-20000-iteration-5.biom
+231f8024aac6b7f67933e2af91c724b8  samples-20000-iteration-5.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 5 Type: unweighted fp32
+=== Size: 20000 Iteration: 5 Type: unweighted fp32 -f time: 101 ===
+==== Size: 20k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 5 Type: weighted_normalized fp32 -f time: 465 ===
+==== Processing samples-20000-iteration-6
+ac22dcf8054562eee35950b232d5905c  samples-20000-iteration-6.biom
+7eed296611c23070432ca1b4952701d8  samples-20000-iteration-6.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 6 Type: unweighted fp32
+=== Size: 20000 Iteration: 6 Type: unweighted fp32 -f time: 95 ===
+==== Size: 20k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 6 Type: weighted_normalized fp32 -f time: 444 ===
+==== Processing samples-20000-iteration-7
+d66f592426e99d994ea6b3789b992c42  samples-20000-iteration-7.biom
+7f525ac436cca20297e6952fa79406fa  samples-20000-iteration-7.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 7 Type: unweighted fp32
+=== Size: 20000 Iteration: 7 Type: unweighted fp32 -f time: 98 ===
+==== Size: 20k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 7 Type: weighted_normalized fp32 -f time: 457 ===
+==== Processing samples-20000-iteration-8
+2df22d79903ef0580a103004a76b7428  samples-20000-iteration-8.biom
+e50cc16cc021ca82f6b4c71ca69adc60  samples-20000-iteration-8.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 8 Type: unweighted fp32
+=== Size: 20000 Iteration: 8 Type: unweighted fp32 -f time: 99 ===
+==== Size: 20k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 8 Type: weighted_normalized fp32 -f time: 464 ===
+==== Processing samples-20000-iteration-9
+5069d493924642995a6fae4b9a7b3ab7  samples-20000-iteration-9.biom
+f7ac2ad3ba6d8e2b4aa22ccfa3d7880f  samples-20000-iteration-9.tre
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 9 Type: unweighted fp32
+=== Size: 20000 Iteration: 9 Type: unweighted fp32 -f time: 98 ===
+==== Size: 20k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 9 Type: weighted_normalized fp32 -f time: 452 ===
