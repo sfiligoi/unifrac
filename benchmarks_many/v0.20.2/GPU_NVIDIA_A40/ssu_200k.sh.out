@@ -1,0 +1,228 @@
+gpu-a40-856664574b-q5pj4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                24
+On-line CPU(s) list:   0-23
+Thread(s) per core:    1
+Core(s) per socket:    24
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7402P 24-Core Processor
+Stepping:              0
+CPU MHz:               1488.760
+CPU max MHz:           2800.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              5600.32
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-23
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Sat Mar 13 00:53:39 UTC 2021
+Sat Mar 13 00:53:39 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A40                 Off  | 00000000:C5:00.0 Off |                    0 |
+|  0%   28C    P8    21W / 300W |      0MiB / 45634MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+==== Size 200k
+==== Processing samples-200000-iteration-0
+0f34f4de4ad9fba8a28cce7c70218aa8  samples-200000-iteration-0.biom
+1e726d6bcc9b53659754cc113adfc078  samples-200000-iteration-0.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 0 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 0 Type: unweighted fp32 time: 964 ===
+==== Size: 200k Iteration: 0 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 0 Type: weighted_normalized fp32 time: 2341 ===
+==== Processing samples-200000-iteration-1
+8ea63bccbc4fac981d29e9ae3da6d595  samples-200000-iteration-1.biom
+5b696cdd6d0e6c2355542c8ef4065376  samples-200000-iteration-1.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 1 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 1 Type: unweighted fp32 time: 983 ===
+==== Size: 200k Iteration: 1 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 1 Type: weighted_normalized fp32 time: 2367 ===
+==== Processing samples-200000-iteration-2
+8cf93b8d1c0a3fff8b1e05fc9c68d025  samples-200000-iteration-2.biom
+42a6309ceeb13959b728179184916657  samples-200000-iteration-2.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 2 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 2 Type: unweighted fp32 time: 968 ===
+==== Size: 200k Iteration: 2 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 2 Type: weighted_normalized fp32 time: 2343 ===
+==== Processing samples-200000-iteration-3
+1d1212aa71e5445decc9f4bffe7430b9  samples-200000-iteration-3.biom
+f74bd90ca1782b7b47537a1246c884de  samples-200000-iteration-3.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 3 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 3 Type: unweighted fp32 time: 963 ===
+==== Size: 200k Iteration: 3 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 3 Type: weighted_normalized fp32 time: 2323 ===
+==== Processing samples-200000-iteration-4
+ec08f0fada25da3877b5c397ab82ed09  samples-200000-iteration-4.biom
+b8d94d7cec70d25675c5285905ac8521  samples-200000-iteration-4.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 4 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 4 Type: unweighted fp32 time: 973 ===
+==== Size: 200k Iteration: 4 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 4 Type: weighted_normalized fp32 time: 2345 ===
+==== Processing samples-200000-iteration-5
+f3c5ba8e911f919ef73a43e5a207a4d2  samples-200000-iteration-5.biom
+f2672936a8bb9899f87274f3951c1779  samples-200000-iteration-5.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 5 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 5 Type: unweighted fp32 time: 963 ===
+==== Size: 200k Iteration: 5 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 5 Type: weighted_normalized fp32 time: 2328 ===
+==== Processing samples-200000-iteration-6
+d19a522a8a71939f93732f83cce70d92  samples-200000-iteration-6.biom
+97ccd8d19b3a380651029249a556e4ee  samples-200000-iteration-6.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 6 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 6 Type: unweighted fp32 time: 968 ===
+==== Size: 200k Iteration: 6 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 6 Type: weighted_normalized fp32 time: 2299 ===
+==== Processing samples-200000-iteration-7
+907912288bc99239d45fe5c1d00c3ced  samples-200000-iteration-7.biom
+a5609a87a270bd3a9c19825e74c4ec2c  samples-200000-iteration-7.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 7 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 7 Type: unweighted fp32 time: 969 ===
+==== Size: 200k Iteration: 7 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 7 Type: weighted_normalized fp32 time: 2330 ===
+==== Processing samples-200000-iteration-8
+9e137848aa0c5d302eaacf2b046cbf29  samples-200000-iteration-8.biom
+b1f328af83bd5b9d9a6afbcef4371c2b  samples-200000-iteration-8.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 8 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 8 Type: unweighted fp32 time: 965 ===
+==== Size: 200k Iteration: 8 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 8 Type: weighted_normalized fp32 time: 2367 ===
+==== Processing samples-200000-iteration-9
+515f353b87b744d3c42e9d35c6b241f2  samples-200000-iteration-9.biom
+40214f476bff9d3c1749f4d6deab1f13  samples-200000-iteration-9.tre
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+==== Size: 200k Iteration: 9 Type: unweighted fp32
+ssu -m unweighted_fp32 --start 0 --stop 25000
+ssu -m unweighted_fp32 --start 25000 --stop 50000
+ssu -m unweighted_fp32 --start 50000 --stop 75000
+ssu -m unweighted_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 9 Type: unweighted fp32 time: 966 ===
+==== Size: 200k Iteration: 9 Type: weighted_normalized fp32
+ssu  -m weighted_normalized_fp32 --start 0 --stop 25000
+ssu  -m weighted_normalized_fp32 --start 25000 --stop 50000
+ssu  -m weighted_normalized_fp32 --start 50000 --stop 75000
+ssu  -m weighted_normalized_fp32 --start 75000 --stop 100000
+=== Size: 200000 Iteration: 9 Type: weighted_normalized fp32 time: 2312 ===
