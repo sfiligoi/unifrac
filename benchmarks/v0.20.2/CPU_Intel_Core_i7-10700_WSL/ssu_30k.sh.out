@@ -1,0 +1,52 @@
+DESKTOP-7SECT5T
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          16
+On-line CPU(s) list:             0-15
+Thread(s) per core:              2
+Core(s) per socket:              8
+Socket(s):                       1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           165
+Model name:                      Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+Stepping:                        5
+CPU MHz:                         2903.999
+BogoMIPS:                        5807.99
+Hypervisor vendor:               Microsoft
+Virtualization type:             full
+L1d cache:                       256 KiB
+L1i cache:                       256 KiB
+L2 cache:                        2 MiB
+L3 cache:                        16 MiB
+Vulnerability Itlb multihit:     KVM: Vulnerable
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves flush_l1d arch_capabilities
+Sat Mar 13 12:12:26 PST 2021
+5e2b4fd2e4280fffee56a07a58ee2990  ../unifrac_30000.biom
+cb52b868b72347cececee30fc84480fc  ../unifrac_30000.tre
+====
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+=== unweighted 15k/30k ===
+=== unweighted time: 1142 ===
+=== unweighted -f time: 711 ===
+=== unweighted fp32 15k/30k ===
+=== unweighted fp32 time: 1031 ===
+=== unweighted fp32 -f time: 637 ===
+=== weighted_normalized 15k/30k ===
+=== weighted_normalized time: 3712 ===
+=== weighted_normalized -f time: 2481 ===
+=== weighted_normalized fp32 15k/30k ===
+=== weighted_normalized fp32 time: 2653 ===
+=== weighted_normalized fp32 -f time: 1753 ===
