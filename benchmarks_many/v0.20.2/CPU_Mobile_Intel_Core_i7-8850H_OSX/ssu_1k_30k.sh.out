@@ -1,0 +1,589 @@
+Igors-MacBook-Pro.local
+22
+2147483656
+GenuineIntel
+Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
+6
+158
+9
+0
+10
+9221960262849657855
+43806655 1073741824
+2617255424
+1241984796928
+591594
+0
+FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH DS ACPI MMX FXSR SSE SSE2 SS HTT TM PBE SSE3 PCLMULQDQ DTES64 MON DSCPL VMX SMX EST TM2 SSSE3 FMA CX16 TPR PDCM SSE4.1 SSE4.2 x2APIC MOVBE POPCNT AES PCID XSAVE OSXSAVE SEGLIM64 TSCTMR AVX1.0 RDRAND F16C
+RDWRFSGS TSC_THREAD_OFFSET SGX BMI1 HLE AVX2 SMEP BMI2 ERMS INVPCID RTM FPU_CSDS MPX RDSEED ADX SMAP CLFSOPT IPT SGXLC MDCLEAR TSXFA IBRS STIBP L1DF SSBD
+SYSCALL XD 1GBPAGE EM64T LAHF LZCNT PREFETCHW RDTSCP TSCI
+16
+8
+Sat Mar 13 21:06:16 PST 2021
+==== Size 1k
+==== Processing samples-1000-iteration-0
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 0 Type: unweighted fp32
+=== Size: 1000 Iteration: 0 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 0 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-1000-iteration-1
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 1 Type: unweighted fp32
+=== Size: 1000 Iteration: 1 Type: unweighted fp32 -f time: 2 ===
+==== Size: 1k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 1 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-2
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 2 Type: unweighted fp32
+=== Size: 1000 Iteration: 2 Type: unweighted fp32 -f time: 2 ===
+==== Size: 1k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 2 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-3
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 3 Type: unweighted fp32
+=== Size: 1000 Iteration: 3 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 3 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-1000-iteration-4
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 4 Type: unweighted fp32
+=== Size: 1000 Iteration: 4 Type: unweighted fp32 -f time: 2 ===
+==== Size: 1k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 4 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-5
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 5 Type: unweighted fp32
+=== Size: 1000 Iteration: 5 Type: unweighted fp32 -f time: 2 ===
+==== Size: 1k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 5 Type: weighted_normalized fp32 -f time: 1 ===
+==== Processing samples-1000-iteration-6
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 6 Type: unweighted fp32
+=== Size: 1000 Iteration: 6 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 6 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-1000-iteration-7
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 7 Type: unweighted fp32
+=== Size: 1000 Iteration: 7 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 7 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-1000-iteration-8
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 8 Type: unweighted fp32
+=== Size: 1000 Iteration: 8 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 8 Type: weighted_normalized fp32 -f time: 2 ===
+==== Processing samples-1000-iteration-9
+Total samples: 1000
+Total stripes: 500
+Partition 0, suggested start and stop: 0, 500
+==== Size: 1k Iteration: 9 Type: unweighted fp32
+=== Size: 1000 Iteration: 9 Type: unweighted fp32 -f time: 1 ===
+==== Size: 1k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 1000 Iteration: 9 Type: weighted_normalized fp32 -f time: 2 ===
+==== Size 2k
+==== Processing samples-2000-iteration-0
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 0 Type: unweighted fp32
+=== Size: 2000 Iteration: 0 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 0 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-1
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 1 Type: unweighted fp32
+=== Size: 2000 Iteration: 1 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 1 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-2
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 2 Type: unweighted fp32
+=== Size: 2000 Iteration: 2 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 2 Type: weighted_normalized fp32 -f time: 4 ===
+==== Processing samples-2000-iteration-3
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 3 Type: unweighted fp32
+=== Size: 2000 Iteration: 3 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 3 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-4
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 4 Type: unweighted fp32
+=== Size: 2000 Iteration: 4 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 4 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-5
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 5 Type: unweighted fp32
+=== Size: 2000 Iteration: 5 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 5 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-6
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 6 Type: unweighted fp32
+=== Size: 2000 Iteration: 6 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 6 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-7
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 7 Type: unweighted fp32
+=== Size: 2000 Iteration: 7 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 7 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-8
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 8 Type: unweighted fp32
+=== Size: 2000 Iteration: 8 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 8 Type: weighted_normalized fp32 -f time: 5 ===
+==== Processing samples-2000-iteration-9
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+==== Size: 2k Iteration: 9 Type: unweighted fp32
+=== Size: 2000 Iteration: 9 Type: unweighted fp32 -f time: 3 ===
+==== Size: 2k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 2000 Iteration: 9 Type: weighted_normalized fp32 -f time: 5 ===
+==== Size 5k
+==== Processing samples-5000-iteration-0
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 0 Type: unweighted fp32
+=== Size: 5000 Iteration: 0 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 0 Type: weighted_normalized fp32 -f time: 32 ===
+==== Processing samples-5000-iteration-1
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 1 Type: unweighted fp32
+=== Size: 5000 Iteration: 1 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 1 Type: weighted_normalized fp32 -f time: 33 ===
+==== Processing samples-5000-iteration-2
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 2 Type: unweighted fp32
+=== Size: 5000 Iteration: 2 Type: unweighted fp32 -f time: 16 ===
+==== Size: 5k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 2 Type: weighted_normalized fp32 -f time: 33 ===
+==== Processing samples-5000-iteration-3
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 3 Type: unweighted fp32
+=== Size: 5000 Iteration: 3 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 3 Type: weighted_normalized fp32 -f time: 33 ===
+==== Processing samples-5000-iteration-4
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 4 Type: unweighted fp32
+=== Size: 5000 Iteration: 4 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 4 Type: weighted_normalized fp32 -f time: 33 ===
+==== Processing samples-5000-iteration-5
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 5 Type: unweighted fp32
+=== Size: 5000 Iteration: 5 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 5 Type: weighted_normalized fp32 -f time: 35 ===
+==== Processing samples-5000-iteration-6
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 6 Type: unweighted fp32
+=== Size: 5000 Iteration: 6 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 6 Type: weighted_normalized fp32 -f time: 33 ===
+==== Processing samples-5000-iteration-7
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 7 Type: unweighted fp32
+=== Size: 5000 Iteration: 7 Type: unweighted fp32 -f time: 16 ===
+==== Size: 5k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 7 Type: weighted_normalized fp32 -f time: 32 ===
+==== Processing samples-5000-iteration-8
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 8 Type: unweighted fp32
+=== Size: 5000 Iteration: 8 Type: unweighted fp32 -f time: 18 ===
+==== Size: 5k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 8 Type: weighted_normalized fp32 -f time: 34 ===
+==== Processing samples-5000-iteration-9
+Total samples: 5000
+Total stripes: 2500
+Partition 0, suggested start and stop: 0, 2500
+==== Size: 5k Iteration: 9 Type: unweighted fp32
+=== Size: 5000 Iteration: 9 Type: unweighted fp32 -f time: 17 ===
+==== Size: 5k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 5000 Iteration: 9 Type: weighted_normalized fp32 -f time: 32 ===
+==== Size 10k
+==== Processing samples-10000-iteration-0
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 0 Type: unweighted fp32
+=== Size: 10000 Iteration: 0 Type: unweighted fp32 -f time: 72 ===
+==== Size: 10k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 0 Type: weighted_normalized fp32 -f time: 155 ===
+==== Processing samples-10000-iteration-1
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 1 Type: unweighted fp32
+=== Size: 10000 Iteration: 1 Type: unweighted fp32 -f time: 74 ===
+==== Size: 10k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 1 Type: weighted_normalized fp32 -f time: 159 ===
+==== Processing samples-10000-iteration-2
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 2 Type: unweighted fp32
+=== Size: 10000 Iteration: 2 Type: unweighted fp32 -f time: 76 ===
+==== Size: 10k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 2 Type: weighted_normalized fp32 -f time: 160 ===
+==== Processing samples-10000-iteration-3
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 3 Type: unweighted fp32
+=== Size: 10000 Iteration: 3 Type: unweighted fp32 -f time: 78 ===
+==== Size: 10k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 3 Type: weighted_normalized fp32 -f time: 158 ===
+==== Processing samples-10000-iteration-4
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 4 Type: unweighted fp32
+=== Size: 10000 Iteration: 4 Type: unweighted fp32 -f time: 77 ===
+==== Size: 10k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 4 Type: weighted_normalized fp32 -f time: 159 ===
+==== Processing samples-10000-iteration-5
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 5 Type: unweighted fp32
+=== Size: 10000 Iteration: 5 Type: unweighted fp32 -f time: 77 ===
+==== Size: 10k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 5 Type: weighted_normalized fp32 -f time: 161 ===
+==== Processing samples-10000-iteration-6
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 6 Type: unweighted fp32
+=== Size: 10000 Iteration: 6 Type: unweighted fp32 -f time: 76 ===
+==== Size: 10k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 6 Type: weighted_normalized fp32 -f time: 156 ===
+==== Processing samples-10000-iteration-7
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 7 Type: unweighted fp32
+=== Size: 10000 Iteration: 7 Type: unweighted fp32 -f time: 76 ===
+==== Size: 10k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 7 Type: weighted_normalized fp32 -f time: 157 ===
+==== Processing samples-10000-iteration-8
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 8 Type: unweighted fp32
+=== Size: 10000 Iteration: 8 Type: unweighted fp32 -f time: 77 ===
+==== Size: 10k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 8 Type: weighted_normalized fp32 -f time: 156 ===
+==== Processing samples-10000-iteration-9
+Total samples: 10000
+Total stripes: 5000
+Partition 0, suggested start and stop: 0, 5000
+==== Size: 10k Iteration: 9 Type: unweighted fp32
+=== Size: 10000 Iteration: 9 Type: unweighted fp32 -f time: 75 ===
+==== Size: 10k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 10000 Iteration: 9 Type: weighted_normalized fp32 -f time: 156 ===
+==== Size 20k
+==== Processing samples-20000-iteration-0
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 0 Type: unweighted fp32
+=== Size: 20000 Iteration: 0 Type: unweighted fp32 -f time: 391 ===
+==== Size: 20k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 0 Type: weighted_normalized fp32 -f time: 870 ===
+==== Processing samples-20000-iteration-1
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 1 Type: unweighted fp32
+=== Size: 20000 Iteration: 1 Type: unweighted fp32 -f time: 392 ===
+==== Size: 20k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 1 Type: weighted_normalized fp32 -f time: 867 ===
+==== Processing samples-20000-iteration-2
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 2 Type: unweighted fp32
+=== Size: 20000 Iteration: 2 Type: unweighted fp32 -f time: 385 ===
+==== Size: 20k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 2 Type: weighted_normalized fp32 -f time: 860 ===
+==== Processing samples-20000-iteration-3
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 3 Type: unweighted fp32
+=== Size: 20000 Iteration: 3 Type: unweighted fp32 -f time: 378 ===
+==== Size: 20k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 3 Type: weighted_normalized fp32 -f time: 862 ===
+==== Processing samples-20000-iteration-4
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 4 Type: unweighted fp32
+=== Size: 20000 Iteration: 4 Type: unweighted fp32 -f time: 388 ===
+==== Size: 20k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 4 Type: weighted_normalized fp32 -f time: 868 ===
+==== Processing samples-20000-iteration-5
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 5 Type: unweighted fp32
+=== Size: 20000 Iteration: 5 Type: unweighted fp32 -f time: 388 ===
+==== Size: 20k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 5 Type: weighted_normalized fp32 -f time: 883 ===
+==== Processing samples-20000-iteration-6
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 6 Type: unweighted fp32
+=== Size: 20000 Iteration: 6 Type: unweighted fp32 -f time: 371 ===
+==== Size: 20k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 6 Type: weighted_normalized fp32 -f time: 839 ===
+==== Processing samples-20000-iteration-7
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 7 Type: unweighted fp32
+=== Size: 20000 Iteration: 7 Type: unweighted fp32 -f time: 381 ===
+==== Size: 20k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 7 Type: weighted_normalized fp32 -f time: 873 ===
+==== Processing samples-20000-iteration-8
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 8 Type: unweighted fp32
+=== Size: 20000 Iteration: 8 Type: unweighted fp32 -f time: 383 ===
+==== Size: 20k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 8 Type: weighted_normalized fp32 -f time: 892 ===
+==== Processing samples-20000-iteration-9
+Total samples: 20000
+Total stripes: 10000
+Partition 0, suggested start and stop: 0, 10000
+==== Size: 20k Iteration: 9 Type: unweighted fp32
+=== Size: 20000 Iteration: 9 Type: unweighted fp32 -f time: 377 ===
+==== Size: 20k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 20000 Iteration: 9 Type: weighted_normalized fp32 -f time: 856 ===
+==== Size 25k
+==== Processing samples-25000-iteration-0
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 0 Type: unweighted fp32
+=== Size: 25000 Iteration: 0 Type: unweighted fp32 -f time: 664 ===
+==== Size: 25k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 0 Type: weighted_normalized fp32 -f time: 1579 ===
+==== Processing samples-25000-iteration-1
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 1 Type: unweighted fp32
+=== Size: 25000 Iteration: 1 Type: unweighted fp32 -f time: 660 ===
+==== Size: 25k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 1 Type: weighted_normalized fp32 -f time: 1579 ===
+==== Processing samples-25000-iteration-2
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 2 Type: unweighted fp32
+=== Size: 25000 Iteration: 2 Type: unweighted fp32 -f time: 663 ===
+==== Size: 25k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 2 Type: weighted_normalized fp32 -f time: 1572 ===
+==== Processing samples-25000-iteration-3
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 3 Type: unweighted fp32
+=== Size: 25000 Iteration: 3 Type: unweighted fp32 -f time: 654 ===
+==== Size: 25k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 3 Type: weighted_normalized fp32 -f time: 1580 ===
+==== Processing samples-25000-iteration-4
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 4 Type: unweighted fp32
+=== Size: 25000 Iteration: 4 Type: unweighted fp32 -f time: 658 ===
+==== Size: 25k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 4 Type: weighted_normalized fp32 -f time: 1570 ===
+==== Processing samples-25000-iteration-5
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 5 Type: unweighted fp32
+=== Size: 25000 Iteration: 5 Type: unweighted fp32 -f time: 666 ===
+==== Size: 25k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 5 Type: weighted_normalized fp32 -f time: 1586 ===
+==== Processing samples-25000-iteration-6
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 6 Type: unweighted fp32
+=== Size: 25000 Iteration: 6 Type: unweighted fp32 -f time: 654 ===
+==== Size: 25k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 6 Type: weighted_normalized fp32 -f time: 1577 ===
+==== Processing samples-25000-iteration-7
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 7 Type: unweighted fp32
+=== Size: 25000 Iteration: 7 Type: unweighted fp32 -f time: 693 ===
+==== Size: 25k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 7 Type: weighted_normalized fp32 -f time: 1656 ===
+==== Processing samples-25000-iteration-8
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 8 Type: unweighted fp32
+=== Size: 25000 Iteration: 8 Type: unweighted fp32 -f time: 675 ===
+==== Size: 25k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 8 Type: weighted_normalized fp32 -f time: 1584 ===
+==== Processing samples-25000-iteration-9
+Total samples: 25000
+Total stripes: 12500
+Partition 0, suggested start and stop: 0, 12500
+==== Size: 25k Iteration: 9 Type: unweighted fp32
+=== Size: 25000 Iteration: 9 Type: unweighted fp32 -f time: 682 ===
+==== Size: 25k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 25000 Iteration: 9 Type: weighted_normalized fp32 -f time: 1610 ===
+==== Size 30k
+==== Processing samples-30000-iteration-0
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 0 Type: unweighted fp32
+=== Size: 30000 Iteration: 0 Type: unweighted fp32 -f time: 1089 ===
+==== Size: 30k Iteration: 0 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 0 Type: weighted_normalized fp32 -f time: 2578 ===
+==== Processing samples-30000-iteration-1
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 1 Type: unweighted fp32
+=== Size: 30000 Iteration: 1 Type: unweighted fp32 -f time: 1088 ===
+==== Size: 30k Iteration: 1 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 1 Type: weighted_normalized fp32 -f time: 2549 ===
+==== Processing samples-30000-iteration-2
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 2 Type: unweighted fp32
+=== Size: 30000 Iteration: 2 Type: unweighted fp32 -f time: 1097 ===
+==== Size: 30k Iteration: 2 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 2 Type: weighted_normalized fp32 -f time: 2561 ===
+==== Processing samples-30000-iteration-3
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 3 Type: unweighted fp32
+=== Size: 30000 Iteration: 3 Type: unweighted fp32 -f time: 1072 ===
+==== Size: 30k Iteration: 3 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 3 Type: weighted_normalized fp32 -f time: 2546 ===
+==== Processing samples-30000-iteration-4
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 4 Type: unweighted fp32
+=== Size: 30000 Iteration: 4 Type: unweighted fp32 -f time: 1118 ===
+==== Size: 30k Iteration: 4 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 4 Type: weighted_normalized fp32 -f time: 2565 ===
+==== Processing samples-30000-iteration-5
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 5 Type: unweighted fp32
+=== Size: 30000 Iteration: 5 Type: unweighted fp32 -f time: 1131 ===
+==== Size: 30k Iteration: 5 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 5 Type: weighted_normalized fp32 -f time: 2548 ===
+==== Processing samples-30000-iteration-6
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 6 Type: unweighted fp32
+=== Size: 30000 Iteration: 6 Type: unweighted fp32 -f time: 1102 ===
+==== Size: 30k Iteration: 6 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 6 Type: weighted_normalized fp32 -f time: 2538 ===
+==== Processing samples-30000-iteration-7
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 7 Type: unweighted fp32
+=== Size: 30000 Iteration: 7 Type: unweighted fp32 -f time: 1117 ===
+==== Size: 30k Iteration: 7 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 7 Type: weighted_normalized fp32 -f time: 2495 ===
+==== Processing samples-30000-iteration-8
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 8 Type: unweighted fp32
+=== Size: 30000 Iteration: 8 Type: unweighted fp32 -f time: 1120 ===
+==== Size: 30k Iteration: 8 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 8 Type: weighted_normalized fp32 -f time: 2520 ===
+==== Processing samples-30000-iteration-9
+Total samples: 30000
+Total stripes: 15000
+Partition 0, suggested start and stop: 0, 15000
+==== Size: 30k Iteration: 9 Type: unweighted fp32
+=== Size: 30000 Iteration: 9 Type: unweighted fp32 -f time: 1115 ===
+==== Size: 30k Iteration: 9 Type: weighted_normalized fp32
+=== Size: 30000 Iteration: 9 Type: weighted_normalized fp32 -f time: 2619 ===

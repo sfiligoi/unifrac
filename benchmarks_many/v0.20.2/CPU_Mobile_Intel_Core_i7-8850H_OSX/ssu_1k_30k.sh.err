@@ -1,0 +1,2660 @@
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.26 real         2.50 user         0.11 sys
+            74080256  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               21627  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1030  involuntary context switches
+         15489862525  instructions retired
+         10569631928  cycles elapsed
+            67432448  peak memory footprint
+        1.63 real         4.62 user         0.11 sys
+            77295616  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22071  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                2325  involuntary context switches
+         35410075868  instructions retired
+         18948335716  cycles elapsed
+            69758976  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.49 real         2.91 user         0.13 sys
+            83673088  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               25280  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                3110  involuntary context switches
+         17349632215  instructions retired
+         12156296066  cycles elapsed
+            75313152  peak memory footprint
+        1.88 real         5.11 user         0.14 sys
+            83853312  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               25527  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                5435  involuntary context switches
+         36633515928  instructions retired
+         20850368089  cycles elapsed
+            75063296  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.21 real         2.38 user         0.10 sys
+            70836224  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               20770  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 955  involuntary context switches
+         14643593208  instructions retired
+         10034993775  cycles elapsed
+            65163264  peak memory footprint
+        1.52 real         4.27 user         0.10 sys
+            71720960  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               20732  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1541  involuntary context switches
+         32850817884  instructions retired
+         17515795201  cycles elapsed
+            65986560  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.43 real         2.80 user         0.12 sys
+            83046400  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               24499  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1922  involuntary context switches
+         16790494926  instructions retired
+         11675775412  cycles elapsed
+            75276288  peak memory footprint
+        1.83 real         4.97 user         0.13 sys
+            82477056  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               24799  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                3610  involuntary context switches
+         36807770311  instructions retired
+         20269817531  cycles elapsed
+            74768384  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.40 real         2.71 user         0.12 sys
+            79183872  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               24679  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 404  involuntary context switches
+         16779981784  instructions retired
+         11368006261  cycles elapsed
+            71290880  peak memory footprint
+        1.70 real         4.71 user         0.12 sys
+            77729792  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               24190  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 624  involuntary context switches
+         35507319378  instructions retired
+         19510468971  cycles elapsed
+            70328320  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.19 real         2.38 user         0.09 sys
+            73613312  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               21035  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 172  involuntary context switches
+         15169295986  instructions retired
+         10133755470  cycles elapsed
+            66297856  peak memory footprint
+        1.51 real         4.33 user         0.09 sys
+            77447168  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               20078  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 122  involuntary context switches
+         33798270989  instructions retired
+         17882501194  cycles elapsed
+            68698112  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.35 real         2.60 user         0.12 sys
+            80805888  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22823  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                2063  involuntary context switches
+         15824352322  instructions retired
+         10865736985  cycles elapsed
+            72503296  peak memory footprint
+        1.65 real         4.55 user         0.11 sys
+            77352960  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22349  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1305  involuntary context switches
+         34256140628  instructions retired
+         18700978119  cycles elapsed
+            69984256  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.29 real         2.54 user         0.11 sys
+            78405632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22220  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1676  involuntary context switches
+         15552961873  instructions retired
+         10609547093  cycles elapsed
+            70021120  peak memory footprint
+        1.64 real         4.58 user         0.12 sys
+            78839808  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22468  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                3677  involuntary context switches
+         33767521203  instructions retired
+         18687980489  cycles elapsed
+            71127040  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.39 real         2.76 user         0.12 sys
+            78417920  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22597  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                2554  involuntary context switches
+         16320581180  instructions retired
+         11558447723  cycles elapsed
+            70090752  peak memory footprint
+        1.70 real         4.76 user         0.12 sys
+            79028224  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22273  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                2154  involuntary context switches
+         34955822621  instructions retired
+         19328918558  cycles elapsed
+            70676480  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        1.32 real         2.58 user         0.11 sys
+            77611008  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22392  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1123  involuntary context switches
+         15999496124  instructions retired
+         10847922632  cycles elapsed
+            70025216  peak memory footprint
+        1.66 real         4.62 user         0.11 sys
+            80519168  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               21908  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                1338  involuntary context switches
+         34466177522  instructions retired
+         18731107627  cycles elapsed
+            71610368  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        2.82 real         8.68 user         0.18 sys
+           149598208  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43110  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                2023  involuntary context switches
+         60691563090  instructions retired
+         35549375545  cycles elapsed
+           133746688  peak memory footprint
+        4.59 real        19.20 user         0.21 sys
+           155090944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               42393  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                4104  involuntary context switches
+        140368668558  instructions retired
+         73489153706  cycles elapsed
+           137453568  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.11 real         9.67 user         0.21 sys
+           155963392  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44682  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                3151  involuntary context switches
+         63342639669  instructions retired
+         38126402259  cycles elapsed
+           138645504  peak memory footprint
+        4.91 real        20.55 user         0.22 sys
+           158490624  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44903  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                5908  involuntary context switches
+        143273034295  instructions retired
+         76100130313  cycles elapsed
+           141049856  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        2.97 real         9.37 user         0.19 sys
+           152379392  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43668  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                2567  involuntary context switches
+         61536659492  instructions retired
+         36387347149  cycles elapsed
+           134598656  peak memory footprint
+        4.71 real        19.79 user         0.20 sys
+           151367680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43137  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                2492  involuntary context switches
+        140261997464  instructions retired
+         72375810656  cycles elapsed
+           135258112  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.15 real         9.89 user         0.19 sys
+           163938304  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43394  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                 296  involuntary context switches
+         65660623967  instructions retired
+         38274717984  cycles elapsed
+           143192064  peak memory footprint
+        5.00 real        20.79 user         0.21 sys
+           163786752  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43245  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                3451  involuntary context switches
+        144564501175  instructions retired
+         75573969586  cycles elapsed
+           144297984  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.23 real         9.97 user         0.22 sys
+           159002624  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               46005  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                7423  involuntary context switches
+         63989422163  instructions retired
+         37975935980  cycles elapsed
+           139304960  peak memory footprint
+        5.20 real        21.84 user         0.28 sys
+           158535680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               45627  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+               16916  involuntary context switches
+        143997501966  instructions retired
+         78365991230  cycles elapsed
+           140382208  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.17 real        10.02 user         0.21 sys
+           155201536  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44092  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   9  voluntary context switches
+                2971  involuntary context switches
+         63497946369  instructions retired
+         38313478532  cycles elapsed
+           137441280  peak memory footprint
+        4.99 real        20.96 user         0.22 sys
+           161996800  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44997  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                5063  involuntary context switches
+        143910133109  instructions retired
+         75039834225  cycles elapsed
+           141602816  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.40 real        10.69 user         0.24 sys
+           161783808  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               46481  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                8558  involuntary context switches
+         66033307168  instructions retired
+         40067172351  cycles elapsed
+           140873728  peak memory footprint
+        5.10 real        21.21 user         0.21 sys
+           157020160  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               45486  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                1416  involuntary context switches
+        146914575528  instructions retired
+         76035779808  cycles elapsed
+           137605120  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.18 real         9.80 user         0.21 sys
+           158191616  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               45396  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                2585  involuntary context switches
+         63386882301  instructions retired
+         37512646815  cycles elapsed
+           140214272  peak memory footprint
+        5.20 real        21.87 user         0.25 sys
+           161705984  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44448  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+               15691  involuntary context switches
+        144776277383  instructions retired
+         78068182494  cycles elapsed
+           143437824  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.22 real         9.86 user         0.21 sys
+           158183424  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               45388  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                3486  involuntary context switches
+         64660192574  instructions retired
+         37934555932  cycles elapsed
+           140840960  peak memory footprint
+        5.18 real        21.46 user         0.26 sys
+           161701888  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               46172  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+               13521  involuntary context switches
+        142575788495  instructions retired
+         77125324748  cycles elapsed
+           144248832  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+        3.12 real         9.71 user         0.20 sys
+           158994432  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               45929  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                2319  involuntary context switches
+         64037793760  instructions retired
+         37372454278  cycles elapsed
+           140636160  peak memory footprint
+        4.96 real        20.88 user         0.25 sys
+           161554432  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               42408  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                4214  involuntary context switches
+        145901355412  instructions retired
+         75508748537  cycles elapsed
+           142434304  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.86 real        80.50 user         0.64 sys
+           467488768  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              136261  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+               30078  involuntary context switches
+        538813064064  instructions retired
+        272563297808  cycles elapsed
+           423690240  peak memory footprint
+       32.53 real       173.76 user         0.81 sys
+           476266496  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              136685  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+               60683  involuntary context switches
+       1049716298821  instructions retired
+        563058085152  cycles elapsed
+           428892160  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.51 real        80.34 user         0.56 sys
+           467755008  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              135157  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+               24039  involuntary context switches
+        535812236672  instructions retired
+        271977319758  cycles elapsed
+           421941248  peak memory footprint
+       32.86 real       177.14 user         0.83 sys
+           467939328  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              135618  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+               78682  involuntary context switches
+       1070456329447  instructions retired
+        569315456923  cycles elapsed
+           422637568  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.65 real        80.40 user         0.60 sys
+           472031232  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              133910  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   9  voluntary context switches
+               35517  involuntary context switches
+        529560515898  instructions retired
+        270018406462  cycles elapsed
+           425623552  peak memory footprint
+       33.12 real       178.25 user         0.88 sys
+           467333120  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              136387  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  19  voluntary context switches
+               68153  involuntary context switches
+       1065234875939  instructions retired
+        569730296039  cycles elapsed
+           424849408  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.42 real        79.45 user         0.59 sys
+           467005440  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              133215  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+               39154  involuntary context switches
+        521950301481  instructions retired
+        266411803017  cycles elapsed
+           424796160  peak memory footprint
+       33.24 real       179.38 user         0.80 sys
+           461848576  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              134803  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  11  voluntary context switches
+               62281  involuntary context switches
+       1070227383863  instructions retired
+        566366422641  cycles elapsed
+           419266560  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.69 real        81.12 user         0.55 sys
+           465739776  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              134736  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   7  voluntary context switches
+               21061  involuntary context switches
+        523281096039  instructions retired
+        270467510220  cycles elapsed
+           424091648  peak memory footprint
+       33.52 real       181.36 user         0.83 sys
+           470351872  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              133953  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+               77121  involuntary context switches
+       1089465648773  instructions retired
+        572635136353  cycles elapsed
+           428736512  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       17.09 real        83.16 user         0.59 sys
+           473862144  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              135592  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+               30677  involuntary context switches
+        536340527633  instructions retired
+        272690353974  cycles elapsed
+           429166592  peak memory footprint
+       34.51 real       186.58 user         0.81 sys
+           468766720  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              135506  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+               55755  involuntary context switches
+       1076644971878  instructions retired
+        584434504850  cycles elapsed
+           421986304  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.93 real        82.41 user         0.60 sys
+           472477696  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              137697  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   9  voluntary context switches
+               42020  involuntary context switches
+        532430223630  instructions retired
+        275553700348  cycles elapsed
+           426135552  peak memory footprint
+       32.82 real       176.84 user         0.77 sys
+           474243072  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              137886  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+               43125  involuntary context switches
+       1047353770433  instructions retired
+        558007283462  cycles elapsed
+           429228032  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.09 real        78.39 user         0.50 sys
+           456323072  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              133152  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   7  voluntary context switches
+               15753  involuntary context switches
+        505310325161  instructions retired
+        256946568244  cycles elapsed
+           416124928  peak memory footprint
+       32.52 real       175.43 user         0.75 sys
+           455815168  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              132511  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+               51997  involuntary context switches
+       1055104478021  instructions retired
+        552130252500  cycles elapsed
+           416407552  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       17.45 real        84.07 user         0.70 sys
+           474071040  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              135180  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+               48968  involuntary context switches
+        537371281719  instructions retired
+        276725866304  cycles elapsed
+           424263680  peak memory footprint
+       34.48 real       185.87 user         0.90 sys
+           470958080  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              136919  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   7  voluntary context switches
+               83422  involuntary context switches
+       1083812602700  instructions retired
+        579726996820  cycles elapsed
+           424263680  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       16.91 real        82.18 user         0.62 sys
+           461045760  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              133367  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  13  voluntary context switches
+               47546  involuntary context switches
+        516493365427  instructions retired
+        263620078875  cycles elapsed
+           419237888  peak memory footprint
+       32.25 real       174.24 user         0.65 sys
+           467505152  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              134748  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+               28097  involuntary context switches
+       1047965759427  instructions retired
+        547284316649  cycles elapsed
+           425799680  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       72.31 real       399.51 user         1.13 sys
+          1457389568  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              389638  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  69  voluntary context switches
+               43981  involuntary context switches
+       2772921097334  instructions retired
+       1313961362890  cycles elapsed
+          1394221056  peak memory footprint
+      155.14 real       893.12 user         2.18 sys
+          1462951936  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              386801  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  26  voluntary context switches
+              206838  involuntary context switches
+       4905398202410  instructions retired
+       2799629719765  cycles elapsed
+          1400221696  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       74.02 real       409.38 user         1.28 sys
+          1457508352  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              385029  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  47  voluntary context switches
+               82063  involuntary context switches
+       2758383873279  instructions retired
+       1318315294260  cycles elapsed
+          1395707904  peak memory footprint
+      159.14 real       916.29 user         2.59 sys
+          1459924992  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              386143  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  41  voluntary context switches
+              302080  involuntary context switches
+       4955763091538  instructions retired
+       2850324761357  cycles elapsed
+          1397293056  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       75.74 real       418.98 user         1.38 sys
+          1476050944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              384286  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  27  voluntary context switches
+              104468  involuntary context switches
+       2797826722454  instructions retired
+       1343185599767  cycles elapsed
+          1412358144  peak memory footprint
+      160.00 real       921.32 user         2.44 sys
+          1462284288  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              387984  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  26  voluntary context switches
+              266520  involuntary context switches
+       5043093667033  instructions retired
+       2871288443348  cycles elapsed
+          1398784000  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       77.32 real       426.98 user         1.59 sys
+          1467314176  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              386559  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  31  voluntary context switches
+              158945  involuntary context switches
+       2839223794765  instructions retired
+       1364938764903  cycles elapsed
+          1400115200  peak memory footprint
+      158.80 real       915.25 user         1.95 sys
+          1476083712  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              386175  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  21  voluntary context switches
+              144211  involuntary context switches
+       5069815332215  instructions retired
+       2859760850009  cycles elapsed
+          1411149824  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       77.36 real       427.07 user         1.44 sys
+          1472954368  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              384531  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   8  voluntary context switches
+              118626  involuntary context switches
+       2821306910504  instructions retired
+       1359781477196  cycles elapsed
+          1406889984  peak memory footprint
+      158.80 real       914.47 user         2.00 sys
+          1468215296  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              389506  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  43  voluntary context switches
+              116734  involuntary context switches
+       5148701393788  instructions retired
+       2882919479207  cycles elapsed
+          1402556416  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       77.23 real       426.57 user         1.29 sys
+          1473093632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              396080  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  32  voluntary context switches
+               70592  involuntary context switches
+       2915381123553  instructions retired
+       1385511364656  cycles elapsed
+          1401491456  peak memory footprint
+      160.77 real       925.67 user         1.90 sys
+          1478746112  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              396697  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  20  voluntary context switches
+              120596  involuntary context switches
+       5155375392670  instructions retired
+       2919821720292  cycles elapsed
+          1406935040  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       75.75 real       419.17 user         1.22 sys
+          1479561216  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              383479  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  22  voluntary context switches
+               64831  involuntary context switches
+       2853680083967  instructions retired
+       1364007034414  cycles elapsed
+          1412956160  peak memory footprint
+      156.52 real       901.36 user         1.84 sys
+          1474506752  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              391813  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  21  voluntary context switches
+              120140  involuntary context switches
+       5066381412176  instructions retired
+       2850260728907  cycles elapsed
+          1408671744  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       76.15 real       420.51 user         1.26 sys
+          1461768192  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              392396  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  33  voluntary context switches
+               64285  involuntary context switches
+       2858801224081  instructions retired
+       1363562629213  cycles elapsed
+          1395568640  peak memory footprint
+      156.95 real       904.17 user         1.82 sys
+          1467523072  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              390696  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  64  voluntary context switches
+              112139  involuntary context switches
+       5079344392681  instructions retired
+       2865217124401  cycles elapsed
+          1403097088  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       76.70 real       422.79 user         1.45 sys
+          1465872384  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              387960  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  21  voluntary context switches
+               63254  involuntary context switches
+       2861451612271  instructions retired
+       1373093380586  cycles elapsed
+          1399848960  peak memory footprint
+      156.30 real       899.62 user         1.96 sys
+          1484337152  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              384055  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  25  voluntary context switches
+               99706  involuntary context switches
+       5067044053237  instructions retired
+       2855679907019  cycles elapsed
+          1417310208  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+       75.60 real       417.10 user         1.28 sys
+          1464971264  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              389343  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  27  voluntary context switches
+               75412  involuntary context switches
+       2851103179784  instructions retired
+       1362293851607  cycles elapsed
+          1399205888  peak memory footprint
+      155.79 real       898.06 user         1.76 sys
+          1464676352  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              388115  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  21  voluntary context switches
+              103553  involuntary context switches
+       5060057255222  instructions retired
+       2854472693514  cycles elapsed
+          1398419456  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      390.57 real      2258.92 user         5.89 sys
+          5287178240  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1333627  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 130  voluntary context switches
+              757232  involuntary context switches
+      15610214253610  instructions retired
+       7298489705606  cycles elapsed
+          5177233408  peak memory footprint
+      870.00 real      5140.24 user         5.72 sys
+          5272608768  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1336886  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 128  voluntary context switches
+              208440  involuntary context switches
+      24934831348555  instructions retired
+      16081026411069  cycles elapsed
+          5163589632  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      391.86 real      2264.31 user         6.22 sys
+          5266247680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1339685  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  94  voluntary context switches
+              691291  involuntary context switches
+      15739395584319  instructions retired
+       7360615935600  cycles elapsed
+          5154148352  peak memory footprint
+      867.01 real      5121.67 user         5.84 sys
+          5276839936  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1337195  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  91  voluntary context switches
+              224918  involuntary context switches
+      24801860070536  instructions retired
+      16063291320061  cycles elapsed
+          5165690880  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      385.65 real      2232.40 user         5.33 sys
+          5265563648  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1333598  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  91  voluntary context switches
+              640896  involuntary context switches
+      15664078689540  instructions retired
+       7264524375561  cycles elapsed
+          5155672064  peak memory footprint
+      860.09 real      5081.23 user         5.54 sys
+          5274214400  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1335440  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  87  voluntary context switches
+              174086  involuntary context switches
+      24708931244085  instructions retired
+      15948862158633  cycles elapsed
+          5164347392  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      377.52 real      2185.44 user         4.52 sys
+          5281284096  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1332464  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  76  voluntary context switches
+              435099  involuntary context switches
+      15619447744781  instructions retired
+       7159615489260  cycles elapsed
+          5172363264  peak memory footprint
+      862.07 real      5092.27 user         5.73 sys
+          5273251840  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1336058  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 118  voluntary context switches
+              196172  involuntary context switches
+      24677636264363  instructions retired
+      15972014330921  cycles elapsed
+          5163012096  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      388.50 real      2249.32 user         4.95 sys
+          5291556864  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1333497  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  88  voluntary context switches
+              548478  involuntary context switches
+      15815503530500  instructions retired
+       7352744852228  cycles elapsed
+          5179498496  peak memory footprint
+      868.08 real      5129.07 user         5.76 sys
+          5276180480  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1337277  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  92  voluntary context switches
+              193828  involuntary context switches
+      24992882938288  instructions retired
+      16089483455566  cycles elapsed
+          5164867584  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      387.77 real      2245.31 user         3.93 sys
+          5275832320  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1342751  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 103  voluntary context switches
+              268498  involuntary context switches
+      16230043922660  instructions retired
+       7395894839722  cycles elapsed
+          5158354944  peak memory footprint
+      882.42 real      5212.22 user         5.80 sys
+          5314396160  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1336241  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 103  voluntary context switches
+              205803  involuntary context switches
+      25056905809912  instructions retired
+      16368048142751  cycles elapsed
+          5196349440  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      370.80 real      2147.31 user         3.76 sys
+          5262110720  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1334994  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 157  voluntary context switches
+              262309  involuntary context switches
+      15411999560446  instructions retired
+       7078477130310  cycles elapsed
+          5154615296  peak memory footprint
+      838.60 real      4953.97 user         5.46 sys
+          5269352448  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1331665  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 109  voluntary context switches
+              171122  involuntary context switches
+      24126675212675  instructions retired
+      15597209400741  cycles elapsed
+          5162872832  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      380.89 real      2205.67 user         3.80 sys
+          5285957632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1335489  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 139  voluntary context switches
+              258872  involuntary context switches
+      15820171055225  instructions retired
+       7275441241528  cycles elapsed
+          5174128640  peak memory footprint
+      872.89 real      5157.47 user         5.69 sys
+          5276348416  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1338334  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 149  voluntary context switches
+              200927  involuntary context switches
+      25258728114184  instructions retired
+      16245288153172  cycles elapsed
+          5164249088  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      382.65 real      2216.55 user         3.72 sys
+          5273722880  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1337789  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 129  voluntary context switches
+              234711  involuntary context switches
+      16019381137067  instructions retired
+       7312689353566  cycles elapsed
+          5156777984  peak memory footprint
+      891.38 real      5267.98 user         5.75 sys
+          5288615936  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1338779  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  66  voluntary context switches
+              192810  involuntary context switches
+      25959792270065  instructions retired
+      16594733317252  cycles elapsed
+          5171126272  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      376.54 real      2181.38 user         3.72 sys
+          5267550208  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1335036  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  83  voluntary context switches
+              247715  involuntary context switches
+      15762012777712  instructions retired
+       7213259538495  cycles elapsed
+          5155106816  peak memory footprint
+      856.02 real      5056.80 user         5.59 sys
+          5282373632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1336147  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  94  voluntary context switches
+              173481  involuntary context switches
+      24569972227955  instructions retired
+      15938424724405  cycles elapsed
+          5170831360  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      663.66 real      3863.57 user         8.47 sys
+          7269519360  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             3462995  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 158  voluntary context switches
+              555316  involuntary context switches
+      27975936741417  instructions retired
+      12762878806200  cycles elapsed
+          7847026688  peak memory footprint
+     1579.05 real      9364.06 user         9.91 sys
+          7984787456  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2006803  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 245  voluntary context switches
+              483385  involuntary context switches
+      42011494783052  instructions retired
+      28953570563285  cycles elapsed
+          7854886912  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      659.59 real      3848.05 user         6.73 sys
+          7972028416  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2005396  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 213  voluntary context switches
+              648078  involuntary context switches
+      27806187394530  instructions retired
+      12742281809906  cycles elapsed
+          7842463744  peak memory footprint
+     1579.11 real      9365.26 user         9.40 sys
+          8004976640  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1999614  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 199  voluntary context switches
+              334690  involuntary context switches
+      42159788910840  instructions retired
+      28918202332099  cycles elapsed
+          7874162688  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      662.57 real      3860.92 user         7.82 sys
+          7977066496  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2006274  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 165  voluntary context switches
+              692140  involuntary context switches
+      28020633788770  instructions retired
+      12779941496788  cycles elapsed
+          7846637568  peak memory footprint
+     1572.04 real      9320.45 user         9.85 sys
+          7987355648  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2009464  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 299  voluntary context switches
+              310358  involuntary context switches
+      41581733145279  instructions retired
+      28807397960462  cycles elapsed
+          7855984640  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      653.84 real      3809.46 user         8.89 sys
+          7991595008  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2742814  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 192  voluntary context switches
+              770909  involuntary context switches
+      27450149455264  instructions retired
+      12605100653128  cycles elapsed
+          7861030912  peak memory footprint
+     1579.44 real      9367.67 user         9.55 sys
+          7979491328  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2003406  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 148  voluntary context switches
+              379264  involuntary context switches
+      42390175800264  instructions retired
+      28963475500558  cycles elapsed
+          7848763392  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      658.07 real      3838.88 user         7.24 sys
+          7972306944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2003069  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 176  voluntary context switches
+              785882  involuntary context switches
+      27618807968612  instructions retired
+      12702326118683  cycles elapsed
+          7842381824  peak memory footprint
+     1569.89 real      9311.04 user         9.48 sys
+          8001732608  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2008289  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 193  voluntary context switches
+              367206  involuntary context switches
+      42194145194430  instructions retired
+      28785339039021  cycles elapsed
+          7872315392  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      666.30 real      3887.39 user         7.16 sys
+          8002367488  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2002015  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 164  voluntary context switches
+              766483  involuntary context switches
+      27876380524663  instructions retired
+      12862217314581  cycles elapsed
+          7871778816  peak memory footprint
+     1586.35 real      9409.85 user         9.31 sys
+          7982182400  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2007849  page reclaims
+                  10  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 268  voluntary context switches
+              307016  involuntary context switches
+      42322128496637  instructions retired
+      29138168592891  cycles elapsed
+          7851589632  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      653.96 real      3813.41 user         7.40 sys
+          7966347264  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2003844  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 127  voluntary context switches
+              828159  involuntary context switches
+      27553185090545  instructions retired
+      12631328676882  cycles elapsed
+          7837597696  peak memory footprint
+     1577.38 real      9356.37 user         9.31 sys
+          7978442752  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2007202  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 141  voluntary context switches
+              324032  involuntary context switches
+      41837197907057  instructions retired
+      28757720325892  cycles elapsed
+          7849779200  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      692.79 real      4033.70 user        12.61 sys
+          7968235520  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2661260  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 219  voluntary context switches
+             1704648  involuntary context switches
+      27738057757956  instructions retired
+      13024117767230  cycles elapsed
+          7840559104  peak memory footprint
+     1655.56 real      9798.16 user        19.21 sys
+          7993446400  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2839919  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 161  voluntary context switches
+             1928690  involuntary context switches
+      42846859291231  instructions retired
+      29637028465288  cycles elapsed
+          7864078336  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      675.06 real      3940.43 user         6.71 sys
+          7967469568  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2005447  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 113  voluntary context switches
+              627214  involuntary context switches
+      27512032340026  instructions retired
+      12568157248326  cycles elapsed
+          7837802496  peak memory footprint
+     1583.59 real      9385.49 user        10.61 sys
+          7978098688  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2004135  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 178  voluntary context switches
+              593401  involuntary context switches
+      41385185064852  instructions retired
+      28452950794212  cycles elapsed
+          7849578496  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+      681.60 real      3971.35 user         7.42 sys
+          7997267968  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1995964  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 214  voluntary context switches
+              872765  involuntary context switches
+      27981524279237  instructions retired
+      12717972201536  cycles elapsed
+          7865663488  peak memory footprint
+     1609.95 real      9541.33 user        11.01 sys
+          7984209920  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2008718  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 311  voluntary context switches
+              448570  involuntary context switches
+      42323035623211  instructions retired
+      29021397394982  cycles elapsed
+          7852998656  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1088.84 real      6361.76 user        15.29 sys
+          9223909376  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5961105  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 364  voluntary context switches
+             1153361  involuntary context switches
+      44170632144660  instructions retired
+      20392639024867  cycles elapsed
+         11284119552  peak memory footprint
+     2577.29 real     15274.95 user        25.01 sys
+          9703952384  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5641154  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 282  voluntary context switches
+             1694774  involuntary context switches
+      64880892105744  instructions retired
+      45883006537142  cycles elapsed
+         11275370496  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1088.02 real      6358.09 user        16.32 sys
+          9834381312  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5271558  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 215  voluntary context switches
+             1505831  involuntary context switches
+      43204755205454  instructions retired
+      20229191987956  cycles elapsed
+         11216523264  peak memory footprint
+     2548.97 real     15113.22 user        25.98 sys
+          9708609536  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5459167  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 290  voluntary context switches
+             2014213  involuntary context switches
+      63555727965060  instructions retired
+      45303849805710  cycles elapsed
+         11212656640  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1097.07 real      6409.71 user        17.76 sys
+          9786159104  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5376126  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 283  voluntary context switches
+             1880626  involuntary context switches
+      43840626994506  instructions retired
+      20577829503985  cycles elapsed
+         11213570048  peak memory footprint
+     2560.62 real     15177.60 user        22.28 sys
+          9228713984  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5847411  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 421  voluntary context switches
+              978444  involuntary context switches
+      65215958105607  instructions retired
+      45769019317093  cycles elapsed
+         11231420416  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1072.13 real      6257.19 user        18.14 sys
+          9512050688  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5485266  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 341  voluntary context switches
+             1961659  involuntary context switches
+      43046973292656  instructions retired
+      20107723663057  cycles elapsed
+         11216306176  peak memory footprint
+     2546.21 real     15092.60 user        23.59 sys
+          9356484608  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5828676  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 292  voluntary context switches
+             1284088  involuntary context switches
+      64402803087352  instructions retired
+      45345768817692  cycles elapsed
+         11238871040  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1118.04 real      6525.71 user        19.61 sys
+          9494786048  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5527044  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 264  voluntary context switches
+             2222975  involuntary context switches
+      43980306859522  instructions retired
+      20524338626766  cycles elapsed
+         11236179968  peak memory footprint
+     2565.42 real     15200.94 user        23.02 sys
+          9456037888  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5871631  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 321  voluntary context switches
+             1321427  involuntary context switches
+      64856753870478  instructions retired
+      45505037461965  cycles elapsed
+         11273056256  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1130.83 real      6597.45 user        21.40 sys
+          9870352384  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5247930  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 258  voluntary context switches
+             2605255  involuntary context switches
+      43935301751748  instructions retired
+      20638869689452  cycles elapsed
+         11236876288  peak memory footprint
+     2548.19 real     15118.69 user        20.02 sys
+          9646854144  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5079428  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 358  voluntary context switches
+              678032  involuntary context switches
+      64192662285857  instructions retired
+      45206711892591  cycles elapsed
+         11212648448  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1101.39 real      6434.75 user        19.65 sys
+          9813942272  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             4975076  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 262  voluntary context switches
+             2499020  involuntary context switches
+      43025958165044  instructions retired
+      20133556988991  cycles elapsed
+         11231035392  peak memory footprint
+     2538.45 real     15060.73 user        20.07 sys
+          9703071744  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5218097  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 284  voluntary context switches
+              765558  involuntary context switches
+      64544078935784  instructions retired
+      45004308468742  cycles elapsed
+         11203035136  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1116.99 real      6516.89 user        21.72 sys
+          9645907968  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5584994  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 239  voluntary context switches
+             2738675  involuntary context switches
+      43413262261878  instructions retired
+      20459167745550  cycles elapsed
+         11256832000  peak memory footprint
+     2495.14 real     14796.45 user        20.95 sys
+          9697562624  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5641405  page reclaims
+                 148  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 353  voluntary context switches
+              879967  involuntary context switches
+      62357765977629  instructions retired
+      44208173081370  cycles elapsed
+         11244048384  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1119.13 real      6530.98 user        20.84 sys
+          9469968384  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5604809  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 205  voluntary context switches
+             2530882  involuntary context switches
+      43445270043799  instructions retired
+      20407590907059  cycles elapsed
+         11206418432  peak memory footprint
+     2520.03 real     14942.25 user        21.42 sys
+          9493798912  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5758593  page reclaims
+                 147  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 293  voluntary context switches
+              737698  involuntary context switches
+      63281755989195  instructions retired
+      44718817811531  cycles elapsed
+         11253530624  peak memory footprint
+./ssu_1k_30k.sh: line 24: md5sum: command not found
+./ssu_1k_30k.sh: line 25: md5sum: command not found
+     1114.63 real      6496.29 user        22.50 sys
+          9450770432  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5582766  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 402  voluntary context switches
+             2707313  involuntary context switches
+      43128354909782  instructions retired
+      20308969986489  cycles elapsed
+         11219357696  peak memory footprint
+     2618.76 real     15514.26 user        30.69 sys
+          9412063232  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             5992147  page reclaims
+                 147  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 242  voluntary context switches
+             2803082  involuntary context switches
+      65220931075386  instructions retired
+      46200724499171  cycles elapsed
+         11270553600  peak memory footprint
