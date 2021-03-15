@@ -1,0 +1,76 @@
+gpu-a40-856664574b-q5pj4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                24
+On-line CPU(s) list:   0-23
+Thread(s) per core:    1
+Core(s) per socket:    24
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7402P 24-Core Processor
+Stepping:              0
+CPU MHz:               1488.763
+CPU max MHz:           2800.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              5600.32
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-23
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Sat Mar 13 19:02:57 UTC 2021
+Sat Mar 13 19:02:57 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A40                 Off  | 00000000:C5:00.0 Off |                    0 |
+|  0%   40C    P0    82W / 300W |      0MiB / 45634MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0f34f4de4ad9fba8a28cce7c70218aa8  unifrac_200000.biom
+1e726d6bcc9b53659754cc113adfc078  unifrac_200000.tre
+====
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+=== weighted_normalized 100k/200k ===
+=== weighted_normalized fp32 100k/200k ===
+Sat Mar 13 19:03:24 UTC 2021 ssu --start 0 --stop 25000
+Sat Mar 13 19:13:01 UTC 2021 ssu --start 25000 --stop 50000
+Sat Mar 13 19:22:35 UTC 2021 ssu --start 50000 --stop 75000
+Sat Mar 13 19:32:13 UTC 2021 ssu --start 75000 --stop 100000
+=== weighted_normalized fp32 time: 2327 ===
+Sat Mar 13 19:42:11 UTC 2021 ssu --start 0 --stop 25000
+Sat Mar 13 19:49:30 UTC 2021 ssu --start 25000 --stop 50000
+Sat Mar 13 19:56:54 UTC 2021 ssu --start 50000 --stop 75000
+Sat Mar 13 20:04:12 UTC 2021 ssu --start 75000 --stop 100000
+=== weighted_normalized fp32 -f time: 1773 ===
+=== weighted_normalized 100k/200k ===
+Sat Mar 13 20:11:44 UTC 2021 ssu --start 0 --stop 12500
+Sat Mar 13 20:41:16 UTC 2021 ssu --start 12500 --stop 25000
+Sat Mar 13 21:10:51 UTC 2021 ssu --start 25000 --stop 37500
+Sat Mar 13 21:40:29 UTC 2021 ssu --start 37500 --stop 50000
+Sat Mar 13 22:10:05 UTC 2021 ssu --start 50000 --stop 62500
+Sat Mar 13 22:39:47 UTC 2021 ssu --start 62500 --stop 75000
+Sat Mar 13 23:09:19 UTC 2021 ssu --start 75000 --stop 87500
+Sat Mar 13 23:38:57 UTC 2021 ssu --start 87500 --stop 100000
+=== weighted_normalized -f time: 14213 ===
+=== weighted_normalized time: 18661 ===
