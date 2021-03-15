@@ -1,0 +1,125 @@
+gpu-1070-697f4bc5b8-zcqr4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               3299.878
+CPU max MHz:           3800.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5799.78
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+Mon Mar 15 02:19:35 UTC 2021
+Mon Mar 15 02:19:35 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:04:00.0 Off |                  N/A |
+| 31%   38C    P8     9W / 151W |      0MiB /  8119MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+3c73c4d4289ce580ec3e3294c2e7fb7a  sudoc_113k.biom
+1c286665d500455531bf8c3d13f4806c  sudoc_113k.tre
+====
+Total samples: 113721
+Total stripes: 56861
+Partition 0, suggested start and stop: 0, 56861
+=== unweighted SUDoc 56k/113k ===
+=== unweighted fp32 SUDoc 56k/113k ===
+Mon Mar 15 02:20:08 UTC 2021 ssu --start 0 --stop 3600
+Mon Mar 15 02:26:33 UTC 2021 ssu --start 3600 --stop 7200
+Mon Mar 15 02:33:00 UTC 2021 ssu --start 7200 --stop 10800
+Mon Mar 15 02:39:27 UTC 2021 ssu --start 10800 --stop 14400
+Mon Mar 15 02:45:53 UTC 2021 ssu --start 14400 --stop 18000
+Mon Mar 15 02:52:19 UTC 2021 ssu --start 18000 --stop 21600
+Mon Mar 15 02:58:45 UTC 2021 ssu --start 21600 --stop 25200
+Mon Mar 15 03:05:11 UTC 2021 ssu --start 25200 --stop 28800
+Mon Mar 15 03:11:39 UTC 2021 ssu --start 28800 --stop 32400
+Mon Mar 15 03:18:05 UTC 2021 ssu --start 32400 --stop 36000
+Mon Mar 15 03:24:34 UTC 2021 ssu --start 36000 --stop 39600
+Mon Mar 15 03:31:00 UTC 2021 ssu --start 39600 --stop 43200
+Mon Mar 15 03:37:24 UTC 2021 ssu --start 43200 --stop 46800
+Mon Mar 15 03:43:51 UTC 2021 ssu --start 46800 --stop 50400
+Mon Mar 15 03:50:17 UTC 2021 ssu --start 50400 --stop 54000
+Mon Mar 15 03:56:43 UTC 2021 ssu --start 54000 --stop 56861
+=== unweighted fp32 time: 6110 ===
+Mon Mar 15 04:01:58 UTC 2021 ssu --start 0 --stop 3600
+Mon Mar 15 04:05:59 UTC 2021 ssu --start 3600 --stop 7200
+Mon Mar 15 04:10:02 UTC 2021 ssu --start 7200 --stop 10800
+Mon Mar 15 04:14:01 UTC 2021 ssu --start 10800 --stop 14400
+Mon Mar 15 04:18:00 UTC 2021 ssu --start 14400 --stop 18000
+Mon Mar 15 04:22:00 UTC 2021 ssu --start 18000 --stop 21600
+Mon Mar 15 04:26:01 UTC 2021 ssu --start 21600 --stop 25200
+Mon Mar 15 04:30:02 UTC 2021 ssu --start 25200 --stop 28800
+Mon Mar 15 04:34:01 UTC 2021 ssu --start 28800 --stop 32400
+Mon Mar 15 04:38:01 UTC 2021 ssu --start 32400 --stop 36000
+Mon Mar 15 04:42:03 UTC 2021 ssu --start 36000 --stop 39600
+Mon Mar 15 04:46:01 UTC 2021 ssu --start 39600 --stop 43200
+Mon Mar 15 04:50:03 UTC 2021 ssu --start 43200 --stop 46800
+Mon Mar 15 04:54:03 UTC 2021 ssu --start 46800 --stop 50400
+Mon Mar 15 04:58:03 UTC 2021 ssu --start 50400 --stop 54000
+Mon Mar 15 05:02:03 UTC 2021 ssu --start 54000 --stop 56861
+=== unweighted fp32 -f time: 3804 ===
+=== weighted_normalized SUDoc 56k/113k ===
+=== weighted_normalized fp32 SUDoc 56k/113k ===
+Mon Mar 15 05:05:22 UTC 2021 ssu --start 0 --stop 3600
+Mon Mar 15 05:23:34 UTC 2021 ssu --start 3600 --stop 7200
+Mon Mar 15 05:41:46 UTC 2021 ssu --start 7200 --stop 10800
+Mon Mar 15 05:59:59 UTC 2021 ssu --start 10800 --stop 14400
+Mon Mar 15 06:18:09 UTC 2021 ssu --start 14400 --stop 18000
+Mon Mar 15 06:36:19 UTC 2021 ssu --start 18000 --stop 21600
+Mon Mar 15 06:54:32 UTC 2021 ssu --start 21600 --stop 25200
+Mon Mar 15 07:12:45 UTC 2021 ssu --start 25200 --stop 28800
+Mon Mar 15 07:31:03 UTC 2021 ssu --start 28800 --stop 32400
+Mon Mar 15 07:49:20 UTC 2021 ssu --start 32400 --stop 36000
+Mon Mar 15 08:07:40 UTC 2021 ssu --start 36000 --stop 39600
+Mon Mar 15 08:25:53 UTC 2021 ssu --start 39600 --stop 43200
+Mon Mar 15 08:44:07 UTC 2021 ssu --start 43200 --stop 46800
+Mon Mar 15 09:02:22 UTC 2021 ssu --start 46800 --stop 50400
+Mon Mar 15 09:20:42 UTC 2021 ssu --start 50400 --stop 54000
+Mon Mar 15 09:38:55 UTC 2021 ssu --start 54000 --stop 56861
+=== weighted_normalized fp32 time: 17298 ===
+Mon Mar 15 09:53:40 UTC 2021 ssu --start 0 --stop 3600
+Mon Mar 15 10:06:54 UTC 2021 ssu --start 3600 --stop 7200
+Mon Mar 15 10:20:13 UTC 2021 ssu --start 7200 --stop 10800
+Mon Mar 15 10:33:26 UTC 2021 ssu --start 10800 --stop 14400
+Mon Mar 15 10:46:41 UTC 2021 ssu --start 14400 --stop 18000
+Mon Mar 15 10:59:54 UTC 2021 ssu --start 18000 --stop 21600
+Mon Mar 15 11:13:04 UTC 2021 ssu --start 21600 --stop 25200
+Mon Mar 15 11:26:17 UTC 2021 ssu --start 25200 --stop 28800
+Mon Mar 15 11:39:35 UTC 2021 ssu --start 28800 --stop 32400
+Mon Mar 15 11:52:49 UTC 2021 ssu --start 32400 --stop 36000
+Mon Mar 15 12:06:05 UTC 2021 ssu --start 36000 --stop 39600
+Mon Mar 15 12:19:19 UTC 2021 ssu --start 39600 --stop 43200
+Mon Mar 15 12:32:35 UTC 2021 ssu --start 43200 --stop 46800
+Mon Mar 15 12:45:53 UTC 2021 ssu --start 46800 --stop 50400
+Mon Mar 15 12:59:05 UTC 2021 ssu --start 50400 --stop 54000
+Mon Mar 15 13:12:21 UTC 2021 ssu --start 54000 --stop 56861
+=== weighted_normalized fp32 -f time: 12566 ===
