@@ -75,11 +75,11 @@ def get_embs():
 
   return data
 
-resnames=('org_cpu','cpu','gpu_v100','gpu_3090')
-dnames={'org_cpu':"org/CPU_Intel_Xeon_Gold_6242",
-        'cpu':"v0.20.2/CPU_Intel_Xeon_Gold_6242",
+resnames=('org_cpu_xeon','cpu_xeon','gpu_v100','gpu_a40')
+dnames={'org_cpu_xeon':"org/CPU_Intel_Xeon_Gold_6242",
+        'cpu_xeon':"v0.20.2/CPU_Intel_Xeon_Gold_6242",
         'gpu_v100':"v0.20.2/GPU_NVIDIA_V100_32GB",
-        'gpu_3090':"v0.20.2/GPU_NVIDIA_RTX3090"}
+        'gpu_a40':"v0.20.2/GPU_NVIDIA_A40"}
 
 rtypes={'unweighted': 'summary_uw.csv',
         'unweighted -f': 'summary_uw_f.csv',
@@ -107,7 +107,7 @@ for k in resnames:
 
 for rtype in rtypes.keys():
   with open("../"+rtypes[rtype],"w") as fd:
-    str="#Label,n_samples,n_embs,org_cpu"
+    str="#Label,n_samples,n_embs,org_cpu_xeon"
     for k in resnames[1:]:
       str+=",%s,%s fp32"%(k,k)
     fd.write(str+"\n")
@@ -130,7 +130,7 @@ for rtype in rtypes.keys():
       else:
         str += ","
 
-      for k in resnames[:1]: #cpu_org is special
+      for k in resnames[:1]: #cpu_xeon_org is special
         sdel1=","
 
         if s in data[k].keys():

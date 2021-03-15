@@ -50,10 +50,10 @@ def parse_dir(dname, data, label):
   return data
 
 data={}
-parse_dir("../org/CPU_Intel_Xeon_Gold_6242",data,"org_cpu")
-parse_dir("../v0.20.2/CPU_Intel_Xeon_Gold_6242",data,"cpu")
+parse_dir("../org/CPU_Intel_Xeon_Gold_6242",data,"org_cpu_xeon")
+parse_dir("../v0.20.2/CPU_Intel_Xeon_Gold_6242",data,"cpu_xeon")
 parse_dir("../v0.20.2/GPU_NVIDIA_V100_32GB",data,"gpu_v100")
-parse_dir("../v0.20.2/GPU_NVIDIA_RTX3090",data,"gpu_3090 fp32")
+parse_dir("../v0.20.2/GPU_NVIDIA_A40",data,"gpu_a40 fp32")
 
 inputs={}
 with open("../inputs.csv","r") as fd:
@@ -66,7 +66,7 @@ with open("../inputs.csv","r") as fd:
 #print(data)
 
 fname={'unweighted':'summary_uw.csv', 'weighted_normalized':'summary_wn.csv'}
-labels=["org_cpu","cpu","gpu_v100","gpu_3090 fp32"]
+labels=["org_cpu_xeon","cpu_xeon","gpu_v100","gpu_a40 fp32"]
 
 for type in ['unweighted','weighted_normalized']:
   samples=list(data[type].keys())
