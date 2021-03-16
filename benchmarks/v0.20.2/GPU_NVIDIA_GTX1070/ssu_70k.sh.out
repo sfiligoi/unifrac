@@ -1,0 +1,81 @@
+gpu-1070-697f4bc5b8-zcqr4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               3299.879
+CPU max MHz:           3800.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5799.78
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+Tue Mar 16 02:30:41 UTC 2021
+Tue Mar 16 02:30:41 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:04:00.0 Off |                  N/A |
+| 27%   30C    P8     5W / 151W |      0MiB /  8119MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+e9ffefaa65366f3d737a3c4dab972f54  unifrac_70000.biom
+04d9fa100a0c107e2e455d5b68404155  unifrac_70000.tre
+====
+Total samples: 70000
+Total stripes: 35000
+Partition 0, suggested start and stop: 0, 35000
+=== unweighted 35k/70k ===
+=== unweighted fp32 35k/70k ===
+Tue Mar 16 02:31:02 UTC 2021 ssu --start 0 --stop 7000
+Tue Mar 16 02:36:01 UTC 2021 ssu --start 7000 --stop 14000
+Tue Mar 16 02:41:01 UTC 2021 ssu --start 14000 --stop 21000
+Tue Mar 16 02:46:02 UTC 2021 ssu --start 21000 --stop 28000
+Tue Mar 16 02:51:02 UTC 2021 ssu --start 28000 --stop 35000
+=== unweighted fp32 time: 1499 ===
+Tue Mar 16 02:56:01 UTC 2021 ssu --start 0 --stop 7000
+Tue Mar 16 02:59:10 UTC 2021 ssu --start 7000 --stop 14000
+Tue Mar 16 03:02:21 UTC 2021 ssu --start 14000 --stop 21000
+Tue Mar 16 03:05:29 UTC 2021 ssu --start 21000 --stop 28000
+Tue Mar 16 03:08:39 UTC 2021 ssu --start 28000 --stop 35000
+=== unweighted fp32 -f time: 947 ===
+=== weighted_normalized 35k/70k ===
+=== weighted_normalized fp32 35k/70k ===
+Tue Mar 16 03:11:48 UTC 2021 ssu --start 0 --stop 7000
+Tue Mar 16 03:26:59 UTC 2021 ssu --start 7000 --stop 14000
+Tue Mar 16 03:42:09 UTC 2021 ssu --start 14000 --stop 21000
+Tue Mar 16 03:57:20 UTC 2021 ssu --start 21000 --stop 28000
+Tue Mar 16 04:12:30 UTC 2021 ssu --start 28000 --stop 35000
+=== weighted_normalized fp32 time: 4553 ===
+Tue Mar 16 04:27:41 UTC 2021 ssu --start 0 --stop 7000
+Tue Mar 16 04:38:46 UTC 2021 ssu --start 7000 --stop 14000
+Tue Mar 16 04:49:50 UTC 2021 ssu --start 14000 --stop 21000
+Tue Mar 16 05:00:53 UTC 2021 ssu --start 21000 --stop 28000
+Tue Mar 16 05:11:58 UTC 2021 ssu --start 28000 --stop 35000
+=== weighted_normalized fp32 -f time: 3322 ===

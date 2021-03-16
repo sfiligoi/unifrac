@@ -1,0 +1,65 @@
+gpu-1070-697f4bc5b8-zcqr4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               3299.878
+CPU max MHz:           3800.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5799.78
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+Mon Mar 15 20:52:01 UTC 2021
+Mon Mar 15 20:52:01 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:04:00.0 Off |                  N/A |
+| 27%   32C    P8     6W / 151W |      0MiB /  8119MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+85e8d32d9a8689fe5f90f095ee799235  unifrac_40000.biom
+2859afdda6068234989a845690d35c5b  unifrac_40000.tre
+====
+Total samples: 40000
+Total stripes: 20000
+Partition 0, suggested start and stop: 0, 20000
+=== unweighted 20k/40k ===
+=== unweighted time: 508 ===
+=== unweighted -f time: 344 ===
+=== unweighted fp32 20k/40k ===
+=== unweighted fp32 time: 346 ===
+=== unweighted fp32 -f time: 222 ===
+=== weighted_normalized 20k/40k ===
+=== weighted_normalized time: 2275 ===
+=== weighted_normalized -f time: 1679 ===
+=== weighted_normalized fp32 20k/40k ===
+=== weighted_normalized fp32 time: 1252 ===
+=== weighted_normalized fp32 -f time: 916 ===
