@@ -25,7 +25,7 @@ taskset -c 0-3 time ssu -n 6 -m unweighted -i unifrac_40000.biom -t unifrac_4000
 t2=`date +%s`
 let dt=t2-t1
 rm -fr unifrac.tmp
-echo "=== unweighted fp32 time: $dt ==="
+echo "=== unweighted time: $dt ==="
 
 t1=`date +%s`
 taskset -c 0-3 time ssu -n 6 -m unweighted -f -i unifrac_40000.biom -t unifrac_40000.tre -o unifrac.tmp --mode partial --start 0 --stop 10000
@@ -34,7 +34,7 @@ taskset -c 0-3 time ssu -n 6 -m unweighted -f -i unifrac_40000.biom -t unifrac_4
 t2=`date +%s`
 let dt=t2-t1
 rm -fr unifrac.tmp
-echo "=== unweighted fp32 -f time: $dt ==="
+echo "=== unweighted -f time: $dt ==="
 
 echo "=== unweighted fp32 20k/40k ==="
 rm -fr unifrac.tmp

@@ -64,8 +64,8 @@ Total samples: 40000
 Total stripes: 20000
 Partition 0, suggested start and stop: 0, 20000
 === unweighted 20k/40k ===
-=== unweighted fp32 time: 1653 ===
-=== unweighted fp32 -f time: 1048 ===
+=== unweighted time: 1653 ===
+=== unweighted -f time: 1048 ===
 === unweighted fp32 20k/40k ===
 === unweighted fp32 time: 980 ===
 === unweighted fp32 -f time: 572 ===
