@@ -98,7 +98,7 @@ rtypes_fp32={'unweighted': 'unweighted fp32',
 msizes=['500/1k','1k/2k','2.5k/5k',
         '5k/10k','10k/20k','12k/25k',
         'EMP 12k/25k','15k/30k',
-        '25k/50k']
+        '20k/40k','25k/50k']
 
 embs = get_embs()
 
