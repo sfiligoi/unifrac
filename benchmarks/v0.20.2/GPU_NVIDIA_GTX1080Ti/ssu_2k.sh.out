@@ -1,0 +1,66 @@
+gpu-1080-5dd86884f6-s886h
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    12
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6136 CPU @ 3.00GHz
+Stepping:              4
+CPU MHz:               3270.201
+CPU max MHz:           3700.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              6000.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              25344K
+NUMA node0 CPU(s):     0-11,24-35
+NUMA node1 CPU(s):     12-23,36-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin mba tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke
+Tue Mar 16 16:14:01 UTC 2021
+Tue Mar 16 16:14:01 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 108...  Off  | 00000000:60:00.0 Off |                  N/A |
+|  0%   48C    P0    85W / 250W |      0MiB / 11178MiB |      2%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+ec3641c8ba9b4a50b84c584cfcda45c1  unifrac_2000.biom
+dc90a0132080c789a59c8fe59b870d0c  unifrac_2000.tre
+====
+Total samples: 2000
+Total stripes: 1000
+Partition 0, suggested start and stop: 0, 1000
+=== unweighted 1k/2k ===
+=== unweighted time: 2 ===
+=== unweighted -f time: 2 ===
+=== unweighted fp32 1k/2k ===
+=== unweighted fp32 time: 2 ===
+=== unweighted fp32 -f time: 2 ===
+=== weighted_normalized 1k/2k ===
+=== weighted_normalized time: 3 ===
+=== weighted_normalized -f time: 2 ===
+=== weighted_normalized fp32 1k/2k ===
+=== weighted_normalized fp32 time: 3 ===
+=== weighted_normalized fp32 -f time: 2 ===
