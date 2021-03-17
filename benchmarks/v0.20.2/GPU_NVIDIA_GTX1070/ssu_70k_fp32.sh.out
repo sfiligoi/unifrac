@@ -1,0 +1,68 @@
+DESKTOP-7SECT5T
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          16
+On-line CPU(s) list:             0-15
+Thread(s) per core:              2
+Core(s) per socket:              8
+Socket(s):                       1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           165
+Model name:                      Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+Stepping:                        5
+CPU MHz:                         2903.999
+BogoMIPS:                        5807.99
+Hypervisor vendor:               Microsoft
+Virtualization type:             full
+L1d cache:                       256 KiB
+L1i cache:                       256 KiB
+L2 cache:                        2 MiB
+L3 cache:                        16 MiB
+Vulnerability Itlb multihit:     KVM: Vulnerable
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves flush_l1d arch_capabilities
+Tue Mar 16 08:24:06 PDT 2021
+e9ffefaa65366f3d737a3c4dab972f54  ../unifrac_70000.biom
+04d9fa100a0c107e2e455d5b68404155  ../unifrac_70000.tre
+====
+Total samples: 70000
+Total stripes: 35000
+Partition 0, suggested start and stop: 0, 35000
+=== unweighted 35k/70k ===
+=== unweighted fp32 35k/70k ===
+Tue Mar 16 08:24:12 PDT 2021 ssu --start 0 --stop 5000
+Tue Mar 16 08:48:38 PDT 2021 ssu --start 5000 --stop 10000
+Tue Mar 16 09:09:47 PDT 2021 ssu --start 10000 --stop 15000
+Tue Mar 16 09:30:47 PDT 2021 ssu --start 15000 --stop 20000
+Tue Mar 16 09:52:01 PDT 2021 ssu --start 20000 --stop 25000
+Tue Mar 16 10:13:00 PDT 2021 ssu --start 25000 --stop 30000
+Tue Mar 16 10:33:54 PDT 2021 ssu --start 30000 --stop 35000
+=== unweighted fp32 time: 9035 ===
+Tue Mar 16 10:54:47 PDT 2021 ssu --start 0 --stop 5000
+Tue Mar 16 11:07:10 PDT 2021 ssu --start 5000 --stop 10000
+Tue Mar 16 11:19:22 PDT 2021 ssu --start 10000 --stop 15000
+Tue Mar 16 11:31:54 PDT 2021 ssu --start 15000 --stop 20000
+Tue Mar 16 11:44:37 PDT 2021 ssu --start 20000 --stop 25000
+Tue Mar 16 11:57:01 PDT 2021 ssu --start 25000 --stop 30000
+Tue Mar 16 12:09:35 PDT 2021 ssu --start 30000 --stop 35000
+=== unweighted fp32 -f time: 5249 ===
+=== weighted_normalized 35k/70k ===
+=== weighted_normalized fp32 35k/70k ===
+Tue Mar 16 12:22:16 PDT 2021 ssu --start 0 --stop 5000
+Tue Mar 16 13:10:22 PDT 2021 ssu --start 5000 --stop 10000
+Tue Mar 16 13:58:46 PDT 2021 ssu --start 10000 --stop 15000
+Tue Mar 16 14:47:23 PDT 2021 ssu --start 15000 --stop 20000
+Tue Mar 16 15:35:42 PDT 2021 ssu --start 20000 --stop 25000
+Tue Mar 16 16:24:11 PDT 2021 ssu --start 25000 --stop 30000
+Tue Mar 16 17:12:28 PDT 2021 ssu --start 30000 --stop 35000
+=== weighted_normalized fp32 time: 20310 ===
