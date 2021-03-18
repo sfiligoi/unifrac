@@ -1,0 +1,100 @@
+gpu-2080-76dd5765c6-kqp82
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    24
+Socket(s):             1
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 1
+Model name:            AMD EPYC 7451 24-Core Processor
+Stepping:              2
+CPU MHz:               2887.453
+CPU max MHz:           2300.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4599.74
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             64K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-5,24-29
+NUMA node1 CPU(s):     6-11,30-35
+NUMA node2 CPU(s):     12-17,36-41
+NUMA node3 CPU(s):     18-23,42-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+Wed Mar 17 13:44:36 UTC 2021
+Wed Mar 17 13:44:36 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:64:00.0 Off |                  N/A |
+|  0%   30C    P8     1W / 250W |      0MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0f34f4de4ad9fba8a28cce7c70218aa8  unifrac_200000.biom
+1e726d6bcc9b53659754cc113adfc078  unifrac_200000.tre
+====
+Total samples: 200000
+Total stripes: 100000
+Partition 0, suggested start and stop: 0, 100000
+=== weighted_normalized 100k/200k ===
+=== weighted_normalized fp32 100k/200k ===
+Wed Mar 17 13:45:07 UTC 2021 ssu --start 0 --stop 5000
+Wed Mar 17 14:03:55 UTC 2021 ssu --start 5000 --stop 10000
+Wed Mar 17 14:22:49 UTC 2021 ssu --start 10000 --stop 15000
+Wed Mar 17 14:41:50 UTC 2021 ssu --start 15000 --stop 20000
+Wed Mar 17 15:00:55 UTC 2021 ssu --start 20000 --stop 25000
+Wed Mar 17 15:19:56 UTC 2021 ssu --start 25000 --stop 30000
+Wed Mar 17 15:38:56 UTC 2021 ssu --start 30000 --stop 35000
+Wed Mar 17 15:57:37 UTC 2021 ssu --start 35000 --stop 40000
+Wed Mar 17 16:16:16 UTC 2021 ssu --start 40000 --stop 45000
+Wed Mar 17 16:34:56 UTC 2021 ssu --start 45000 --stop 50000
+Wed Mar 17 16:53:39 UTC 2021 ssu --start 50000 --stop 55000
+Wed Mar 17 17:12:21 UTC 2021 ssu --start 55000 --stop 60000
+Wed Mar 17 17:31:04 UTC 2021 ssu --start 60000 --stop 65000
+Wed Mar 17 17:49:45 UTC 2021 ssu --start 65000 --stop 70000
+Wed Mar 17 18:08:30 UTC 2021 ssu --start 70000 --stop 75000
+Wed Mar 17 18:27:17 UTC 2021 ssu --start 75000 --stop 80000
+Wed Mar 17 18:45:53 UTC 2021 ssu --start 80000 --stop 85000
+Wed Mar 17 19:04:26 UTC 2021 ssu --start 85000 --stop 90000
+Wed Mar 17 19:23:10 UTC 2021 ssu --start 90000 --stop 95000
+Wed Mar 17 19:41:57 UTC 2021 ssu --start 95000 --stop 100000
+=== weighted_normalized fp32 time: 22533 ===
+Wed Mar 17 20:00:40 UTC 2021 ssu --start 0 --stop 5000
+Wed Mar 17 20:14:19 UTC 2021 ssu --start 5000 --stop 10000
+Wed Mar 17 20:27:51 UTC 2021 ssu --start 10000 --stop 15000
+Wed Mar 17 20:41:07 UTC 2021 ssu --start 15000 --stop 20000
+Wed Mar 17 20:54:25 UTC 2021 ssu --start 20000 --stop 25000
+Wed Mar 17 21:07:45 UTC 2021 ssu --start 25000 --stop 30000
+Wed Mar 17 21:21:01 UTC 2021 ssu --start 30000 --stop 35000
+Wed Mar 17 21:34:40 UTC 2021 ssu --start 35000 --stop 40000
+Wed Mar 17 21:48:42 UTC 2021 ssu --start 40000 --stop 45000
+Wed Mar 17 22:02:40 UTC 2021 ssu --start 45000 --stop 50000
+Wed Mar 17 22:16:35 UTC 2021 ssu --start 50000 --stop 55000
+Wed Mar 17 22:30:26 UTC 2021 ssu --start 55000 --stop 60000
+Wed Mar 17 22:44:19 UTC 2021 ssu --start 60000 --stop 65000
+Wed Mar 17 22:58:16 UTC 2021 ssu --start 65000 --stop 70000
+Wed Mar 17 23:12:18 UTC 2021 ssu --start 70000 --stop 75000
+Wed Mar 17 23:26:10 UTC 2021 ssu --start 75000 --stop 80000
+Wed Mar 17 23:40:36 UTC 2021 ssu --start 80000 --stop 85000
+Wed Mar 17 23:55:34 UTC 2021 ssu --start 85000 --stop 90000
+Thu Mar 18 00:10:37 UTC 2021 ssu --start 90000 --stop 95000
+Thu Mar 18 00:24:45 UTC 2021 ssu --start 95000 --stop 100000
+=== weighted_normalized fp32 -f time: 16672 ===
