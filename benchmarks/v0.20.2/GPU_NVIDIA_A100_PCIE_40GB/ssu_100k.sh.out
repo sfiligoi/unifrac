@@ -58,3 +58,9 @@ Partition 0, suggested start and stop: 0, 50000
 === unweighted fp32 50k/100k ===
 === unweighted fp32 time: 233 ===
 === unweighted fp32 -f time: 195 ===
+=== weighted_normalized 50k/100k ===
+=== weighted_normalized time: 1837 ===
+=== weighted_normalized -f time: 1367 ===
+=== weighted_normalized fp32 50k/100k ===
+=== weighted_normalized fp32 time: 436 ===
+=== weighted_normalized fp32 -f time: 332 ===
