@@ -75,12 +75,13 @@ def get_embs():
 
   return data
 
-resnames=('gpu_1070','gpu_1080ti','gpu_2080ti','gpu_3090','gpu_a40')
+resnames=('gpu_1070','gpu_1080ti','gpu_2080ti','gpu_3090','gpu_a40','gpu_a100')
 dnames={'gpu_1070':"v0.20.2/GPU_NVIDIA_GTX1070",
         'gpu_1080ti':"v0.20.2/GPU_NVIDIA_GTX1080Ti",
         'gpu_2080ti':"v0.20.2/GPU_NVIDIA_RTX2080Ti",
         'gpu_3090':"v0.20.2/GPU_NVIDIA_RTX3090",
-        'gpu_a40':"v0.20.2/GPU_NVIDIA_A40"}
+        'gpu_a40':"v0.20.2/GPU_NVIDIA_A40",
+        'gpu_a100':"v0.20.2/GPU_NVIDIA_A100_PCIE_40GB"}
 
 rtypes={'unweighted': 'prp_summary_uw.csv',
         'unweighted -f': 'prp_summary_uw_f.csv',
