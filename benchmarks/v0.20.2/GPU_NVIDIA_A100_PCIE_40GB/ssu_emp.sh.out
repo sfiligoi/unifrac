@@ -1,0 +1,66 @@
+gpu-a100-58bc7c88f7-tk7g4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    1
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7252 8-Core Processor
+Stepping:              0
+CPU MHz:               1499.803
+CPU max MHz:           3100.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              6200.20
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-7
+NUMA node1 CPU(s):     8-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Fri Mar 19 16:30:31 UTC 2021
+Fri Mar 19 16:30:31 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A100-PCIE-40GB      Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   33C    P0    38W / 250W |      0MiB / 40536MiB |     13%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+66f0c6957be53b0c19e733bcd6396d65  emp.biom
+44422c5483ee188ee6da60dc0c77a8f2  emp.tre
+====
+Total samples: 25145
+Total stripes: 12573
+Partition 0, suggested start and stop: 0, 12573
+=== unweighted EMP 12k/25k ===
+=== unweighted time: 42 ===
+=== unweighted -f time: 33 ===
+=== unweighted fp32 EMP 12k/25k ===
+=== unweighted fp32 time: 48 ===
+=== unweighted fp32 -f time: 39 ===
+=== weighted_normalized EMP 12k/25k ===
+=== weighted_normalized time: 149 ===
+=== weighted_normalized -f time: 107 ===
+=== weighted_normalized fp32 EMP 12k/25k ===
+=== weighted_normalized fp32 time: 136 ===
+=== weighted_normalized fp32 -f time: 101 ===
