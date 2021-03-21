@@ -1,0 +1,142 @@
+gpu-a100-58bc7c88f7-tk7g4
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    1
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7252 8-Core Processor
+Stepping:              0
+CPU MHz:               1924.055
+CPU max MHz:           3100.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              6200.20
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-7
+NUMA node1 CPU(s):     8-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Sat Mar 20 01:59:53 UTC 2021
+Sat Mar 20 01:59:53 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A100-PCIE-40GB      Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   26C    P0    33W / 250W |      0MiB / 40536MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0eec147b47649afb7376e86cf2b931b1  full_307k.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  full_307k.tre
+====
+Total samples: 307237
+Total stripes: 153619
+Partition 0, suggested start and stop: 0, 153619
+=== unweighted Full 153k/307k ===
+=== unweighted Full 153k/307k ===
+Sat Mar 20 02:00:39 UTC 2021 ssu --start 0 --stop 7700
+Sat Mar 20 02:11:10 UTC 2021 ssu --start 7700 --stop 15400
+Sat Mar 20 02:21:43 UTC 2021 ssu --start 15400 --stop 23100
+Sat Mar 20 02:32:14 UTC 2021 ssu --start 23100 --stop 30800
+Sat Mar 20 02:42:46 UTC 2021 ssu --start 30800 --stop 38500
+Sat Mar 20 02:53:18 UTC 2021 ssu --start 38500 --stop 46200
+Sat Mar 20 03:03:49 UTC 2021 ssu --start 46200 --stop 53900
+Sat Mar 20 03:14:19 UTC 2021 ssu --start 53900 --stop 61600
+Sat Mar 20 03:24:51 UTC 2021 ssu --start 61600 --stop 69300
+Sat Mar 20 03:35:24 UTC 2021 ssu --start 69300 --stop 77000
+Sat Mar 20 03:45:55 UTC 2021 ssu --start 77000 --stop 84700
+Sat Mar 20 03:56:26 UTC 2021 ssu --start 84700 --stop 92400
+Sat Mar 20 04:06:58 UTC 2021 ssu --start 92400 --stop 100100
+Sat Mar 20 04:17:33 UTC 2021 ssu --start 100100 --stop 107800
+Sat Mar 20 04:28:04 UTC 2021 ssu --start 107800 --stop 115500
+Sat Mar 20 04:38:38 UTC 2021 ssu --start 115500 --stop 123200
+Sat Mar 20 04:49:13 UTC 2021 ssu --start 123200 --stop 130900
+Sat Mar 20 04:59:46 UTC 2021 ssu --start 130900 --stop 138600
+Sat Mar 20 05:10:16 UTC 2021 ssu --start 138600 --stop 146300
+Sat Mar 20 05:20:45 UTC 2021 ssu --start 146300 --stop 153619
+=== unweighted time: 12630 ===
+Sat Mar 20 05:31:09 UTC 2021 ssu --start 0 --stop 7700
+Sat Mar 20 05:37:44 UTC 2021 ssu --start 7700 --stop 15400
+Sat Mar 20 05:44:23 UTC 2021 ssu --start 15400 --stop 23100
+Sat Mar 20 05:50:57 UTC 2021 ssu --start 23100 --stop 30800
+Sat Mar 20 05:57:33 UTC 2021 ssu --start 30800 --stop 38500
+Sat Mar 20 06:04:11 UTC 2021 ssu --start 38500 --stop 46200
+Sat Mar 20 06:10:50 UTC 2021 ssu --start 46200 --stop 53900
+Sat Mar 20 06:17:28 UTC 2021 ssu --start 53900 --stop 61600
+Sat Mar 20 06:24:04 UTC 2021 ssu --start 61600 --stop 69300
+Sat Mar 20 06:30:42 UTC 2021 ssu --start 69300 --stop 77000
+Sat Mar 20 06:37:23 UTC 2021 ssu --start 77000 --stop 84700
+Sat Mar 20 06:43:59 UTC 2021 ssu --start 84700 --stop 92400
+Sat Mar 20 06:50:36 UTC 2021 ssu --start 92400 --stop 100100
+Sat Mar 20 06:57:13 UTC 2021 ssu --start 100100 --stop 107800
+Sat Mar 20 07:03:50 UTC 2021 ssu --start 107800 --stop 115500
+Sat Mar 20 07:10:29 UTC 2021 ssu --start 115500 --stop 123200
+Sat Mar 20 07:17:08 UTC 2021 ssu --start 123200 --stop 130900
+Sat Mar 20 07:23:45 UTC 2021 ssu --start 130900 --stop 138600
+Sat Mar 20 07:30:22 UTC 2021 ssu --start 138600 --stop 146300
+Sat Mar 20 07:36:59 UTC 2021 ssu --start 146300 --stop 153619
+=== unweighted -f time: 7949 ===
+=== weighted_normalized Full 153k/307k ===
+=== weighted_normalized Full 153k/307k ===
+Sat Mar 20 07:43:40 UTC 2021 ssu --start 0 --stop 7700
+Sat Mar 20 08:16:36 UTC 2021 ssu --start 7700 --stop 15400
+Sat Mar 20 08:50:22 UTC 2021 ssu --start 15400 --stop 23100
+Sat Mar 20 09:24:11 UTC 2021 ssu --start 23100 --stop 30800
+Sat Mar 20 09:58:11 UTC 2021 ssu --start 30800 --stop 38500
+Sat Mar 20 10:31:54 UTC 2021 ssu --start 38500 --stop 46200
+Sat Mar 20 11:05:41 UTC 2021 ssu --start 46200 --stop 53900
+Sat Mar 20 11:39:22 UTC 2021 ssu --start 53900 --stop 61600
+Sat Mar 20 12:13:08 UTC 2021 ssu --start 61600 --stop 69300
+Sat Mar 20 12:47:08 UTC 2021 ssu --start 69300 --stop 77000
+Sat Mar 20 13:21:07 UTC 2021 ssu --start 77000 --stop 84700
+Sat Mar 20 13:55:10 UTC 2021 ssu --start 84700 --stop 92400
+Sat Mar 20 14:29:01 UTC 2021 ssu --start 92400 --stop 100100
+Sat Mar 20 15:03:01 UTC 2021 ssu --start 100100 --stop 107800
+Sat Mar 20 15:36:53 UTC 2021 ssu --start 107800 --stop 115500
+Sat Mar 20 16:10:55 UTC 2021 ssu --start 115500 --stop 123200
+Sat Mar 20 16:45:03 UTC 2021 ssu --start 123200 --stop 130900
+Sat Mar 20 17:18:41 UTC 2021 ssu --start 130900 --stop 138600
+Sat Mar 20 17:52:44 UTC 2021 ssu --start 138600 --stop 146300
+Sat Mar 20 18:26:36 UTC 2021 ssu --start 146300 --stop 153619
+=== weighted_normalized time: 40556 ===
+Sat Mar 20 18:59:36 UTC 2021 ssu --start 0 --stop 7700
+Sat Mar 20 19:21:01 UTC 2021 ssu --start 7700 --stop 15400
+Sat Mar 20 19:42:38 UTC 2021 ssu --start 15400 --stop 23100
+Sat Mar 20 20:04:22 UTC 2021 ssu --start 23100 --stop 30800
+Sat Mar 20 20:26:08 UTC 2021 ssu --start 30800 --stop 38500
+Sat Mar 20 20:47:56 UTC 2021 ssu --start 38500 --stop 46200
+Sat Mar 20 21:09:29 UTC 2021 ssu --start 46200 --stop 53900
+Sat Mar 20 21:31:15 UTC 2021 ssu --start 53900 --stop 61600
+Sat Mar 20 21:52:55 UTC 2021 ssu --start 61600 --stop 69300
+Sat Mar 20 22:14:39 UTC 2021 ssu --start 69300 --stop 77000
+Sat Mar 20 22:36:26 UTC 2021 ssu --start 77000 --stop 84700
+Sat Mar 20 22:58:14 UTC 2021 ssu --start 84700 --stop 92400
+Sat Mar 20 23:19:46 UTC 2021 ssu --start 92400 --stop 100100
+Sat Mar 20 23:41:32 UTC 2021 ssu --start 100100 --stop 107800
+Sun Mar 21 00:03:23 UTC 2021 ssu --start 107800 --stop 115500
+Sun Mar 21 00:25:04 UTC 2021 ssu --start 115500 --stop 123200
+Sun Mar 21 00:46:46 UTC 2021 ssu --start 123200 --stop 130900
+Sun Mar 21 01:08:28 UTC 2021 ssu --start 130900 --stop 138600
+Sun Mar 21 01:30:08 UTC 2021 ssu --start 138600 --stop 146300
+Sun Mar 21 01:51:53 UTC 2021 ssu --start 146300 --stop 153619
+=== weighted_normalized -f time: 26011 ===
