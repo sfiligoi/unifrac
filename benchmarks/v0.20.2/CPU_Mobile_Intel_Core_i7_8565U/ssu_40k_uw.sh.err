@@ -1,0 +1,84 @@
+Out of memory allocating 3200000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/1806827520
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+...empty...
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+7.36user 2.25system 0:09.30elapsed 103%CPU (0avgtext+0avgdata 10065348maxresident)k
+168inputs+8outputs (1major+2582070minor)pagefaults 0swaps
+Out of memory allocating 3200000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/1806827520
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+...empty...
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+7.40user 2.20system 0:09.25elapsed 103%CPU (0avgtext+0avgdata 10065152maxresident)k
+0inputs+8outputs (0major+2582065minor)pagefaults 0swaps
+Out of memory allocating 3200000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/1806827520
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+...empty...
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+7.33user 2.23system 0:09.21elapsed 103%CPU (0avgtext+0avgdata 10064932maxresident)k
+0inputs+0outputs (0major+2582058minor)pagefaults 0swaps
+Out of memory allocating 3200000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/1806827520
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+...empty...
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+7.44user 2.14system 0:09.24elapsed 103%CPU (0avgtext+0avgdata 10064948maxresident)k
+0inputs+0outputs (0major+2582065minor)pagefaults 0swaps
+Out of memory allocating 1600000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/206700544
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+host:0x7f7e7adb1010 device:0x7f7e1a000000 size:1600000000 presentcount:0+1 line:73 name:ibuf
+allocated block device:0x7f7e1a000000 size:1600000000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+7.97user 2.23system 0:09.86elapsed 103%CPU (0avgtext+0avgdata 10130556maxresident)k
+0inputs+0outputs (0major+2598444minor)pagefaults 0swaps
+Out of memory allocating 1600000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/206700544
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+host:0x7faf9e3fa010 device:0x7faf3e000000 size:1600000000 presentcount:0+1 line:73 name:ibuf
+allocated block device:0x7faf3e000000 size:1600000000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+7.97user 2.30system 0:09.92elapsed 103%CPU (0avgtext+0avgdata 10130860maxresident)k
+0inputs+8outputs (0major+2598455minor)pagefaults 0swaps
+Out of memory allocating 1600000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/206700544
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+host:0x7fdbe192e010 device:0x7fdb80000000 size:1600000000 presentcount:0+1 line:73 name:ibuf
+allocated block device:0x7fdb80000000 size:1600000000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+8.38user 2.28system 0:10.32elapsed 103%CPU (0avgtext+0avgdata 10130784maxresident)k
+0inputs+8outputs (0major+2598450minor)pagefaults 0swaps
+Out of memory allocating 1600000000 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 2099904512/206700544
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 6.1, threadid=1
+host:0x7fb9fadb1010 device:0x7fb99a000000 size:1600000000 presentcount:0+1 line:73 name:ibuf
+allocated block device:0x7fb99a000000 size:1600000000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+Command exited with non-zero status 1
+8.54user 2.25system 0:10.45elapsed 103%CPU (0avgtext+0avgdata 10130632maxresident)k
+0inputs+0outputs (0major+2598445minor)pagefaults 0swaps
