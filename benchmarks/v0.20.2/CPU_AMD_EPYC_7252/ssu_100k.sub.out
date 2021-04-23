@@ -36,3 +36,5 @@ Partition 0, suggested start and stop: 0, 50000
 === unweighted time: 21973 ===
 === unweighted -f time: 12851 ===
 === weighted_normalized 50k/100k ===
+=== weighted_normalized time: 62347 ===
+=== weighted_normalized -f time: 39815 ===
