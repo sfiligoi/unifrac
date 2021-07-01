@@ -1,0 +1,99 @@
+gpu-3090-6fb96478c9-cdtbp
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                72
+On-line CPU(s) list:   0-71
+Thread(s) per core:    2
+Core(s) per socket:    18
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+Stepping:              4
+CPU MHz:               3000.000
+CPU max MHz:           3700.0000
+CPU min MHz:           1000.0000
+BogoMIPS:              4600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              25344K
+NUMA node0 CPU(s):     0-17,36-53
+NUMA node1 CPU(s):     18-35,54-71
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke md_clear flush_l1d
+Thu Jul  1 20:20:40 UTC 2021
+Thu Jul  1 20:20:40 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 3090    Off  | 00000000:63:00.0 Off |                  N/A |
+| 30%   29C    P8    20W / 350W |     16MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
+42f95375f03daf93d5f272dc8b9e3ea0  unifrac_10000.biom
+81c82b302f19a38f98ba06f233427c7a  unifrac_10000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 279811044 Jul  1 20:20 unifrac.tmp
+=== 10000 unweighted fp32 time: 8 ===
+-rw------- 1 root root 280255932 Jul  1 20:20 unifrac.tmp
+=== 10000 unweighted fp32 -f time: 8 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 284167202 Jul  1 20:21 unifrac.tmp
+=== 10000 weighted_normalized fp32 time: 13 ===
+-rw------- 1 root root 284309736 Jul  1 20:21 unifrac.tmp
+=== 10000 weighted_normalized fp32 -f time: 11 ===
+70155182dc9b0d341829e434054266cd  unifrac_20000.biom
+f2de4a32015f5fa6fd91a9ed523f5917  unifrac_20000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 1116784017 Jul  1 20:21 unifrac.tmp
+=== 20000 unweighted fp32 time: 25 ===
+-rw------- 1 root root 1118479224 Jul  1 20:22 unifrac.tmp
+=== 20000 unweighted fp32 -f time: 21 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 1134799247 Jul  1 20:23 unifrac.tmp
+=== 20000 weighted_normalized fp32 time: 52 ===
+-rw------- 1 root root 1135159314 Jul  1 20:23 unifrac.tmp
+=== 20000 weighted_normalized fp32 -f time: 40 ===
+5e2b4fd2e4280fffee56a07a58ee2990  unifrac_30000.biom
+cb52b868b72347cececee30fc84480fc  unifrac_30000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 2509751431 Jul  1 20:24 unifrac.tmp
+=== 30000 unweighted fp32 time: 54 ===
+-rw------- 1 root root 2513387593 Jul  1 20:25 unifrac.tmp
+=== 30000 unweighted fp32 -f time: 45 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 2550636760 Jul  1 20:27 unifrac.tmp
+=== 30000 weighted_normalized fp32 time: 122 ===
+-rw------- 1 root root 2551678020 Jul  1 20:28 unifrac.tmp
+=== 30000 weighted_normalized fp32 -f time: 93 ===
+c7b76659f783b6d23c69d843bde0de89  unifrac_50000.biom
+661939af23274bdac299f206718d3ae6  unifrac_50000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 6965801368 Jul  1 20:31 unifrac.tmp
+=== 50000 unweighted fp32 time: 163 ===
+-rw------- 1 root root 6976049735 Jul  1 20:33 unifrac.tmp
+=== 50000 unweighted fp32 -f time: 123 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 7080443342 Jul  1 20:40 unifrac.tmp
+=== 50000 weighted_normalized fp32 time: 405 ===
+-rw------- 1 root root 7083325482 Jul  1 20:45 unifrac.tmp
+=== 50000 weighted_normalized fp32 -f time: 307 ===
