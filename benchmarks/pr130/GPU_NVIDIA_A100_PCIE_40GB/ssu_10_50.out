@@ -1,0 +1,113 @@
+gpu-a100-79f9458554-lmg8b
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    1
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7252 8-Core Processor
+Stepping:              0
+CPU MHz:               1492.497
+CPU max MHz:           3100.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              6200.29
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-7
+NUMA node1 CPU(s):     8-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+Thu Jul  1 20:29:22 UTC 2021
+Thu Jul  1 20:29:22 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A100-PCIE-40GB      Off  | 00000000:01:00.0 Off |                    0 |
+| N/A   28C    P0    30W / 250W |      0MiB / 40536MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+42f95375f03daf93d5f272dc8b9e3ea0  unifrac_10000.biom
+81c82b302f19a38f98ba06f233427c7a  unifrac_10000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 279811044 Jul  1 20:29 unifrac.tmp
+=== 10000 unweighted fp32 time: 8 ===
+-rw------- 1 root root 280255932 Jul  1 20:29 unifrac.tmp
+=== 10000 unweighted fp32 -f time: 8 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 284167202 Jul  1 20:29 unifrac.tmp
+=== 10000 weighted_normalized fp32 time: 13 ===
+-rw------- 1 root root 284309736 Jul  1 20:30 unifrac.tmp
+=== 10000 weighted_normalized fp32 -f time: 11 ===
+70155182dc9b0d341829e434054266cd  unifrac_20000.biom
+f2de4a32015f5fa6fd91a9ed523f5917  unifrac_20000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 1116784017 Jul  1 20:30 unifrac.tmp
+=== 20000 unweighted fp32 time: 25 ===
+-rw------- 1 root root 1118479224 Jul  1 20:30 unifrac.tmp
+=== 20000 unweighted fp32 -f time: 22 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 1134799247 Jul  1 20:31 unifrac.tmp
+=== 20000 weighted_normalized fp32 time: 45 ===
+-rw------- 1 root root 1135159314 Jul  1 20:32 unifrac.tmp
+=== 20000 weighted_normalized fp32 -f time: 35 ===
+5e2b4fd2e4280fffee56a07a58ee2990  unifrac_30000.biom
+cb52b868b72347cececee30fc84480fc  unifrac_30000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 2509751431 Jul  1 20:33 unifrac.tmp
+=== 30000 unweighted fp32 time: 53 ===
+-rw------- 1 root root 2513387593 Jul  1 20:33 unifrac.tmp
+=== 30000 unweighted fp32 -f time: 43 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 2550636760 Jul  1 20:35 unifrac.tmp
+=== 30000 weighted_normalized fp32 time: 102 ===
+-rw------- 1 root root 2551678020 Jul  1 20:36 unifrac.tmp
+=== 30000 weighted_normalized fp32 -f time: 77 ===
+c7b76659f783b6d23c69d843bde0de89  unifrac_50000.biom
+661939af23274bdac299f206718d3ae6  unifrac_50000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 6965801368 Jul  1 20:39 unifrac.tmp
+=== 50000 unweighted fp32 time: 158 ===
+-rw------- 1 root root 6976049735 Jul  1 20:41 unifrac.tmp
+=== 50000 unweighted fp32 -f time: 116 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 7080443342 Jul  1 20:46 unifrac.tmp
+=== 50000 weighted_normalized fp32 time: 295 ===
+-rw------- 1 root root 7083325482 Jul  1 20:50 unifrac.tmp
+=== 50000 weighted_normalized fp32 -f time: 221 ===
+327d6379064636c7b22c884ba43f78bc  unifrac_100000.biom
+67c5ecbeb272db0b218c6a46a11e79e6  unifrac_100000.tre
+====
+=== unweighted fp32 ===
+-rw------- 1 root root 27847654408 Jul  1 21:03 unifrac.tmp
+=== 100000 unweighted fp32 time: 800 ===
+-rw------- 1 root root 27888271200 Jul  1 21:12 unifrac.tmp
+=== 100000 unweighted fp32 -f time: 546 ===
+=== weighted_normalized fp32 ===
+-rw------- 1 root root 28311396012 Jul  1 21:36 unifrac.tmp
+=== 100000 weighted_normalized fp32 time: 1412 ===
+-rw------- 1 root root 28321605031 Jul  1 21:53 unifrac.tmp
+=== 100000 weighted_normalized fp32 -f time: 1022 ===
