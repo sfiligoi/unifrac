@@ -1,0 +1,29 @@
+top - 04:07:38 up 90 days, 10:42,  0 users,  load average: 6.47, 7.69, 7.14
+Tasks:   7 total,   2 running,   5 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.2 us,  9.1 sy,  0.0 ni, 46.5 id,  4.6 wa,  0.0 hi,  6.6 si,  0.0 st
+KiB Mem : 26407993+total, 61148448 free, 13175034+used, 71181152 buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 13106184+avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+24777 root      20   0  155.6g 112.3g 170020 R 366.7 44.6  12:26.35 ssu
+    1 root      20   0   11704   2716   2508 S   0.0  0.0   0:03.94 check_gpu.sh
+15192 root      20   0   11976   3156   2576 S   0.0  0.0   0:00.10 bash
+24118 root      20   0   11848   2908   2488 S   0.0  0.0   0:00.09 ssu_full_307k.s
+24776 root      20   0    4236    652    572 S   0.0  0.0   0:00.00 time
+25002 root      20   0    4376    668    592 S   0.0  0.0   0:00.00 sleep
+25003 root      20   0   56092   3788   3332 R   0.0  0.0   0:00.00 top
+
+top - 04:07:41 up 90 days, 10:42,  0 users,  load average: 6.44, 7.66, 7.14
+Tasks:   7 total,   2 running,   5 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11.4 us, 11.2 sy,  0.0 ni, 66.9 id,  4.3 wa,  0.0 hi,  6.1 si,  0.0 st
+KiB Mem : 26407993+total, 61149820 free, 13174862+used, 71181504 buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 13106356+avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+24777 root      20   0  155.6g 112.3g 170020 R 145.7 44.6  12:30.72 ssu
+    1 root      20   0   11704   2716   2508 S   0.0  0.0   0:03.94 check_gpu.sh
+15192 root      20   0   11976   3156   2576 S   0.0  0.0   0:00.10 bash
+24118 root      20   0   11848   2908   2488 S   0.0  0.0   0:00.09 ssu_full_307k.s
+24776 root      20   0    4236    652    572 S   0.0  0.0   0:00.00 time
+25002 root      20   0    4376    668    592 S   0.0  0.0   0:00.00 sleep
+25003 root      20   0   56096   3808   3332 R   0.0  0.0   0:00.00 top
