@@ -1,0 +1,273 @@
+/root/activate_unifrac_gpu.sh: line 6: setup_nv.sh: No such file or directory
+764.36user 47.66system 6:30.89elapsed 207%CPU (0avgtext+0avgdata 34469312maxresident)k
+0inputs+15297080outputs (0major+16183159minor)pagefaults 0swaps
+671.08user 36.89system 6:10.33elapsed 191%CPU (0avgtext+0avgdata 34469672maxresident)k
+0inputs+15297128outputs (0major+14882058minor)pagefaults 0swaps
+757.02user 45.74system 6:29.70elapsed 205%CPU (0avgtext+0avgdata 34469400maxresident)k
+0inputs+15297112outputs (0major+16683621minor)pagefaults 0swaps
+789.06user 51.69system 6:46.45elapsed 206%CPU (0avgtext+0avgdata 34469304maxresident)k
+0inputs+15297112outputs (0major+20517454minor)pagefaults 0swaps
+872.71user 54.46system 6:46.25elapsed 228%CPU (0avgtext+0avgdata 34469388maxresident)k
+0inputs+15297112outputs (0major+16512793minor)pagefaults 0swaps
+860.64user 55.89system 6:43.65elapsed 227%CPU (0avgtext+0avgdata 34469388maxresident)k
+0inputs+15297200outputs (0major+17780234minor)pagefaults 0swaps
+877.94user 57.81system 6:47.23elapsed 229%CPU (0avgtext+0avgdata 34469216maxresident)k
+0inputs+15297048outputs (0major+18781187minor)pagefaults 0swaps
+871.46user 58.20system 6:51.73elapsed 225%CPU (0avgtext+0avgdata 34469356maxresident)k
+0inputs+15297112outputs (0major+20247017minor)pagefaults 0swaps
+621.26user 47.33system 4:44.25elapsed 235%CPU (0avgtext+0avgdata 34469164maxresident)k
+0inputs+15319648outputs (0major+14989761minor)pagefaults 0swaps
+615.40user 47.36system 4:41.17elapsed 235%CPU (0avgtext+0avgdata 34469256maxresident)k
+0inputs+15319592outputs (0major+15487993minor)pagefaults 0swaps
+600.87user 52.42system 4:41.78elapsed 231%CPU (0avgtext+0avgdata 34469132maxresident)k
+0inputs+15319624outputs (0major+15262880minor)pagefaults 0swaps
+607.89user 46.79system 4:41.61elapsed 232%CPU (0avgtext+0avgdata 34469448maxresident)k
+0inputs+15319712outputs (0major+15023604minor)pagefaults 0swaps
+599.50user 45.63system 4:42.42elapsed 228%CPU (0avgtext+0avgdata 34469272maxresident)k
+0inputs+15319680outputs (0major+14145827minor)pagefaults 0swaps
+599.53user 45.15system 4:41.71elapsed 228%CPU (0avgtext+0avgdata 34469272maxresident)k
+0inputs+15319720outputs (0major+14765112minor)pagefaults 0swaps
+602.22user 47.37system 4:41.76elapsed 230%CPU (0avgtext+0avgdata 34469408maxresident)k
+0inputs+15319696outputs (0major+14594561minor)pagefaults 0swaps
+599.98user 43.85system 4:40.83elapsed 229%CPU (0avgtext+0avgdata 34469260maxresident)k
+0inputs+15319664outputs (0major+14233298minor)pagefaults 0swaps
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f34e7fe7000 device:0x7f34e0000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f363cb02010 device:0x7f34ec000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f3907afc010 device:0x7f3790000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f34e0000000 size:67207168 thread:1
+allocated block device:0x7f34ec000000 size:5625600000 thread:1
+allocated block device:0x7f3790000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+50.42user 21.96system 1:12.30elapsed 100%CPU (0avgtext+0avgdata 34354660maxresident)k
+0inputs+8outputs (0major+9456460minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f34b3fe7000 device:0x7f34ac000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f3608b02010 device:0x7f34b8000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f38d411c010 device:0x7f3758000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f34ac000000 size:67207168 thread:1
+allocated block device:0x7f34b8000000 size:5625600000 thread:1
+allocated block device:0x7f3758000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+49.74user 20.89system 1:10.42elapsed 100%CPU (0avgtext+0avgdata 34354740maxresident)k
+0inputs+16outputs (0major+9430532minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7fbd27fe7000 device:0x7fbd20000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7fbe7cb02010 device:0x7fbd2c000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7fc14626b010 device:0x7fbfd0000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7fbd20000000 size:67207168 thread:1
+allocated block device:0x7fbd2c000000 size:5625600000 thread:1
+allocated block device:0x7fbfd0000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+49.49user 21.80system 1:10.84elapsed 100%CPU (0avgtext+0avgdata 34354684maxresident)k
+0inputs+8outputs (0major+9440268minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f08e7fe7000 device:0x7f08e0000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f0a3cb02010 device:0x7f08ec000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f0d08e8d010 device:0x7f0b90000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f08e0000000 size:67207168 thread:1
+allocated block device:0x7f08ec000000 size:5625600000 thread:1
+allocated block device:0x7f0b90000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+48.72user 22.52system 1:10.97elapsed 100%CPU (0avgtext+0avgdata 34354888maxresident)k
+0inputs+8outputs (0major+9447598minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f3f17fe7000 device:0x7f3f10000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f406cb02010 device:0x7f3f1c000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f433582d010 device:0x7f41c0000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f3f10000000 size:67207168 thread:1
+allocated block device:0x7f3f1c000000 size:5625600000 thread:1
+allocated block device:0x7f41c0000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+48.07user 21.07system 1:08.45elapsed 101%CPU (0avgtext+0avgdata 34354784maxresident)k
+0inputs+8outputs (0major+9414770minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7fa403fe7000 device:0x7fa3fc000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7fa558b02010 device:0x7fa408000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7fa823b7f010 device:0x7fa6a8000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7fa3fc000000 size:67207168 thread:1
+allocated block device:0x7fa408000000 size:5625600000 thread:1
+allocated block device:0x7fa6a8000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+43.37user 19.84system 1:02.79elapsed 100%CPU (0avgtext+0avgdata 34354716maxresident)k
+0inputs+8outputs (0major+9299876minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7fdd05fe7000 device:0x7fdcfe000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7fde5ab02010 device:0x7fdd0a000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7fe122ddc010 device:0x7fdfae000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7fdcfe000000 size:67207168 thread:1
+allocated block device:0x7fdd0a000000 size:5625600000 thread:1
+allocated block device:0x7fdfae000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+42.67user 19.52system 1:01.38elapsed 101%CPU (0avgtext+0avgdata 34354644maxresident)k
+0inputs+16outputs (0major+9343304minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f93f3fe7000 device:0x7f93ec000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f9548b02010 device:0x7f93f8000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f9814d0f010 device:0x7f9698000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f93ec000000 size:67207168 thread:1
+allocated block device:0x7f93f8000000 size:5625600000 thread:1
+allocated block device:0x7f9698000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+43.77user 20.62system 1:03.81elapsed 100%CPU (0avgtext+0avgdata 34354716maxresident)k
+0inputs+8outputs (0major+9295934minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f2077fe7000 device:0x7f2070000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f21ccb02010 device:0x7f207c000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f249d621010 device:0x7f2320000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f2070000000 size:67207168 thread:1
+allocated block device:0x7f207c000000 size:5625600000 thread:1
+allocated block device:0x7f2320000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+43.86user 19.83system 1:03.39elapsed 100%CPU (0avgtext+0avgdata 34354576maxresident)k
+0inputs+8outputs (0major+9395552minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f7b65fe7000 device:0x7f7b5e000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f7cbab02010 device:0x7f7b6a000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f7f81563010 device:0x7f7e0e000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f7b5e000000 size:67207168 thread:1
+allocated block device:0x7f7b6a000000 size:5625600000 thread:1
+allocated block device:0x7f7e0e000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+43.26user 18.93system 1:01.96elapsed 100%CPU (0avgtext+0avgdata 34354748maxresident)k
+0inputs+8outputs (0major+9272960minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7fbc4ffe7000 device:0x7fbc48000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7fbda4b02010 device:0x7fbc54000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7fc070fe8010 device:0x7fbef8000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7fbc48000000 size:67207168 thread:1
+allocated block device:0x7fbc54000000 size:5625600000 thread:1
+allocated block device:0x7fbef8000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+42.74user 19.82system 1:01.89elapsed 101%CPU (0avgtext+0avgdata 34354704maxresident)k
+0inputs+16outputs (0major+9360413minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7fc2a7fe7000 device:0x7fc2a0000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7fc3fcb02010 device:0x7fc2ac000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7fc6cbca9010 device:0x7fc550000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7fc2a0000000 size:67207168 thread:1
+allocated block device:0x7fc2ac000000 size:5625600000 thread:1
+allocated block device:0x7fc550000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+46.36user 21.29system 1:07.26elapsed 100%CPU (0avgtext+0avgdata 34354376maxresident)k
+0inputs+8outputs (0major+9360475minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f5917fe7000 device:0x7f5910000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f5a6cb02010 device:0x7f591c000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f5d38f0a010 device:0x7f5bc0000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f5910000000 size:67207168 thread:1
+allocated block device:0x7f591c000000 size:5625600000 thread:1
+allocated block device:0x7f5bc0000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+45.95user 20.29system 1:05.73elapsed 100%CPU (0avgtext+0avgdata 34354788maxresident)k
+0inputs+8outputs (0major+9398691minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f2ed5fe7000 device:0x7f2ece000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f302ab02010 device:0x7f2eda000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f32f1ab1010 device:0x7f317e000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f2ece000000 size:67207168 thread:1
+allocated block device:0x7f2eda000000 size:5625600000 thread:1
+allocated block device:0x7f317e000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+44.45user 19.05system 1:03.02elapsed 100%CPU (0avgtext+0avgdata 34354448maxresident)k
+0inputs+8outputs (0major+9392067minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7fd9dffe7000 device:0x7fd9d8000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7fdb34b02010 device:0x7fd9e4000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7fddfe6bc010 device:0x7fdc88000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7fd9d8000000 size:67207168 thread:1
+allocated block device:0x7fd9e4000000 size:5625600000 thread:1
+allocated block device:0x7fdc88000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+45.76user 19.05system 1:04.24elapsed 100%CPU (0avgtext+0avgdata 34354644maxresident)k
+0inputs+8outputs (0major+9327919minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Out of memory allocating 67207168 bytes of device memory
+Failing in Thread:1
+total/free CUDA memory: 11554717696/66519040
+Present table dump for device[1]: NVIDIA Tesla GPU 0, compute capability 7.5, threadid=1
+host:0x7f7ab7fe7000 device:0x7f7ab0000000 size:67207168 presentcount:0+1 line:184 name:buf
+host:0x7f7c0cb02010 device:0x7f7abc000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+host:0x7f7edb161010 device:0x7f7d60000000 size:5625600000 presentcount:0+1 line:86 name:ibuf
+allocated block device:0x7f7ab0000000 size:67207168 thread:1
+allocated block device:0x7f7abc000000 size:5625600000 thread:1
+allocated block device:0x7f7d60000000 size:5625600000 thread:1
+call to cuMemAlloc returned error 2: Out of memory
+
+44.19user 19.91system 1:03.82elapsed 100%CPU (0avgtext+0avgdata 34354576maxresident)k
+0inputs+8outputs (0major+9392976minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory

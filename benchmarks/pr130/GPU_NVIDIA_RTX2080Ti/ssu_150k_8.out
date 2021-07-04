@@ -1,0 +1,107 @@
+gpu-2080-69b7b855dd-x4nm8
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    32
+Socket(s):             1
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 1
+Model name:            AMD EPYC 7551P 32-Core Processor
+Stepping:              2
+CPU MHz:               2287.789
+CPU max MHz:           2000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              3999.77
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             64K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7,32-39
+NUMA node1 CPU(s):     8-15,40-47
+NUMA node2 CPU(s):     16-23,48-55
+NUMA node3 CPU(s):     24-31,56-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+Sun Jul  4 13:44:22 UTC 2021
+Sun Jul  4 13:44:22 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:29:00.0 Off |                  N/A |
+|  0%   24C    P8     3W / 250W |      0MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+8b5a4d5757549eb3d2ff854bb6fb4a12  unifrac_150000.biom
+8e76209c9d92a88bff4f4197bec7cd7b  unifrac_150000.tre
+====
+=== unweighted fp32 ===
+= start 0 stop 9375
+-rw------- 1 root root 7832091582 Jul  4 13:50 unifrac.tmp
+= start 9375 stop 18750
+-rw------- 1 root root 7832124436 Jul  4 13:57 unifrac.tmp
+= start 18750 stop 28125
+-rw------- 1 root root 7832117065 Jul  4 14:03 unifrac.tmp
+= start 28125 stop 37500
+-rw------- 1 root root 7832105434 Jul  4 14:10 unifrac.tmp
+= start 37500 stop 46875
+-rw------- 1 root root 7832116190 Jul  4 14:17 unifrac.tmp
+= start 46875 stop 56250
+-rw------- 1 root root 7832160480 Jul  4 14:23 unifrac.tmp
+= start 56250 stop 65625
+-rw------- 1 root root 7832082375 Jul  4 14:30 unifrac.tmp
+= start 65625 stop 75000
+-rw------- 1 root root 7832111588 Jul  4 14:37 unifrac.tmp
+=== 150000 unweighted fp32 time: 3193 ===
+= start 0 stop 9375
+-rw------- 1 root root 7843654558 Jul  4 14:42 unifrac.tmp
+= start 9375 stop 18750
+-rw------- 1 root root 7843626404 Jul  4 14:47 unifrac.tmp
+= start 18750 stop 28125
+-rw------- 1 root root 7843643090 Jul  4 14:51 unifrac.tmp
+= start 28125 stop 37500
+-rw------- 1 root root 7843687119 Jul  4 14:56 unifrac.tmp
+= start 37500 stop 46875
+-rw------- 1 root root 7843664521 Jul  4 15:01 unifrac.tmp
+= start 46875 stop 56250
+-rw------- 1 root root 7843690517 Jul  4 15:05 unifrac.tmp
+= start 56250 stop 65625
+-rw------- 1 root root 7843679778 Jul  4 15:10 unifrac.tmp
+= start 65625 stop 75000
+-rw------- 1 root root 7843660426 Jul  4 15:15 unifrac.tmp
+=== 150000 unweighted fp32 -f time: 2262 ===
+=== weighted_normalized fp32 ===
+= start 0 stop 9375
+= start 9375 stop 18750
+= start 18750 stop 28125
+= start 28125 stop 37500
+= start 37500 stop 46875
+= start 46875 stop 56250
+= start 56250 stop 65625
+= start 65625 stop 75000
+=== 150000 weighted_normalized fp32 time: 541 ===
+= start 0 stop 9375
+= start 9375 stop 18750
+= start 18750 stop 28125
+= start 28125 stop 37500
+= start 37500 stop 46875
+= start 46875 stop 56250
+= start 56250 stop 65625
+= start 65625 stop 75000
+=== 150000 weighted_normalized fp32 -f time: 512 ===
