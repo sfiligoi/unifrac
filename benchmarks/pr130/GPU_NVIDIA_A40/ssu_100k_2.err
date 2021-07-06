@@ -1,0 +1,33 @@
+/root/activate_unifrac_gpu.sh: line 6: setup_nv.sh: No such file or directory
+477.05user 28.52system 6:30.00elapsed 129%CPU (0avgtext+0avgdata 59881920maxresident)k
+0inputs+27196256outputs (0major+15141685minor)pagefaults 0swaps
+477.18user 28.31system 6:32.46elapsed 128%CPU (0avgtext+0avgdata 59882208maxresident)k
+0inputs+27196208outputs (0major+15141693minor)pagefaults 0swaps
+317.16user 26.74system 4:22.37elapsed 131%CPU (0avgtext+0avgdata 59882080maxresident)k
+0inputs+27235776outputs (0major+15141687minor)pagefaults 0swaps
+317.17user 27.24system 4:24.50elapsed 130%CPU (0avgtext+0avgdata 59882228maxresident)k
+0inputs+27236016outputs (0major+15141695minor)pagefaults 0swaps
+888.53user 39.64system 12:58.10elapsed 119%CPU (0avgtext+0avgdata 79449920maxresident)k
+0inputs+39218448outputs (0major+20033542minor)pagefaults 0swaps
+889.89user 40.88system 13:00.18elapsed 119%CPU (0avgtext+0avgdata 79449824maxresident)k
+0inputs+39218448outputs (0major+20033546minor)pagefaults 0swaps
+639.24user 38.16system 9:18.26elapsed 121%CPU (0avgtext+0avgdata 79449428maxresident)k
+0inputs+39218448outputs (0major+20033582minor)pagefaults 0swaps
+638.73user 37.50system 9:16.44elapsed 121%CPU (0avgtext+0avgdata 79449440maxresident)k
+0inputs+39218448outputs (0major+20033584minor)pagefaults 0swaps
+1456.29user 53.26system 20:16.96elapsed 124%CPU (0avgtext+0avgdata 59920064maxresident)k
+0inputs+27649080outputs (0major+15151336minor)pagefaults 0swaps
+1457.86user 53.17system 20:18.67elapsed 123%CPU (0avgtext+0avgdata 59919768maxresident)k
+0inputs+27649128outputs (0major+15151316minor)pagefaults 0swaps
+1032.89user 39.54system 14:57.86elapsed 119%CPU (0avgtext+0avgdata 59919760maxresident)k
+0inputs+27659096outputs (0major+15151309minor)pagefaults 0swaps
+1035.94user 39.07system 14:58.48elapsed 119%CPU (0avgtext+0avgdata 59919944maxresident)k
+0inputs+27659056outputs (0major+15151321minor)pagefaults 0swaps
+2462.05user 69.59system 35:30.71elapsed 118%CPU (0avgtext+0avgdata 79574844maxresident)k
+0inputs+39218448outputs (0major+20065001minor)pagefaults 0swaps
+2467.01user 67.05system 35:29.45elapsed 119%CPU (0avgtext+0avgdata 79575160maxresident)k
+0inputs+39218448outputs (0major+20065010minor)pagefaults 0swaps
+1829.08user 54.25system 27:03.02elapsed 116%CPU (0avgtext+0avgdata 79574728maxresident)k
+0inputs+39218448outputs (0major+20065004minor)pagefaults 0swaps
+1829.76user 53.46system 27:03.32elapsed 116%CPU (0avgtext+0avgdata 79575220maxresident)k
+0inputs+39218456outputs (0major+20065004minor)pagefaults 0swaps

@@ -1,0 +1,41 @@
+/root/activate_unifrac_gpu.sh: line 6: setup_nv.sh: No such file or directory
+11.81user 1.85system 0:08.56elapsed 159%CPU (0avgtext+0avgdata 1564532maxresident)k
+0inputs+546512outputs (0major+499721minor)pagefaults 0swaps
+10.09user 1.61system 0:07.76elapsed 150%CPU (0avgtext+0avgdata 1564268maxresident)k
+0inputs+547384outputs (0major+476804minor)pagefaults 0swaps
+30.76user 5.79system 0:13.05elapsed 280%CPU (0avgtext+0avgdata 1568748maxresident)k
+0inputs+555016outputs (0major+637890minor)pagefaults 0swaps
+19.88user 4.09system 0:10.62elapsed 225%CPU (0avgtext+0avgdata 1568336maxresident)k
+0inputs+555296outputs (0major+564738minor)pagefaults 0swaps
+32.34user 6.51system 0:24.91elapsed 155%CPU (0avgtext+0avgdata 5256468maxresident)k
+0inputs+2181232outputs (0major+2689664minor)pagefaults 0swaps
+26.96user 4.95system 0:21.78elapsed 146%CPU (0avgtext+0avgdata 5256604maxresident)k
+0inputs+2184536outputs (0major+1963578minor)pagefaults 0swaps
+80.67user 18.84system 0:44.61elapsed 223%CPU (0avgtext+0avgdata 5264316maxresident)k
+0inputs+2216416outputs (0major+2820606minor)pagefaults 0swaps
+52.86user 12.93system 0:34.86elapsed 188%CPU (0avgtext+0avgdata 5264352maxresident)k
+0inputs+2217120outputs (0major+2811667minor)pagefaults 0swaps
+62.42user 13.73system 0:52.62elapsed 144%CPU (0avgtext+0avgdata 11200548maxresident)k
+0inputs+4901864outputs (0major+3685340minor)pagefaults 0swaps
+49.08user 10.93system 0:43.48elapsed 138%CPU (0avgtext+0avgdata 11200340maxresident)k
+0inputs+4908976outputs (0major+4427711minor)pagefaults 0swaps
+150.41user 41.03system 1:42.68elapsed 186%CPU (0avgtext+0avgdata 11211628maxresident)k
+0inputs+4981728outputs (0major+5973224minor)pagefaults 0swaps
+98.15user 28.55system 1:17.66elapsed 163%CPU (0avgtext+0avgdata 11211516maxresident)k
+0inputs+4983760outputs (0major+5956094minor)pagefaults 0swaps
+156.19user 49.03system 2:37.56elapsed 130%CPU (0avgtext+0avgdata 30156920maxresident)k
+0inputs+13605096outputs (0major+12441711minor)pagefaults 0swaps
+118.23user 31.96system 1:56.84elapsed 128%CPU (0avgtext+0avgdata 30156768maxresident)k
+0inputs+13625120outputs (0major+10230348minor)pagefaults 0swaps
+328.45user 112.86system 4:55.15elapsed 149%CPU (0avgtext+0avgdata 30175600maxresident)k
+0inputs+13829008outputs (0major+15927915minor)pagefaults 0swaps
+223.54user 78.36system 3:40.87elapsed 136%CPU (0avgtext+0avgdata 30175224maxresident)k
+0inputs+13834632outputs (0major+14184849minor)pagefaults 0swaps
+647.97user 272.26system 13:20.04elapsed 115%CPU (0avgtext+0avgdata 118629088maxresident)k
+0inputs+54389992outputs (0major+45397429minor)pagefaults 0swaps
+451.76user 175.50system 9:05.39elapsed 115%CPU (0avgtext+0avgdata 118629400maxresident)k
+0inputs+54469320outputs (0major+41768981minor)pagefaults 0swaps
+1209.01user 526.39system 23:32.10elapsed 122%CPU (0avgtext+0avgdata 118667496maxresident)k
+0inputs+55295736outputs (0major+69413086minor)pagefaults 0swaps
+851.31user 365.61system 17:02.26elapsed 119%CPU (0avgtext+0avgdata 118667380maxresident)k
+0inputs+55315680outputs (0major+61530003minor)pagefaults 0swaps

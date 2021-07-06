@@ -1,0 +1,43 @@
+/root/activate_unifrac_gpu.sh: line 6: setup_nv.sh: No such file or directory
+1.33user 0.68system 0:01.38elapsed 146%CPU (0avgtext+0avgdata 240108maxresident)k
+0inputs+5648outputs (0major+66626minor)pagefaults 0swaps
+1.16user 0.74system 0:01.13elapsed 168%CPU (0avgtext+0avgdata 240428maxresident)k
+0inputs+5656outputs (0major+64955minor)pagefaults 0swaps
+1.60user 0.85system 0:01.26elapsed 193%CPU (0avgtext+0avgdata 240196maxresident)k
+0inputs+5720outputs (0major+75539minor)pagefaults 0swaps
+0.99user 0.78system 0:00.92elapsed 192%CPU (0avgtext+0avgdata 239484maxresident)k
+0inputs+5720outputs (0major+54192minor)pagefaults 0swaps
+2.19user 0.81system 0:01.89elapsed 158%CPU (0avgtext+0avgdata 297916maxresident)k
+0inputs+22120outputs (0major+72367minor)pagefaults 0swaps
+2.17user 0.84system 0:01.99elapsed 151%CPU (0avgtext+0avgdata 298268maxresident)k
+0inputs+22160outputs (0major+72390minor)pagefaults 0swaps
+3.36user 0.98system 0:02.06elapsed 211%CPU (0avgtext+0avgdata 298640maxresident)k
+0inputs+22472outputs (0major+72565minor)pagefaults 0swaps
+2.41user 0.81system 0:01.74elapsed 184%CPU (0avgtext+0avgdata 298640maxresident)k
+0inputs+22488outputs (0major+72563minor)pagefaults 0swaps
+md5sum: unifrac_3000.biom: No such file or directory
+md5sum: unifrac_3000.tre: No such file or directory
+Compute failed in partial: The table file cannot be found.
+0.00user 0.02system 0:00.01elapsed 230%CPU (0avgtext+0avgdata 10248maxresident)k
+0inputs+0outputs (0major+600minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Compute failed in partial: The table file cannot be found.
+0.00user 0.01system 0:00.01elapsed 200%CPU (0avgtext+0avgdata 10644maxresident)k
+0inputs+0outputs (0major+600minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Compute failed in partial: The table file cannot be found.
+0.01user 0.00system 0:00.01elapsed 166%CPU (0avgtext+0avgdata 10812maxresident)k
+0inputs+0outputs (0major+604minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+Compute failed in partial: The table file cannot be found.
+0.00user 0.02system 0:00.01elapsed 238%CPU (0avgtext+0avgdata 10492maxresident)k
+0inputs+0outputs (0major+600minor)pagefaults 0swaps
+ls: cannot access unifrac.tmp: No such file or directory
+6.04user 1.20system 0:04.50elapsed 160%CPU (0avgtext+0avgdata 610084maxresident)k
+0inputs+134608outputs (0major+215009minor)pagefaults 0swaps
+5.72user 1.11system 0:04.75elapsed 143%CPU (0avgtext+0avgdata 610336maxresident)k
+0inputs+134856outputs (0major+235791minor)pagefaults 0swaps
+12.36user 2.01system 0:05.30elapsed 271%CPU (0avgtext+0avgdata 612144maxresident)k
+0inputs+137424outputs (0major+240184minor)pagefaults 0swaps
+8.85user 1.61system 0:04.99elapsed 209%CPU (0avgtext+0avgdata 612084maxresident)k
+0inputs+137504outputs (0major+240789minor)pagefaults 0swaps

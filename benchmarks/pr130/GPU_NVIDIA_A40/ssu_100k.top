@@ -1,0 +1,29 @@
+top - 19:49:11 up 16 days, 21:32,  0 users,  load average: 15.41, 15.59, 16.04
+Tasks:   7 total,   2 running,   5 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 23.4 us, 17.0 sy,  0.0 ni, 57.1 id,  2.2 wa,  0.0 hi,  0.3 si,  0.0 st
+KiB Mem : 52805248+total, 25424323+free, 14400043+used, 12980879+buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 37969232+avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  16049 root      20   0  156.8g 113.2g 161820 R 120.0 22.5  17:39.75 ssu
+      1 root      20   0   11832   2852   2468 S   0.0  0.0   0:01.45 check_gpu.sh
+  14157 root      20   0   11840   2880   2480 S   0.0  0.0   0:00.08 ssu_10_50.sh
+  14506 root      20   0   11840   3060   2596 S   0.0  0.0   0:00.03 bash
+  16048 root      20   0    4232    684    604 S   0.0  0.0   0:00.00 time
+  16432 root      20   0    4372    648    572 S   0.0  0.0   0:00.00 sleep
+  16433 root      20   0   56084   3700   3252 R   0.0  0.0   0:00.00 top
+
+top - 19:49:14 up 16 days, 21:32,  0 users,  load average: 14.98, 15.50, 16.01
+Tasks:   7 total,   2 running,   5 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.7 us, 14.4 sy,  0.1 ni, 60.8 id,  2.9 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem : 52805248+total, 25423248+free, 14400382+used, 12981616+buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 37968889+avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  16049 root      20   0  156.8g 113.2g 161820 R 105.7 22.5  17:42.92 ssu
+      1 root      20   0   11832   2852   2468 S   0.0  0.0   0:01.45 check_gpu.sh
+  14157 root      20   0   11840   2880   2480 S   0.0  0.0   0:00.08 ssu_10_50.sh
+  14506 root      20   0   11840   3060   2596 S   0.0  0.0   0:00.03 bash
+  16048 root      20   0    4232    684    604 S   0.0  0.0   0:00.00 time
+  16433 root      20   0   56088   3724   3252 R   0.0  0.0   0:00.00 top
+  16434 root      20   0   17988   5836   2732 S   0.0  0.0   0:00.00 nvidia-smi

@@ -1,0 +1,17 @@
+/root/activate_unifrac_gpu.sh: line 6: setup_nv.sh: No such file or directory
+505.09user 46.36system 6:52.33elapsed 133%CPU (0avgtext+0avgdata 59882208maxresident)k
+32inputs+27196248outputs (0major+15141473minor)pagefaults 0swaps
+503.24user 40.13system 6:45.30elapsed 134%CPU (0avgtext+0avgdata 59882652maxresident)k
+8inputs+27196208outputs (0major+15141470minor)pagefaults 0swaps
+352.43user 38.71system 4:47.77elapsed 135%CPU (0avgtext+0avgdata 59882332maxresident)k
+0inputs+27235776outputs (0major+15141476minor)pagefaults 0swaps
+352.20user 38.16system 4:48.56elapsed 135%CPU (0avgtext+0avgdata 59882336maxresident)k
+0inputs+27236024outputs (0major+15141475minor)pagefaults 0swaps
+1371.06user 58.03system 18:17.68elapsed 130%CPU (0avgtext+0avgdata 59920400maxresident)k
+0inputs+27649080outputs (0major+15151122minor)pagefaults 0swaps
+1376.60user 56.93system 18:21.17elapsed 130%CPU (0avgtext+0avgdata 59920316maxresident)k
+0inputs+27649136outputs (0major+15151122minor)pagefaults 0swaps
+965.50user 48.06system 13:37.94elapsed 123%CPU (0avgtext+0avgdata 59920112maxresident)k
+0inputs+27659104outputs (0major+15151101minor)pagefaults 0swaps
+963.16user 47.62system 13:38.25elapsed 123%CPU (0avgtext+0avgdata 59920256maxresident)k
+0inputs+27659056outputs (0major+15151100minor)pagefaults 0swaps

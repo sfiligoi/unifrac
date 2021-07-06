@@ -1,0 +1,187 @@
+gpu-2080-69b7b855dd-x4nm8
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    32
+Socket(s):             1
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 1
+Model name:            AMD EPYC 7551P 32-Core Processor
+Stepping:              2
+CPU MHz:               2495.513
+CPU max MHz:           2000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              3999.77
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             64K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7,32-39
+NUMA node1 CPU(s):     8-15,40-47
+NUMA node2 CPU(s):     16-23,48-55
+NUMA node3 CPU(s):     24-31,56-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+Thu Jul  1 23:34:59 UTC 2021
+Thu Jul  1 23:34:59 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:29:00.0 Off |                  N/A |
+|  0%   25C    P8     1W / 250W |      0MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0f34f4de4ad9fba8a28cce7c70218aa8  unifrac_200000.biom
+1e726d6bcc9b53659754cc113adfc078  unifrac_200000.tre
+====
+=== unweighted fp32 ===
+= start 0 stop 6250
+-rw------- 1 root root 6962970340 Jul  1 23:41 unifrac.tmp
+= start 6250 stop 12500
+-rw------- 1 root root 6962941343 Jul  1 23:47 unifrac.tmp
+= start 12500 stop 18750
+-rw------- 1 root root 6962959579 Jul  1 23:53 unifrac.tmp
+= start 18750 stop 25000
+-rw------- 1 root root 6962962923 Jul  1 23:59 unifrac.tmp
+= start 25000 stop 31250
+-rw------- 1 root root 6962936982 Jul  2 00:05 unifrac.tmp
+= start 31250 stop 37500
+-rw------- 1 root root 6962964491 Jul  2 00:11 unifrac.tmp
+= start 37500 stop 43750
+-rw------- 1 root root 6962956066 Jul  2 00:17 unifrac.tmp
+= start 43750 stop 50000
+-rw------- 1 root root 6962937875 Jul  2 00:23 unifrac.tmp
+= start 50000 stop 56250
+-rw------- 1 root root 6962926894 Jul  2 00:29 unifrac.tmp
+= start 56250 stop 62500
+-rw------- 1 root root 6962923520 Jul  2 00:36 unifrac.tmp
+= start 62500 stop 68750
+-rw------- 1 root root 6962941687 Jul  2 00:42 unifrac.tmp
+= start 68750 stop 75000
+-rw------- 1 root root 6962958060 Jul  2 00:48 unifrac.tmp
+= start 75000 stop 81250
+-rw------- 1 root root 6962959420 Jul  2 00:54 unifrac.tmp
+= start 81250 stop 87500
+-rw------- 1 root root 6962979405 Jul  2 01:00 unifrac.tmp
+= start 87500 stop 93750
+-rw------- 1 root root 6962942235 Jul  2 01:06 unifrac.tmp
+= start 93750 stop 100000
+-rw------- 1 root root 6962953933 Jul  2 01:12 unifrac.tmp
+=== 200000 unweighted fp32 time: 5849 ===
+= start 0 stop 6250
+-rw------- 1 root root 6973015947 Jul  2 01:16 unifrac.tmp
+= start 6250 stop 12500
+-rw------- 1 root root 6973037049 Jul  2 01:20 unifrac.tmp
+= start 12500 stop 18750
+-rw------- 1 root root 6973046767 Jul  2 01:23 unifrac.tmp
+= start 18750 stop 25000
+-rw------- 1 root root 6973032358 Jul  2 01:27 unifrac.tmp
+= start 25000 stop 31250
+-rw------- 1 root root 6973020107 Jul  2 01:31 unifrac.tmp
+= start 31250 stop 37500
+-rw------- 1 root root 6973009707 Jul  2 01:35 unifrac.tmp
+= start 37500 stop 43750
+-rw------- 1 root root 6973060294 Jul  2 01:39 unifrac.tmp
+= start 43750 stop 50000
+-rw------- 1 root root 6973010512 Jul  2 01:43 unifrac.tmp
+= start 50000 stop 56250
+-rw------- 1 root root 6973064938 Jul  2 01:46 unifrac.tmp
+= start 56250 stop 62500
+-rw------- 1 root root 6973019688 Jul  2 01:50 unifrac.tmp
+= start 62500 stop 68750
+-rw------- 1 root root 6973034875 Jul  2 01:54 unifrac.tmp
+= start 68750 stop 75000
+-rw------- 1 root root 6973053596 Jul  2 01:58 unifrac.tmp
+= start 75000 stop 81250
+-rw------- 1 root root 6972996837 Jul  2 02:02 unifrac.tmp
+= start 81250 stop 87500
+-rw------- 1 root root 6973034291 Jul  2 02:06 unifrac.tmp
+= start 87500 stop 93750
+-rw------- 1 root root 6973011538 Jul  2 02:10 unifrac.tmp
+= start 93750 stop 100000
+-rw------- 1 root root 6973025121 Jul  2 02:13 unifrac.tmp
+=== 200000 unweighted fp32 -f time: 3684 ===
+=== weighted_normalized fp32 ===
+= start 0 stop 6250
+-rw------- 1 root root 7079174948 Jul  2 02:34 unifrac.tmp
+= start 6250 stop 12500
+-rw------- 1 root root 7079232344 Jul  2 02:55 unifrac.tmp
+= start 12500 stop 18750
+-rw------- 1 root root 7079213197 Jul  2 03:15 unifrac.tmp
+= start 18750 stop 25000
+-rw------- 1 root root 7079243497 Jul  2 03:36 unifrac.tmp
+= start 25000 stop 31250
+-rw------- 1 root root 7079242275 Jul  2 03:57 unifrac.tmp
+= start 31250 stop 37500
+-rw------- 1 root root 7079208756 Jul  2 04:17 unifrac.tmp
+= start 37500 stop 43750
+-rw------- 1 root root 7079196990 Jul  2 04:38 unifrac.tmp
+= start 43750 stop 50000
+-rw------- 1 root root 7079222504 Jul  2 04:58 unifrac.tmp
+= start 50000 stop 56250
+-rw------- 1 root root 7079225297 Jul  2 05:19 unifrac.tmp
+= start 56250 stop 62500
+-rw------- 1 root root 7079235227 Jul  2 05:40 unifrac.tmp
+= start 62500 stop 68750
+-rw------- 1 root root 7079216261 Jul  2 06:00 unifrac.tmp
+= start 68750 stop 75000
+-rw------- 1 root root 7079184850 Jul  2 06:21 unifrac.tmp
+= start 75000 stop 81250
+-rw------- 1 root root 7079233704 Jul  2 06:42 unifrac.tmp
+= start 81250 stop 87500
+-rw------- 1 root root 7079211837 Jul  2 07:03 unifrac.tmp
+= start 87500 stop 93750
+-rw------- 1 root root 7079218245 Jul  2 07:24 unifrac.tmp
+= start 93750 stop 100000
+-rw------- 1 root root 7079233247 Jul  2 07:47 unifrac.tmp
+=== 200000 weighted_normalized fp32 time: 20023 ===
+= start 0 stop 6250
+-rw------- 1 root root 7081738216 Jul  2 08:04 unifrac.tmp
+= start 6250 stop 12500
+-rw------- 1 root root 7081724485 Jul  2 08:21 unifrac.tmp
+= start 12500 stop 18750
+-rw------- 1 root root 7081741672 Jul  2 08:37 unifrac.tmp
+= start 18750 stop 25000
+-rw------- 1 root root 7081747686 Jul  2 08:54 unifrac.tmp
+= start 25000 stop 31250
+-rw------- 1 root root 7081730385 Jul  2 09:11 unifrac.tmp
+= start 31250 stop 37500
+-rw------- 1 root root 7081720213 Jul  2 09:28 unifrac.tmp
+= start 37500 stop 43750
+-rw------- 1 root root 7081747600 Jul  2 09:45 unifrac.tmp
+= start 43750 stop 50000
+-rw------- 1 root root 7081724636 Jul  2 10:01 unifrac.tmp
+= start 50000 stop 56250
+-rw------- 1 root root 7081717974 Jul  2 10:18 unifrac.tmp
+= start 56250 stop 62500
+-rw------- 1 root root 7081722595 Jul  2 10:35 unifrac.tmp
+= start 62500 stop 68750
+-rw------- 1 root root 7081720895 Jul  2 10:52 unifrac.tmp
+= start 68750 stop 75000
+-rw------- 1 root root 7081706095 Jul  2 11:09 unifrac.tmp
+= start 75000 stop 81250
+-rw------- 1 root root 7081747118 Jul  2 11:26 unifrac.tmp
+= start 81250 stop 87500
+-rw------- 1 root root 7081734983 Jul  2 11:43 unifrac.tmp
+= start 87500 stop 93750
+-rw------- 1 root root 7081718016 Jul  2 12:00 unifrac.tmp
+= start 93750 stop 100000
+-rw------- 1 root root 7081722764 Jul  2 12:17 unifrac.tmp
+=== 200000 weighted_normalized fp32 -f time: 16167 ===

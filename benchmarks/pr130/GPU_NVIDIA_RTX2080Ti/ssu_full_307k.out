@@ -1,0 +1,373 @@
+gpu-2080-69b7b855dd-x4nm8
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    32
+Socket(s):             1
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 1
+Model name:            AMD EPYC 7551P 32-Core Processor
+Stepping:              2
+CPU MHz:               2262.661
+CPU max MHz:           2000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              3999.77
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             64K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7,32-39
+NUMA node1 CPU(s):     8-15,40-47
+NUMA node2 CPU(s):     16-23,48-55
+NUMA node3 CPU(s):     24-31,56-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+Fri Jul  2 14:34:15 UTC 2021
+Fri Jul  2 14:34:15 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:29:00.0 Off |                  N/A |
+|  0%   26C    P8     2W / 250W |      0MiB / 11019MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0eec147b47649afb7376e86cf2b931b1  full_307k.biom
+e95ab0c0ea5fb1f2c2e8f6a63bcc2fb3  full_307k.tre
+====
+=== unweighted Full 153k/307k ===
+=== unweighted fp32 Full 153k/307k ===
+Fri Jul  2 14:34:18 UTC 2021 ssu --start 0 --stop 4000
+-rw------- 1 root root 6845943748 Jul  2 14:43 unifrac.tmp
+Fri Jul  2 14:43:11 UTC 2021 ssu --start 4000 --stop 8000
+-rw------- 1 root root 6845977518 Jul  2 14:51 unifrac.tmp
+Fri Jul  2 14:51:57 UTC 2021 ssu --start 8000 --stop 12000
+-rw------- 1 root root 6846015739 Jul  2 15:00 unifrac.tmp
+Fri Jul  2 15:00:41 UTC 2021 ssu --start 12000 --stop 16000
+-rw------- 1 root root 6845959641 Jul  2 15:09 unifrac.tmp
+Fri Jul  2 15:09:27 UTC 2021 ssu --start 16000 --stop 20000
+-rw------- 1 root root 6845989843 Jul  2 15:18 unifrac.tmp
+Fri Jul  2 15:18:12 UTC 2021 ssu --start 20000 --stop 24000
+-rw------- 1 root root 6845995846 Jul  2 15:26 unifrac.tmp
+Fri Jul  2 15:27:00 UTC 2021 ssu --start 24000 --stop 28000
+-rw------- 1 root root 6845969036 Jul  2 15:35 unifrac.tmp
+Fri Jul  2 15:35:47 UTC 2021 ssu --start 28000 --stop 32000
+-rw------- 1 root root 6845965605 Jul  2 15:44 unifrac.tmp
+Fri Jul  2 15:44:33 UTC 2021 ssu --start 32000 --stop 36000
+-rw------- 1 root root 6845976164 Jul  2 15:53 unifrac.tmp
+Fri Jul  2 15:53:19 UTC 2021 ssu --start 36000 --stop 40000
+-rw------- 1 root root 6845988417 Jul  2 16:02 unifrac.tmp
+Fri Jul  2 16:02:05 UTC 2021 ssu --start 40000 --stop 44000
+-rw------- 1 root root 6845971791 Jul  2 16:11 unifrac.tmp
+Fri Jul  2 16:11:07 UTC 2021 ssu --start 44000 --stop 48000
+-rw------- 1 root root 6845948166 Jul  2 16:20 unifrac.tmp
+Fri Jul  2 16:20:07 UTC 2021 ssu --start 48000 --stop 52000
+-rw------- 1 root root 6845973190 Jul  2 16:29 unifrac.tmp
+Fri Jul  2 16:29:07 UTC 2021 ssu --start 52000 --stop 56000
+-rw------- 1 root root 6845995727 Jul  2 16:38 unifrac.tmp
+Fri Jul  2 16:38:06 UTC 2021 ssu --start 56000 --stop 60000
+-rw------- 1 root root 6845968729 Jul  2 16:46 unifrac.tmp
+Fri Jul  2 16:46:58 UTC 2021 ssu --start 60000 --stop 64000
+-rw------- 1 root root 6846001594 Jul  2 16:55 unifrac.tmp
+Fri Jul  2 16:55:56 UTC 2021 ssu --start 64000 --stop 68000
+-rw------- 1 root root 6845970004 Jul  2 17:04 unifrac.tmp
+Fri Jul  2 17:04:55 UTC 2021 ssu --start 68000 --stop 72000
+-rw------- 1 root root 6845959050 Jul  2 17:13 unifrac.tmp
+Fri Jul  2 17:13:48 UTC 2021 ssu --start 72000 --stop 76000
+-rw------- 1 root root 6845939972 Jul  2 17:22 unifrac.tmp
+Fri Jul  2 17:22:42 UTC 2021 ssu --start 76000 --stop 80000
+-rw------- 1 root root 6845955253 Jul  2 17:31 unifrac.tmp
+Fri Jul  2 17:31:37 UTC 2021 ssu --start 80000 --stop 84000
+-rw------- 1 root root 6845969197 Jul  2 17:40 unifrac.tmp
+Fri Jul  2 17:40:32 UTC 2021 ssu --start 84000 --stop 88000
+-rw------- 1 root root 6846004996 Jul  2 17:49 unifrac.tmp
+Fri Jul  2 17:49:25 UTC 2021 ssu --start 88000 --stop 92000
+-rw------- 1 root root 6845959738 Jul  2 17:58 unifrac.tmp
+Fri Jul  2 17:58:15 UTC 2021 ssu --start 92000 --stop 96000
+-rw------- 1 root root 6845982079 Jul  2 18:07 unifrac.tmp
+Fri Jul  2 18:07:09 UTC 2021 ssu --start 96000 --stop 100000
+-rw------- 1 root root 6845979109 Jul  2 18:15 unifrac.tmp
+Fri Jul  2 18:15:59 UTC 2021 ssu --start 100000 --stop 104000
+-rw------- 1 root root 6845998853 Jul  2 18:24 unifrac.tmp
+Fri Jul  2 18:24:55 UTC 2021 ssu --start 104000 --stop 108000
+-rw------- 1 root root 6845977918 Jul  2 18:33 unifrac.tmp
+Fri Jul  2 18:33:55 UTC 2021 ssu --start 108000 --stop 112000
+-rw------- 1 root root 6845992052 Jul  2 18:42 unifrac.tmp
+Fri Jul  2 18:42:48 UTC 2021 ssu --start 112000 --stop 116000
+-rw------- 1 root root 6845973974 Jul  2 18:51 unifrac.tmp
+Fri Jul  2 18:51:44 UTC 2021 ssu --start 116000 --stop 120000
+-rw------- 1 root root 6845941040 Jul  2 19:00 unifrac.tmp
+Fri Jul  2 19:00:40 UTC 2021 ssu --start 120000 --stop 124000
+-rw------- 1 root root 6846018922 Jul  2 19:09 unifrac.tmp
+Fri Jul  2 19:09:35 UTC 2021 ssu --start 124000 --stop 128000
+-rw------- 1 root root 6845994627 Jul  2 19:18 unifrac.tmp
+Fri Jul  2 19:18:36 UTC 2021 ssu --start 128000 --stop 132000
+-rw------- 1 root root 6845918816 Jul  2 19:27 unifrac.tmp
+Fri Jul  2 19:27:28 UTC 2021 ssu --start 132000 --stop 136000
+-rw------- 1 root root 6845964992 Jul  2 19:36 unifrac.tmp
+Fri Jul  2 19:36:26 UTC 2021 ssu --start 136000 --stop 140000
+-rw------- 1 root root 6845966428 Jul  2 19:45 unifrac.tmp
+Fri Jul  2 19:45:25 UTC 2021 ssu --start 140000 --stop 144000
+-rw------- 1 root root 6845999380 Jul  2 19:54 unifrac.tmp
+Fri Jul  2 19:54:20 UTC 2021 ssu --start 144000 --stop 148000
+-rw------- 1 root root 6845979074 Jul  2 20:03 unifrac.tmp
+Fri Jul  2 20:03:14 UTC 2021 ssu --start 148000 --stop 152000
+-rw------- 1 root root 6845950675 Jul  2 20:12 unifrac.tmp
+Fri Jul  2 20:12:05 UTC 2021 ssu --start 152000 --stop 153619
+-rw------- 1 root root 2773235520 Jul  2 20:18 unifrac.tmp
+=== unweighted fp32 time: 20637 ===
+Fri Jul  2 20:18:15 UTC 2021 ssu --start 0 --stop 4000
+-rw------- 1 root root 6855859802 Jul  2 20:24 unifrac.tmp
+Fri Jul  2 20:24:36 UTC 2021 ssu --start 4000 --stop 8000
+-rw------- 1 root root 6855926584 Jul  2 20:30 unifrac.tmp
+Fri Jul  2 20:30:57 UTC 2021 ssu --start 8000 --stop 12000
+-rw------- 1 root root 6855915844 Jul  2 20:37 unifrac.tmp
+Fri Jul  2 20:37:13 UTC 2021 ssu --start 12000 --stop 16000
+-rw------- 1 root root 6855913142 Jul  2 20:43 unifrac.tmp
+Fri Jul  2 20:43:27 UTC 2021 ssu --start 16000 --stop 20000
+-rw------- 1 root root 6855884038 Jul  2 20:49 unifrac.tmp
+Fri Jul  2 20:49:39 UTC 2021 ssu --start 20000 --stop 24000
+-rw------- 1 root root 6855915395 Jul  2 20:55 unifrac.tmp
+Fri Jul  2 20:55:58 UTC 2021 ssu --start 24000 --stop 28000
+-rw------- 1 root root 6855857753 Jul  2 21:02 unifrac.tmp
+Fri Jul  2 21:02:12 UTC 2021 ssu --start 28000 --stop 32000
+-rw------- 1 root root 6855871341 Jul  2 21:08 unifrac.tmp
+Fri Jul  2 21:08:28 UTC 2021 ssu --start 32000 --stop 36000
+-rw------- 1 root root 6855940447 Jul  2 21:14 unifrac.tmp
+Fri Jul  2 21:14:38 UTC 2021 ssu --start 36000 --stop 40000
+-rw------- 1 root root 6855892420 Jul  2 21:20 unifrac.tmp
+Fri Jul  2 21:20:48 UTC 2021 ssu --start 40000 --stop 44000
+-rw------- 1 root root 6855912333 Jul  2 21:26 unifrac.tmp
+Fri Jul  2 21:27:04 UTC 2021 ssu --start 44000 --stop 48000
+-rw------- 1 root root 6855845858 Jul  2 21:33 unifrac.tmp
+Fri Jul  2 21:33:18 UTC 2021 ssu --start 48000 --stop 52000
+-rw------- 1 root root 6855931990 Jul  2 21:39 unifrac.tmp
+Fri Jul  2 21:39:37 UTC 2021 ssu --start 52000 --stop 56000
+-rw------- 1 root root 6855857582 Jul  2 21:45 unifrac.tmp
+Fri Jul  2 21:45:58 UTC 2021 ssu --start 56000 --stop 60000
+-rw------- 1 root root 6855820152 Jul  2 21:52 unifrac.tmp
+Fri Jul  2 21:52:12 UTC 2021 ssu --start 60000 --stop 64000
+-rw------- 1 root root 6855896561 Jul  2 21:58 unifrac.tmp
+Fri Jul  2 21:58:25 UTC 2021 ssu --start 64000 --stop 68000
+-rw------- 1 root root 6855883312 Jul  2 22:04 unifrac.tmp
+Fri Jul  2 22:04:45 UTC 2021 ssu --start 68000 --stop 72000
+-rw------- 1 root root 6855880201 Jul  2 22:10 unifrac.tmp
+Fri Jul  2 22:10:57 UTC 2021 ssu --start 72000 --stop 76000
+-rw------- 1 root root 6855919153 Jul  2 22:17 unifrac.tmp
+Fri Jul  2 22:17:14 UTC 2021 ssu --start 76000 --stop 80000
+-rw------- 1 root root 6855904134 Jul  2 22:23 unifrac.tmp
+Fri Jul  2 22:23:29 UTC 2021 ssu --start 80000 --stop 84000
+-rw------- 1 root root 6855897086 Jul  2 22:29 unifrac.tmp
+Fri Jul  2 22:29:41 UTC 2021 ssu --start 84000 --stop 88000
+-rw------- 1 root root 6855893975 Jul  2 22:35 unifrac.tmp
+Fri Jul  2 22:35:49 UTC 2021 ssu --start 88000 --stop 92000
+-rw------- 1 root root 6855893107 Jul  2 22:42 unifrac.tmp
+Fri Jul  2 22:42:11 UTC 2021 ssu --start 92000 --stop 96000
+-rw------- 1 root root 6855882927 Jul  2 22:48 unifrac.tmp
+Fri Jul  2 22:48:30 UTC 2021 ssu --start 96000 --stop 100000
+-rw------- 1 root root 6855884019 Jul  2 22:54 unifrac.tmp
+Fri Jul  2 22:54:43 UTC 2021 ssu --start 100000 --stop 104000
+-rw------- 1 root root 6855892262 Jul  2 23:00 unifrac.tmp
+Fri Jul  2 23:00:52 UTC 2021 ssu --start 104000 --stop 108000
+-rw------- 1 root root 6855880767 Jul  2 23:06 unifrac.tmp
+Fri Jul  2 23:06:58 UTC 2021 ssu --start 108000 --stop 112000
+-rw------- 1 root root 6855929345 Jul  2 23:13 unifrac.tmp
+Fri Jul  2 23:13:05 UTC 2021 ssu --start 112000 --stop 116000
+-rw------- 1 root root 6855913788 Jul  2 23:19 unifrac.tmp
+Fri Jul  2 23:19:11 UTC 2021 ssu --start 116000 --stop 120000
+-rw------- 1 root root 6855907221 Jul  2 23:25 unifrac.tmp
+Fri Jul  2 23:25:14 UTC 2021 ssu --start 120000 --stop 124000
+-rw------- 1 root root 6855898163 Jul  2 23:31 unifrac.tmp
+Fri Jul  2 23:31:16 UTC 2021 ssu --start 124000 --stop 128000
+-rw------- 1 root root 6855868988 Jul  2 23:37 unifrac.tmp
+Fri Jul  2 23:37:04 UTC 2021 ssu --start 128000 --stop 132000
+-rw------- 1 root root 6855868161 Jul  2 23:42 unifrac.tmp
+Fri Jul  2 23:42:49 UTC 2021 ssu --start 132000 --stop 136000
+-rw------- 1 root root 6855904938 Jul  2 23:48 unifrac.tmp
+Fri Jul  2 23:48:32 UTC 2021 ssu --start 136000 --stop 140000
+-rw------- 1 root root 6855890426 Jul  2 23:54 unifrac.tmp
+Fri Jul  2 23:54:08 UTC 2021 ssu --start 140000 --stop 144000
+-rw------- 1 root root 6855903333 Jul  2 23:59 unifrac.tmp
+Fri Jul  2 23:59:40 UTC 2021 ssu --start 144000 --stop 148000
+-rw------- 1 root root 6855879374 Jul  3 00:05 unifrac.tmp
+Sat Jul  3 00:05:07 UTC 2021 ssu --start 148000 --stop 152000
+-rw------- 1 root root 6855913324 Jul  3 00:10 unifrac.tmp
+Sat Jul  3 00:10:30 UTC 2021 ssu --start 152000 --stop 153619
+-rw------- 1 root root 2777237006 Jul  3 00:13 unifrac.tmp
+=== unweighted fp32 -f time: 14136 ===
+=== weighted_normalized Full 153k/307k ===
+=== weighted_normalized fp32 Full 153k/307k ===
+Sat Jul  3 00:13:51 UTC 2021 ssu --start 0 --stop 4000
+-rw------- 1 root root 6960640966 Jul  3 00:39 unifrac.tmp
+Sat Jul  3 00:39:21 UTC 2021 ssu --start 4000 --stop 8000
+-rw------- 1 root root 6960711547 Jul  3 01:03 unifrac.tmp
+Sat Jul  3 01:03:51 UTC 2021 ssu --start 8000 --stop 12000
+-rw------- 1 root root 6960748884 Jul  3 01:28 unifrac.tmp
+Sat Jul  3 01:28:39 UTC 2021 ssu --start 12000 --stop 16000
+-rw------- 1 root root 6960753270 Jul  3 01:53 unifrac.tmp
+Sat Jul  3 01:53:17 UTC 2021 ssu --start 16000 --stop 20000
+-rw------- 1 root root 6960710195 Jul  3 02:22 unifrac.tmp
+Sat Jul  3 02:22:39 UTC 2021 ssu --start 20000 --stop 24000
+-rw------- 1 root root 6960714803 Jul  3 02:52 unifrac.tmp
+Sat Jul  3 02:52:59 UTC 2021 ssu --start 24000 --stop 28000
+-rw------- 1 root root 6960715690 Jul  3 03:23 unifrac.tmp
+Sat Jul  3 03:23:23 UTC 2021 ssu --start 28000 --stop 32000
+-rw------- 1 root root 6960753909 Jul  3 03:53 unifrac.tmp
+Sat Jul  3 03:54:02 UTC 2021 ssu --start 32000 --stop 36000
+-rw------- 1 root root 6960729204 Jul  3 04:24 unifrac.tmp
+Sat Jul  3 04:24:35 UTC 2021 ssu --start 36000 --stop 40000
+-rw------- 1 root root 6960719094 Jul  3 04:54 unifrac.tmp
+Sat Jul  3 04:54:25 UTC 2021 ssu --start 40000 --stop 44000
+-rw------- 1 root root 6960743297 Jul  3 05:22 unifrac.tmp
+Sat Jul  3 05:22:24 UTC 2021 ssu --start 44000 --stop 48000
+-rw------- 1 root root 6960734603 Jul  3 05:48 unifrac.tmp
+Sat Jul  3 05:48:46 UTC 2021 ssu --start 48000 --stop 52000
+-rw------- 1 root root 6960714999 Jul  3 06:14 unifrac.tmp
+Sat Jul  3 06:14:20 UTC 2021 ssu --start 52000 --stop 56000
+-rw------- 1 root root 6960721892 Jul  3 06:39 unifrac.tmp
+Sat Jul  3 06:39:17 UTC 2021 ssu --start 56000 --stop 60000
+-rw------- 1 root root 6960698661 Jul  3 07:03 unifrac.tmp
+Sat Jul  3 07:03:46 UTC 2021 ssu --start 60000 --stop 64000
+-rw------- 1 root root 6960737549 Jul  3 07:28 unifrac.tmp
+Sat Jul  3 07:28:12 UTC 2021 ssu --start 64000 --stop 68000
+-rw------- 1 root root 6960743916 Jul  3 07:56 unifrac.tmp
+Sat Jul  3 07:56:49 UTC 2021 ssu --start 68000 --stop 72000
+-rw------- 1 root root 6960691885 Jul  3 08:27 unifrac.tmp
+Sat Jul  3 08:27:11 UTC 2021 ssu --start 72000 --stop 76000
+-rw------- 1 root root 6960744482 Jul  3 08:57 unifrac.tmp
+Sat Jul  3 08:57:35 UTC 2021 ssu --start 76000 --stop 80000
+-rw------- 1 root root 6960711718 Jul  3 09:27 unifrac.tmp
+Sat Jul  3 09:28:03 UTC 2021 ssu --start 80000 --stop 84000
+-rw------- 1 root root 6960713818 Jul  3 09:58 unifrac.tmp
+Sat Jul  3 09:58:29 UTC 2021 ssu --start 84000 --stop 88000
+-rw------- 1 root root 6960727474 Jul  3 10:28 unifrac.tmp
+Sat Jul  3 10:28:56 UTC 2021 ssu --start 88000 --stop 92000
+-rw------- 1 root root 6960725991 Jul  3 11:00 unifrac.tmp
+Sat Jul  3 11:00:08 UTC 2021 ssu --start 92000 --stop 96000
+-rw------- 1 root root 6960696915 Jul  3 11:32 unifrac.tmp
+Sat Jul  3 11:32:57 UTC 2021 ssu --start 96000 --stop 100000
+-rw------- 1 root root 6960730331 Jul  3 12:05 unifrac.tmp
+Sat Jul  3 12:05:16 UTC 2021 ssu --start 100000 --stop 104000
+-rw------- 1 root root 6960734346 Jul  3 12:36 unifrac.tmp
+Sat Jul  3 12:36:25 UTC 2021 ssu --start 104000 --stop 108000
+-rw------- 1 root root 6960710274 Jul  3 13:06 unifrac.tmp
+Sat Jul  3 13:06:06 UTC 2021 ssu --start 108000 --stop 112000
+-rw------- 1 root root 6960748865 Jul  3 13:35 unifrac.tmp
+Sat Jul  3 13:35:09 UTC 2021 ssu --start 112000 --stop 116000
+-rw------- 1 root root 6960742414 Jul  3 14:02 unifrac.tmp
+Sat Jul  3 14:02:47 UTC 2021 ssu --start 116000 --stop 120000
+-rw------- 1 root root 6960738501 Jul  3 14:27 unifrac.tmp
+Sat Jul  3 14:27:23 UTC 2021 ssu --start 120000 --stop 124000
+-rw------- 1 root root 6960752466 Jul  3 14:51 unifrac.tmp
+Sat Jul  3 14:51:54 UTC 2021 ssu --start 124000 --stop 128000
+-rw------- 1 root root 6960750035 Jul  3 15:16 unifrac.tmp
+Sat Jul  3 15:16:29 UTC 2021 ssu --start 128000 --stop 132000
+-rw------- 1 root root 6960737994 Jul  3 15:45 unifrac.tmp
+Sat Jul  3 15:45:59 UTC 2021 ssu --start 132000 --stop 136000
+-rw------- 1 root root 6960732088 Jul  3 16:16 unifrac.tmp
+Sat Jul  3 16:16:34 UTC 2021 ssu --start 136000 --stop 140000
+-rw------- 1 root root 6960749863 Jul  3 16:47 unifrac.tmp
+Sat Jul  3 16:47:05 UTC 2021 ssu --start 140000 --stop 144000
+-rw------- 1 root root 6960720422 Jul  3 17:17 unifrac.tmp
+Sat Jul  3 17:17:36 UTC 2021 ssu --start 144000 --stop 148000
+-rw------- 1 root root 6960717130 Jul  3 17:48 unifrac.tmp
+Sat Jul  3 17:48:12 UTC 2021 ssu --start 148000 --stop 152000
+-rw------- 1 root root 6960744282 Jul  3 18:18 unifrac.tmp
+Sat Jul  3 18:18:50 UTC 2021 ssu --start 152000 --stop 153619
+-rw------- 1 root root 2819663447 Jul  3 18:36 unifrac.tmp
+=== weighted_normalized fp32 time: 66171 ===
+Sat Jul  3 18:36:42 UTC 2021 ssu --start 0 --stop 4000
+-rw------- 1 root root 6963170122 Jul  3 18:57 unifrac.tmp
+Sat Jul  3 18:57:47 UTC 2021 ssu --start 4000 --stop 8000
+-rw------- 1 root root 6963214843 Jul  3 19:18 unifrac.tmp
+Sat Jul  3 19:18:55 UTC 2021 ssu --start 8000 --stop 12000
+-rw------- 1 root root 6963220805 Jul  3 19:39 unifrac.tmp
+Sat Jul  3 19:40:01 UTC 2021 ssu --start 12000 --stop 16000
+-rw------- 1 root root 6963202291 Jul  3 20:01 unifrac.tmp
+Sat Jul  3 20:01:06 UTC 2021 ssu --start 16000 --stop 20000
+-rw------- 1 root root 6963209235 Jul  3 20:22 unifrac.tmp
+Sat Jul  3 20:22:14 UTC 2021 ssu --start 20000 --stop 24000
+-rw------- 1 root root 6963188499 Jul  3 20:43 unifrac.tmp
+Sat Jul  3 20:43:30 UTC 2021 ssu --start 24000 --stop 28000
+-rw------- 1 root root 6963207842 Jul  3 21:04 unifrac.tmp
+Sat Jul  3 21:04:40 UTC 2021 ssu --start 28000 --stop 32000
+-rw------- 1 root root 6963213088 Jul  3 21:25 unifrac.tmp
+Sat Jul  3 21:25:54 UTC 2021 ssu --start 32000 --stop 36000
+-rw------- 1 root root 6963193412 Jul  3 21:46 unifrac.tmp
+Sat Jul  3 21:47:04 UTC 2021 ssu --start 36000 --stop 40000
+-rw------- 1 root root 6963195536 Jul  3 22:08 unifrac.tmp
+Sat Jul  3 22:08:19 UTC 2021 ssu --start 40000 --stop 44000
+-rw------- 1 root root 6963209111 Jul  3 22:29 unifrac.tmp
+Sat Jul  3 22:29:38 UTC 2021 ssu --start 44000 --stop 48000
+-rw------- 1 root root 6963193973 Jul  3 22:50 unifrac.tmp
+Sat Jul  3 22:51:00 UTC 2021 ssu --start 48000 --stop 52000
+-rw------- 1 root root 6963173609 Jul  3 23:12 unifrac.tmp
+Sat Jul  3 23:12:17 UTC 2021 ssu --start 52000 --stop 56000
+-rw------- 1 root root 6963203338 Jul  3 23:33 unifrac.tmp
+Sat Jul  3 23:33:39 UTC 2021 ssu --start 56000 --stop 60000
+-rw------- 1 root root 6963215438 Jul  3 23:54 unifrac.tmp
+Sat Jul  3 23:54:59 UTC 2021 ssu --start 60000 --stop 64000
+-rw------- 1 root root 6963227487 Jul  4 00:16 unifrac.tmp
+Sun Jul  4 00:16:07 UTC 2021 ssu --start 64000 --stop 68000
+-rw------- 1 root root 6963209069 Jul  4 00:37 unifrac.tmp
+Sun Jul  4 00:37:06 UTC 2021 ssu --start 68000 --stop 72000
+-rw------- 1 root root 6963183381 Jul  4 00:57 unifrac.tmp
+Sun Jul  4 00:57:54 UTC 2021 ssu --start 72000 --stop 76000
+-rw------- 1 root root 6963190609 Jul  4 01:18 unifrac.tmp
+Sun Jul  4 01:18:34 UTC 2021 ssu --start 76000 --stop 80000
+-rw------- 1 root root 6963205817 Jul  4 01:39 unifrac.tmp
+Sun Jul  4 01:39:13 UTC 2021 ssu --start 80000 --stop 84000
+-rw------- 1 root root 6963181890 Jul  4 01:59 unifrac.tmp
+Sun Jul  4 01:59:49 UTC 2021 ssu --start 84000 --stop 88000
+-rw------- 1 root root 6963180882 Jul  4 02:20 unifrac.tmp
+Sun Jul  4 02:20:23 UTC 2021 ssu --start 88000 --stop 92000
+-rw------- 1 root root 6963185483 Jul  4 02:40 unifrac.tmp
+Sun Jul  4 02:40:44 UTC 2021 ssu --start 92000 --stop 96000
+-rw------- 1 root root 6963170296 Jul  4 03:00 unifrac.tmp
+Sun Jul  4 03:01:02 UTC 2021 ssu --start 96000 --stop 100000
+-rw------- 1 root root 6963197923 Jul  4 03:20 unifrac.tmp
+Sun Jul  4 03:20:58 UTC 2021 ssu --start 100000 --stop 104000
+-rw------- 1 root root 6963214169 Jul  4 03:40 unifrac.tmp
+Sun Jul  4 03:40:46 UTC 2021 ssu --start 104000 --stop 108000
+-rw------- 1 root root 6963195921 Jul  4 04:00 unifrac.tmp
+Sun Jul  4 04:00:25 UTC 2021 ssu --start 108000 --stop 112000
+-rw------- 1 root root 6963197554 Jul  4 04:19 unifrac.tmp
+Sun Jul  4 04:20:02 UTC 2021 ssu --start 112000 --stop 116000
+-rw------- 1 root root 6963195040 Jul  4 04:39 unifrac.tmp
+Sun Jul  4 04:39:10 UTC 2021 ssu --start 116000 --stop 120000
+-rw------- 1 root root 6963221820 Jul  4 04:57 unifrac.tmp
+Sun Jul  4 04:57:52 UTC 2021 ssu --start 120000 --stop 124000
+-rw------- 1 root root 6963223463 Jul  4 05:16 unifrac.tmp
+Sun Jul  4 05:16:32 UTC 2021 ssu --start 124000 --stop 128000
+-rw------- 1 root root 6963174587 Jul  4 05:35 unifrac.tmp
+Sun Jul  4 05:35:08 UTC 2021 ssu --start 128000 --stop 132000
+-rw------- 1 root root 6963206594 Jul  4 05:53 unifrac.tmp
+Sun Jul  4 05:53:32 UTC 2021 ssu --start 132000 --stop 136000
+-rw------- 1 root root 6963201802 Jul  4 06:11 unifrac.tmp
+Sun Jul  4 06:11:50 UTC 2021 ssu --start 136000 --stop 140000
+-rw------- 1 root root 6963206420 Jul  4 06:30 unifrac.tmp
+Sun Jul  4 06:30:09 UTC 2021 ssu --start 140000 --stop 144000
+-rw------- 1 root root 6963217413 Jul  4 06:48 unifrac.tmp
+Sun Jul  4 06:48:36 UTC 2021 ssu --start 144000 --stop 148000
+-rw------- 1 root root 6963207601 Jul  4 07:06 unifrac.tmp
+Sun Jul  4 07:06:59 UTC 2021 ssu --start 148000 --stop 152000
+-rw------- 1 root root 6963228986 Jul  4 07:25 unifrac.tmp
+Sun Jul  4 07:26:00 UTC 2021 ssu --start 152000 --stop 153619
+-rw------- 1 root root 2820663726 Jul  4 07:34 unifrac.tmp
+=== weighted_normalized fp32 -f time: 46681 ===
