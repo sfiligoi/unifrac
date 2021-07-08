@@ -1,0 +1,60 @@
+#!/bin/bash
+source ~/.bashrc
+hostname
+lscpu
+date
+
+source /root/activate_unifrac.sh
+
+export OMP_NUM_THREADS=20
+
+md5sum unifrac_100000.biom
+md5sum unifrac_100000.tre
+
+echo "===="
+echo "=== unweighted 50k/100k ==="
+rm -fr unifrac.tmp
+t1=`date +%s`
+echo "start 0 stop 12500"
+taskset -c 20-39 time ssu -m unweighted -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 0 --stop 12500
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+echo "start 12500 stop 25000"
+taskset -c 20-39 time ssu -m unweighted -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 12500 --stop 25000
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+echo "start 25000 stop 37500"
+taskset -c 20-39 time ssu -m unweighted -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 25000 --stop 37500
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+echo "start 37500 stop 50000"
+taskset -c 20-39 time ssu -m unweighted -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 37500 --stop 50000
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+t2=`date +%s`
+let dt=t2-t1
+echo "=== unweighted time: $dt ==="
+
+echo "=== weighted_normalized 50k/100k ==="
+rm -fr unifrac.tmp
+t1=`date +%s`
+echo "start 0 stop 12500"
+taskset -c 20-39 time ssu -m weighted_normalized -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 0 --stop 12500
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+echo "start 12500 stop 25000" 
+taskset -c 20-39 time ssu -m weighted_normalized -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 12500 --stop 25000
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+echo "start 25000 stop 37500" 
+taskset -c 20-39 time ssu -m weighted_normalized -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 25000 --stop 37500
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+echo "start 37500 stop 50000" 
+taskset -c 20-39 time ssu -m weighted_normalized -i unifrac_100000.biom -t unifrac_100000.tre -o unifrac.tmp --mode partial --start 37500 --stop 50000
+ls -l unifrac.tmp
+rm -fr unifrac.tmp
+t2=`date +%s`
+let dt=t2-t1
+echo "=== weighted_normalized time: $dt ==="
+
