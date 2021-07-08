@@ -1,0 +1,48 @@
+#!/bin/bash
+source ~/.bashrc
+hostname
+lscpu
+date
+
+source /root/activate_unifrac.sh
+
+export OMP_NUM_THREADS=20
+
+md5sum unifrac_20000.biom
+md5sum unifrac_20000.tre
+
+echo "===="
+ssu -i unifrac_20000.biom -t unifrac_20000.tre -m unweighted -o /dev/shm/unifrac.tmp --mode partial-report -n 16
+echo "=== unweighted 10k/20k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 20-39 time ssu -m unweighted -i unifrac_20000.biom -t unifrac_20000.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 10000
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted time: $dt ==="
+
+t1=`date +%s`
+taskset -c 20-39 time ssu -m unweighted -f -i unifrac_20000.biom -t unifrac_20000.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 10000
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== unweighted -f time: $dt ==="
+
+
+echo "=== weighted_normalized 10k/20k ==="
+rm -fr /dev/shm/unifrac.tmp
+t1=`date +%s`
+taskset -c 20-39 time ssu -m weighted_normalized -i unifrac_20000.biom -t unifrac_20000.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 10000
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized time: $dt ==="
+
+t1=`date +%s`
+taskset -c 20-39 time ssu -m weighted_normalized -f -i unifrac_20000.biom -t unifrac_20000.tre -o /dev/shm/unifrac.tmp --mode partial --start 0 --stop 10000
+t2=`date +%s`
+let dt=t2-t1
+rm -fr /dev/shm/unifrac.tmp
+echo "=== weighted_normalized -f time: $dt ==="
+
