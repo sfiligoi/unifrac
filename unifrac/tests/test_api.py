@@ -9,7 +9,7 @@ import unittest
 import os
 from io import StringIO
 from tempfile import gettempdir
-import pkg_resources
+import importlib
 
 import numpy as np
 import numpy.testing as npt
@@ -114,8 +114,8 @@ class UnifracAPITests(unittest.TestCase):
 
     def get_data_path(self, filename):
         # adapted from qiime2.plugin.testing.TestPluginBase
-        return pkg_resources.resource_filename(self.package,
-                                               'data/%s' % filename)
+        res = importlib.resources.files(self.package) / 'data' / str(filename)
+        return os.fspath(res)
 
     def test_unweighted_root_eval_issue_46(self):
         tree = self.get_data_path('crawford.tre')

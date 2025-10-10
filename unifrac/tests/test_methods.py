@@ -6,7 +6,7 @@
 # The full license is in the file LICENSE, distributed with this software.
 # ----------------------------------------------------------------------------
 import unittest
-import pkg_resources
+import importlib
 import os
 
 import h5py
@@ -40,8 +40,8 @@ class StateUnifracTests(unittest.TestCase):
 
     def get_data_path(self, filename):
         # adapted from qiime2.plugin.testing.TestPluginBase
-        return pkg_resources.resource_filename(self.package,
-                                               'data/%s' % filename)
+        res = importlib.resources.files(self.package) / 'data' / str(filename)
+        return os.fspath(res)
 
     def test_meta_unifrac(self):
         """meta_unifrac should give correct result on sample trees"""
