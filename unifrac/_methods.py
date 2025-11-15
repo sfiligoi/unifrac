@@ -27,6 +27,7 @@ import unifrac as qsu
 from unifrac._meta import CONSOLIDATIONS
 from unifrac._bin_api import libssu_from_file
 
+
 def is_biom_v210(f, ids=None):
     if not h5py.is_hdf5(f):
         return False

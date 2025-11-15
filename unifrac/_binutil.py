@@ -7,8 +7,6 @@
 # ----------------------------------------------------------------------------
 
 import ctypes
-import numpy as np
-from numbers import Integral
 
 # ====================================================
 
@@ -30,7 +28,8 @@ def _get_new_unibin_dll():
     Returns
     -------
     ctypes.CDLL object or None
-        Object to invoked external functions, or None, if no shared library found
+        Object to invoked external functions, or None,
+        if no shared library found
 
     Note
     ----
@@ -54,7 +53,8 @@ def get_dll():
     Returns
     -------
     ctypes.CDLL object or None
-        Object to invoked external functions, or None, if no shared library found
+        Object to invoked external functions, or None,
+        if no shared library found
 
     Note
     ----
@@ -67,5 +67,3 @@ def get_dll():
         _unibin_dll = _get_new_unibin_dll()
         _unibin_first_try = False
     return _unibin_dll
-
-

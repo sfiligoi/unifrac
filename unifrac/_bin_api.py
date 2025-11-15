@@ -11,6 +11,7 @@ import numpy as np
 from skbio import DistanceMatrix
 from unifrac._binutil import get_dll as get_unibin_dll
 
+
 class MatFullFP64(ctypes.Structure):
     _fields_ = [
         ("n_samples", ctypes.c_uint),
@@ -19,6 +20,7 @@ class MatFullFP64(ctypes.Structure):
         ("sample_ids", ctypes.POINTER(ctypes.c_char_p)),
     ]
 
+
 class MatFullFP32(ctypes.Structure):
     _fields_ = [
         ("n_samples", ctypes.c_uint),
@@ -26,7 +28,6 @@ class MatFullFP32(ctypes.Structure):
         ("matrix", ctypes.POINTER(ctypes.c_float)),
         ("sample_ids", ctypes.POINTER(ctypes.c_char_p)),
     ]
-
 
 
 #
@@ -94,11 +95,11 @@ def libssu_from_file(biom_filename: str, tree_filename: str,
     ct_n_substeps = ctypes.c_uint(n_substeps)
     ct_subsample_depth = ctypes.c_uint(subsample_depth)
     ct_subsample_with_replacement = ctypes.c_bool(subsample_with_replacement)
-    ct_mmap_dir = ctypes.c_char_p() # NULL
+    ct_mmap_dir = ctypes.c_char_p()  # NULL
 
     is_fp32 = ('_fp64' not in unifrac_method)
 
-    if is_fp32: # use 32bit variant
+    if is_fp32:  # use 32bit variant
         ct_out_result = ctypes.POINTER(MatFullFP32)()
         rc = dll.one_off_matrix_fp32_v3(ct_biom_filename,
                                         ct_tree_filename,
@@ -111,7 +112,7 @@ def libssu_from_file(biom_filename: str, tree_filename: str,
                                         ct_subsample_with_replacement,
                                         ct_mmap_dir,
                                         ctypes.byref(ct_out_result))
-    else: # use fp64 variant
+    else:  # use fp64 variant
         ct_out_result = ctypes.POINTER(MatFullFP64)()
         rc = dll.one_off_matrix_v3(ct_biom_filename,
                                    ct_tree_filename,
@@ -124,26 +125,24 @@ def libssu_from_file(biom_filename: str, tree_filename: str,
                                    ct_subsample_with_replacement,
                                    ct_mmap_dir,
                                    ctypes.byref(ct_out_result))
-    if (rc!=0):
-        raise Exception("one_off_matrix failed, rc=%i"%rc)   
- 
+    if (rc != 0):
+        raise Exception("one_off_matrix failed, rc=%i" % rc)
+
     n_samples = ct_out_result.contents.n_samples
     # we effectively pass ownership of the matrix buffer to p_matrix
     p_matrix = np.ctypeslib.as_array(ct_out_result.contents.matrix,
-                                     [n_samples,n_samples])
-    ct_out_result.contents.matrix = None # prevent double free
+                                     [n_samples, n_samples])
+    ct_out_result.contents.matrix = None  # prevent double free
 
     ids = []
     for i in range(n_samples):
-      # decode makes a copy, so don't need after
-      ids.append(ct_out_result.contents.sample_ids[i].decode('utf-8'))
+        # decode makes a copy, so don't need after
+        ids.append(ct_out_result.contents.sample_ids[i].decode('utf-8'))
 
     if is_fp32:
         dll.destroy_mat_full_fp32(ctypes.byref(ct_out_result))
     else:
         dll.destroy_mat_full_fp64(ctypes.byref(ct_out_result))
 
-
     # if we got here, everything went well
     return DistanceMatrix(p_matrix, ids)
-
