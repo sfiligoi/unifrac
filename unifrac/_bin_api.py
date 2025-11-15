@@ -113,17 +113,17 @@ def libssu_from_file(biom_filename: str, tree_filename: str,
                                         ctypes.byref(ct_out_result))
     else: # use fp64 variant
         ct_out_result = ctypes.POINTER(MatFullFP64)()
-        rc = dll.one_off_matrix_fp32(ct_biom_filename,
-                                     ct_tree_filename,
-                                     ct_unifrac_method,
-                                     ct_variance_adjust, ct_alpha,
-                                     ct_bypass_tips,
-                                     ct_normalize_sample_counts,
-                                     ct_n_substeps,
-                                     ct_subsample_depth,
-                                     ct_subsample_with_replacement,
-                                     ct_mmap_dir,
-                                     ctypes.byref(ct_out_result))
+        rc = dll.one_off_matrix_v3(ct_biom_filename,
+                                   ct_tree_filename,
+                                   ct_unifrac_method,
+                                   ct_variance_adjust, ct_alpha,
+                                   ct_bypass_tips,
+                                   ct_normalize_sample_counts,
+                                   ct_n_substeps,
+                                   ct_subsample_depth,
+                                   ct_subsample_with_replacement,
+                                   ct_mmap_dir,
+                                   ctypes.byref(ct_out_result))
     if (rc!=0):
         raise Exception("one_off_matrix failed, rc=%i"%rc)   
  
