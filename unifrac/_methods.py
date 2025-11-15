@@ -25,7 +25,7 @@ from biom.util import biom_open
 
 import unifrac as qsu
 from unifrac._meta import CONSOLIDATIONS
-
+from unifrac._bin_api import libssu_from_file
 
 def is_biom_v210(f, ids=None):
     if not h5py.is_hdf5(f):
@@ -99,7 +99,7 @@ def _call_ssu(table, phylogeny, *args):
     elif isinstance(table, str) and isinstance(phylogeny, str):
         ids = []
         _validate(table, phylogeny, ids)
-        return qsu.ssu_fast(table, phylogeny, ids, *args)
+        return libssu_from_file(table, phylogeny, *args)
     else:
         table_type = type(table)
         tree_type = type(phylogeny)
